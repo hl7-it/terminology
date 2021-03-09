@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../fhir-all-xsd/codesystem.xsd">
+
+	<id value="minsan-hsp"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<h1>Elenco Stutture di ricoveri</h1>
+			A cura di: Direzione generale della digitalizzazione, del sistema informativo sanitario e della statistica - Ufficio II - Direzione statistica
+			Fonte: Nuovo Sistema Informativo Sanitario (NSIS)
+			Contatti: Fulvio Basili f.basili@sanita.it
+			Periodo di riferimento: dal 2010 al 2019
+			Frequenza di aggiornamento: Annuale
+			Data di pubblicazione: 15 marzo 2013
+			Data di ultimo aggiornamento: 17 gennaio 2020
+		</div>
+	</text>
+	<url value="http://terminology.hl7.it/CodeSystem/minsan-hsp"/>
+	<version value="17_01_2020"/>
+	<name value="CsMinisteroSaluteHsp"/>
+	<title value="Ministero della Salute - Strutture di ricoveri"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<description value="La denominazione, il codice e l'indirizzo delle Strutture di ricovero italiane. A cura di: Direzione generale della digitalizzazione, del sistema informativo sanitario e della statistica - Ufficio II - Direzione statistica"/>
+	<jurisdiction>
+		<!-- This will drive SNOMED release used -->
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IT"/>
+		</coding>
+	</jurisdiction>
+	<versionNeeded value="true"/>
+	<content value="complete"/>
+	<property>
+		<code value="type">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Tipologia"/>
+			</extension>
+		</code>
+		<uri value="http://terminology.hl7.it/CodeSystem/minsan-hsp#type"/>
+		<description value="tipo organizzazione"/>
+		<type value="code"/>
+	</property>
+	<property>
+		<code value="year">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Data Inizio validità"/>
+			</extension>
+		</code>
+		<uri value="http://terminology.hl7.it/CodeSystem/minsan-hsp#year"/>
+		<description value="Ultimo anno validità"/>
+		<type value="dateTime"/>
+	</property>
+	<property>
+		<code value="status">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Stato"/>
+			</extension>
+		</code>
+		<uri value="http://hl7.org/fhir/concept-properties#status"/>
+		<description value="A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."/>
+		<type value="code"/>
+	</property>
+<!-- 	<property>
+		<code value="deprecationDate">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Data Fine validità"/>
+			</extension>
+		</code>
+		<uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+		<description value="The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged."/>
+		<type value="dateTime"/>
+	</property> -->
+<!-- 	<property>
+		<code value="notSelectable">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Non Selezionabile"/>
+			</extension>
+		</code>
+		<uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+		<description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+		<type value="boolean"/>
+	</property> -->
+</CodeSystem>

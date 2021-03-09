@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Tipologia.xsd" generated="2020-05-22T14:27:45">
+<Tipologia>
+<code>F0</code>
+<display>DETENUTI</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>D0</code>
+<display>DIAGNOSI PRECOCE</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>T0</code>
+<display>DONAZIONE</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>X0</code>
+<display>EXTRACOMUNITARI</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>B0</code>
+<display>HIV</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>I0</code>
+<display>IDONEITA&apos;</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>INVC</code>
+<display>INVALIDI CIVILI</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>INVL</code>
+<display>INVALIDI DEL LAVORO</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>INVG</code>
+<display>INVALIDI DI GUERRA</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>N0</code>
+<display>LEGGE N. 210</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>MC</code>
+<display>MALATTIE CRONICHE</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>RX</code>
+<display>MALATTIE RARA</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>M</code>
+<display>MATERNITA</display>
+<notSelectable>0</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>PM</code>
+<display>PRESTAZIONI MEDICO LEGALI</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>P0</code>
+<display>PREVENZIONE</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>RD</code>
+<display>REDDITO</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>S0</code>
+<display>SERVIZIO</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>TD</code>
+<display>TERAPIA DEL DOLORE SEVERO</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+<Tipologia>
+<code>V0</code>
+<display>VITTIME DEL TERRORISMO</display>
+<notSelectable>1</notSelectable>
+</Tipologia>
+</dataroot>

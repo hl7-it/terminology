@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsIstatLuogoNascita",
+  "id": "istat-luogoNascita",
+  "title": "ISTAT - Comune/Stato di Nascita",
+  "description": "Codici ISTAT per Comune o Stato di nascita",
+  "version": "0.1.0",
+  "url": "http://terminology.hl7.it/ValueSet/istat-luogoNascita",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://terminology.hl7.it/ValueSet/istat-stato"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://terminology.hl7.it/ValueSet/istat-comune"
+        ]
+      }
+    ]
+  }
+}

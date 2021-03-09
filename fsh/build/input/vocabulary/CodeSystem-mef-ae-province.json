@@ -1,0 +1,442 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CsAgenziaEntrateProvince",
+  "id": "mef-ae-province",
+  "title": "Agenzia delle Entrate - Province",
+  "description": "Agenzia delle Entrate - Codice a due caratteri delle province",
+  "version": "0.1.0",
+  "url": "http://terminology.hl7.it/CodeSystem/mef-ae-province",
+  "concept": [
+    {
+      "code": "AG",
+      "display": "AGRIGENTO"
+    },
+    {
+      "code": "AL",
+      "display": "ALESSANDRIA"
+    },
+    {
+      "code": "AN",
+      "display": "ANCONA"
+    },
+    {
+      "code": "AO",
+      "display": "AOSTA"
+    },
+    {
+      "code": "AR",
+      "display": "AREZZO"
+    },
+    {
+      "code": "AP",
+      "display": "ASCOLI PICENO"
+    },
+    {
+      "code": "AT",
+      "display": "ASTI"
+    },
+    {
+      "code": "AV",
+      "display": "AVELLINO"
+    },
+    {
+      "code": "BA",
+      "display": "BARI"
+    },
+    {
+      "code": "BL",
+      "display": "BELLUNO"
+    },
+    {
+      "code": "BN",
+      "display": "BENEVENTO"
+    },
+    {
+      "code": "BG",
+      "display": "BERGAMO"
+    },
+    {
+      "code": "BI",
+      "display": "BIELLA"
+    },
+    {
+      "code": "BO",
+      "display": "BOLOGNA"
+    },
+    {
+      "code": "BZ",
+      "display": "BOLZANO"
+    },
+    {
+      "code": "BS",
+      "display": "BRESCIA"
+    },
+    {
+      "code": "BR",
+      "display": "BRINDISI"
+    },
+    {
+      "code": "CA",
+      "display": "CAGLIARI"
+    },
+    {
+      "code": "CL",
+      "display": "CALTANISSETTA"
+    },
+    {
+      "code": "CB",
+      "display": "CAMPOBASSO"
+    },
+    {
+      "code": "CE",
+      "display": "CASERTA"
+    },
+    {
+      "code": "CT",
+      "display": "CATANIA"
+    },
+    {
+      "code": "CZ",
+      "display": "CATANZARO"
+    },
+    {
+      "code": "CH",
+      "display": "CHIETI"
+    },
+    {
+      "code": "CO",
+      "display": "COMO"
+    },
+    {
+      "code": "CS",
+      "display": "COSENZA"
+    },
+    {
+      "code": "CR",
+      "display": "CREMONA"
+    },
+    {
+      "code": "KR",
+      "display": "CROTONE"
+    },
+    {
+      "code": "CN",
+      "display": "CUNEO"
+    },
+    {
+      "code": "EN",
+      "display": "ENNA"
+    },
+    {
+      "code": "FM",
+      "display": "FERMO"
+    },
+    {
+      "code": "FE",
+      "display": "FERRARA"
+    },
+    {
+      "code": "FI",
+      "display": "FIRENZE"
+    },
+    {
+      "code": "FG",
+      "display": "FOGGIA"
+    },
+    {
+      "code": "FO",
+      "display": "FORLI'"
+    },
+    {
+      "code": "FC",
+      "display": "FORLI' CESENA"
+    },
+    {
+      "code": "FR",
+      "display": "FROSINONE"
+    },
+    {
+      "code": "GE",
+      "display": "GENOVA"
+    },
+    {
+      "code": "GO",
+      "display": "GORIZIA"
+    },
+    {
+      "code": "GR",
+      "display": "GROSSETO"
+    },
+    {
+      "code": "IM",
+      "display": "IMPERIA"
+    },
+    {
+      "code": "IS",
+      "display": "ISERNIA"
+    },
+    {
+      "code": "SP",
+      "display": "LA SPEZIA"
+    },
+    {
+      "code": "AQ",
+      "display": "L'AQUILA"
+    },
+    {
+      "code": "LT",
+      "display": "LATINA"
+    },
+    {
+      "code": "LE",
+      "display": "LECCE"
+    },
+    {
+      "code": "LC",
+      "display": "LECCO"
+    },
+    {
+      "code": "LI",
+      "display": "LIVORNO"
+    },
+    {
+      "code": "LO",
+      "display": "LODI"
+    },
+    {
+      "code": "LU",
+      "display": "LUCCA"
+    },
+    {
+      "code": "MC",
+      "display": "MACERATA"
+    },
+    {
+      "code": "MN",
+      "display": "MANTOVA"
+    },
+    {
+      "code": "MS",
+      "display": "MASSA CARRARA"
+    },
+    {
+      "code": "MT",
+      "display": "MATERA"
+    },
+    {
+      "code": "ME",
+      "display": "MESSINA"
+    },
+    {
+      "code": "MI",
+      "display": "MILANO"
+    },
+    {
+      "code": "MO",
+      "display": "MODENA"
+    },
+    {
+      "code": "MB",
+      "display": "MONZA-BRIANZA"
+    },
+    {
+      "code": "NA",
+      "display": "NAPOLI"
+    },
+    {
+      "code": "NO",
+      "display": "NOVARA"
+    },
+    {
+      "code": "NU",
+      "display": "NUORO"
+    },
+    {
+      "code": "OR",
+      "display": "ORISTANO"
+    },
+    {
+      "code": "PD",
+      "display": "PADOVA"
+    },
+    {
+      "code": "PA",
+      "display": "PALERMO"
+    },
+    {
+      "code": "PR",
+      "display": "PARMA"
+    },
+    {
+      "code": "PV",
+      "display": "PAVIA"
+    },
+    {
+      "code": "PG",
+      "display": "PERUGIA"
+    },
+    {
+      "code": "PS",
+      "display": "PESARO"
+    },
+    {
+      "code": "PU",
+      "display": "PESARO URBINO"
+    },
+    {
+      "code": "PE",
+      "display": "PESCARA"
+    },
+    {
+      "code": "PC",
+      "display": "PIACENZA"
+    },
+    {
+      "code": "PI",
+      "display": "PISA"
+    },
+    {
+      "code": "PT",
+      "display": "PISTOIA"
+    },
+    {
+      "code": "PN",
+      "display": "PORDENONE"
+    },
+    {
+      "code": "PZ",
+      "display": "POTENZA"
+    },
+    {
+      "code": "PO",
+      "display": "PRATO"
+    },
+    {
+      "code": "RG",
+      "display": "RAGUSA"
+    },
+    {
+      "code": "RA",
+      "display": "RAVENNA"
+    },
+    {
+      "code": "RC",
+      "display": "REGGIO CALABRIA"
+    },
+    {
+      "code": "RE",
+      "display": "REGGIO EMILIA"
+    },
+    {
+      "code": "RI",
+      "display": "RIETI"
+    },
+    {
+      "code": "RN",
+      "display": "RIMINI"
+    },
+    {
+      "code": "RM",
+      "display": "ROMA"
+    },
+    {
+      "code": "RO",
+      "display": "ROVIGO"
+    },
+    {
+      "code": "SA",
+      "display": "SALERNO"
+    },
+    {
+      "code": "SS",
+      "display": "SASSARI"
+    },
+    {
+      "code": "SV",
+      "display": "SAVONA"
+    },
+    {
+      "code": "SI",
+      "display": "SIENA"
+    },
+    {
+      "code": "SR",
+      "display": "SIRACUSA"
+    },
+    {
+      "code": "SO",
+      "display": "SONDRIO"
+    },
+    {
+      "code": "TA",
+      "display": "TARANTO"
+    },
+    {
+      "code": "TE",
+      "display": "TERAMO"
+    },
+    {
+      "code": "TR",
+      "display": "TERNI"
+    },
+    {
+      "code": "TO",
+      "display": "TORINO"
+    },
+    {
+      "code": "TP",
+      "display": "TRAPANI"
+    },
+    {
+      "code": "TN",
+      "display": "TRENTO"
+    },
+    {
+      "code": "TV",
+      "display": "TREVISO"
+    },
+    {
+      "code": "TS",
+      "display": "TRIESTE"
+    },
+    {
+      "code": "UD",
+      "display": "UDINE"
+    },
+    {
+      "code": "VA",
+      "display": "VARESE"
+    },
+    {
+      "code": "VE",
+      "display": "VENEZIA"
+    },
+    {
+      "code": "VB",
+      "display": "VERBANIA"
+    },
+    {
+      "code": "VC",
+      "display": "VERCELLI"
+    },
+    {
+      "code": "VR",
+      "display": "VERONA"
+    },
+    {
+      "code": "VV",
+      "display": "VIBO VALENTIA"
+    },
+    {
+      "code": "VI",
+      "display": "VICENZA"
+    },
+    {
+      "code": "VT",
+      "display": "VITERBO"
+    }
+  ],
+  "count": 107
+}

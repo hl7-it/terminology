@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsEHICPersonalIdOid",
+  "id": "oid-ehicPersonalId",
+  "title": "EHIC Personal ID (system IDs - oid) ",
+  "description": "System identifiers (oid) used for the EHIC#6 Personal Identification Number",
+  "version": "0.1.0",
+  "url": "http://terminology.hl7.it/ValueSet/oid-ehicPersonalId",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:rfc:1155",
+        "concept": [
+          {
+            "code": "2.16.840.1.113883.2.9.4.3.2",
+            "display": "Italian Fiscal Code"
+          }
+        ]
+      }
+    ]
+  }
+}

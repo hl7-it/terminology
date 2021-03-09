@@ -1,0 +1,147 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsEHICCountryCodes",
+  "id": "iso-ehicCountryCode",
+  "title": "ISO 3166 - EHIC Country Codes",
+  "description": "ISO 3166 - Country Codes used by the European Healthcare Insurance Card",
+  "version": "0.1.0",
+  "url": "http://terminology.hl7.it/ValueSet/iso-ehicCountryCode",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:3166",
+        "concept": [
+          {
+            "code": "AT",
+            "display": "Austria"
+          },
+          {
+            "code": "BE",
+            "display": "Belgium"
+          },
+          {
+            "code": "BG",
+            "display": "Bulgaria"
+          },
+          {
+            "code": "HR",
+            "display": "Croatia"
+          },
+          {
+            "code": "CY",
+            "display": "Cyprus"
+          },
+          {
+            "code": "CZ",
+            "display": "Czech Republic"
+          },
+          {
+            "code": "DK",
+            "display": "Denmark"
+          },
+          {
+            "code": "EE",
+            "display": "Estonia"
+          },
+          {
+            "code": "FI",
+            "display": "Finland"
+          },
+          {
+            "code": "FR",
+            "display": "France"
+          },
+          {
+            "code": "GR",
+            "display": "Greece"
+          },
+          {
+            "code": "DE",
+            "display": "Germany"
+          },
+          {
+            "code": "HU",
+            "display": "Hungary"
+          },
+          {
+            "code": "IE",
+            "display": "Ireland"
+          },
+          {
+            "code": "IT",
+            "display": "Italy"
+          },
+          {
+            "code": "LV",
+            "display": "Latvia"
+          },
+          {
+            "code": "LT",
+            "display": "Lithuania"
+          },
+          {
+            "code": "LU",
+            "display": "Luxembourg"
+          },
+          {
+            "code": "MT",
+            "display": "Malta"
+          },
+          {
+            "code": "NL",
+            "display": "Netherlands"
+          },
+          {
+            "code": "PL",
+            "display": "Poland"
+          },
+          {
+            "code": "PT",
+            "display": "Portugal"
+          },
+          {
+            "code": "RO",
+            "display": "Romania"
+          },
+          {
+            "code": "SK",
+            "display": "Slovakia"
+          },
+          {
+            "code": "SI",
+            "display": "Slovenia"
+          },
+          {
+            "code": "ES",
+            "display": "Spain"
+          },
+          {
+            "code": "SE",
+            "display": "Sweden"
+          },
+          {
+            "code": "IS",
+            "display": "Iceland"
+          },
+          {
+            "code": "LI",
+            "display": "Liechtenstein"
+          },
+          {
+            "code": "NO",
+            "display": "Norway"
+          },
+          {
+            "code": "CH",
+            "display": "Switzerland"
+          },
+          {
+            "code": "UK",
+            "display": "United Kingdom"
+          }
+        ]
+      }
+    ]
+  }
+}

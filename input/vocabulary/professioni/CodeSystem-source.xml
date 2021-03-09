@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../fhir-all-xsd/codesystem.xsd">
+
+	<id value="istat-ctsi03"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<h1>CLASSIFICAZIONE DEI TITOLI DI STUDIO ITALIANI</h1>
+			L’Istat ha predisposto, per la prima volta in Italia, la Classificazione dei titoli di studio. L’obiettivo è di ricostruire in maniera il più possibile estensiva l’insieme dei titoli di studio emessi in Italia e potenzialmente in possesso della popolazione. In assenza di fonti di tipo normativo-istituzionale, la classificazione è stata costruita principalmente a partire da fonti statistiche. Si è in particolare fatto riferimento: alle rilevazioni sulle scuole secondarie di secondo grado, di competenza Istat, MIUR e INVALSI; alle indagini sull’istruzione universitaria, di competenza Istat e MIUR-URST; ai Censimenti della popolazione italiana.
+			PERIODO DI RIFERIMENTO: ANNO 2003
+			DATA DI PUBBLICAZIONE: 28 OTTOBRE 2005
+		</div>
+	</text>
+	<url value="http://terminology.hl7.it/CodeSystem/istat-ctsi03"/>
+	<version value="28_10_2005"/>
+	<name value="CsIstatTitoliStudio"/>
+	<title value="ISTAT - Classificazione dei titoli di studio italiani"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<description value="Classificazione dei titoli di studio - ISTAT"/>
+	<jurisdiction>
+		<!-- This will drive SNOMED release used -->
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IT"/>
+		</coding>
+	</jurisdiction>
+	<versionNeeded value="true"/>
+	<content value="complete"/>
+	<!-- <property>
+		<code value="type">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Tipologia"/>
+			</extension>
+		</code>
+		<uri value="http://terminology.hl7.it/CodeSystem/minsan-fls#type"/>
+		<description value="tipo organizzazione"/>
+		<type value="code"/>
+	</property>
+	<property>
+		<code value="year">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Data Inizio validità"/>
+			</extension>
+		</code>
+		<uri value="http://terminology.hl7.it/CodeSystem/minsan-fls#year"/>
+		<description value="Ultimo anno validità"/>
+		<type value="dateTime"/>
+	</property>
+	<property>
+		<code value="status">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Stato"/>
+			</extension>
+		</code>
+		<uri value="http://hl7.org/fhir/concept-properties#status"/>
+		<description value="A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."/>
+		<type value="code"/>
+	</property> -->
+<!-- 	<property>
+		<code value="deprecationDate">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Data Fine validità"/>
+			</extension>
+		</code>
+		<uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+		<description value="The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged."/>
+		<type value="dateTime"/>
+	</property> -->
+<!-- 	<property>
+		<code value="notSelectable">
+			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
+				<valueString value="Non Selezionabile"/>
+			</extension>
+		</code>
+		<uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+		<description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+		<type value="boolean"/>
+	</property> -->
+</CodeSystem>

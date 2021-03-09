@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="CodiciEccezioni.xsd" generated="2020-06-11T17:49:16">
+<CodiciEccezioni>
+<code>998</code>
+<display>Altro/Non indicato/In corso di definizione</display>
+<displayEN>Other/Not stated/currently under revision</displayEN>
+<Variabile_x0020_Paese_x0020_di_x0020_cittadinanza>1</Variabile_x0020_Paese_x0020_di_x0020_cittadinanza>
+<Variabile_x0020_luogo_x0020_di_x0020_nascita>1</Variabile_x0020_luogo_x0020_di_x0020_nascita>
+</CodiciEccezioni>
+<CodiciEccezioni>
+<code>999</code>
+<display>Apolide</display>
+<displayEN>Stateless</displayEN>
+<Variabile_x0020_Paese_x0020_di_x0020_cittadinanza>1</Variabile_x0020_Paese_x0020_di_x0020_cittadinanza>
+<Variabile_x0020_luogo_x0020_di_x0020_nascita>0</Variabile_x0020_luogo_x0020_di_x0020_nascita>
+</CodiciEccezioni>
+<CodiciEccezioni>
+<code>888</code>
+<display>Non cittadini riconosciuti</display>
+<displayEN>Recognised Non citizens</displayEN>
+<Variabile_x0020_Paese_x0020_di_x0020_cittadinanza>1</Variabile_x0020_Paese_x0020_di_x0020_cittadinanza>
+<Variabile_x0020_luogo_x0020_di_x0020_nascita>0</Variabile_x0020_luogo_x0020_di_x0020_nascita>
+</CodiciEccezioni>
+</dataroot>

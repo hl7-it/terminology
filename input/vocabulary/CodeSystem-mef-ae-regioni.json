@@ -1,0 +1,98 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CsAgenziaEntrateRegioni",
+  "id": "mef-ae-regioni",
+  "title": "Agenzia delle Entrate - Regioni PPAA",
+  "description": "Agenzia delle Entrate - Codice Regioni e Province Autonome",
+  "version": "0.1.0",
+  "url": "http://terminology.hl7.it/CodeSystem/mef-ae-regioni",
+  "concept": [
+    {
+      "code": "01",
+      "display": "ABRUZZO"
+    },
+    {
+      "code": "02",
+      "display": "BASILICATA"
+    },
+    {
+      "code": "03",
+      "display": "BOLZANO"
+    },
+    {
+      "code": "04",
+      "display": "CALABRIA"
+    },
+    {
+      "code": "05",
+      "display": "CAMPANIA"
+    },
+    {
+      "code": "06",
+      "display": "EMILIA ROMAGNA"
+    },
+    {
+      "code": "07",
+      "display": "FRIULI VENEZIA GIULIA"
+    },
+    {
+      "code": "08",
+      "display": "LAZIO"
+    },
+    {
+      "code": "09",
+      "display": "LIGURIA"
+    },
+    {
+      "code": "10",
+      "display": "LOMBARDIA"
+    },
+    {
+      "code": "11",
+      "display": "MARCHE"
+    },
+    {
+      "code": "12",
+      "display": "MOLISE"
+    },
+    {
+      "code": "13",
+      "display": "PIEMONTE"
+    },
+    {
+      "code": "14",
+      "display": "PUGLIA"
+    },
+    {
+      "code": "15",
+      "display": "SARDEGNA"
+    },
+    {
+      "code": "16",
+      "display": "SICILIA"
+    },
+    {
+      "code": "17",
+      "display": "TOSCANA"
+    },
+    {
+      "code": "18",
+      "display": "TRENTO"
+    },
+    {
+      "code": "19",
+      "display": "UMBRIA"
+    },
+    {
+      "code": "20",
+      "display": "VALLE D'AOSTA"
+    },
+    {
+      "code": "21",
+      "display": "VENETO"
+    }
+  ],
+  "count": 21
+}
