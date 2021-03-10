@@ -16,7 +16,7 @@
 	<!--  <valueSet value="http://terminology.hl7.org/ValueSet/v3-MaritalStatus"/> -->
 	<hierarchyMeaning value="is-a"/>
 	<content value="supplement"/>
-	<supplements value="http://terminology.hl7.it/CodeSystem/v3-MaritalStatus"/>
+	<supplements value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
 	<concept>
 		<code value="A"/>
 		<display value="Annullato"/>
