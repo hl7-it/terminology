@@ -6,7 +6,7 @@
  "list" : [{
   "version" : "current",
   "desc" : "Continuous Integration Build (latest in version control)",
-  "path" : "http://terminology.hl7.it/build",
+  "path" : "http://build.fhir.org/ig/hl7-it/terminology/branches/main",
   "status" : "ci-build",
 	"current" : true  
  }]
