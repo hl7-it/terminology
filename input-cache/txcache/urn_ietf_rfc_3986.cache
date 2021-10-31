@@ -1,0 +1,436 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/codiceFiscale",
+        "display" : "Italian Fiscal Code"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d54139a1-dc56-46f9-9645-e2c11600935e",
+    "timestamp" : "2021-10-31T06:40:08.340Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/codiceFiscale"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6929618f-9282-4831-a06d-9335e6a0da03",
+    "timestamp" : "2021-10-31T06:40:08.559Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/abruzzo/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/basilicata/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/calabria/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/campania/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/rer/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/fvg/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/liguria/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lombardia/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/marche/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/molise/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/puglia/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/sardegna/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/sicilia/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/toscana/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/taa/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/apb/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/pat/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/umbria/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vda/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/asl"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/eni",
+        "display" : "Codici ENI"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/eni",
+        "display" : "Codici ENI - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/eni",
+        "display" : "Codici ENI - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/eni",
+        "display" : "Codici ENI - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
+        "display" : "Codici ENI - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:492a0731-dd41-4697-8098-9f3597365c5e",
+    "timestamp" : "2021-10-31T06:40:08.778Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/eni"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/eni"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/eni"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/eni"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/asur",
+        "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/aura",
+        "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+        "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+        "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
+        "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+      },
+      {
+        "code" : "http://www.regione.toscana.it/sanita/cur",
+        "display" : "Centrale Unica Regionale - Toscana"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:29692a00-95a3-48d0-a074-e9c8fd8de654",
+    "timestamp" : "2021-10-31T06:40:08.997Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/asur"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/aura"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://www.regione.toscana.it/sanita/cur"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/stp",
+        "display" : "Codici STP"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/stp",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/stp",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/stp",
+        "display" : "Codici STP - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+        "display" : "Codici STP - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f8eac27a-bfc0-4838-9ba5-a7527f6f807d",
+    "timestamp" : "2021-10-31T06:40:09.215Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/stp"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/stp"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/stp"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/stp"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

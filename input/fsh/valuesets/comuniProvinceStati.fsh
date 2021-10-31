@@ -8371,7 +8371,7 @@ Id: istat-provincia
 Title: "ISTAT - Province"
 Description: "Codici ISTAT Provincia più sconosciuto"
 //----------------------------------------
-* CS_NullFlavor#UNK "Sconosciuto"
+* $v3-NullFlavor#UNK "Sconosciuto"
 * CS_unitaTerritoriali#002 "Vercelli"
 * CS_unitaTerritoriali#003 "Novara"
 * CS_unitaTerritoriali#004 "Cuneo"
@@ -8486,7 +8486,7 @@ Id: istat-regione
 Title: "ISTAT - Regioni"
 Description: "Codici ISTAT Regione più sconosciuto"
 //----------------------------------------
-* CS_NullFlavor#UNK
+* $v3-NullFlavor#UNK
 
 * CS_unitaTerritoriali#01 "Piemonte"
 * CS_unitaTerritoriali#02 "Valle d'Aosta/Vallée d'Aoste"

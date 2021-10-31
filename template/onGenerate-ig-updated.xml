@@ -18,7 +18,7 @@
    <title value="HL7 Italia Terminologie"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-10-13T15:45:11+02:00"/>
+   <date value="2021-10-31T07:37:18+01:00"/>
    <publisher value="HL7 Italia"/>
    <contact>
       <telecom>
@@ -221,62 +221,6 @@
          <name value="HL7 Italia - v3 Code System MaritalStatus (translation)"/>
          <description value="* * * No description supplied * * *  Open Issue:&#xD;&#xA;The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency."/>
          <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-minsan-esenzioni.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/minsan-esenzioni"/>
-         </reference>
-         <name value="Ministero della Salute - Esenzioni"/>
-         <description value="Codici Esenzioni Ministero della Salute"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-statoCivile.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/statoCivile"/>
-         </reference>
-         <name value="Stato Civile"/>
-         <description value="Questo value set definisce una serie di codici per rappresentare lo stato civile di una persona. Specializza ed estende il value set http://hl7.org/fhir/ValueSet/marital-status"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-statoEsenzione.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/statoEsenzione"/>
-         </reference>
-         <name value="Stato Esenzione"/>
-         <description value="Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-tipoIdentificatore.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/tipoIdentificatore"/>
-         </reference>
-         <name value="Tipo identificatore"/>
-         <description value="Value set che descrivie i diversi tipi di identificatori. Include i codici della tabella http://terminology.hl7.org/CodeSystem/v2-0203 piu' 'STP' ed 'ENI'"/>
-         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -507,6 +451,20 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-minsan-esenzioni.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/minsan-esenzioni"/>
+         </reference>
+         <name value="Ministero della Salute - Esenzioni"/>
+         <description value="Codici Esenzioni Ministero della Salute"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="ValueSet-minsan-idAou.html"/>
          </extension>
          <reference>
@@ -612,6 +570,34 @@
          </reference>
          <name value="EHIC Personal ID (system IDs - oid) "/>
          <description value="System identifiers (oid) used for the EHIC#6 Personal Identification Number"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-statoCivile.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/statoCivile"/>
+         </reference>
+         <name value="Stato Civile"/>
+         <description value="Questo value set definisce una serie di codici per rappresentare lo stato civile di una persona. Specializza ed estende il value set http://hl7.org/fhir/ValueSet/marital-status"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-statoEsenzione.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/statoEsenzione"/>
+         </reference>
+         <name value="Stato Esenzione"/>
+         <description value="Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'"/>
          <groupingId value="-term-valueset"/>
       </resource>
       <resource>
@@ -726,6 +712,20 @@
          <description value="Identificativi per codici STP regionali."/>
          <groupingId value="-term-valueset"/>
       </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VstipoIdentificatore.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VstipoIdentificatore"/>
+         </reference>
+         <name value="Tipo identificatore"/>
+         <description value="Value set che descrivie i diversi tipi di identificatori. Include i codici della tabella http://terminology.hl7.org/CodeSystem/v2-0203 piu' 'STP' ed 'ENI'"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
       <page>
          <nameUrl value="toc.html"/>
          <title value="Table of Contents"/>
@@ -774,26 +774,6 @@
             <nameUrl value="artifacts.html"/>
             <title value="Artifacts Summary"/>
             <generation value="html"/>
-            <page>
-               <nameUrl value="ValueSet-minsan-esenzioni.html"/>
-               <title value="Ministero della Salute - Esenzioni"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="ValueSet-statoCivile.html"/>
-               <title value="Stato Civile"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="ValueSet-statoEsenzione.html"/>
-               <title value="Stato Esenzione"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="ValueSet-tipoIdentificatore.html"/>
-               <title value="Tipo identificatore"/>
-               <generation value="generated"/>
-            </page>
             <page>
                <nameUrl value="ValueSet-iso-ehicCountryCode.html"/>
                <title value="ISO 3166 - EHIC Country Codes"/>
@@ -845,6 +825,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-minsan-esenzioni.html"/>
+               <title value="Ministero della Salute - Esenzioni"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-minsan-idAou.html"/>
                <title value="Ministero della Salute - ID Aziende Ospedaliere Universitarie"/>
                <generation value="generated"/>
@@ -885,6 +870,16 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-statoCivile.html"/>
+               <title value="Stato Civile"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-statoEsenzione.html"/>
+               <title value="Stato Esenzione"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-tipoCertificatore.html"/>
                <title value="Tipo certificatore"/>
                <generation value="generated"/>
@@ -922,6 +917,11 @@
             <page>
                <nameUrl value="ValueSet-uri-idStp.html"/>
                <title value="Identificativi per codici STP regionali"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-VstipoIdentificatore.html"/>
+               <title value="Tipo identificatore"/>
                <generation value="generated"/>
             </page>
             <page>
