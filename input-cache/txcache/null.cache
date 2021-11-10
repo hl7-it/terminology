@@ -11,6 +11,6 @@
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere"
 }
 -------------------------------------------------------------------------------------

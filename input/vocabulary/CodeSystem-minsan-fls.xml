@@ -13,7 +13,7 @@
 			Data di ultimo aggiornamento: 17 gennaio 2020
 		</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/minsan-fls"/>
+	<url value="http://terminology.hl7.it/sid/minsan-fls"/>
 	<version value="17_01_2020"/>
 	<name value="CsMinisteroSaluteFlsHsp"/>
 	<title value="Ministero della Salute - ASL"/>
@@ -35,7 +35,7 @@
 				<valueString value="Tipologia"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/minsan-fls#type"/>
+		<uri value="http://terminology.hl7.it/sid/minsan-fls#type"/>
 		<description value="tipo organizzazione"/>
 		<type value="code"/>
 	</property>
@@ -45,7 +45,7 @@
 				<valueString value="Data Inizio validità"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/minsan-fls#year"/>
+		<uri value="http://terminology.hl7.it/sid/minsan-fls#year"/>
 		<description value="Ultimo anno validità"/>
 		<type value="dateTime"/>
 	</property>

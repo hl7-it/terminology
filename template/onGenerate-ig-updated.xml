@@ -18,7 +18,7 @@
    <title value="HL7 Italia Terminologie"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-10-31T07:37:18+01:00"/>
+   <date value="2021-11-10T17:30:00+01:00"/>
    <publisher value="HL7 Italia"/>
    <contact>
       <telecom>
@@ -1037,11 +1037,11 @@
       </parameter>
       <parameter>
          <code value="special-url"/>
-         <value value="http://terminology.hl7.it/CodeSystem/minsan-fls"/>
+         <value value="http://terminology.hl7.it/sid/minsan-fls"/>
       </parameter>
       <parameter>
          <code value="special-url"/>
-         <value value="http://terminology.hl7.it/CodeSystem/minsan-hsp"/>
+         <value value="http://terminology.hl7.it/sid/minsan-hsp"/>
       </parameter>
       <parameter>
          <code value="special-url"/>
@@ -1053,11 +1053,11 @@
       </parameter>
       <parameter>
          <code value="special-url"/>
-         <value value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"/>
+         <value value="http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere"/>
       </parameter>
       <parameter>
          <code value="special-url"/>
-         <value value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
+         <value value="http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali"/>
       </parameter>
       <parameter>
          <code value="special-url"/>
@@ -1085,7 +1085,7 @@
       </parameter>
       <parameter>
          <code value="special-url"/>
-         <value value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
+         <value value="http://terminology.hl7.it/sid/mef-ae-comuni"/>
       </parameter>
       <parameter>
          <code value="special-url"/>

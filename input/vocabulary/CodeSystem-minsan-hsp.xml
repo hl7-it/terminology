@@ -13,7 +13,7 @@
 			Data di ultimo aggiornamento: 17 gennaio 2020
 		</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/minsan-hsp"/>
+	<url value="http://terminology.hl7.it/sid/minsan-hsp"/>
 	<version value="17_01_2020"/>
 	<name value="CsMinisteroSaluteHsp"/>
 	<title value="Ministero della Salute - Strutture di ricoveri"/>
@@ -35,7 +35,7 @@
 				<valueString value="Tipologia"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/minsan-hsp#type"/>
+		<uri value="http://terminology.hl7.it/sid/minsan-hsp#type"/>
 		<description value="tipo organizzazione"/>
 		<type value="code"/>
 	</property>
@@ -45,7 +45,7 @@
 				<valueString value="Data Inizio validità"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/minsan-hsp#year"/>
+		<uri value="http://terminology.hl7.it/sid/minsan-hsp#year"/>
 		<description value="Ultimo anno validità"/>
 		<type value="dateTime"/>
 	</property>

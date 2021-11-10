@@ -9,7 +9,7 @@
 		<div xmlns="http://www.w3.org/1999/xhtml"><h1>WARNING: A SCOPO DIMOSTRATIVO</h1>
 		Codice assegnato ai comuni dall'Agenzia delle Entrate.</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
+	<url value="http://terminology.hl7.it/sid/mef-ae-comuni"/>
 	<version value="31_12_2019"/>
 	<name value="CsAgenziaEntrateComuni"/>
 	<title value="Agenzia delle Entrate - Comuni"/>
