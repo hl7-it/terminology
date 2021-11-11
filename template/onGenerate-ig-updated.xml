@@ -18,7 +18,7 @@
    <title value="HL7 Italia Terminologie"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-11-10T17:30:00+01:00"/>
+   <date value="2021-11-11T12:24:24+01:00"/>
    <publisher value="HL7 Italia"/>
    <contact>
       <telecom>
@@ -241,6 +241,34 @@
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-aifa-aic.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/aifa-aic"/>
+         </reference>
+         <name value="AIFA - Autorizzazione Immissione in Commercio"/>
+         <description value="AIFA - Autorizzazione Immissione in Commercio."/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-aifa-ge.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/aifa-ge"/>
+         </reference>
+         <name value="AIFA - Gruppo di equivalenza"/>
+         <description value="AIFA - Liste di Trasparenza - Farmaci equivalenti (Legge 178/2002)"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="CodeSystem-dug.html"/>
          </extension>
          <reference>
@@ -297,6 +325,34 @@
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-minsan-farmacie.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/minsan-farmacie"/>
+         </reference>
+         <name value="Ministero della Salute - Elenco Farmacie"/>
+         <description value="Ministero della Salute - Elenco Farmacie. Source: www.dati.salute.gov.it/dataset/farmacie.jsp"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-minsan-parafarmacie.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/minsan-parafarmacie"/>
+         </reference>
+         <name value="Ministero della Salute - Elenco Parafarmacie"/>
+         <description value="Ministero della Salute - Elenco Parafarmacie. Source: www.dati.salute.gov.it/dataset/parafarmacie.jsp"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="CodeSystem-minsan-regione.html"/>
          </extension>
          <reference>
@@ -304,6 +360,20 @@
          </reference>
          <name value="Ministero della Salute - Codici Regioni / PPAA"/>
          <description value="Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11."/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-minsan-ria.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/minsan-ria"/>
+         </reference>
+         <name value="Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"/>
+         <description value="Ministero della Salute - Codici strutture di ricovero pubbliche, istituti e centri di riabilitazione pubblici (RIA) ex art. 26 ed istituti penitenziari. Source: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&amp;id=1053"/>
          <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
@@ -980,6 +1050,16 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="CodeSystem-aifa-aic.html"/>
+               <title value="AIFA - Autorizzazione Immissione in Commercio"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-aifa-ge.html"/>
+               <title value="AIFA - Gruppo di equivalenza"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="CodeSystem-dug.html"/>
                <title value="ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"/>
                <generation value="generated"/>
@@ -1000,8 +1080,23 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="CodeSystem-minsan-farmacie.html"/>
+               <title value="Ministero della Salute - Elenco Farmacie"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-minsan-parafarmacie.html"/>
+               <title value="Ministero della Salute - Elenco Parafarmacie"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="CodeSystem-minsan-regione.html"/>
                <title value="Ministero della Salute - Codici Regioni / PPAA"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-minsan-ria.html"/>
+               <title value="Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1033,7 +1128,7 @@
       </parameter>
       <parameter>
          <code value="special-url"/>
-         <value value="http://terminology.hl7.it/CodeSystem/minsan-regione"/>
+         <value value="http://terminology.hl7.it/sid/minsan-regione"/>
       </parameter>
       <parameter>
          <code value="special-url"/>

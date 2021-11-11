@@ -120,7 +120,7 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/minsan-regione"/>
+			<value value="http://terminology.hl7.it/sid/minsan-regione"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>

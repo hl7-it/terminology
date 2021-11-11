@@ -1,13 +1,49 @@
 
-// url to be used ==> http://registry.geodati.gov.it/dug
+CodeSystem: CsMinsanRia
+Id: minsan-ria
+Title: "Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"
+Description: "Ministero della Salute - Codici strutture di ricovero pubbliche, istituti e centri di riabilitazione pubblici (RIA) ex art. 26 ed istituti penitenziari. Source: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&id=1053"
+* ^url = http://terminology.hl7.it/sid/minsan-ria
 
-/*    COMMENTATO ===  FINE */
+//--------------------------
+
+CodeSystem: CsMinsanFarmacie
+Id: minsan-farmacie
+Title: "Ministero della Salute - Elenco Farmacie"
+Description: "Ministero della Salute - Elenco Farmacie. Source: www.dati.salute.gov.it/dataset/farmacie.jsp"
+* ^url = http://terminology.hl7.it/sid/minsan-farmacie
+
+//--------------------------
+
+CodeSystem: CsMinsanParafarmacie
+Id: minsan-parafarmacie
+Title: "Ministero della Salute - Elenco Parafarmacie"
+Description: "Ministero della Salute - Elenco Parafarmacie. Source: www.dati.salute.gov.it/dataset/parafarmacie.jsp"
+* ^url = http://terminology.hl7.it/sid/minsan-parafarmacie
+
+//--------------------------
+
+CodeSystem: CsAifaAic
+Id: aifa-aic
+Title: "AIFA - Autorizzazione Immissione in Commercio"
+Description: "AIFA - Autorizzazione Immissione in Commercio. "
+* ^url = http://terminology.hl7.it/CodeSystem/aifa-aic
+
+//--------------------------
+
+CodeSystem: CsAifaGruppoEquivalenza
+Id: aifa-ge
+Title: "AIFA - Gruppo di equivalenza"
+Description: "AIFA - Liste di Trasparenza - Farmaci equivalenti (Legge 178/2002)"
+* ^url = http://terminology.hl7.it/CodeSystem/aifa-ge
+
+//--------------------------
 
 CodeSystem: CsMinsanRegioni
 Id: minsan-regione
 Title: "Ministero della Salute - Codici Regioni / PPAA"
 Description: "Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11."
-* ^url = http://terminology.hl7.it/CodeSystem/minsan-regione
+* ^url = http://terminology.hl7.it/sid/minsan-regione
 * #010	"PIEMONTE"
 * #020	"VALLE D'AOSTA"
 * #030	"LOMBARDIA"
