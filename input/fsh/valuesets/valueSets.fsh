@@ -1,3 +1,28 @@
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsAic
+Id: aifa-aic
+Title: "AIFA AIC"
+Description: "Italian Authorization Numbers"
+//-------------------------------------------------------------------------------------------
+* codes from system $aic
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsAtc
+Id: who-atc
+Title: "WHO ATC"
+Description: "WHO Anatomical Therapeutic Chemical classification system"
+//-------------------------------------------------------------------------------------------
+* codes from system $atc
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsGruppoEquivalenza
+Id: aifa-ge
+Title: "AIFA Gruppo di Equivalenza"
+Description: "AIFA Gruppo di Equivalenza"
+//-------------------------------------------------------------------------------------------
+* codes from system $gruppo-equivalenza
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsEHICPersonalIdUri
 Id: uri-ehicPersonalId
@@ -5,6 +30,7 @@ Title: "EHIC Personal ID (system IDs - uri) "
 Description: "System identifiers (uri) used for the EHIC#6 Personal Identification Number"
 //-------------------------------------------------------------------------------------------
 * URI#http://hl7.it/sid/codiceFiscale "Italian Fiscal Code"
+
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -17,15 +17,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:888c0372-1bdb-40f1-8e94-477d780801c1",
-    "timestamp" : "2021-11-11T11:28:25.311Z",
+    "identifier" : "urn:uuid:b1570eb4-b804-4c7f-b056-231b352b6680",
+    "timestamp" : "2021-12-07T18:41:25.707Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "urn:ietf:rfc:3986|n/a"
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
@@ -116,15 +116,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:2db7f010-960c-47ad-b7cf-5fc584109e79",
-    "timestamp" : "2021-11-11T11:28:25.623Z",
+    "identifier" : "urn:uuid:5b5c644a-3bc5-42f6-9fec-6724fe5045f3",
+    "timestamp" : "2021-12-07T18:41:26.050Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "urn:ietf:rfc:3986|n/a"
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
@@ -253,15 +253,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0471cecb-d10b-4a9a-8fd8-032242631854",
-    "timestamp" : "2021-11-11T11:28:25.905Z",
+    "identifier" : "urn:uuid:4f365735-4ca7-4bf1-b6b1-4a0349d3df80",
+    "timestamp" : "2021-12-07T18:41:26.300Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "urn:ietf:rfc:3986|n/a"
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
@@ -326,15 +326,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e4d7ef44-4373-49b8-8512-9d0f22317671",
-    "timestamp" : "2021-11-11T11:28:26.170Z",
+    "identifier" : "urn:uuid:19223b4f-7e5b-4f43-8a77-e04862e69dd6",
+    "timestamp" : "2021-12-07T18:41:26.597Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "urn:ietf:rfc:3986|n/a"
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
@@ -399,15 +399,15 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f6f67c44-f304-4640-af7e-6c96be9e3df2",
-    "timestamp" : "2021-11-11T11:28:26.436Z",
+    "identifier" : "urn:uuid:62f346ce-8f3e-400c-aafc-82fbbbdb140f",
+    "timestamp" : "2021-12-07T18:41:26.847Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "urn:ietf:rfc:3986|n/a"
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",

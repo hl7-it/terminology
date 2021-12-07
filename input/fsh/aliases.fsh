@@ -15,6 +15,11 @@ Alias: MinSanRegioni = http://terminology.hl7.it/sid/minsan-regione
 Alias: V3RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: CS_ISO3166 = urn:iso:std:iso:3166
 
+Alias: $aic = http://terminology.hl7.it/CodeSystem/aifa-aic
+Alias: $gruppo-equivalenza = http://terminology.hl7.it/CodeSystem/aifa-ge
+Alias: $atc = http://www.whocc.no/atc
+
+
 Alias: $minsan-esenzioni = http://terminology.hl7.it/CodeSystem/minsan-esenzioni
 Alias: $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
