@@ -515,8 +515,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f4a503cf-f9b4-494d-80b9-17a94f754bab",
-    "timestamp" : "2021-12-07T18:40:12.065Z",
+    "identifier" : "urn:uuid:48b15023-737e-4dce-a16f-53ecb4e141da",
+    "timestamp" : "2021-12-21T08:27:11.966Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -549,7 +549,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CZ",
-      "display" : "Czechia"
+      "display" : "Czech Republic"
     },
     {
       "system" : "urn:iso:std:iso:3166",

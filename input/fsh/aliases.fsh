@@ -1,4 +1,4 @@
-//============== ALIAS ===============
+//============== ALIAS Terminology.it===============
 Alias: URI = urn:ietf:rfc:3986
 Alias: OID = urn:ietf:rfc:1155
 Alias: CS_unitaTerritoriali = http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali
@@ -17,7 +17,10 @@ Alias: CS_ISO3166 = urn:iso:std:iso:3166
 
 Alias: $aic = http://terminology.hl7.it/CodeSystem/aifa-aic
 Alias: $gruppo-equivalenza = http://terminology.hl7.it/CodeSystem/aifa-ge
+Alias: $aifa-nota = http://terminology.hl7.it/CodeSystem/aifa-nota
+
 Alias: $atc = http://www.whocc.no/atc
+Alias: $icd-9-cm = http://hl7.org/fhir/sid/icd-9-cm
 
 
 Alias: $minsan-esenzioni = http://terminology.hl7.it/CodeSystem/minsan-esenzioni

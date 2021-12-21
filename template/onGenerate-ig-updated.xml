@@ -18,7 +18,7 @@
    <title value="HL7 Italia Terminologie"/>
    <status value="draft"/>
    <experimental value="false"/>
-   <date value="2021-11-11T12:24:24+01:00"/>
+   <date value="2021-12-21T09:23:45+01:00"/>
    <publisher value="HL7 Italia"/>
    <contact>
       <telecom>
@@ -269,6 +269,20 @@
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-aifa-nota.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/aifa-nota"/>
+         </reference>
+         <name value="AIFA - Indicazioni terapeutiche (Nota AIFA)"/>
+         <description value="AIFA - Indicazioni terapeutiche per le quali un determinato farmaco è rimborsabile a carico del Servizio Sanitario Nazionale. Conosciute come Note AIFA"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="CodeSystem-dug.html"/>
          </extension>
          <reference>
@@ -375,6 +389,48 @@
          <name value="Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"/>
          <description value="Ministero della Salute - Codici strutture di ricovero pubbliche, istituti e centri di riabilitazione pubblici (RIA) ex art. 26 ed istituti penitenziari. Source: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&amp;id=1053"/>
          <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-aifa-aic.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/aifa-aic"/>
+         </reference>
+         <name value="AIFA AIC"/>
+         <description value="Italian Authorization Numbers"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-aifa-ge.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/aifa-ge"/>
+         </reference>
+         <name value="AIFA Gruppo di Equivalenza"/>
+         <description value="AIFA Gruppo di Equivalenza"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-aifa-nota.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/aifa-nota"/>
+         </reference>
+         <name value="AIFA Note"/>
+         <description value="Therapeutic indications for which a certain drug is reimbursable at the expense of the National Health Service"/>
+         <groupingId value="-term-valueset"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -796,6 +852,34 @@
          <description value="Value set che descrivie i diversi tipi di identificatori. Include i codici della tabella http://terminology.hl7.org/CodeSystem/v2-0203 piu' 'STP' ed 'ENI'"/>
          <groupingId value="-term-valueset"/>
       </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-who-atc.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/who-atc"/>
+         </reference>
+         <name value="WHO ATC"/>
+         <description value="WHO Anatomical Therapeutic Chemical classification system"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-who-icd9cm.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/who-icd9cm"/>
+         </reference>
+         <name value="WHO ICD-9-CM"/>
+         <description value="WHO ICD-9-CM"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
       <page>
          <nameUrl value="toc.html"/>
          <title value="Table of Contents"/>
@@ -844,6 +928,21 @@
             <nameUrl value="artifacts.html"/>
             <title value="Artifacts Summary"/>
             <generation value="html"/>
+            <page>
+               <nameUrl value="ValueSet-aifa-aic.html"/>
+               <title value="AIFA AIC"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-aifa-ge.html"/>
+               <title value="AIFA Gruppo di Equivalenza"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-aifa-nota.html"/>
+               <title value="AIFA Note"/>
+               <generation value="generated"/>
+            </page>
             <page>
                <nameUrl value="ValueSet-iso-ehicCountryCode.html"/>
                <title value="ISO 3166 - EHIC Country Codes"/>
@@ -995,6 +1094,16 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-who-atc.html"/>
+               <title value="WHO ATC"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-who-icd9cm.html"/>
+               <title value="WHO ICD-9-CM"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="CodeSystem-administrative-gender.html"/>
                <title value="HL7 Italia - AdministrativeGender (translation)"/>
                <generation value="generated"/>
@@ -1057,6 +1166,11 @@
             <page>
                <nameUrl value="CodeSystem-aifa-ge.html"/>
                <title value="AIFA - Gruppo di equivalenza"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-aifa-nota.html"/>
+               <title value="AIFA - Indicazioni terapeutiche (Nota AIFA)"/>
                <generation value="generated"/>
             </page>
             <page>

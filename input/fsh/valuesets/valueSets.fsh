@@ -1,3 +1,18 @@
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsIcd9cm
+Id: who-icd9cm
+Title: "WHO ICD-9-CM"
+Description: "WHO ICD-9-CM"
+//-------------------------------------------------------------------------------------------
+* codes from system $icd-9-cm
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsNotaAifa
+Id: aifa-nota
+Title: "AIFA Note"
+Description: "Therapeutic indications for which a certain drug is reimbursable at the expense of the National Health Service"
+//-------------------------------------------------------------------------------------------
+* codes from system $aifa-nota
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsAic

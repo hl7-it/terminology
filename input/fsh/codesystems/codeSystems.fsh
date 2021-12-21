@@ -23,10 +23,18 @@ Description: "Ministero della Salute - Elenco Parafarmacie. Source: www.dati.sal
 
 //--------------------------
 
+CodeSystem: CsAifaNota
+Id: aifa-nota
+Title: "AIFA - Indicazioni terapeutiche (Nota AIFA)"
+Description: "AIFA - Indicazioni terapeutiche per le quali un determinato farmaco è rimborsabile a carico del Servizio Sanitario Nazionale. Conosciute come Note AIFA"
+* ^url = http://terminology.hl7.it/CodeSystem/aifa-nota
+
+//--------------------------
+
 CodeSystem: CsAifaAic
 Id: aifa-aic
 Title: "AIFA - Autorizzazione Immissione in Commercio"
-Description: "AIFA - Autorizzazione Immissione in Commercio. "
+Description: "AIFA - Autorizzazione Immissione in Commercio."
 * ^url = http://terminology.hl7.it/CodeSystem/aifa-aic
 
 //--------------------------
