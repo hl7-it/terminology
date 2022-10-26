@@ -1,2 +1,2 @@
 # Terminology
-HL7 IT common terminologie
+HL7 IT common terminologies
