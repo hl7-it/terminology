@@ -3,7 +3,7 @@ CodeSystem: CsMinsanRia
 Id: minsan-ria
 Title: "Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"
 Description: "Ministero della Salute - Codici strutture di ricovero pubbliche, istituti e centri di riabilitazione pubblici (RIA) ex art. 26 ed istituti penitenziari. Source: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&id=1053"
-* ^url = http://terminology.hl7.it/sid/minsan-ria
+* ^url = "http://terminology.hl7.it/sid/minsan-ria"
 
 //--------------------------
 
@@ -11,7 +11,7 @@ CodeSystem: CsMinsanFarmacie
 Id: minsan-farmacie
 Title: "Ministero della Salute - Elenco Farmacie"
 Description: "Ministero della Salute - Elenco Farmacie. Source: www.dati.salute.gov.it/dataset/farmacie.jsp"
-* ^url = http://terminology.hl7.it/sid/minsan-farmacie
+* ^url = "http://terminology.hl7.it/sid/minsan-farmacie"
 
 //--------------------------
 
@@ -19,7 +19,7 @@ CodeSystem: CsMinsanParafarmacie
 Id: minsan-parafarmacie
 Title: "Ministero della Salute - Elenco Parafarmacie"
 Description: "Ministero della Salute - Elenco Parafarmacie. Source: www.dati.salute.gov.it/dataset/parafarmacie.jsp"
-* ^url = http://terminology.hl7.it/sid/minsan-parafarmacie
+* ^url = "http://terminology.hl7.it/sid/minsan-parafarmacie"
 
 //--------------------------
 
@@ -27,7 +27,7 @@ CodeSystem: CsAifaNota
 Id: aifa-nota
 Title: "AIFA - Indicazioni terapeutiche (Nota AIFA)"
 Description: "AIFA - Indicazioni terapeutiche per le quali un determinato farmaco è rimborsabile a carico del Servizio Sanitario Nazionale. Conosciute come Note AIFA"
-* ^url = http://terminology.hl7.it/CodeSystem/aifa-nota
+* ^url = "http://terminology.hl7.it/CodeSystem/aifa-nota"
 
 //--------------------------
 
@@ -35,7 +35,7 @@ CodeSystem: CsAifaAic
 Id: aifa-aic
 Title: "AIFA - Autorizzazione Immissione in Commercio"
 Description: "AIFA - Autorizzazione Immissione in Commercio."
-* ^url = http://terminology.hl7.it/CodeSystem/aifa-aic
+* ^url = "http://terminology.hl7.it/CodeSystem/aifa-aic"
 
 //--------------------------
 
@@ -43,7 +43,7 @@ CodeSystem: CsAifaGruppoEquivalenza
 Id: aifa-ge
 Title: "AIFA - Gruppo di equivalenza"
 Description: "AIFA - Liste di Trasparenza - Farmaci equivalenti (Legge 178/2002)"
-* ^url = http://terminology.hl7.it/CodeSystem/aifa-ge
+* ^url = "http://terminology.hl7.it/CodeSystem/aifa-ge"
 
 //--------------------------
 
@@ -51,7 +51,7 @@ CodeSystem: CsMinsanRegioni
 Id: minsan-regione
 Title: "Ministero della Salute - Codici Regioni / PPAA"
 Description: "Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11."
-* ^url = http://terminology.hl7.it/sid/minsan-regione
+* ^url = "http://terminology.hl7.it/sid/minsan-regione"
 * #010	"PIEMONTE"
 * #020	"VALLE D'AOSTA"
 * #030	"LOMBARDIA"
@@ -78,7 +78,7 @@ CodeSystem: CsIstatDug
 Id: dug
 Title: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 Description: "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)"
-* ^url = http://registry.geodati.gov.it/dug
+* ^url = "http://registry.geodati.gov.it/dug"
 * #1 "arco"
 * #2 "autostrada"
 * #3 "belvedere"
@@ -173,7 +173,7 @@ Id: it-v3RoleCode
 Title: "HL7 Italia - HL7 V3 RoleCode (estensione)"
 Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 //-------------------------------------------------------------------------------------------
-* ^url = http://terminology.hl7.it/CodeSystem/it-v3RoleCode
+* ^url = "http://terminology.hl7.it/CodeSystem/it-v3RoleCode"
 * #MMG  "medico di medicina generale"
 * #PLS  "pediatra di libera scelta"
 * #MSD  "medico del servizio/struttura del distretto/azienda" 
@@ -195,7 +195,7 @@ Id: mef-ae-province
 Title: "Agenzia delle Entrate - Province"
 Description: "Agenzia delle Entrate - Codice a due caratteri delle province"
 //-------------------------------------------------------------------------------------------
-* ^url = http://terminology.hl7.it/CodeSystem/mef-ae-province
+* ^url = "http://terminology.hl7.it/CodeSystem/mef-ae-province"
 * #AG	"AGRIGENTO"
 * #AL	"ALESSANDRIA"
 * #AN	"ANCONA"
@@ -311,7 +311,7 @@ Id: mef-ae-regioni
 Title: "Agenzia delle Entrate - Regioni PPAA"
 Description: "Agenzia delle Entrate - Codice Regioni e Province Autonome"
 //-------------------------------------------------------------------------------------------
-* ^url = http://terminology.hl7.it/CodeSystem/mef-ae-regioni
+* ^url = "http://terminology.hl7.it/CodeSystem/mef-ae-regioni"
 * #01	"ABRUZZO"
 * #02	"BASILICATA"
 * #03	"BOLZANO"
