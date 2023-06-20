@@ -28,3 +28,7 @@ Alias: $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatu
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $m49.htm = http://unstats.un.org/unsd/methods/m49/m49.htm
+
+//---- Lab Report----
+Alias: $LOINC = http://loinc.org
+Alias: $sct = http://snomed.info/sct

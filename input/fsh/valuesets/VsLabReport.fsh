@@ -1353,20 +1353,6 @@ Description: "Questo valueset include i codici per i microrganismi dal sottoinsi
 * include codes from system http://snomed.info/sct|http://snomed.info/sct/900000000000207008
     where constraint = "(< 409822003 |Domain Bacteria| OR < 441649000 |Class Cestoda and/or Class Trematoda and/or Phylum Nemata| OR < 414561005 |Kingdom Fungi| OR < 84676004 |Prion| OR < 49872002 |Virus| OR < 417396000 |Kingdom Protozoa| OR < 419036000 |Domain Archaea (organism)| OR < 426785004 |Kingdom Chromista| OR < 370570004 |Kingdom Protoctista| OR < 417377004 |Kingdom Viridiplantae| OR < 243565002 |Slime Mould|) AND ^ 816080008 |International Patient Summary (foundation metadata concept)|"
 
-Alias: $istat-dug = http://hl7.it/fhir/ValueSet/istat-dug
-ValueSet: VsIstatDug
-Id: istat-dug
-Title: "DUG - Address"
-Description: "Valueset contenente i codici relativi la denominazione urbanistica generica (DUG)."
-* ^experimental = false
-* include codes from system $istat-DUG-CS
-
-ValueSet: VsUCUM
-Id: uqum-valueset-it
-Title: "UCUM - Unified Code for Units of Measure"
-Description: "Valueset contenente i codici relativi alle unità di misura UCUM."
-* ^experimental = false
-* include codes from system http://unitsofmeasure.org
 
 ValueSet: VsSezioniRefertoLaboratorio
 Id: sezione-referto-laboratorio
@@ -1419,17 +1405,17 @@ Description: "Valueset contente i codici che identificano il tipo di osservazion
 * exclude codes from system $LOINC
     where CLASS regex /CYTO|HL7\.CYTOGEN|HL7\.GENETICS|^PATH(\..*)?|^MOLPATH(\..*)?|NR STATS|H&P\.HX\.LAB|CHALSKIN|LABORDERS/
 
-Alias: $cs-observation-code = http://hl7.org/fhir/observation-status
-ValueSet:      VsObservationStatusCodeLabReport
-Id:	       valueset-status-obs-it
-Title:	       "Observation status code"
-Description:   "Valueset contenente i codici di di stato per la risorsa Observation Document - Lab Report."
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* include codes from system $cs-observation-code 
-* exclude $cs-observation-code#registered
-* exclude $cs-observation-code#cancelled
-* exclude $cs-observation-code#unknown
-* exclude $cs-observation-code#entered-in-error
+// Alias: $cs-observation-code = http://hl7.org/fhir/observation-status
+// ValueSet:      VsObservationStatusCodeLabReport
+// Id:	       valueset-status-obs-it
+// Title:	       "Observation status code"
+// Description:   "Valueset contenente i codici di di stato per la risorsa Observation Document - Lab Report."
+// * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+// * include codes from system $cs-observation-code 
+// * exclude $cs-observation-code#registered
+// * exclude $cs-observation-code#cancelled
+// * exclude $cs-observation-code#unknown
+// * exclude $cs-observation-code#entered-in-error
 
 ValueSet:      VsLabSpecimenTypesIt
 Id:	       tipo-campione-lab-it
