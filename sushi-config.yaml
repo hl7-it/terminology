@@ -27,6 +27,7 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   autoload-resources: true
+  
 
 copyrightYear: 2020+
 releaseLabel: CI Build
