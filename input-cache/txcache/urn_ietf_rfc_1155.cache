@@ -1,17 +1,8 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:ietf:rfc:1155",
-  "code" : "2.16.840.1.113883.2.9.4.3.2"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "The code system 'urn:ietf:rfc:1155' is not known (encountered paired with code = '2.16.840.1.113883.2.9.4.3.2'); The code provided (urn:ietf:rfc:1155#2.16.840.1.113883.2.9.4.3.2) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
+{"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
+    "inactive" : false,
     "include" : [{
       "system" : "urn:ietf:rfc:1155",
       "concept" : [{
@@ -22,6 +13,31 @@ v: {
   }
 }}####
 e: {
-  "error" : "Error from server: Unable to provide support for code system urn:ietf:rfc:1155"
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "urn:ietf:rfc:1155",
+      "concept" : [{
+        "code" : "2.16.840.1.113883.2.9.4.3.2",
+        "display" : "Italian Fiscal Code"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/oid-ehicPersonalId", "version": "0.0.1"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155"
 }
 -------------------------------------------------------------------------------------

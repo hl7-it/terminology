@@ -1,0 +1,5047 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/minsan-idStrutture", "version": "0.0.1"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://terminology.hl7.it/ValueSet/minsan-idStrutture",
+  "version" : "0.0.1",
+  "name" : "VsMinisteroSaluteIdStrutture",
+  "title" : "Ministero della Salute - ID Strutture Ricovero",
+  "status" : "active",
+  "date" : "2023-12-11T22:47:12+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    }]
+  }],
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:65b3f9f1-3643-4cf4-b66c-7208ce3cd460",
+    "timestamp" : "2023-12-12T01:04:17.646Z",
+    "total" : 1000,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.it/sid/minsan-hsp|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/sid/minsan-hsp|0.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010003",
+      "display" : "OSPEDALE MARIA VITTORIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010004",
+      "display" : "OSPEDALI RIUNITI A.S.L. TO 5",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010004.01",
+        "display" : "OSPEDALE MAGGIORE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010004.02",
+        "display" : "OSPEDALE SANTA CROCE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010004.03",
+        "display" : "OSPEDALE SAN LORENZO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010004.04",
+        "display" : "DAY SURGERY DEL DISTRETTO DI NICHELINO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010005",
+      "display" : "OSPEDALE UNICO PLURISEDE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010005.01",
+        "display" : "OSPEDALE SAN BIAGIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010005.02",
+        "display" : "STABILIMENTO OSPEDALIERO CASTELLI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010005.03",
+        "display" : "C.O.Q. OSPEDALE MADONNA DEL POPOLO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010006",
+      "display" : "ISTITUTO S.S. TRINITÀ - BORGOMANERO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010007",
+      "display" : "OSPEDALE MARTINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010008",
+      "display" : "OSPEDALI RIUNITI ASL AT",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010008.01",
+        "display" : "PRESIDIO OSP. CARDINAL G. MASSAIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010008.02",
+        "display" : "PRESIDIO OSPEDALIERO S. SPIRITO-VALLE BE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010009",
+      "display" : "OSPEDALE UNICO DEL VERCELLESE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010009.01",
+        "display" : "OSPEDALE SANT'ANDREA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010009.02",
+        "display" : "OSPEDALE SS.PIETRO E PAOLO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010010",
+      "display" : "OSPEDALE OFTALMICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010011",
+      "display" : "TORINO NORD EMERGENZA SAN GIOVANNI BOSCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010013",
+      "display" : "OSPEDALE AMEDEO DI SAVOIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010017",
+      "display" : "OSPEDALE CIVICO CHIVASSO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010019",
+      "display" : "PRESIDI OSPED. RIUNITI A.S.L. 6 CIRIE'",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010019.01",
+        "display" : "PRESIDIO OSPED. RIUNITO SEDE DI CIRIE'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010019.03",
+        "display" : "PRESIDIO OSPED. RIUNITO SEDE DI LANZO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010023",
+      "display" : "OSPEDALI RIUNITI DEL CANAVESE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010023.01",
+        "display" : "OSPEDALE CIVILE DI IVREA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010023.02",
+        "display" : "OSPEDALE CIVILE DI CUORGNE'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010023.04",
+        "display" : "SAAPA S.P.A."
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010026",
+      "display" : "OSPEDALI RIUNITI ASL AL",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010026.01",
+        "display" : "OSPEDALE SANTO SPIRITO CASALE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010026.03",
+        "display" : "OSPEDALE SS. ANTONIO E MARGHERITA TORTON"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010026.04",
+        "display" : "OSPEDALE SAN GIACOMO NOVI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010026.05",
+        "display" : "OSPEDALE CIVILE ACQUI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010026.06",
+        "display" : "OSPEDALE CIVILE OVADA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010027",
+      "display" : "OSP.MAGGIORE SS.TRINITA' FOSSANO CN1 NEW"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010030",
+      "display" : "OSPEDALI RIUNITI PINEROLO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010030.01",
+        "display" : "OSPEDALE CIVILE \"E.AGNELLI\""
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010030.03",
+        "display" : "OSPEDALE DI POMARETTO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010032",
+      "display" : "OSPEDALE DEGLI INFERMI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010079",
+      "display" : "OSPEDALI RIUNITI RIVOLI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010079.01",
+        "display" : "OSPEDALE DEGLI INFERMI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010079.02",
+        "display" : "OSPEDALE CIVILE DI GIAVENO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010079.04",
+        "display" : "OSPEDALE CIVILE DI SUSA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010079.05",
+        "display" : "OSPEDALE DI VENARIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010079.06",
+        "display" : "UNITA' AUTONOMA DI DAY SURGERY DI AVIGLI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010120",
+      "display" : "OSP. S.LAZZARO-ALBA E S.SPRITO BRA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010120.01",
+        "display" : "OSPEDALE SAN LAZZARO - ALBA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010120.02",
+        "display" : "OSPEDALE SANTO SPIRITO BRA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010124",
+      "display" : "PRESIDIO UNIFICATO MONDOVI-CEVA CN1",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010124.01",
+        "display" : "OSPEDALE DI MONDOVI' CN1"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010124.02",
+        "display" : "NUOVO OSPEDALE DI CEVA CN1"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010126",
+      "display" : "PRESIDIO UNIFICATO SAVIGLIANO-SALUZZO CN",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010126.01",
+        "display" : "OSP. MAGGIORE SS. ANNUNZIATA SAVIGLIANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010126.02",
+        "display" : "OSP. CIVILE DI SALUZZO CN1"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010601",
+      "display" : "PINNA PINTOR SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010603",
+      "display" : "CLINICA SANTA CATERINA DA SIENA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010604",
+      "display" : "SEDES SAPIENTIAE SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010610",
+      "display" : "CASA DI CURA FORNACA DISESSANT"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010611",
+      "display" : "VILLA MARIA PIA HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010612",
+      "display" : "CASA DI CURA KOELLIKER OSPEDALINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010614",
+      "display" : "CASA DI CURA VILLE AUGUSTA - S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010615",
+      "display" : "CASA DI CURA VILLA PATRIZIA - S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010616",
+      "display" : "POLICLINICO DI MONZA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010617",
+      "display" : "CASA DI CURA VILLE TURINA AMIONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010618",
+      "display" : "CASA DI CURA E RIPOSO S. LUCA S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010620",
+      "display" : "CASA DI CURA VILLA DI SALUTE SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010621",
+      "display" : "CASA DI CURA VILLA SERENA - S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010622",
+      "display" : "SANTA CROCE SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010623",
+      "display" : "VILLA PAPA GIOVANNI XXIII"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010626",
+      "display" : "POLICLINICO DI MONZA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010627",
+      "display" : "CASA DI CURA SAN GIORGIO SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010628",
+      "display" : "POLICLINICO DI MONZA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010629",
+      "display" : "CASA DI CURA L'EREMO DI MIAZZINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010630",
+      "display" : "CASA DI CURA S.CARLO DI ARONA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010631",
+      "display" : "CASA DI CURA SAN MICHELE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010632",
+      "display" : "CASA DI CURA CITTA' DI BRA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010633",
+      "display" : "EX ISTITUTO CLIMATICO DI ROBILANTE DEL D"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010634",
+      "display" : "CASA DI CURA MONTESERRAT S.R.L"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010635",
+      "display" : "CASA DI CURA \"LA RESIDENZA\""
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010639",
+      "display" : "CASA DI CURA S. ANNA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010640",
+      "display" : "CLINICA SALUS ALESSANDRIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010641",
+      "display" : "CASA DI CURA VILLA IGEA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010642",
+      "display" : "CASA DI CURA SANT'ANNA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010643",
+      "display" : "CLINICA CITTA' DI ALESSANDRIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010644",
+      "display" : "VILLA GRAZIA SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010646",
+      "display" : "CASA DI CURA VILLA IRIS SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010647",
+      "display" : "FONDAZIONE ORIZZONTE SPERANZA - ONLUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010648",
+      "display" : "ADRIANA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010649",
+      "display" : "CASA DI CURA I CEDRI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010651",
+      "display" : "CASA DI CURA MADONNA DEI BOSCHI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010653",
+      "display" : "PROMEA S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010654",
+      "display" : "CENTRO CHIRURGICO GUTTUARI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010655",
+      "display" : "CASA DI CURA CELLINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010656",
+      "display" : "POLICLINICO DI MONZA S.P.A. PRESIDIO CLI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010657",
+      "display" : "CASA DI CURA CENTRO R.R.F. MONS. LUIGI N"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010659",
+      "display" : "S.R.L. TERAPEUTICENTER - ISTITUTO MEDICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010660",
+      "display" : "CENTRO MEDICO POLISPECIALISTICO AMBULATO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010661",
+      "display" : "POLICLINICO SAN LUCA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010662",
+      "display" : "MOD CENTRO MEDICO CHIRURGICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010663",
+      "display" : "MEDICAL SERVICE S.A.S"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010664",
+      "display" : "MEDICENTER S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010665",
+      "display" : "CASA DI CURA VILLA CRISTINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010890",
+      "display" : "PRESIDIO SANITARIO AUSILIATRICE - FONDAZ"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010891",
+      "display" : "BEATA VERGINE CONSOLATA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010892",
+      "display" : "PRESIDIO SANITARIO GRADENIGO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010893",
+      "display" : "PRESIDIO SANITARIO SAN CAMILLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010897",
+      "display" : "PRESIDIO SANITARIO OSPEDALE COTTOLENGO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010898",
+      "display" : "PRESIDIO MAJOR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010904",
+      "display" : "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010905",
+      "display" : "AZIENDA OSPED. NOVARA E GALLIATE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010905.01",
+        "display" : "OSP. MAGGIORE DELLA CARITA'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010905.02",
+        "display" : "OSPEDALE SAN ROCCO GALLIATE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010906",
+      "display" : "AZ. OSPEDAL. S. CROCE E CARLE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010907",
+      "display" : "AZ. SS.ANTONIO E BIAGIO E C.ARRIGO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010907.01",
+        "display" : "OSP.CIVILE SS.ANTONIO E BIAGIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010907.02",
+        "display" : "OSP. INFANTILE C.ARRIGO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010907.03",
+        "display" : "CENTRO RIABILITATIVO POLIFUNZIONALE T.BO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010908",
+      "display" : "OSPEDALE MAURIZIANO UMBERTO I - TORINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010909",
+      "display" : "AOU CITTA' DELLA SALUTE E DELLA SCIENZA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010909.01",
+        "display" : "OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010909.02",
+        "display" : "OSPEDALE DERMATOLOGICO SAN LAZZARO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010909.04",
+        "display" : "OSPEDALE CENTRO TRAUMATOLOGICO ORTOPEDIC"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010909.05",
+        "display" : "ISTITUTO CHIRURGICO ORTOPEDICO REGINA MA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010909.06",
+        "display" : "OSPEDALE OSTETRICO GINECOLOGICO SANT'ANN"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "010909.07",
+        "display" : "OSPEDALE INFANTANTILE REGINA MARGHERITA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010920",
+      "display" : "CENTRO AUXOLOGICO ITALIANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010921",
+      "display" : "FONDAZIONE SALVATORE MAUGERI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "010922",
+      "display" : "FONDAZIONE DEL PIEMONTE PER L'ONCOLOGIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "020001",
+      "display" : "OSPEDALE REGIONALE UMBERTO PARINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "020002",
+      "display" : "ISAV SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030014",
+      "display" : "CASA DI CURA LA QUIETE - VARESE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030015",
+      "display" : "CASA DI CURA SANTA MARIA - CASTELLANZA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030017",
+      "display" : "CASA DI CURA MATER DOMINI - CASTELLANZA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030029",
+      "display" : "OSP.SACRA FAMIGLIA - F.B.F. - ERBA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030030",
+      "display" : "OSPEDALE  VALDUCE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030031",
+      "display" : "OSP. MORIGGIA PELASCINI - GRAVEDONA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030032",
+      "display" : "IST.CLINICO VILLA APRICA SPA-COMO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030033",
+      "display" : "CASA DI CURA BEATO L.TALAMONI-LECCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030034",
+      "display" : "CASA DI CURA G.B. MANGIONI - LECCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030035",
+      "display" : "C.O.F. LANZO HOSPITAL - ALTA VALLE INTEL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030037",
+      "display" : "CASA DI CURA VILLA S. BENEDETTO-ALBESE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030038",
+      "display" : "CASA DI CURA LE BETULLE-APPIANO GENTILE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030096",
+      "display" : "CASA DI CURA DEL POLICLINICO - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030097",
+      "display" : "ISTITUTO CLINICO CITTA' STUDI - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030100",
+      "display" : "CASA DI CURA IGEA - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030101",
+      "display" : "CASA DI CURA VILLA LETIZIA - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030103",
+      "display" : "CASA DI CURA PALAZZOLO-FOND.DON GNOCCHI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030105",
+      "display" : "CASA DI CURA S. CAMILLO - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030106",
+      "display" : "CASA DI CURA POLICLINICO - MONZA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030107",
+      "display" : "ISTITUTI CLINICI ZUCCHI SPA-MONZA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030108",
+      "display" : "CASA DI CURA ZUCCHI - CARATE BRIANZA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030109",
+      "display" : "CASA DI CURA VILLA BIANCA - LIMBIATE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030110",
+      "display" : "CASA DI CURA S. GIOVANNI - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030112",
+      "display" : "IST.CLINICO S.AMBROGIO SPA-MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030113",
+      "display" : "CASA DI CURA LA MADONNINA - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030116",
+      "display" : "CLINICA SAN CARLO - PADERNO DUGNANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030119",
+      "display" : "IST.CLINICO S.SIRO SPA-MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030121",
+      "display" : "CASA DI CURA S. PIO X - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030124",
+      "display" : "ISTITUTO STOMATOLOGICO ITALIANO - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030125",
+      "display" : "CASA DI CURA AMBROSIANA SPA-CESANO B."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030143",
+      "display" : "CLINICHE GAVAZZENI SPA - BERGAMO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030144",
+      "display" : "CASA DI CURA BEATO PALAZZOLO - BERGAMO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030145",
+      "display" : "CLINICA  CASTELLI - BERGAMO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030146",
+      "display" : "CASA DI CURA S. FRANCESCO - BERGAMO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030147",
+      "display" : "POLICLINICO SAN MARCO - OSIO SOTTO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030148",
+      "display" : "POLICLINICO SAN PIETRO  - PONTE S. PIETR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030149",
+      "display" : "CASA DI CURA QUARENGHI-S.PELLEGRINO T."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030175",
+      "display" : "CASA DI CURA S. CAMILLO - BRESCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030176",
+      "display" : "ISTITUTO CLINICO  S. ANNA - BRESCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030177",
+      "display" : "CASA DI CURA VILLA GEMMA-GARDONE RIV"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030178",
+      "display" : "IST.CLIN. CITTA' DI BRESCIA - BRESCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030197",
+      "display" : "CASA DI CURA VILLA ESPERIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030198",
+      "display" : "ISTITUTO CLINICO BEATO MATTEO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030201",
+      "display" : "CASA DI CURA CITTADELLA SOCIALE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030202",
+      "display" : "IST.DI CURA CITTA'DI PAVIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030217",
+      "display" : "CASA DI CURA ANCELLE DELLA CARITA'-CR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030218",
+      "display" : "CASA DI CURA S. CAMILLO - CREMONA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030219",
+      "display" : "CASA DI CURA FIGLIE DI S.CAMILLO-CR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030259",
+      "display" : "CASA DI CURA S. CLEMENTE - MANTOVA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030266",
+      "display" : "CASA DI CURA COLUMBUS - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030275",
+      "display" : "ISTITUTO CLINICO S. ROCCO S.P.A. - OME"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030284",
+      "display" : "CENTRO DI RIABIL.VILLA BERETTA-COSTA M"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030294",
+      "display" : "CASA DI CURA  DOMUS SALUTIS - BRESCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030295",
+      "display" : "FONDAZIONE POLIAMBULANZA - BRESCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030337",
+      "display" : "VILLA SANT'APOLLONIA S.R.L. - BERGAMO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030347",
+      "display" : "CASA DI CURA VILLA S. GIUSEPPE-ANZANO DE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030348",
+      "display" : "CASA DI CURA VILLA BARBARANO - SALO'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030350",
+      "display" : "OSPEDALE S.ISIDORO - TRESCORE B."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030352",
+      "display" : "POLO GERIATRICO RIABILITATIVO-CINISELLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030353",
+      "display" : "OSPEDALE CIVILE DI VOLTA MANTOVANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030354",
+      "display" : "NEPHROCARE S.P.A. - SERIATE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030355",
+      "display" : "OSPEDALE DI SUZZARA S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030356",
+      "display" : "ISTITUTO CLINICO HABILITA - CISERANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030357",
+      "display" : "OSP. SAN PELLEGRINO - CASTIGLIONE D/S"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030359",
+      "display" : "FONDAZIONE EUROPEA DI RICERCA BIOMEDICA-"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030360",
+      "display" : "FERB-ONLUS C.TRO ALZHEIMER-GAZZANIGA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030361",
+      "display" : "HABILITA SAN DONATO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030362",
+      "display" : "RESIDENZA ANNI AZZURRI - REZZATO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030363",
+      "display" : "RESIDENZA ANNI AZZURRI MIRASOLE - OPERA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030364",
+      "display" : "FOND. GAETANO E PIERA BORGHI - BREBBIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030366",
+      "display" : "DOMINATO LEONENSE SANITA' - LENO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030367",
+      "display" : "OSPEDALE S. GIUSEPPE - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030368",
+      "display" : "C.TRO RIAB.E.SPALENZA-FOND.DON GNOCCHI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030369",
+      "display" : "CENTRO MEDICO RICHIEDEI-PALAZZOLO S/O"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030378",
+      "display" : "CENTRO CLINICO NEMO - FOND. SERENA - MIL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030379",
+      "display" : "HABILITA IST.CLINICO-OSP.LE DI SARNICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030380",
+      "display" : "OSPEDALE DI VIADANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030381",
+      "display" : "FOND. MB PER IL BAMBINO E LA SUA MAMMA -"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030384",
+      "display" : "C.R.C. MALATTIE RARE ALDO E CELE DACCO'-"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030388",
+      "display" : "IST. RIV. E CURA-GRUPPO ISENI SANITA'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030397",
+      "display" : "CASA DI CURA LE TERRAZZE - CUNARDO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030701",
+      "display" : "ASST GRANDE OSPEDALE METROPOLITANO NIGUA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030702",
+      "display" : "ASST SANTI PAOLO E CARLO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030914",
+        "display" : "OSPEDALE S. PAOLO - MILANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030915",
+        "display" : "OSPEDALE S. CARLO BORROMEO - MILANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030703",
+      "display" : "ASST FATEBENEFRATELLI SACCO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030056",
+        "display" : "PRESIDIO OSPED. V. BUZZI - MILANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030057",
+        "display" : "OSPEDALE M. MELLONI - MILANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030910",
+        "display" : "OSPEDALE FATEBENEFRATELLI E OFTALMICO -"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030916",
+        "display" : "OSPEDALE L. SACCO - MILANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030704",
+      "display" : "ASST SPEC.ORT.TRAUMATOLOGICO G.PINI/CTO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030911",
+        "display" : "ISTITUTO ORTOPEDICO GAETANO PINI - MILAN"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030912",
+        "display" : "P.O. CENTRO TRAUMATOLOGICO ORTOPEDICO -"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030705",
+      "display" : "ASST OVEST MILANESE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030074",
+        "display" : "OSPEDALE CIVILE G. FORNAROLI - MAGENTA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030075",
+        "display" : "OSPEDALE C.CANTU'-ABBIATEGRASSO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030281.01",
+        "display" : "OSPEDALE DI LEGNANO E CUGGIONO-LEGNANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030281.02",
+        "display" : "OSPEDALE DI LEGNANO E CUGGIONO-LEGNANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030706",
+      "display" : "ASST RHODENSE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030066",
+        "display" : "OSPEDALE G.SALVINI-GARBAGNATE MIL.SE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030073",
+        "display" : "OSPEDALE DI CIRCOLO - RHO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030087",
+        "display" : "OSPEDALE CADUTI BOLLATESI - BOLLATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030283",
+        "display" : "OSPEDALE G.CASATI-PASSIRANA RHO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030707",
+      "display" : "ASST NORD MILANO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030051",
+        "display" : "P.O.  CITTA' DI SESTO S. GIOVANNI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030058",
+        "display" : "OSPEDALE BASSINI - CINISELLO BALSAMO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030708",
+      "display" : "ASST MELEGNANO E DELLA MARTESANA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030071.01",
+        "display" : "OSPEDALE S. MARIA DELLE STELLE MELZO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030071.02",
+        "display" : "OSPEDALE S. MARIA DELLE STELLE MELZO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030072.01",
+        "display" : "OSPEDALE DI  VIZZOLO PREDABISSI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030072.02",
+        "display" : "OSPEDALE DI  VIZZOLO PREDABISSI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030085.01",
+        "display" : "OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030085.02",
+        "display" : "OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030709",
+      "display" : "ASST DI LODI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030067",
+        "display" : "OSPEDALE MAGGIORE DI LODI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030079",
+        "display" : "OSPEDALE CIVICO - CODOGNO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030080",
+        "display" : "OSPEDALE ROSSI - CASALPUSTERLENGO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030083",
+        "display" : "OSPEDALE DELMATI - SANT'ANGELO LODIGIANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030710",
+      "display" : "ASST DEI SETTE LAGHI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030010",
+        "display" : "OSPEDALE GALMARINI - TRADATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030282.01",
+        "display" : "PRESIDIO OSPEDALIERO DEL VERBANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030282.02",
+        "display" : "PRESIDIO OSPEDALIERO DEL VERBANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030901.01",
+        "display" : "PRESIDIO OSPEDALIERO DI VARESE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030901.02",
+        "display" : "PRESIDIO OSPEDALIERO DI VARESE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030901.03",
+        "display" : "PRESIDIO OSPEDALIERO DI VARESE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030711",
+      "display" : "ASST DELLA VALLE OLONA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030004",
+        "display" : "OSPEDALE DI CIRCOLO - BUSTO ARSIZIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030006",
+        "display" : "OSP. S. ANTONIO ABATE - GALLARATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030008",
+        "display" : "OSP. GENERALE PROVINCIALE - SARONNO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030009",
+        "display" : "OSPEDALE A.BELLINI - SOMMA LOMBARDO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030012",
+        "display" : "OSPEDALE CARLO ONDOLI - ANGERA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030712",
+      "display" : "ASST LARIANA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030022",
+        "display" : "OSPEDALE S. ANTONIO ABATE - CANTU'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030025",
+        "display" : "OSPEDALE F. VILLA - MARIANO COMENSE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030902",
+        "display" : "OSPEDALE S. ANNA - COMO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030713",
+      "display" : "ASST DELLA VALTELLINA E DELL'ALTO LARIO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030026",
+        "display" : "OSPEDALE ERBA-  RENALDI - MENAGGIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030042",
+        "display" : "OSPEDALE SONDRIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030044",
+        "display" : "OSPEDALE DI CHIAVENNA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030045",
+        "display" : "OSPEDALE  MORBEGNO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030904",
+        "display" : "OSPEDALE MORELLI - SONDALO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030714",
+      "display" : "ASST DELLA VALCAMONICA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030274.01",
+        "display" : "OSPEDALE VALCAMONICA - ESINE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030274.02",
+        "display" : "OSPEDALE VALCAMONICA - ESINE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030715",
+      "display" : "ASST DI LECCO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030023",
+        "display" : "OSPEDALE  UMBERTO I -  BELLANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030024",
+        "display" : "OSPEDALE DI CIRCOLO S.L.MANDIC-MERATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030903",
+        "display" : "OSPEDALE DI CIRCOLO A. MANZONI - LECCO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030716",
+      "display" : "ASST DI MONZA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030068",
+        "display" : "PRESIDIO OSPEDALIERO DI DESIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030909",
+        "display" : "OSPEDALE S.GERARDO - MONZA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030717",
+      "display" : "ASST DI VIMERCATE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030070",
+        "display" : "PRESIDIO OSPEDALIERO DI CARATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030078",
+        "display" : "PRESIDIO OSPEDALIERO DI VIMERCATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030081",
+        "display" : "PRESIDIO OSPEDALIERO DI GIUSSANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030082",
+        "display" : "P.O. TRABATTONI RONZONI DI SEREGNO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030718",
+      "display" : "ASST PAPA GIOVANNI XXIII",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030132",
+        "display" : "OSPEDALE CIVILE - S.GIOVANNI BIANCO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030905",
+        "display" : "OSPEDALE PAPA GIOVANNI XXIII - BG"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030719",
+      "display" : "ASST DI BERGAMO OVEST",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030131",
+        "display" : "OSPEDALE DI TREVIGLIO E CARAVAGGIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030138",
+        "display" : "OSP.LE SS.TRINITA'-ROMANO DI LOMBARDIA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030720",
+      "display" : "ASST DI BERGAMO EST",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030133",
+        "display" : "OSPEDALE PESENTI FENAROLI - ALZANO L."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030136",
+        "display" : "OSPEDALE BRIOLINI - GAZZANIGA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030137",
+        "display" : "OSP.LE SS.CAPITANIO E GEROSA - LOVERE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030140",
+        "display" : "OSPEDALE BOLOGNINI - SERIATE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030382",
+        "display" : "OSPEDALE M. O. ANTONIO LOCATELLI-PIARIO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030721",
+      "display" : "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030159",
+        "display" : "PRESIDIO OSPEDALIERO DI MONTICHIARI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030162",
+        "display" : "PRESIDIO OSPEDALIERO GARDONE V.T."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030167",
+        "display" : "OSPEDALE DEI BAMBINI - BRESCIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030906",
+        "display" : "PRES.OSPEDAL.SPEDALI CIVILI BRESCIA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030722",
+      "display" : "ASST DELLA FRANCIACORTA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030154.01",
+        "display" : "PRESIDIO OSPEDALIERO DI CHIARI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030154.02",
+        "display" : "PRESIDIO OSPEDALIERO DI CHIARI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030163",
+        "display" : "PRESIDIO OSPEDALIERO DI ISEO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030723",
+      "display" : "ASST DEL GARDA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030156",
+        "display" : "OSPEDALE DI DESENZANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030157",
+        "display" : "OSPEDALE CIVILE LA MEMORIA DI GAVARDO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030158",
+        "display" : "OSPEDALE DI LENO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030161",
+        "display" : "PRESIDIO OSPEDALIERO DI SALO'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030183",
+        "display" : "OSPEDALE VILLA DEI COLLI DI LONATO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030184",
+        "display" : "OSPEDALE DI MANERBIO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030724",
+      "display" : "ASST DI CREMONA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030273",
+        "display" : "PRESIDIO OSPEDALIERO OGLIO PO-CASALMAGGI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030908",
+        "display" : "ISTITUTI OSPITALIERI - CREMONA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030725",
+      "display" : "ASST DI MANTOVA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030227.01",
+        "display" : "PRESIDIO OSPEDALIERO - ASOLA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030227.02",
+        "display" : "PRESIDIO OSPEDALIERO - ASOLA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030239",
+        "display" : "OSP.CIVILE DESTRA SECCHIA-PIEVE CORIANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030907",
+        "display" : "OSPEDALE C. POMA - MANTOVA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030726",
+      "display" : "ASST DI CREMA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030209",
+        "display" : "OSPEDALE MAGGIORE - CREMA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030215",
+        "display" : "OSPEDALE S. MARTA - RIVOLTA D'ADDA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030727",
+      "display" : "ASST DI PAVIA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030189",
+        "display" : "OSPEDALE ARNABOLDI - BRONI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030190",
+        "display" : "OSPEDALE CARLO MIRA-CASORATE PRIMO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030191",
+        "display" : "OSPEDALE S.MARTINO - MEDE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030192",
+        "display" : "OSPEDALE SS.ANNUNZIATA - VARZI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030193",
+        "display" : "OSPEDALE CIVILE - VIGEVANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030194",
+        "display" : "OSPEDALE CIVILE - VOGHERA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030203",
+        "display" : "OSPEDALE ASILO VITTORIA - MORTARA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030383",
+        "display" : "NUOVO OSPEDALE DI BRONI E STRADELLA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030920",
+      "display" : "I.N.R.C.A.- PRESIDIO DI CASATENOVO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030922",
+      "display" : "FOND.IRCCS \"ISTIT.NAZ.LE TUMORI\"MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030923",
+      "display" : "FOND.IRCCS IST.NAZ.NEUROLOGICO C.BESTA-M"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030924",
+      "display" : "POLICLINICO S. MATTEO - PAVIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030925",
+      "display" : "FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030930",
+      "display" : "IRCCS CENTRO MEDICO TRADATE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030931",
+      "display" : "ISTITUTO SCIENTIFICO MEDEA-BOSISIO P."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030932",
+      "display" : "IRCCS CENTRO MEDICO DI LUMEZZANE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030933",
+      "display" : "IRCCS CENTRO MEDICO DI CASTEL GOFFREDO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030934",
+      "display" : "CENTRO CARDIOLOGICO \"FOND. MONZINO\" - MI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030935",
+      "display" : "IRCCS    S. RAFFAELE - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030936",
+      "display" : "IST.AUXOLOGICO ITALIANO - MILANO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030936.01",
+        "display" : "IST.AUXOLOGICO ITALIANO-I.S. S.LUCA-MILA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030936.02",
+        "display" : "IST.AUXOLOGICO ITAL.-I.S. S.MICHELE-MILA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "030936.03",
+        "display" : "IRCCS OSPEDALE CAPITANIO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030937",
+      "display" : "IRCCS S.M.NASCENTE-FOND.DON C.GNOCCHI-MI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030938",
+      "display" : "IRCCS CENTRO MEDICO DI PAVIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030939",
+      "display" : "FOND.IST.NEUROL.C.MONDINO-PAVIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030940",
+      "display" : "IRCCS CENTRO MEDICO MONTESCANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030941",
+      "display" : "ISTITUTO EUROPEO DI ONCOLOGIA-MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030942",
+      "display" : "IRCCS S.GIOVANNI DI DIO-FBF- BRESCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030943",
+      "display" : "IST. CLIN. HUMANITAS - ROZZANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030944",
+      "display" : "IRCCS CENTRO MEDICO DI LISSONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030945",
+      "display" : "IRCCS ISTITUTO SCIENTIFICO DI PAVIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030946",
+      "display" : "ISTITUTO ORTOPEDICO GALEAZZI SPA - MILAN"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030947",
+      "display" : "I.R.C.C.S. POLICLINICO SAN DONATO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030948",
+      "display" : "IRCCS MULTIMEDICA - MILANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030949",
+      "display" : "IRCCS IST. SCIENTIFICO DI RIABILITAZIONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "030950",
+      "display" : "SAN RAFFAELE TURRO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041001",
+      "display" : "OSPEDALE CENTRALE DI BOLZANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041002",
+      "display" : "OSPEDALE AZIENDALE DI MERANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041004",
+      "display" : "OSPEDALE AZIENDALE DI BRESSANONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041005",
+      "display" : "OSPEDALE AZIENDALE DI BRUNICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041006",
+      "display" : "OSPEDALE DI BASE DI VIPITENO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041007",
+      "display" : "OSPEDALE DI BASE DI SAN CANDIDO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041011",
+      "display" : "OSPEDALE DI BASE DI SILANDRO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041012",
+      "display" : "FONDAZIONE SARENTINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041013",
+      "display" : "CASA DI CURA SANTA MARIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041014",
+      "display" : "CASA DI CURA VILLA SANT'ANNA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041015",
+      "display" : "CASA DI CURA BONVICINI S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041017",
+      "display" : "CASA DI CURA VILLA MELITTA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041018",
+      "display" : "CASA DI CURA FONTE SAN MARTINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041026",
+      "display" : "CASA DI CURA SALUS CENTER SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041028",
+      "display" : "Centro di Chirurgia S.Anna"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041030",
+      "display" : "DOLOMITI SPORTCLINIC SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "041031",
+      "display" : "Brixsana private clinic GmbH/srl"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042001",
+      "display" : "OSPEDALE DI TRENTO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "042001.01",
+        "display" : "PRESIDIO OSPEDALIERO S. CHIARA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "042001.03",
+        "display" : "PRESIDIO OSPEDALIERO VILLA ROSA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "042001.04",
+        "display" : "PRESIDIO OSPEDALIERO VILLA IGEA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042004",
+      "display" : "PRESIDIO OSPEDALIERO DI BORGO VALSUGANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042005",
+      "display" : "PRESIDIO OSPEDALIERO DI CLES"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042006",
+      "display" : "OSPEDALE DI ROVERETO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042007",
+      "display" : "PRESIDIO OSPEDALIERO DI TIONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042010",
+      "display" : "PRESIDIO OSPEDALIERO DI ARCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042014",
+      "display" : "PRESIDIO OSPEDALIERO DI CAVALESE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042015",
+      "display" : "OSPEDALE SAN CAMILLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042016",
+      "display" : "IST.RIAB.S.STEFANO-U.O. OSP. S.PANCRAZIO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042018",
+      "display" : "CASA DI CURA EREMO DI ARCO SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042019",
+      "display" : "CASA DI CURA REGINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042020",
+      "display" : "CASA DI CURA SOLATRIX"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "042022",
+      "display" : "CASA DI CURA VILLA BIANCA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050017",
+      "display" : "OSPEDALE SACRO CUORE - DON CALABRIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050018",
+      "display" : "OSP. CLASSIF. 'S. GIULIANA' SORELLE MIS."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050019",
+      "display" : "CENTRO RIABILITATIVO VERONESE SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050021",
+      "display" : "CASA DI CURA VILLA GARDA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050022",
+      "display" : "CASA DI CURA PRIVATA POLISP. DOTT. PEDER"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050023",
+      "display" : "CLINICA SAN FRANCESCO SpA-Casa Cura Priv"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050025",
+      "display" : "C. D. C. 'VILLA S. CHIARA' SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050045",
+      "display" : "CASA DI CURA ERETENIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050046",
+      "display" : "CASA DI CURA VILLA BERICA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050047",
+      "display" : "CASA DI CURA VILLA MARGHERITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050059",
+      "display" : "ISTITUTO CODIVILLA - PUTTI CORTINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050072",
+      "display" : "OSPEDALE RIABILITATIVO DI ALTA SPECIAL."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050079",
+      "display" : "C.C S. CAMILLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050080",
+      "display" : "PARK VILLA NAPOLEON"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050081",
+      "display" : "C.C.GIOVANNI XXIII"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050097",
+      "display" : "OSP.CLASS.FATEBENEFRATELLI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050098",
+      "display" : "OSP.CLASS.VILLASALUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050099",
+      "display" : "CASA DI CURA S.MARCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050100",
+      "display" : "CASA DI CURA SILENO E ANNA RIZZOLA S.P.A"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050120",
+      "display" : "BMT SrlCASA DI CURA PRIVATA DIAZ"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050121",
+      "display" : "CASA DI CURA 'VILLA MARIA'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050122",
+      "display" : "CASA DI CURA 'TRIESTE'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050123",
+      "display" : "CASA DI CURA ABANO TERME- POLISPEC E TER"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050124",
+      "display" : "CASA DI CURA 'PARCO DEI TIGLI'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050131",
+      "display" : "C.D.C. S.M. MADDALENA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050140",
+      "display" : "ASSOCIAZIONE LA NS. FAMIGLIA IRCSS MEDEA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050140.01",
+        "display" : "ASSOCIAZIONE LA NS. FAMIGLIA IRCSS MEDEA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050140.02",
+        "display" : "ASSOCIAZIONE LA NS.FAMIGLIA IRCSS MEDEA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050141",
+      "display" : "Casa di Cura Città di Rovigo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050145",
+      "display" : "CASA DI CURA MADONNA DELLA SALUTE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050201",
+      "display" : "OSPEDALE DELL'ULSS N. 1 BELLUNO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050201.01",
+        "display" : "OSPEDALE S. MARTINO BELLUNO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050201.03",
+        "display" : "OSPEDALE DI AGORDO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050201.04",
+        "display" : "OSPEDALE DI PIEVE DI CADORE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050202",
+      "display" : "AZIENDA ULSS 2 FELTRE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050202.01",
+        "display" : "OSPEDALE DI FELTRE 'S. MARIA DEL PRATO'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050202.02",
+        "display" : "OSPEDALE DI LAMON 'CASA CHARITAS'"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050203",
+      "display" : "OSPEDALE DELL'AZIENDA ULSS N. 3",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050203.01",
+        "display" : "OSPEDALE `SAN BASSIANO` DI BASSANO D.G."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050203.02",
+        "display" : "OSPEDALE DI ASIAGO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050205",
+      "display" : "AZIENDA ULSS 5 OVEST VICENTINO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050205.01",
+        "display" : "OSPEDALE DI ARZIGNANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050205.02",
+        "display" : "OSPEDALE  DI LONIGO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050205.03",
+        "display" : "OSPEDALE DI MONTECCHIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050205.04",
+        "display" : "OSPEDALE DI VALDAGNO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050206",
+      "display" : "AZIENDA ULSS.6 VICENZA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050206.01",
+        "display" : "PRES. OSPED. VICENZA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050206.02",
+        "display" : "PRES. OSP.  NOVENTA VICENTINA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050207",
+      "display" : "Pres. Ospedaliero Unico di Rete ULSS 7",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050207.01",
+        "display" : "OSPEDALE DI CONEGLIANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050207.02",
+        "display" : "OSPEDALE DI VITTORIO VENETO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050208",
+      "display" : "AZIENDA ULSS N.8 - ASOLO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050208.01",
+        "display" : "OSPEDALE DI CASTELFRANCO VENETO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050208.02",
+        "display" : "OSPEDALE DI MONTEBELLUNA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050209",
+      "display" : "OSPEDALE DI TREVISO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050209.01",
+        "display" : "OSPEDALE CA' FONCELLO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050209.02",
+        "display" : "OSPEDALE DI ODERZO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050210",
+      "display" : "OSPEDALE AZIENDA ULSS N. 10",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050210.01",
+        "display" : "PRESIDIO OSPEDALIERO DI PORTOGRUARO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050210.02",
+        "display" : "PRESIDIO OSPEDALIERO DI SAN DONA` DI P."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050210.03",
+        "display" : "PRESIDIO OSPEDALIERO DI JESOLO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050212",
+      "display" : "OSPEDALE DELL'ULSS VENEZIANA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050212.01",
+        "display" : "OSPEDALE CIVILE VENEZIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050212.02",
+        "display" : "PUNTO PRIMO INTERVENTO LIDO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050212.04",
+        "display" : "OSPEDALE DELL'ANGELO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050213",
+      "display" : "AZIENDA U.L.S.S. 13 MIRANO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050213.01",
+        "display" : "OSPEDALE  DI DOLO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050213.02",
+        "display" : "OSPEDALE  DI MIRANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050213.03",
+        "display" : "OSPEDALE DI NOALE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050214",
+      "display" : "OSPEDALE CIVILE MADONNA DELLA NAVICELLA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050215",
+      "display" : "OSPEDALE AZ. ULSS N[ 15 'ALTA PADOVANA'",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050215.01",
+        "display" : "PRESIDIO OSPEDALIERO DI CAMPOSAMPIERO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050215.02",
+        "display" : "PRESIDIO OSPEDALIERO DI CITTADELLA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050216",
+      "display" : "PRESIDI OSPEDALIERI ULSS16",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050216.01",
+        "display" : "OSPEDALE SANT`ANTONIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050216.05",
+        "display" : "OSP. IMMACOL. CONCEZ. DI PIOVE DI SACCO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050217",
+      "display" : "PRESIDIO OSPEDALIERO ULSS 17",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050217.03",
+        "display" : "SEDE MONTAGNANA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050217.04",
+        "display" : "SEDE CONSELVE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050217.05",
+        "display" : "OSPEDALI RIUNITI PADOVA SUD"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050218",
+      "display" : "OSPEDALI AZ ULSS 18 ROVIGO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050218.01",
+        "display" : "P.O. DI ROVIGO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050218.02",
+        "display" : "P.O. DI TRECENTA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050219",
+      "display" : "OSPEDALE CIVILE DI ADRIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050220",
+      "display" : "AZIENDA ULSS 20 DI VERONA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050220.04",
+        "display" : "PRESIDIO OSP. MARZANA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050220.05",
+        "display" : "POLO OSP. DELL'EST VERONESE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050220.06",
+        "display" : "PSICHIATRIA SEZIONE B.GO TRENTO - VERONA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050221",
+      "display" : "AZIENDA U.L.S.S. 21",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050221.01",
+        "display" : "OSPEDALE PER ACUTI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050221.03",
+        "display" : "OSPEDALE S.BIAGIO BOVOLONE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050222",
+      "display" : "ALS 22 BUSSOLENGO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050222.01",
+        "display" : "OSPEDALE CIVILE ORLANDI BUSSOLENGO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050222.02",
+        "display" : "OSPEDALE ISOLA DELLA SCALA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050222.04",
+        "display" : "OSPEDALE DI MALCESINE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050222.05",
+        "display" : "OSPEDALE MAGALINI - VILLAFRANCA DI VR"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050304",
+      "display" : "OSPEDALE ALTO VICENTINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050901",
+      "display" : "AZIENDA OSPEDALIERA DI PADOVA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050912",
+      "display" : "AZ.OSP.UNIVERSITARIA INTEGRATA VERONA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050912.01",
+        "display" : "OSPEDALE CIVILE MAGGIORE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "050912.02",
+        "display" : "OSPEDALE POLICLINICO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050951",
+      "display" : "I.R.C.C.S. 'S.CAMILLO'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "050952",
+      "display" : "I.R.C.C.S. ISTITUTO ONCOLOGICO VENETO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060002",
+      "display" : "IST.DI MEDICINA FISICA E RIABILITAZIONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060011",
+      "display" : "CASA DI CURA 'CITTA` DI UDINE'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060029",
+      "display" : "SANATORIO TRIESTINO  S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060032",
+      "display" : "PINETA DEL CARSO Spa Casa di Cura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060033",
+      "display" : "CASA DI CURA SALUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060040",
+      "display" : "CASA DI CURA PRIVATA 'S.GIORGIO' SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060041",
+      "display" : "Presidio ospedaliero Santa Maria degli A"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060042",
+      "display" : "Presidio ospedaliero San Vito al Tagliam",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060042.01",
+        "display" : "P.O. San Vito al T. sede di S. Vito al T"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060042.02",
+        "display" : "P.O. San Vito al T. sede di Spilimbergo"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060043",
+      "display" : "PO \"Gorizia e Monfalcone\"",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060043.01",
+        "display" : "PO\"Gorizia e Monfalcone\" sede Gorizia"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060043.02",
+        "display" : "PO\"Gorizia e Monfalcone\" sede Monfalcone"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060044",
+      "display" : "PO 'Latisana e Palmanova'",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060044.01",
+        "display" : "PO \"Latisana e Palmanova\" sede Latisana"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060044.02",
+        "display" : "PO \"Latisana e Palmanova\" sede Palmanova"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060045",
+      "display" : "P.O. \"San Daniele del Friuli e Tolmezzo\"",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060045.01",
+        "display" : "Sede di San Daniele"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060045.02",
+        "display" : "Sede di Tolmezzo"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060045.03",
+        "display" : "Sede di Gemona"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060046",
+      "display" : "Presidio Osp. Cattinara e Maggiore di Ts"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060047",
+      "display" : "PRESIDIO OSPEDALIERO \"S.M.M\" DI UDINE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060047.01",
+        "display" : "PRESIDIO OSPEDALIERO \"SMM\" - SEDE UDINE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "060047.02",
+        "display" : "PRESIDIO OSPEDAL. \"SMM\" - SEDE CIVIDALE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060901",
+      "display" : "I.R.C.C.S.  BURLO GAROFOLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "060902",
+      "display" : "CENTRO  RIFERIMENTO ONCOLOGICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070001",
+      "display" : "PRESIDIO OSPEDALIERO UNIFICATO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070001.01",
+        "display" : "STABILIMENTO OSPEDALIERO DI IMPERIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070001.02",
+        "display" : "STABILIMENTO OSPEDALIERO DI SANREMO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070001.03",
+        "display" : "STABILIMENTO OSPEDALIERO DI BORDIGHERA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070016",
+      "display" : "Casa di Cura San Michele - ENNE S.r.l."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070025",
+      "display" : "E.O. OSPEDALI GALLIERA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070039",
+      "display" : "PRESIDIO OSPEDALIERO ASL4 CHIAVARESE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070039.01",
+        "display" : "OSP. RIUNITI LEONARDI E RIBOLI LAVAGNA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070039.02",
+        "display" : "OSPEDALE CIVILE DI SESTRI LEVANTE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070039.05",
+        "display" : "OSPEDALE N.S. DI MONTALLEGRO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070051",
+      "display" : "OSPEDALE EVANGELICO INTERNAZIONALE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070051.01",
+        "display" : "EVANGELICO Internazionale CASTELLETTO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070051.02",
+        "display" : "EVANGELICO-SAN CARLO VOLTRI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070058",
+      "display" : "PRESIDIO OSPEDALIERO DEL LEVANTE LIGURE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070058.01",
+        "display" : "OSPEDALE SANT`ANDREA LA SPEZIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070058.03",
+        "display" : "OSPEDALE SAN NICOLO` LEVANTO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070058.04",
+        "display" : "STABILIMENTO SAN BARTOLOMEO DI SARZANA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070065",
+      "display" : "CASA DI CURA VILLA MONTALLEGRO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070066",
+      "display" : "VILLA SERENA S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070069",
+      "display" : "ICLAS  s.r.l."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070070",
+      "display" : "CASA DI CURA 'ALMA MATER'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070074",
+      "display" : "ISTITUTO CARDIOVASCOLARE CAMOGLI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070114",
+      "display" : "CENTRO RIABILITAZIONE DON CARLO GNOCCHI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070211",
+      "display" : "PRESIDIO PONENTE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070211.01",
+        "display" : "OSPEDALE SANTA MARIA MISERICORDIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070211.02",
+        "display" : "OSPEDALE SANTA CORONA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070212",
+      "display" : "PRESIDIO LEVANTE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070212.03",
+        "display" : "OSPEDALE SAN GIUSEPPE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070212.04",
+        "display" : "OSPEDALE SAN PAOLO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070301",
+      "display" : "PRESIDIO OSPEDALIERO METROPOLITANO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070301.01",
+        "display" : "OSPEDALE LA COLLETTA ARENZANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070301.03",
+        "display" : "OSPEDALE PADRE ANTERO MICONE SESTRI P."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070301.04",
+        "display" : "OSPEDALE VILLA SCASSI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "070301.05",
+        "display" : "OSPEDALE GALLINO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070901",
+      "display" : "IRCCS AOU S.MARTINO - IST"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070940",
+      "display" : "IST.G.GASLINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "070960",
+      "display" : "FONDAZIONE SALVATORE MAUGERI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080004",
+      "display" : "PRESIDIO UNICO PIACENZA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080004.01",
+        "display" : "OSPEDALE \"GUGLIELMO DA SALICETO\" PIACENZ"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080004.02",
+        "display" : "OSPEDALE BOBBIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080004.03",
+        "display" : "OSPEDALE CASTEL SAN GIOVANNI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080004.04",
+        "display" : "OSPEDALE BORGONOVO VAL TIDONE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080004.05",
+        "display" : "OSPEDALE FIORENZUOLA D'ARDA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080004.06",
+        "display" : "CENTRO DI RECUPERO E RIABILITAZIONE FUNZ"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080013",
+      "display" : "PRESIDIO OSPEDALIERO AZIENDALE (AUSL PAR",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080013.01",
+        "display" : "OSPEDALE FIDENZA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080013.03",
+        "display" : "OSPEDALE 'S.MARIA' BORGO VAL DI TARO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080021",
+      "display" : "PRESIDIO OSPEDALIERO PROVINCIALE DI REGG",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080021.01",
+        "display" : "OSPEDALE CIVILE GUASTALLA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080021.02",
+        "display" : "OSPEDALE \"S.SEBASTIANO\" CORREGGIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080021.03",
+        "display" : "OSPEDALE \"E.FRANCHINI\" MONTECCHIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080021.04",
+        "display" : "OSPEDALE \"G.MAGATI\" SCANDIANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080021.05",
+        "display" : "OSPEDALE \"S.ANNA\" CASTELNOVO NE MONTI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080031",
+      "display" : "PRESIDIO OSPEDALIERO PROVINCIALE NUOVO S",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080031.04",
+        "display" : "OSPEDALE  \"B. RAMAZZINI\"  CARPI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080031.05",
+        "display" : "OSPEDALE \"SANTA MARIA BIANCA\"  MIRANDOLA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080031.08",
+        "display" : "OSPEDALE VIGNOLA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080031.09",
+        "display" : "OSPEDALE PAVULLO NEL FRIGNANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080031.10",
+        "display" : "NUOVO OSPEDALE CIVILE  S.AGOSTINO - ESTE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080044",
+      "display" : "PRESIDIO OSPEDALIERO IMOLA - CASTEL S. P",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080044.01",
+        "display" : "OSPEDALE CIVILE NUOVO \"S.MARIA DELLA SCA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080044.02",
+        "display" : "OSPEDALE CASTEL SAN PIETRO TERME"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080045",
+      "display" : "OSPEDALE MONTECATONE REHABILITATION INST"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080053",
+      "display" : "PRESIDIO OSPEDALIERO UNICO - AZIENDA DI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.01",
+        "display" : "OSPEDALE MAGGIORE \"C.A. PIZZARDI\""
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.02",
+        "display" : "OSPEDALE BELLARIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.03",
+        "display" : "OSPEDALE \"DOSSETTI\"  BAZZANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.04",
+        "display" : "OSPEDALE \"A. COSTA\" PORRETTA TERME (ALTO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.05",
+        "display" : "OSPEDALE VERGATO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.06",
+        "display" : "OSPEDALE \"SIMIANI\" LOIANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.07",
+        "display" : "OSPEDALE BENTIVOGLIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.08",
+        "display" : "OSPEDALE BUDRIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080053.09",
+        "display" : "OSPEDALE \"S.SALVATORE\"  S. GIOVANNI IN P"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080068",
+      "display" : "PRESIDIO OSPEDALIERO UNICO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080068.03",
+        "display" : "OSPEDALE DEL DELTA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080068.04",
+        "display" : "OSPEDALE \"MAZZOLANI VANDINI\" ARGENTA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080068.06",
+        "display" : "STABILIMENTO OSPEDALIERO \" SS. ANNUNZIAT"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080072",
+      "display" : "OSPEDALE \"SANTA MARIA DELLE CROCI\" RAVEN"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080079",
+      "display" : "OSPEDALE \"UMBERTO 1°\" LUGO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080082",
+      "display" : "OSPEDALE \"DEGLI INFERMI \" FAENZA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080085",
+      "display" : "PRESIDIO OSPEDALIERO FORLI'",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080085.01",
+        "display" : "OSPEDALE \"MORGAGNI-PIERANTONI\" FORLI'"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080085.03",
+        "display" : "OSPEDALE \"NEFETTI\" SANTA SOFIA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080091",
+      "display" : "PRESIDIO OSPEDALIERO CESENA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080091.01",
+        "display" : "OSPEDALE \"MAURIZIO BUFALINI\" CESENA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080091.02",
+        "display" : "OSPEDALE \"GINESIO MARCONI\" CESENATICO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080091.03",
+        "display" : "OSPEDALE \"PIETRO ANGIOLONI\" BAGNO DI ROM"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080095",
+      "display" : "PRESIDIO OSPEDALIERO RIMINI-SANTARCANGEL",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080095.01",
+        "display" : "OSPEDALE \"INFERMI\" RIMINI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080095.02",
+        "display" : "OSPEDALE \"FRANCHINI\" SANTARCANGELO DI RO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080095.03",
+        "display" : "OSPEDALE SACRA FAMIGLIA NOVAFELTRIA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080096",
+      "display" : "NUOVO OSPEDALE CIVILE DI SASSUOLO S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080100",
+      "display" : "PRESIDIO OSPEDALIERO RICCIONE-CATTOLICA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080100.01",
+        "display" : "OSPEDALE \"CECCARINI\" RICCIONE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080100.02",
+        "display" : "OSPEDALE \"CERVESI\" CATTOLICA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080153",
+      "display" : "ISTITUTO DELLE SCIENZE NEUROLOGICHE DI B"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080203",
+      "display" : "CASA DI CURA PRIVATA PIACENZA S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080204",
+      "display" : "CASA DI CURA PRIVATA S. ANTONINO S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080205",
+      "display" : "CASA DI CURA  S.GIACOMO S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080206",
+      "display" : "CASA DI CURA CITTA' DI PARMA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080207",
+      "display" : "HOSPITAL PICCOLE FIGLIE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080208",
+      "display" : "VILLA MARIA LUIGIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080209",
+      "display" : "CASA DI CURA VILLA IGEA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080210",
+      "display" : "HOSPITAL VAL PARMA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080211",
+      "display" : "SALUS HOSPITAL S.P.A"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080212",
+      "display" : "CASA DI CURA PRIVATA POLISPECIALISTICA V"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080213",
+      "display" : "HESPERIA HOSPITAL MODENA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080214",
+      "display" : "PROF. FOGLIANI CASA DI CURA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080215",
+      "display" : "VILLA IGEA S.P.A. CASA DI CURA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080216",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA ROSA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080218",
+      "display" : "VILLA PINETA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080219",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA CHIAR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080220",
+      "display" : "CASA DI CURA PROF. NOBILI S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080221",
+      "display" : "CASA DI CURA VILLA ERBOSA OSPEDALE PRIVA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080222",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO NIGRISOLI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080223",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA TORRI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080224",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO CASA DI CUR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080225",
+      "display" : "CASA DI CURA MADRE FORTUNATA TONIOLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080226",
+      "display" : "OSPEDALE PRIVATO VILLALBA HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080227",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA BARUZ"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080228",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA BELLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080229",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA LAURA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080231",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA REGIN"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080235",
+      "display" : "CASA DI CURA QUISISANA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080236",
+      "display" : "CASA DI CURA SALUS S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080237",
+      "display" : "OSPEDALE PRIVATO DOMUS NOVA S.P.A."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080238",
+      "display" : "CASA DI CURA SAN FRANCESCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080239",
+      "display" : "VILLA MARIA CECILIA HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080240",
+      "display" : "OSPEDALE PRIVATO \"SAN PIER DAMIANO HOSPI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080242",
+      "display" : "CASA DI CURA PRIVATA VILLA AZZURRA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080243",
+      "display" : "OSPEDALE PRIVATO ACCREDITATO VILLA IGEA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080244",
+      "display" : "VILLA SERENA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080245",
+      "display" : "MALATESTA NOVELLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080246",
+      "display" : "CASA DI CURA PRIVATA SAN LORENZINO S.P.A"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080247",
+      "display" : "SOL ET SALUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080249",
+      "display" : "CASA DI CURA VILLA MARIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080250",
+      "display" : "LUCE SUL MARE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080251",
+      "display" : "VILLA SALUS S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080252",
+      "display" : "CASA DI CURA PROF. E. MONTANARI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080253",
+      "display" : "FONDAZIONE DON CARLO GNOCCHI ONLUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080254",
+      "display" : "CENTRO CARDINAL FERRARI S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080255",
+      "display" : "OSPEDALE PRIVATO SANTA VIOLA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080256",
+      "display" : "CASA DI CURA EUGENIO GRUPPIONI OSPEDALE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080902",
+      "display" : "AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080903",
+      "display" : "AZIENDA OSPEDALIERA DI REGGIO EMILIA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080903.01",
+        "display" : "AZIENDA OSPEDALIERA DI REGGIO EMILIA-S."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "080903.02",
+        "display" : "AZIENDA OSPEDALIERA DI REGGIO EMILIA - I"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080904",
+      "display" : "AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080908",
+      "display" : "AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080909",
+      "display" : "AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080921",
+      "display" : "I.R.S.T. SRL IRCCS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "080960",
+      "display" : "ISTITUTO ORTOPEDICO RIZZOLI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090202",
+      "display" : "CASA CURA S.CAMILLO-FON. OPERA S.CAMILLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090203",
+      "display" : "CASA DI CURA MD BARBANTINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090204",
+      "display" : "C. DI CURA M.D. BARBANTINI SANTA CHIARA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090205",
+      "display" : "CASA DI CURA S.ZITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090206",
+      "display" : "C.CURA VILLE DI NOZZANO S.STEFANO RIAB."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090207",
+      "display" : "CASA DI CURA S. RITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090210",
+      "display" : "CASA DI CURA VILLA FIORITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090213",
+      "display" : "CASA DI CURA VILLA DONATELLO SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090215",
+      "display" : "VILLA MARIA BEATRICE HOSPITAL SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090216",
+      "display" : "VILLA DEI PINI S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090218",
+      "display" : "IFCA SPA CASA DI CURA ULIVELLA E GLICINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090219",
+      "display" : "VILLA MARIA TERESA HOSPITAL SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090220",
+      "display" : "C.  ONC.CO F.NO CASA DI C. VILLANOVA SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090229",
+      "display" : "VILLA DELLE TERME SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090230",
+      "display" : "CASA DI CURA VAL DI SIEVE SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090231",
+      "display" : "CASA DI CURA SUORE DELL'ADDOLORATA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090232",
+      "display" : "CASA DI CURA PRIVATA DELLA MISERICORDIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090233",
+      "display" : "CASA DI CURA PRIVATA SAN ROSSORE S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090234",
+      "display" : "CASA DI CURA VILLA TIRRENA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090235",
+      "display" : "CASA DI CURA \"LEONARDO\""
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090236",
+      "display" : "CASA DI CURA POGGIO DEL SOLE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090236.01",
+        "display" : "CASA DI CURA POGGIO DEL SOLE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090236.02",
+        "display" : "CENTRO CHIRURGICO TOSCANO SRL"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090237",
+      "display" : "CASA DI CURA S.GIUSEPPE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090239",
+      "display" : "CASA DI CURA RUGANI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090240",
+      "display" : "CASA DI CURA FRATE SOLE  SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090241",
+      "display" : "CEN.S. MARIA ALLA PINETA  F. DON GNOCCHI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090243",
+      "display" : "CENTRO DAY SURGERY MAURIZIO BUFALINI SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090244",
+      "display" : "LIFE CRONOS SRL - VILLA DELLE ROSE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090601",
+      "display" : "PRESIDIO OSPEDALIERO  ZONA LUNIGIANA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090601.01",
+        "display" : "OSP. S. ANTONIO ABATE FIVIZZANO   (MS)"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090601.02",
+        "display" : "OSP. CIV. S.ANTONIO  PONTREMOLI (MS)"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090602",
+      "display" : "PRESIDIO OSPEDALIERO ZONA DELLE APUANE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090602.01",
+        "display" : "STABILIMENTO OSPEDALIERO DI CARRARA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090602.03",
+        "display" : "OSPEDALE  DELLE APUANE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090603",
+      "display" : "PRESIDIO OSPEDALIERO VALLE DEL SERCHIO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090603.01",
+        "display" : "OSPEDALE SANTA CROCE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090603.02",
+        "display" : "OSPEDALE SAN FRANCESCO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090604",
+      "display" : "PRESIDIO OSPEDALIERO SAN LUCA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090606",
+      "display" : "SPEDALI RIUNITI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090606.01",
+        "display" : "OSPEDALE SAN JACOPO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090606.02",
+        "display" : "OSPEDALE LORENZO PACINI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090607",
+      "display" : "OSPEDALE DELLA VALDINIEVOLE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090608",
+      "display" : "NUOVO OSPEDALE DI PRATO S.STEFANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090609",
+      "display" : "PRESIDIO OSPEDALIERO \"S.MARIA MADDALENA\""
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090610",
+      "display" : "PRESIDIO OSPEDALIERO \"FELICE LOTTI\"",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090610.01",
+        "display" : "P.O. F. LOTTI STABILIMENTO DI PONTEDERA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090610.02",
+        "display" : "SPDC AZIENDALE ASL5"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090612",
+      "display" : "OSPEDALE CECINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090613",
+      "display" : "OSPEDALE LIVORNO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090614",
+      "display" : "OSPEDALE PIOMBINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090615",
+      "display" : "OSPEDALE DI PORTOFERRAIO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090618",
+      "display" : "OSPEDALE DEL CASENTINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090619",
+      "display" : "OSPEDALE DELLA VALTIBERINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090621",
+      "display" : "OSPEDALE AREA ARETINA NORD"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090623",
+      "display" : "OSPEDALE  S.ANDREA   MASSA MARITTIMA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090624",
+      "display" : "OSPEDALE DELLE COLLINE DELL'ALBEGNA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090624.02",
+        "display" : "OSPEDALE DI ORBETELLO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090624.03",
+        "display" : "OSPEDALE DI PITIGLIANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090625",
+      "display" : "OSPEDALE CIVILE DI CASTEL DEL PIANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090626",
+      "display" : "OSPEDALE DELLA MISERICORDIA GROSSETO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090627",
+      "display" : "OSPEDALE DI BORGO SAN LORENZO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090629",
+      "display" : "OSPEDALE FIORENTINO SUD-EST",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090629.01",
+        "display" : "OSPEDALE S.M.ANNUNZIATA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090629.02",
+        "display" : "OSPEDALE SERRISTORI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090632",
+      "display" : "OSPEDALE FIORENTINO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090632.01",
+        "display" : "SANTA MARIA NUOVA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090632.02",
+        "display" : "ISTITUTO ORTOPEDICO TOSCANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090632.03",
+        "display" : "OSP. S. GIOVANNI DI DIO TORREGALLI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090632.06",
+        "display" : "OBLATE AZIENDA SANITARIA FIRENZE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090634",
+      "display" : "SERVIZIO PSICHIATRICO DIAGNOSI E CURA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090637",
+      "display" : "PRESIDIO OSPEDALIERO AMIATA SENESE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090638",
+      "display" : "OSPEDALE DELL'ALTA VAL D'ELSA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090639",
+      "display" : "OSPEDALI RIUNITI DELLA VAL DI CHIANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090640",
+      "display" : "OSPEDALE VERSILIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090641",
+      "display" : "OSPEDALE NUOVO VALDARNO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090642",
+      "display" : "PRESIDIO OSPEDALIERO ASL 11 EMPOLI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090642.02",
+        "display" : "OSPEDALE S. GIUSEPPE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090642.03",
+        "display" : "OSPEDALE SAN PIETRO IGNEO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090642.04",
+        "display" : "OSPEDALE DEGLI INFERMI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090643",
+      "display" : "NUOVO OSPEDALE VALDICHIANA S. MARGHERITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090901",
+      "display" : "AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090902",
+      "display" : "AZIENDA OSPEDALIERA UNIVERSITARIA SENESE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090903",
+      "display" : "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090904",
+      "display" : "AZIENDA OSPEDALIERA MEYER"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090906",
+      "display" : "FONDAZIONE STELLA MARIS - CALAMBRONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090907",
+      "display" : "FONDAZIONE CNR-RT G. MONASTERIO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090907.01",
+        "display" : "FONDAZIONE CNR-RT G. MONASTERIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "090907.02",
+        "display" : "OSPEDALE DEL CUORE G. PASQUINUCCI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090909",
+      "display" : "AUXILIUM VITAE VOLTERRA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090910",
+      "display" : "FONDAZIONE DON CARLO GNOCCHI - ONLUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "090911",
+      "display" : "CENTRO RIABILITAZIONE TERRANUOVA B. SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100602",
+      "display" : "SERVIZIO PSICHIATRICO DIAGNOSI E CURA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100701",
+      "display" : "CASA DI CURA VILLA FIORITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100702",
+      "display" : "CASA DI CURA PORTA SOLE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100703",
+      "display" : "CLINICA LAMI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100704",
+      "display" : "CASA DI CURA LIOTTI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100705",
+      "display" : "CASA DI CURA VILLA AURORA SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100801",
+      "display" : "PRESIDIO OSPEDALIERO ALTO TEVERE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100801.01",
+        "display" : "OSPEDALE DI CITTA` DI CASTELLO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100801.02",
+        "display" : "OSPEDALE DI UMBERTIDE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100803",
+      "display" : "PRESIDIO OSPEDALIERO UNIFICATO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100803.01",
+        "display" : "STAB.OSPEDALIERO CASTIGLIONE DEL LAGO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100803.02",
+        "display" : "STAB.OSPEDALIERO CITTA`DELLA PIEVE"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100803.03",
+        "display" : "C.O.R.I. - PASSIGNANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100803.04",
+        "display" : "STAB. OSPEDALIERO ASSISI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100803.07",
+        "display" : "STAB. OSPEDALIERO MEDIA VALLE DEL TEVERE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100805",
+      "display" : "POLO OSPEDALIERO SPOLETO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100805.01",
+        "display" : "OSPEDALE CIVILE SAN MATTEO DEGLI INFERMI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100805.02",
+        "display" : "OSPEDALE CIVILE DI NORCIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100805.03",
+        "display" : "OSPEDALE S.RITA CASCIA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100806",
+      "display" : "SANTA MARIA DELLA STELLA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100807",
+      "display" : "PRESIDIO OSPEDALIERO NARNI AMELIA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100807.01",
+        "display" : "STABILIMENTO OSPEDALIERO DI NARNI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100807.02",
+        "display" : "STABILIMENTO OSPEDALIERO DI AMELIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100807.03",
+        "display" : "DOMUS GRATIAE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100809",
+      "display" : "POLO OSPEDALIERO FOLIGNO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100809.01",
+        "display" : "OSPEDALE SAN GIOVANNI BATTISTA FOLIGNO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "100809.02",
+        "display" : "STABILIMENTO DI TREVI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100810",
+      "display" : "PRESIDIO OSPEDALIERO ALTO CHIASCIO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100901",
+      "display" : "AZIENDA OSPEDALIERA DI PERUGIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "100902",
+      "display" : "AZIENDA OSPEDALIERA 'S. MARIA' - TERNI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110001",
+      "display" : "PRESIDIO OSPEDALIERO UNICO AV1",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110001.01",
+        "display" : "OSP S. MARIA DELLA MISERICORDIA - URBINO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110001.02",
+        "display" : "OSPEDALE SS DONNINO E CARLO - PERGOLA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110001.03",
+        "display" : "OSPEDALE CELLI - CAGLI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110001.04",
+        "display" : "OSPEDALE LANCIARINI - SASSOCORVARO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110001.05",
+        "display" : "OSPEDALE CIVILE - FOSSOMBRONE"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110002",
+      "display" : "PRESIDIO OSPEDALIERO UNICO AV2",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110002.01",
+        "display" : "PRESIDIO OSPEDALIERO ZT 4 - SENIGALLIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110002.02",
+        "display" : "OSPEDALE \"CARLO URBANI\" DI JESI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110002.03",
+        "display" : "OSP. SS. BENVENUTO E ROCCO - OSIMO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110002.04",
+        "display" : "OSPEDALE CIVILE 'E.PROFILI' - FABRIANO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110002.05",
+        "display" : "OSPEDALE SANTA CASA - LORETO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110002.06",
+        "display" : "OSPEDALE GENERALE DI ZONA - CINGOLI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110003",
+      "display" : "PRESIDIO OSPEDALIERO UNICO AV3",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.01",
+        "display" : "OSPEDALE GENERALE DI ZONA - CIVITANOVA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.02",
+        "display" : "OSPEDALE GENERALE PROVINCIALE - MACERATA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.03",
+        "display" : "OSPEDALE S.MARIA DELLA PIETA` - CAMERINO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.04",
+        "display" : "OSPEDALE B.EUSTACCHIO - S. SEVERINO M."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.05",
+        "display" : "OSPEDALE DI TREIA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.06",
+        "display" : "OSPEDALE DI TOLENTINO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.07",
+        "display" : "OSPEDALE CIVILE SANTA LUCIA - RECANATI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110003.08",
+        "display" : "OSPEDALE S.SOLLECITO - MATELICA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110004",
+      "display" : "PRESIDIO OSPEDALIERO UNICO AV4",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110004.01",
+        "display" : "OSPEDALE DI FERMO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110004.02",
+        "display" : "OSPEDALE VITTORIO EMANUELE II - AMANDOLA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110005",
+      "display" : "PRESIDIO OSPEDALIERO UNICO AV5",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110005.01",
+        "display" : "MADONNA DEL SOCCORSO - S.BENEDETTO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110005.02",
+        "display" : "OSP. GEN."
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110035",
+      "display" : "IST.DI RIAB. S.STEFANO - VILLA ADRIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110036",
+      "display" : "CASA DI CURA   VILLA IGEA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110037",
+      "display" : "CASA DI CURA VILLA SILVIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110038",
+      "display" : "LABOR SPA CASA DI CURA VILLA SERENA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110039",
+      "display" : "CASA DI CURA VILLA JOLANDA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110052",
+      "display" : "CASA DI CURA DOTT. MARCHETTI SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110053",
+      "display" : "CENTRO OSPEDALIERO S.STEFANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110054",
+      "display" : "CASA DI CURA VILLA PINI SANATRIX GESTION"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110070",
+      "display" : "CASA DI CURA 'VILLA SAN MARCO'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110071",
+      "display" : "CASA DI CURA 'SAN GIUSEPPE'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110072",
+      "display" : "CASA DI CURA ' VILLA ANNA ' SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110073",
+      "display" : "CASA DI CURA 'STELLA MARIS' SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110074",
+      "display" : "RITA SRL CASA CURA PRIVATA VILLAVERDE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110075",
+      "display" : "STUDIO MEDICO CHIR. POLISP."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110901",
+      "display" : "A.O. OSPEDALI RIUNITI MARCHE NORD",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110901.01",
+        "display" : "OSPEDALE SAN SALVATORE - PESARO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110901.02",
+        "display" : "OSPEDALE SANTA CROCE - FANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110905",
+      "display" : "A.O.U.OSPEDALI RIUNITI - ANCONA",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110905.01",
+        "display" : "PRESIDIO OSPEDALIERO UMBERTO I°"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110905.02",
+        "display" : "PRESIDIO OSPEDALIERO G.M.LANCISI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110905.03",
+        "display" : "PRESIDIO OSPEDALIERO G.SALESI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "110921",
+      "display" : "OSPEDALI INRCA MARCHE",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110921.01",
+        "display" : "OSPEDALE INRCA - ANCONA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "110921.02",
+        "display" : "OSPEDALE INRCA - FERMO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120002",
+      "display" : "OSPEDALE DI ACQUAPENDENTE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120003",
+      "display" : "OSPEDALE DI CIVITACASTELLANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120007",
+      "display" : "OSPEDALE DI TARQUINIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120012",
+      "display" : "CASA DI CURA SALUS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120014",
+      "display" : "NUOVA  S.TERESA DEL BAMBIN GESU`"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120015",
+      "display" : "VILLA IMMACOLATA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120019",
+      "display" : "POLO OSPEDALIERO UNICO INTEGRATO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120026",
+      "display" : "OSPEDALE GENERALE SANTO SPIRITO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120026.01",
+        "display" : "OSPEDALE SANTO SPIRITO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120026.02",
+        "display" : "VILLA BETANIA"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120030",
+      "display" : "OSPEDALE REGIONALE OFTALMICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120036",
+      "display" : "OSP. VILLA ALBANI ANZIO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120037",
+      "display" : "P.T.P. NUOVO REGINA MARGHERITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120043",
+      "display" : "OSP. ANZIO-NETTUNO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120044",
+      "display" : "OSP.RIUNITI ALBANO-GENZANO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120044.01",
+        "display" : "OSPEDALE SAN GIUSEPPE ALBANO L."
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120044.02",
+        "display" : "OSPEDALE E. DE SANTIS GENZANO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120045",
+      "display" : "OSPEDALE SAN PAOLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120046",
+      "display" : "OSPEDALE L.PARODI DELFINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120047",
+      "display" : "OSP. S.SEBASTIANO FRASCATI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120048",
+      "display" : "OSP. S.GIUSEPPE MARINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120049",
+      "display" : "0SPEDALE SS. GONFALONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120051",
+      "display" : "0SPEDALE CIVILE CONIUGI BERNARDINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120052",
+      "display" : "OSPEDALE A. ANGELUCCI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120053",
+      "display" : "OSPEDALE S. GIOVANNI EVANGELISTA(TIVOLI)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120054",
+      "display" : "OSP.'PAOLO COLOMBO' VELLETRI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120055",
+      "display" : "OSP. ARICCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120059",
+      "display" : "OSPEDALE  PADRE PIO DI BRACCIANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120061",
+      "display" : "OSPEDALE G. B. GRASSI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120065",
+      "display" : "CENTRO PARAPLEGICI OSTIA ' Gennaro Di Ro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120066",
+      "display" : "OSPEDALE S. EUGENIO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120066.01",
+        "display" : "OSPEDALE S.EUGENIO"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120066.02",
+        "display" : "OSPEDALE CTO.A.ALESINI"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120070",
+      "display" : "OSP. REGINA APOSTOLORUM ALBANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120071",
+      "display" : "OSPEDALE SAN PIETRO - FBF"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120072",
+      "display" : "OSPEDALE SAN GIOVANNI CALIBITA - FBF"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120073",
+      "display" : "OSPEDALE SAN CARLO DI NANCY"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120074",
+      "display" : "OSP. GEN. DI ZONA 'CRISTO RE'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120075",
+      "display" : "OSPEDALE ISRAELITICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120076",
+      "display" : "MADRE GIUSEPPINA VANNINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120079",
+      "display" : "CASA DI CURA VILLA DOMELIA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120082",
+      "display" : "VILLA DELLE QUERCE-POLIGEST"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120083",
+      "display" : "CASA DI CURA VILLA VALERIA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120084",
+      "display" : "CASA DI CURA VILLA TIBERIA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120085",
+      "display" : "MADONNA DELLA FIDUCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120087",
+      "display" : "CASA DI CURA POLICLINICO ITALIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120088",
+      "display" : "I.N.I. Srl Divisione Medicus Hotel"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120089",
+      "display" : "N.C.L. Istituto di Neuroscienze S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120090",
+      "display" : "CASA DI CURA VILLA BENEDETTA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120091",
+      "display" : "CASA DI CURA VILLA LUISA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120092",
+      "display" : "CASA DI CURA SANATRIX"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120093",
+      "display" : "CLINICA PARIOLI srl"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120096",
+      "display" : "C.D.C. MADONNA DELLE GRAZIE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120097",
+      "display" : "CASA DI CURA VILLA AURORA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120098",
+      "display" : "CASA DI CURA N.SIGNORA DELLA MERCEDE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120103",
+      "display" : "PRESIDIO OSPEDALIERO ' LUIGI DI LIEGRO '"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120104",
+      "display" : "CASA DI CURA VILLA FULVIA SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120105",
+      "display" : "CASA DI CURA MARCO POLO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120108",
+      "display" : "CASA DI CURA ASSUNZIONE DI MARIA SS"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120113",
+      "display" : "CASA DI CURA VILLA PIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120114",
+      "display" : "CASA DI CURA QUISISANA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120115",
+      "display" : "CASA DI CURA SANTA FAMIGLIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120118",
+      "display" : "CASA DI CURA VILLA DEL ROSARIO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120119",
+      "display" : "CASA DI CURA VILLA MAFALDA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120120",
+      "display" : "CASA DI CURA SAN DOMENICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120122",
+      "display" : "C.D.C. SAN RAFFAELE ROCCA DI PAPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120123",
+      "display" : "CASA DI CURA VILLA STUART"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120129",
+      "display" : "CASA DI CURA VILLA MARGHERITA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120130",
+      "display" : "CASA DI CURA VILLA SANDRA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120131",
+      "display" : "C.D.C. VILLA DEI PINI-MERINVEST"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120132",
+      "display" : "CASA DI CURA GUARNIERI SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120133",
+      "display" : "CASA DI CURA SALVATOR MUNDI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120134",
+      "display" : "CASA DI CURA S.ANNA POMEZIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120135",
+      "display" : "C.D.C. MATER MISERICORDIAE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120138",
+      "display" : "OSPEDALE SAN GIOVANNI BATTISTA-ACISMOM"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120139",
+      "display" : "CLINICA LATINA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120140",
+      "display" : "CASA DI CURA SILIGATO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120141",
+      "display" : "CASA DI CURA SANTO VOLTO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120143",
+      "display" : "CONCORDIA HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120144",
+      "display" : "CLINICA VALLE GIULIA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120146",
+      "display" : "CASA DI CURA S.RITA DA CASCIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120150",
+      "display" : "CASA DI CURA PIO XI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120155",
+      "display" : "C.D.C. KAROL WOJTYLA HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120157",
+      "display" : "C.D.C. FABIA MATER"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120158",
+      "display" : "CASA DI CURA PAIDEIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120159",
+      "display" : "CASA DI CURA NUOVA VILLA CLAUDIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120163",
+      "display" : "CASA DI CURA SAN FELICIANO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120165",
+      "display" : "POLICLINICO CASILINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120166",
+      "display" : "CASA DI CURA NUOVA ITOR"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120169",
+      "display" : "NUOVA CLINICA ANNUNZIATELLA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120171",
+      "display" : "CASA DI CURA CITTA` DI ROMA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120172",
+      "display" : "CASA DI CURA MATER DEI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120173",
+      "display" : "EUROPEAN HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120176",
+      "display" : "C.D.C. I.N.I. SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120179",
+      "display" : "CDC ANCELLE FRANCESCANE DEL BUON PASTORE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120180",
+      "display" : "AURELIA HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120191",
+      "display" : "CASA DI CURA MERRY HOUSE/C.GERIATRICO RO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120197",
+      "display" : "SANTO VOLTO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120199",
+      "display" : "I.N.I. Srl  Divisione Villa Dante"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120200",
+      "display" : "PRESIDIO OSPEDALIERO NORD"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120204",
+      "display" : "PRESIDIO OSPEDALIERO CENTRO",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120204.01",
+        "display" : "ALFREDO FIORINI TERRACINA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120204.02",
+        "display" : "SAN GIOVANNI DI DIO FONDI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120204.03",
+        "display" : "REGINA ELENA PRIVERNO"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120206",
+      "display" : "PRESIDIO OSPEDALIERO SUD"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120209",
+      "display" : "CASA DEL SOLE CLINICA TOMMASO COSTA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120212",
+      "display" : "ISTIT CHIR ORTOP TRAUMATOLOGICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120213",
+      "display" : "CASA DI CURA SAN MARCO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120214",
+      "display" : "ISTITUTO FISIOTERAPICO C.FRANCESCHINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120215",
+      "display" : "CASA DI CURA CITTA` DI APRILIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120216",
+      "display" : "OSPEDALE F. SPAZIANI FROSINONE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120217",
+      "display" : "OSPEDALE SAN BENEDETTO ALATRI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120226",
+      "display" : "OSPEDALE CIVILE S.S.TRINITA` N.SEDE SORA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120228",
+      "display" : "OSPEDALE S. SCOLASTICA CASSINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120230",
+      "display" : "CASA DI CURA PRIV. S. ANNA S.R.L CASSINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120234",
+      "display" : "VILLA GIOIA CASA DI CURA PRIV. SRL SORA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120235",
+      "display" : "CASA DI CURA PRIV. VILLA SERENA CASSINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120236",
+      "display" : "CASA DI CURA PRIV. SANTA TERESA ISOLA L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120243",
+      "display" : "CASA DI CURA VILLA SALARIA S.R.L."
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120249",
+      "display" : "C.D.C. VILLA ANNA MARIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120254",
+      "display" : "ARS MEDICA SPA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120256",
+      "display" : "VILLA FLAMINIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120257",
+      "display" : "CASA DI CURA VILLA S. MARIA DI LEUCA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120262",
+      "display" : "CASA DI CURA VILLA MARIA IMMACOLATA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120264",
+      "display" : "CASA DI CURA VILLA VERDE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120265",
+      "display" : "ROME AMERICAN HOSPITAL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120267",
+      "display" : "OSPEDALE SANDRO PERTINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120271",
+      "display" : "POLO OSPEDALIERO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120277",
+      "display" : "CASA CURA PRIVATA\"SAN RAFFAELE\" CASSINO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120278",
+      "display" : "CASA DI CURA 'VILLA SILVANA'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120279",
+      "display" : "I.N.I. DIV.DISTACCAT CITTA` BIANCA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120280",
+      "display" : "C.d.C San Raffaele Montecompatri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120281",
+      "display" : "CENTRO PER LA SALUTE DELLA DONNA S.ANNA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120283",
+      "display" : "C. DI C. 'ISTITUTO CLINICO CARDIOLOGICO'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120284",
+      "display" : "Nomentana Hospital srl"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120285",
+      "display" : "PRESIDIO OSPEDALIERO SAN FILIPPO NERI",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120285.01",
+        "display" : "PRESIDIO SAN FILIPPO NERI"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120285.03",
+        "display" : "PRESIDIO CASSIA SANT'ANDREA"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120285.05",
+        "display" : "SALUS INFIRMORUM"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120286",
+      "display" : "Casa di Cura Villa Luana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120287",
+      "display" : "CASA DI CURA SAN LUCA DOLOMITI SRL"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120328",
+      "display" : "CASA DI CURA PRIVATA `DON CARLO GNOCCHI`"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120606",
+      "display" : "CASA DI CURA S. RAFFAELE PORTUENSE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120901",
+      "display" : "AZ.OSP.SAN CAMILLO-FORLANINI"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120902",
+      "display" : "AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+      "code" : "120904",
+      "display" : "OSPEDALE PEDIATRICO BAMBINO GESU`",
+      "contains" : [{
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120904.01",
+        "display" : "OSPEDALE PEDIATRICO BAMBINO GESU`"
+      },
+      {
+        "system" : "http://terminology.hl7.it/sid/minsan-hsp",
+        "code" : "120904.02",
+        "display" : "OSPEDALE PEDIATRICO BAMBINO GESU`"
+      }]
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

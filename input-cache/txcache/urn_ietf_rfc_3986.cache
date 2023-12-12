@@ -1,7 +1,8 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
+{"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
+    "inactive" : false,
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
@@ -14,14 +15,22 @@
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:74e2b399-a0d5-4b6a-b8df-668b5cdac172",
-    "timestamp" : "2021-12-21T08:28:31.045Z",
+    "identifier" : "urn:uuid:7d8103f7-a257-4efb-bed5-aaff67d32e2e",
+    "timestamp" : "2023-12-11T21:49:22.544Z",
+    "total" : 1,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     },
     {
       "name" : "version",
@@ -37,9 +46,10 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
+{"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
+    "inactive" : false,
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
@@ -114,14 +124,519 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:601688d5-f0c1-46ba-af06-42f644e072b0",
-    "timestamp" : "2021-12-21T08:28:31.529Z",
+    "identifier" : "urn:uuid:0d1e52d8-13aa-4a39-9648-d4462c48848b",
+    "timestamp" : "2023-12-11T21:49:22.685Z",
+    "total" : 22,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/abruzzo/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/basilicata/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/calabria/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/campania/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/rer/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/fvg/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/liguria/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lombardia/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/marche/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/molise/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/puglia/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/sardegna/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/sicilia/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/toscana/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/taa/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/apb/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/pat/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/umbria/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vda/asl"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/asl"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/eni",
+        "display" : "Codici ENI"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/eni",
+        "display" : "Codici ENI - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/eni",
+        "display" : "Codici ENI - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/eni",
+        "display" : "Codici ENI - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
+        "display" : "Codici ENI - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8f759f76-0f53-45d1-985b-74f9f53e9c95",
+    "timestamp" : "2023-12-11T21:49:22.841Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/eni",
+      "display" : "Codici ENI"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/eni",
+      "display" : "Codici ENI - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/eni",
+      "display" : "Codici ENI - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/eni",
+      "display" : "Codici ENI - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
+      "display" : "Codici ENI - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/asur",
+        "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/aura",
+        "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+        "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+        "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
+        "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+      },
+      {
+        "code" : "http://www.regione.toscana.it/sanita/cur",
+        "display" : "Centrale Unica Regionale - Toscana"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2b937f42-d51b-4f5c-b56e-f3094f9f9b7f",
+    "timestamp" : "2023-12-11T21:49:22.982Z",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/asur",
+      "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/aura",
+      "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+      "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+      "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
+      "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://www.regione.toscana.it/sanita/cur",
+      "display" : "Centrale Unica Regionale - Toscana"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/stp",
+        "display" : "Codici STP"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/stp",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/stp",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/stp",
+        "display" : "Codici STP - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+        "display" : "Codici STP - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:c64ad133-0cce-4fbb-9731-0e2ead160c84",
+    "timestamp" : "2023-12-11T21:49:23.123Z",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/stp",
+      "display" : "Codici STP"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/stp",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/stp",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/stp",
+      "display" : "Codici STP - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+      "display" : "Codici STP - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/codiceFiscale",
+        "display" : "Italian Fiscal Code"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ff0e7813-a2fe-4ce9-8d50-44f2d3a0825a",
+    "timestamp" : "2023-12-12T01:05:05.239Z",
+    "total" : 1,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/codiceFiscale",
+      "display" : "Italian Fiscal Code"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:989fccac-5c88-40ed-9af8-10e57afe615d",
+    "timestamp" : "2023-12-12T01:05:05.818Z",
+    "total" : 22,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     },
     {
       "name" : "version",
@@ -223,6 +738,7 @@ e: {
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
+    "inactive" : true,
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
@@ -251,14 +767,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:97256241-07d8-41c3-8c7d-5835ef846b77",
-    "timestamp" : "2021-12-21T08:28:31.951Z",
+    "identifier" : "urn:uuid:1646dc09-dba5-4aae-a4d9-80cbc13aad81",
+    "timestamp" : "2023-12-12T01:05:06.615Z",
+    "total" : 5,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     },
     {
       "name" : "version",
@@ -297,6 +821,7 @@ e: {
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
+    "inactive" : true,
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
@@ -329,14 +854,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b0cf8291-4b76-4622-a3d0-8a9f1a5fb56a",
-    "timestamp" : "2021-12-21T08:28:32.310Z",
+    "identifier" : "urn:uuid:27cdc26a-6e7f-4533-9c02-990c7ae73055",
+    "timestamp" : "2023-12-12T01:05:06.896Z",
+    "total" : 6,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     },
     {
       "name" : "version",
@@ -380,6 +913,7 @@ e: {
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
+    "inactive" : true,
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
@@ -408,14 +942,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0bdcc1f0-f375-41fb-a901-9d97a339739c",
-    "timestamp" : "2021-12-21T08:28:32.669Z",
+    "identifier" : "urn:uuid:db752abe-5e5f-411b-9a91-7d1650100806",
+    "timestamp" : "2023-12-12T01:05:07.193Z",
+    "total" : 5,
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986|n/a"
     },
     {
       "name" : "version",

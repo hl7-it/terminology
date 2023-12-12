@@ -1,0 +1,5047 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/istat-titoloStudio", "version": "0.0.1"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://terminology.hl7.it/ValueSet/istat-titoloStudio",
+  "version" : "0.0.1",
+  "name" : "VsIstatTitoloStudio",
+  "title" : "ISTAT - Titolo Studio",
+  "status" : "active",
+  "date" : "2023-12-11T22:47:12+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    }]
+  }],
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:77e4e757-04c1-46ec-9e18-f55e4c917020",
+    "timestamp" : "2023-12-12T01:04:03.036Z",
+    "total" : 1000,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03|0.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "10000000",
+      "display" : "LICENZA ELEMENTARE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "20000000",
+      "display" : "LICENZA MEDIA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30000000",
+      "display" : "TITOLO DI ISTRUZIONE SECONDARIA SUPERIORE (SCOLASTICA ED EXTRA-SCOLASTICA) CHE NON PERMETTE L'ACCESSO ALL'UNIVERSITÀ (qualifica di istituto professionale, licenza di maestro d'arte, abilitazione all'insegnamento nella scuola materna, diploma di danzatore, diploma di conservatorio)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30100000",
+      "display" : "DIPLOMA DI QUALIFICA DI ISTITUTO PROFESSIONALE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101000",
+      "display" : "Diploma di qualifica di istituto professionale agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101001",
+      "display" : "Allevatore zootecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101002",
+      "display" : "Assistente di azienda agraria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101003",
+      "display" : "Esperto conserviere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101004",
+      "display" : "Esperto agricolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101005",
+      "display" : "Esperto agrumicoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101006",
+      "display" : "Esperto casaro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101007",
+      "display" : "Esperto coltivatore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101008",
+      "display" : "Esperto floricoltore giardiniere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101009",
+      "display" : "Esperto forestale e apicoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101010",
+      "display" : "Esperto frutticoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101011",
+      "display" : "Esperto olivicoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101012",
+      "display" : "Esperto orticoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101013",
+      "display" : "Esperto tabacchicoltore tecnologo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101014",
+      "display" : "Esperto viticoltore cantiniere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101015",
+      "display" : "Meccanico operatore agricolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101016",
+      "display" : "Operatore agricolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101017",
+      "display" : "Operatore agro industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101018",
+      "display" : "Operatore agro ambientale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101019",
+      "display" : "Operatore agri turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101020",
+      "display" : "Cantiniere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101021",
+      "display" : "Analista agricolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101022",
+      "display" : "Avifauna"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101023",
+      "display" : "Esperto in produzioni alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101024",
+      "display" : "Floricoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101025",
+      "display" : "Ortofrutticoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101026",
+      "display" : "Viticoltore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101027",
+      "display" : "Vivaista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30101999",
+      "display" : "Altre qualifiche di istituto professionale agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102000",
+      "display" : "Diploma di qualifica di istituto professionale per l'industria e l'artigianato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102001",
+      "display" : "Addetto manutenzione di elaboratori elettronici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102002",
+      "display" : "Aggiustatore meccanico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102003",
+      "display" : "Aiuto scenografo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102004",
+      "display" : "Animatore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102005",
+      "display" : "Assistente di tessitura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102006",
+      "display" : "Assistente edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102007",
+      "display" : "Carrozziere d'automezzi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102008",
+      "display" : "Carrozziere e verniciatore a spruzzo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102009",
+      "display" : "Ceramista industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102010",
+      "display" : "Chimico cermista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102011",
+      "display" : "Confezionista industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102012",
+      "display" : "Conduttore caldaie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102013",
+      "display" : "Congegnatore meccanico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102014",
+      "display" : "Disegnatore edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102015",
+      "display" : "Disegnatore meccanico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102016",
+      "display" : "Disegnatore meccanico con elaboratore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102017",
+      "display" : "Disegnatore navale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102018",
+      "display" : "Disegnatore tecnico del marmo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102019",
+      "display" : "Ebanista mobiliere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102020",
+      "display" : "Elettrauto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102021",
+      "display" : "Elettricista di bordo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102022",
+      "display" : "Elettricista installatore elettromeccanico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102023",
+      "display" : "Elettronico industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102024",
+      "display" : "Elettronico per telecomunicazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102025",
+      "display" : "Fofografo di scena e reporter"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102026",
+      "display" : "Fotografo generico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102027",
+      "display" : "Fotoincisore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102028",
+      "display" : "Fotolitografo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102029",
+      "display" : "Istallatore di impianti idro termali sanitari e riscaldamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102030",
+      "display" : "Istallatore di impianti idraulici e termici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102031",
+      "display" : "Istallatore di apparecchiature elettriche ed elettroniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102032",
+      "display" : "Litoimpressore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102033",
+      "display" : "Liutaio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102034",
+      "display" : "Massiofisioterapista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102035",
+      "display" : "Meccanico fresatore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102036",
+      "display" : "Meccanico impianti a gas"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102037",
+      "display" : "Meccanico magliere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102038",
+      "display" : "Meccanico orologiaio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102039",
+      "display" : "Meccanico riparatore autoveicoli"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102040",
+      "display" : "Meccanico tornitore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102041",
+      "display" : "Modellista di fonderia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102042",
+      "display" : "Montatore d'auto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102043",
+      "display" : "Montatore riparatore apparecchi radio tv"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102044",
+      "display" : "Montatore riparatore impianti telefonici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102045",
+      "display" : "Muratore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102046",
+      "display" : "Operatore meccanico odontotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102047",
+      "display" : "Operatore macchine utensili"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102048",
+      "display" : "Operatore chimico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102049",
+      "display" : "Operatore e cameramen"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102050",
+      "display" : "Operatore della moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102051",
+      "display" : "Operatore chimico biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102052",
+      "display" : "Operatore edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102053",
+      "display" : "Operatore elettrico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102054",
+      "display" : "Operatore elettronico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102055",
+      "display" : "Operatore meccanico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102056",
+      "display" : "Operatore meccanico orafo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102057",
+      "display" : "Operatore meccanico ottico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102058",
+      "display" : "Preparatore analista laboratorio chimico biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102059",
+      "display" : "Programmatore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102060",
+      "display" : "Segretario produzione edizione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102061",
+      "display" : "Siderurgico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102062",
+      "display" : "Tipocompositore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102063",
+      "display" : "Tipoimpressore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102064",
+      "display" : "Tornitore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102065",
+      "display" : "Elettricista addetto impianti siderurgici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102066",
+      "display" : "Assistente di filatura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102067",
+      "display" : "Operatore della comunicazione audiovisiva"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102068",
+      "display" : "Operatore delle telecomunicazioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102069",
+      "display" : "Operatore termico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102070",
+      "display" : "Operatore industria mobile e arredamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102071",
+      "display" : "Operatore dell'artigianato del marmo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102072",
+      "display" : "Operatore dell'industrie ceramiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102073",
+      "display" : "Operatore per l'industria grafica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102074",
+      "display" : "Operatore fotografico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102075",
+      "display" : "Meccanico addetto alle macchine utensili a controllo numerico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102076",
+      "display" : "Operatore dell'industria del marmo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102077",
+      "display" : "Operatore dell'industria dolciaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102078",
+      "display" : "Operatore dell'industria molitoria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102079",
+      "display" : "Apparecchiatore elettronico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102080",
+      "display" : "Tecnico di sistemi digitali per procedure automatizzate"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102081",
+      "display" : "Meccanico addetto ai circuiti fluidodinamici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102082",
+      "display" : "Meccanico armaiolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102083",
+      "display" : "Meccanico siderurgico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102084",
+      "display" : "Meccanico strumentista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102085",
+      "display" : "Arredatore e tecnico espositore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102086",
+      "display" : "Decoratore procellana e ceramica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102087",
+      "display" : "Disegnatore animatore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102088",
+      "display" : "Disegnatore scenografo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102089",
+      "display" : "Fonico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102090",
+      "display" : "Fotoriproduttore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102091",
+      "display" : "Addetto conservazione distribuzione prodotti alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102092",
+      "display" : "Specialista del marmo in architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102093",
+      "display" : "Addetta agli uffici per l'architettura e l'arredamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102094",
+      "display" : "Disegnatrice grafico pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102095",
+      "display" : "Figurinista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102096",
+      "display" : "Modellista confezionista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102097",
+      "display" : "Operatore grafico pubblicitario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102098",
+      "display" : "Biancherista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102099",
+      "display" : "Conduttore di macchine agricole"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102100",
+      "display" : "Galvanotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102101",
+      "display" : "Ferraiolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102102",
+      "display" : "Tracciatore di sala"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102103",
+      "display" : "Legatore di libri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102104",
+      "display" : "Linotipista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30102999",
+      "display" : "Altre qualifiche di istituto professionale per l'industria e l'artigianato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103000",
+      "display" : "Diploma di qualifica di istituto professionale marinaro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103001",
+      "display" : "Frigorista di bordo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103002",
+      "display" : "Meccanico navale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103003",
+      "display" : "Padrone marittimo traffico e pesca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103004",
+      "display" : "Radiotelegrafista di bordo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103005",
+      "display" : "Operatore del mare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103006",
+      "display" : "Operatote termico ad indirizzo marittimo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103007",
+      "display" : "Addetto ai servizi alberghieri di cucina di bordo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103008",
+      "display" : "Addetto ai servizi sala e bar di bordo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103009",
+      "display" : "Tracciatore navale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30103999",
+      "display" : "Altre qualifiche di istituto professionale marinaro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102006",
+      "display" : "Tecnico industrie chimiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102007",
+      "display" : "Tecnico delle industrie elettriche elettroniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102008",
+      "display" : "Tecnico industrie grafiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102009",
+      "display" : "Tecnico industrie meccaniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102010",
+      "display" : "Tecnico industrie meccaniche autoveicoli"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102011",
+      "display" : "Tecnico lavorazioni ceramiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102012",
+      "display" : "Tecnico industria mobile e arredamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102013",
+      "display" : "Tecnico laboratorio chimico biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102014",
+      "display" : "Tecnico di radiologia medica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102015",
+      "display" : "Tecnico dei sistemi energetici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102016",
+      "display" : "Tecnico abbigliamento e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102017",
+      "display" : "Tecnico gestione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102018",
+      "display" : "Tecnico servizi ristorazione e servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102019",
+      "display" : "Tecnico servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102020",
+      "display" : "Tecnico produz. immagini fotografiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102021",
+      "display" : "Tecnico dell'edilizia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102022",
+      "display" : "Tecnico di liuteria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102023",
+      "display" : "Tecnico dell'industria audiovisiva"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102024",
+      "display" : "Tecnico dell'industria orafa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102025",
+      "display" : "Tecnico del marmo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale per l'industria e l'artigianato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40103000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale marinaro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40103001",
+      "display" : "Tecnico della pesca, cultura ittica e ambiente marino"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40103002",
+      "display" : "Tecnico dei sistemi energetici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40103003",
+      "display" : "Tecnico abbigliamento e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40103004",
+      "display" : "Tecnico delle industrie elettriche ed elettroniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40103999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale marinaro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale per il commercio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104001",
+      "display" : "Analista contabile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104002",
+      "display" : "Operatore commerciale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104003",
+      "display" : "Operatore commerciale prodotti alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104004",
+      "display" : "Operatore turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104005",
+      "display" : "Segretario amministrazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104006",
+      "display" : "Dirigenti di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104007",
+      "display" : "Agrotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104008",
+      "display" : "Tecnico gestione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104009",
+      "display" : "Tecnico industrie meccaniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104010",
+      "display" : "Tecnico abbigliamento e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104011",
+      "display" : "Tecnico servizi ristorazione e servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104012",
+      "display" : "Odontotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104013",
+      "display" : "Tecnico chimico e biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104014",
+      "display" : "Tecnico della grafica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40104999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale per il commercio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale alberghiero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105001",
+      "display" : "Tecnico servizi ristorazione e servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105002",
+      "display" : "Agrotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105003",
+      "display" : "Tecnico gestione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105004",
+      "display" : "Tecnico industrie meccaniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105005",
+      "display" : "Tecnico abbigliamento e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105006",
+      "display" : "Dirigenti di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105007",
+      "display" : "Tecnico dell'arte bianca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40105999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale alberghiero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale femminile/per i servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106001",
+      "display" : "Assist. comunità infantile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106002",
+      "display" : "Disegnatrice stilista moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106003",
+      "display" : "Dirigenti di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201006",
+      "display" : "Valorizzazione produzione animale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201007",
+      "display" : "Vivaismo colture produttive"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201008",
+      "display" : "Produzioni biologiche e risorse naturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202001",
+      "display" : "Arti fotografiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202002",
+      "display" : "Chimica conciara"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202003",
+      "display" : "Chimica industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202004",
+      "display" : "Chimica nucleare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202005",
+      "display" : "Confezione industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202006",
+      "display" : "Costruzioni aeronautiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202007",
+      "display" : "Cronometria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202008",
+      "display" : "Disegni di tessuti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202009",
+      "display" : "Edilizia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202010",
+      "display" : "Elettronica industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202011",
+      "display" : "Eletttrotecnica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202012",
+      "display" : "Energia nucleare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202013",
+      "display" : "Fisica industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202014",
+      "display" : "Industria cartaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202015",
+      "display" : "Industria cerealicola"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202016",
+      "display" : "Industria metalmeccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202017",
+      "display" : "Industria meccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202018",
+      "display" : "Industria mineraria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202019",
+      "display" : "Industria navalmeccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202020",
+      "display" : "Industria ottica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202021",
+      "display" : "Industria tessile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202022",
+      "display" : "Industria tintoria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202023",
+      "display" : "Informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202024",
+      "display" : "Maglieria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202025",
+      "display" : "Materie plastiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202026",
+      "display" : "Meccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202027",
+      "display" : "Meccanica di precisione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202028",
+      "display" : "Metallurgia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202029",
+      "display" : "Tecnologie alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202030",
+      "display" : "Elettronica e telecomunicazioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202031",
+      "display" : "Termotenica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202032",
+      "display" : "Chimico biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202033",
+      "display" : "Elettrotecnica ed automazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202034",
+      "display" : "Tessile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202035",
+      "display" : "Arte della grafica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202036",
+      "display" : "Agro-industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202037",
+      "display" : "Navigazione aerea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202038",
+      "display" : "Assistenza navigazione aerea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202039",
+      "display" : "Arti grafiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202040",
+      "display" : "Economico aziendale amministrativo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202041",
+      "display" : "Geometri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202042",
+      "display" : "Linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202043",
+      "display" : "Scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202044",
+      "display" : "Tecnologico meccanico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202045",
+      "display" : "Biologico sanitario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202046",
+      "display" : "Ambiente"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202047",
+      "display" : "Area sistema moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202048",
+      "display" : "Tecnico  per l'abbigliamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40202999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico nautico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203001",
+      "display" : "Capitani"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203002",
+      "display" : "Macchinisti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203003",
+      "display" : "Costruttori navali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203004",
+      "display" : "Amministrativo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203005",
+      "display" : "Mercantile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203006",
+      "display" : "Geometri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203007",
+      "display" : "Imprenditore marittimo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203008",
+      "display" : "Trasporti marittimi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203009",
+      "display" : "Tecnico  del mare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40203999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico nautico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40204000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico aereonautico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40204001",
+      "display" : "Navigazione aerea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40204002",
+      "display" : "Assistenza navigazione aerea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40204999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico aeronautico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico commerciale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205001",
+      "display" : "Amministrativo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205002",
+      "display" : "Mercantile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205003",
+      "display" : "Programmatori"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205004",
+      "display" : "Commercio con l'estero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205005",
+      "display" : "Amministrazione industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205006",
+      "display" : "Mercantile per l'amministrazione Industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205007",
+      "display" : "Arte della grafica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205008",
+      "display" : "Biologico chimico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205009",
+      "display" : "Costruzioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205010",
+      "display" : "Economico aziendale amministrativo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205011",
+      "display" : "Elettrotecnica ed automazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205012",
+      "display" : "Geometri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205013",
+      "display" : "Giuridico economico aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205014",
+      "display" : "Informatico elettronico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205015",
+      "display" : "Linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205016",
+      "display" : "Matematico scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205017",
+      "display" : "Periti aziendali corrispondenti in lingue estere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205018",
+      "display" : "Scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205019",
+      "display" : "Dirigenti di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205020",
+      "display" : "Edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205021",
+      "display" : "Turismo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205022",
+      "display" : "Psico- socio-pedagogico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205023",
+      "display" : "Tecnologie telematiche multimediali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40205999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico commerciale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico per geometri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206001",
+      "display" : "Geometri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206002",
+      "display" : "Amministrativo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206003",
+      "display" : "Costruzioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206004",
+      "display" : "Giuridico economico aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206005",
+      "display" : "Programmatori"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206006",
+      "display" : "Edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40206999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico per geometri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40207000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico per il turismo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40207001",
+      "display" : "Turismo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40207002",
+      "display" : "Linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40207003",
+      "display" : "Economico aziendale turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40207999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico per il turismo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40208000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo perito aziendale e corrispondente in lingue estere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40208001",
+      "display" : "Linguistico aziendale turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40208999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo perito aziendale e corrispondente in lingue estere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico femminile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209001",
+      "display" : "Indirizzo generale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209002",
+      "display" : "Econome dietiste"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209003",
+      "display" : "Dirigenti di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209004",
+      "display" : "Tecnico dei servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209005",
+      "display" : "Linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209006",
+      "display" : "Periti aziendali corrispondenti in lingue estere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209007",
+      "display" : "Biologico chimico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209008",
+      "display" : "Scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209009",
+      "display" : "Psico- socio-pedagogico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209010",
+      "display" : "Giuridico economico aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209011",
+      "display" : "Nuove opportunità integrate"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209012",
+      "display" : "Salute"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40209999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico femminile e per attività sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40300000",
+      "display" : "ISTRUZIONE MAGISTRALE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40301000",
+      "display" : "Diploma di istruzione secondaria superiore di Scuola magistrale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40301001",
+      "display" : "Assistente comunità infantile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40301002",
+      "display" : "Tecnico servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104000",
+      "display" : "Diploma di qualifica di istituto professionale per il commercio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104001",
+      "display" : "Accompagnatore turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104002",
+      "display" : "Addetto uffici assicurativi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104003",
+      "display" : "Addetto uffici turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104004",
+      "display" : "Addetto conservazione distribuzione prodotti alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104005",
+      "display" : "Addetto contabilità azienda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104006",
+      "display" : "Addetto segreteria azienda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104007",
+      "display" : "Addetto aziende spedizione trasporto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104008",
+      "display" : "Applicati servizi amm.vi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104009",
+      "display" : "Centralinista telefonico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104010",
+      "display" : "Operatore ai servizi di cucina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104011",
+      "display" : "Operatore ai servizi di sala bar"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104012",
+      "display" : "Operatore ai servizi di segreteria ricevimento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104013",
+      "display" : "Operatore alla gestione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104014",
+      "display" : "Operatore dell'impresa turistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104015",
+      "display" : "Stenodattilografo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30104999",
+      "display" : "Altre qualifiche di istituto professionale per il commercio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105000",
+      "display" : "Diploma di qualifica di istituto professionale alberghiero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105001",
+      "display" : "Addetto ai servizi alberghieri di cucina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105002",
+      "display" : "Addetto servizi alberghieri sala e bar"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105003",
+      "display" : "Addetto alla portineria d'albergo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105004",
+      "display" : "Addetto segreteria amministrazione d'albergo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105005",
+      "display" : "Operatore servizi ristorazione (cucina)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105006",
+      "display" : "Operatore servizi ristorazione (sala bar)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105007",
+      "display" : "Operatore dei servizi di ricevimento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30105999",
+      "display" : "Altre qualifiche di istituto professionale alberghiero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106000",
+      "display" : "Diploma di qualifica di istituto professionale femminile/per i servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106001",
+      "display" : "Addetta agli uffici del settore pubblicitario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106002",
+      "display" : "Addetta agli uffici per l'architettura e l'arredamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106003",
+      "display" : "Addetta ai servizi ausiliari di alberghi e pensioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106004",
+      "display" : "Addetta ai servizi di assistenza familiare e sociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106005",
+      "display" : "Addetta alla vendita e alla vetrina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106006",
+      "display" : "Assistente per l'infanzia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106007",
+      "display" : "Cosmetista estetista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106008",
+      "display" : "Disegnatrice grafico pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106009",
+      "display" : "Figurinista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106010",
+      "display" : "Maglierista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106011",
+      "display" : "Preparatrice di laboratorio chimico biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106012",
+      "display" : "Sarta per donna e bambini"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106013",
+      "display" : "Operatore dei servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106014",
+      "display" : "Modellista confezionista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106015",
+      "display" : "Operatore grafico pubblicitario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30106999",
+      "display" : "Altre qualifiche di istituto professionale femminile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30301000",
+      "display" : "DIPLOMA DI ABILITAZIONE ALL'INSEGNAMENTO NELLA SCUOLA MATERNA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30600000",
+      "display" : "ISTRUZIONE ARTISTICA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601000",
+      "display" : "LICENZA DI MAESTRO D'ARTE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601001",
+      "display" : "Arte dei metalli"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601002",
+      "display" : "Arte dei metalli ed orificeria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601003",
+      "display" : "Arte dei rivestimenti ceramici edilizi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601004",
+      "display" : "Arte dell'alabastro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601005",
+      "display" : "Arte della ceramica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601006",
+      "display" : "Arte grafica pubblicitaria e fotografia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601007",
+      "display" : "Arte della porcellana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601008",
+      "display" : "Arte dell'arredamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601009",
+      "display" : "Arte della stampa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601010",
+      "display" : "Arte del corallo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601011",
+      "display" : "Arte del gres"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601012",
+      "display" : "Arte del legno"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601013",
+      "display" : "Arte del legno e restauro del mobile antico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601014",
+      "display" : "Arte del merletto e ricamo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601015",
+      "display" : "Arte del mobile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601016",
+      "display" : "Arte del mosaico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601017",
+      "display" : "Arte del tessuto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601018",
+      "display" : "Arte del vetro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601019",
+      "display" : "Arte del vetro e cristallo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601020",
+      "display" : "Arte delle pietre dure"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601021",
+      "display" : "Arte pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601022",
+      "display" : "Arti grafiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601023",
+      "display" : "Calcografia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601024",
+      "display" : "Comunicazioni visive"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601025",
+      "display" : "Decorazione pittorica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601026",
+      "display" : "Decorazione plastica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601027",
+      "display" : "Design per ambiente"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601028",
+      "display" : "Disegnatori d'architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601029",
+      "display" : "Disegnatori architettura e arredamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601030",
+      "display" : "Disegno animato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601031",
+      "display" : "Arte della Fotografia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601032",
+      "display" : "Litografia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601033",
+      "display" : "Arte della Moda e costume"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601034",
+      "display" : "Oreficeria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601035",
+      "display" : "Restauro ceramico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601036",
+      "display" : "Rilegatura artistica e restauro del libro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601037",
+      "display" : "Scenotecnica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601038",
+      "display" : "Tecnologia ceramica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601039",
+      "display" : "Xilografia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601040",
+      "display" : "Operatore di liuteria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30601999",
+      "display" : "Altre licenze di maestro d'arte"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606000",
+      "display" : "DIPLOMA DI CONSERVATORIO MUSICALE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606001",
+      "display" : "Arpa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606002",
+      "display" : "Basso tuba"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606003",
+      "display" : "Biblioteconomia e bibliografia musicale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606004",
+      "display" : "Canto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606005",
+      "display" : "Chitarra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606006",
+      "display" : "Clarinetto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606007",
+      "display" : "Clavicembalo, clavicordo e fortepiano"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606008",
+      "display" : "Composizione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606009",
+      "display" : "Contrabbasso"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606010",
+      "display" : "Corno"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606011",
+      "display" : "Didattica della Musica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606012",
+      "display" : "Direzione d'Orchestra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606013",
+      "display" : "Fagotto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606014",
+      "display" : "Fisarmonica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606015",
+      "display" : "Flauto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606016",
+      "display" : "Flauto dolce"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606017",
+      "display" : "Jazz"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606018",
+      "display" : "Lettura della partitura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606019",
+      "display" : "Lied ed oratorio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606020",
+      "display" : "Liuto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606021",
+      "display" : "Maestro sostituto collaboratore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606022",
+      "display" : "Mandolino"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606023",
+      "display" : "Musica corale e direzione coro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606024",
+      "display" : "Musica da camera"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606025",
+      "display" : "Musica elettronica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606026",
+      "display" : "Musica vocale da camera"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606027",
+      "display" : "Musicologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606028",
+      "display" : "Oboe"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606029",
+      "display" : "Organo e composizione organistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606030",
+      "display" : "Pianoforte"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606031",
+      "display" : "Prepolifonia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606032",
+      "display" : "Saxofono"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606033",
+      "display" : "Strumentazione per banda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606034",
+      "display" : "Strumenti a percussione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606035",
+      "display" : "Teoria della musica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606036",
+      "display" : "Tromba e trombone"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606037",
+      "display" : "Viola"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606038",
+      "display" : "Viola da gamba"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606039",
+      "display" : "Violino"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606040",
+      "display" : "Violoncello"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30606999",
+      "display" : "Altri diplomi di Conservatorio e Istituto musicale pareggiato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30607000",
+      "display" : "DIPLOMA DI DANZATORE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "30999999",
+      "display" : "Altri titoli di istruzione secondaria superiore (scolastica ed extra-scolastica) che non permettono l'accesso all'università"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40000000",
+      "display" : "DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE  CHE PERMETTE L'ACCESSO ALL'UNIVERSITA'"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40100000",
+      "display" : "DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE AD INDIRIZZO PROFESSIONALE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40101000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40101001",
+      "display" : "Agrotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40101002",
+      "display" : "Tecnico chimico e biologo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40101003",
+      "display" : "Tecnico gestione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40101004",
+      "display" : "Tecnico servizi ristorazione e servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40101999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale per l'industria e l'artigianato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102001",
+      "display" : "Chimico industrie ceramiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102002",
+      "display" : "Odontotecnico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102003",
+      "display" : "Ottico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102004",
+      "display" : "Tecnica della grafica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40102005",
+      "display" : "Tecnico cinema televisione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106004",
+      "display" : "Tecnico dei sistemi energetici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106005",
+      "display" : "Tecnico abbigliamento e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106006",
+      "display" : "Tecnico delle industrie elettriche ed elettroniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106007",
+      "display" : "Tecnico gestione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106008",
+      "display" : "Tecnico servizi ristorazione e servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106009",
+      "display" : "Tecnico servizi sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106010",
+      "display" : "Tecnico chimico e biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106011",
+      "display" : "Tecnico della grafica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40106999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale femminile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40107000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale cinematografia e televisione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40108000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo professionale per l'industria edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40108001",
+      "display" : "Tecnica della grafica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40108002",
+      "display" : "Tecnico dei sistemi energetici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40108003",
+      "display" : "Tecnico delle industrie elettriche ed elettroniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40108999",
+      "display" : "Altri diplomi di istruzione secondaria superiore ad indirizzo professionale edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40200000",
+      "display" : "DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE AD INDIRIZZO TECNICO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201000",
+      "display" : "Diploma di istruzione secondaria superiore ad indirizzo tecnico agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201001",
+      "display" : "Indirizzo generale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201002",
+      "display" : "Viticoltura ed enologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201003",
+      "display" : "Cerere Unitario-Moduli vari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201004",
+      "display" : "Progetto Brocca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "40201005",
+      "display" : "Agro ambientale, industriale, territoriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50604003",
+      "display" : "Progettazione e tecnologia ceramica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50604999",
+      "display" : "Altri diplomi di istituto superiore di industrie artistiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50605000",
+      "display" : "Diploma di Accademia nazionale di arte drammatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50605001",
+      "display" : "Recitazione teatrale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50605002",
+      "display" : "Regia teatrale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50605003",
+      "display" : "Pedagogia e didattica del teatro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50605999",
+      "display" : "Altri diplomi di Accademia nazionale di arte drammatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606000",
+      "display" : "Diploma di Conservatorio musicale e Istituto musicale pareggiato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606001",
+      "display" : "Arpa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606002",
+      "display" : "Basso tuba"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606003",
+      "display" : "Biblioteconomia e bibliografia musicale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606004",
+      "display" : "Canto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606005",
+      "display" : "Chitarra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606006",
+      "display" : "Clarinetto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606007",
+      "display" : "Clavicembalo, clavicordo e fortepiano"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606008",
+      "display" : "Composizione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606009",
+      "display" : "Contrabbasso"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606010",
+      "display" : "Corno"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606011",
+      "display" : "Didattica della Musica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606012",
+      "display" : "Direzione d'Orchestra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606013",
+      "display" : "Fagotto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606014",
+      "display" : "Fisarmonica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606015",
+      "display" : "Flauto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606016",
+      "display" : "Flauto dolce"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606017",
+      "display" : "Jazz"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606018",
+      "display" : "Lettura della partitura - Scuola sperimentale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606019",
+      "display" : "Lied ed oratorio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606020",
+      "display" : "Liuto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606021",
+      "display" : "Maestro sostituto collaboratore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606022",
+      "display" : "Mandolino"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606023",
+      "display" : "Musica corale e direzione coro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606024",
+      "display" : "Musica da camera - Scuola sperimentale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606025",
+      "display" : "Musica elettronica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606026",
+      "display" : "Musica vocale da camera"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606027",
+      "display" : "Musicologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606028",
+      "display" : "Oboe"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606029",
+      "display" : "Organo e composizione organistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606030",
+      "display" : "Pianoforte"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606031",
+      "display" : "Prepolifonia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606032",
+      "display" : "Saxofono"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606033",
+      "display" : "Strumentazione per banda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606034",
+      "display" : "Strumenti a percussione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606035",
+      "display" : "Teoria della musica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606036",
+      "display" : "Tromba e trombone"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606037",
+      "display" : "Viola"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606038",
+      "display" : "Viola da gamba"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606039",
+      "display" : "Violino"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606040",
+      "display" : "Violoncello"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606041",
+      "display" : "Discipline musicali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50606999",
+      "display" : "Altri diplomi di Conservatorio e Istituto musicale pareggiato"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50607000",
+      "display" : "Diploma di perfezionamento accademia di danza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50607001",
+      "display" : "Insegnante di danza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50607002",
+      "display" : "Solista di danza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50607003",
+      "display" : "Compositore di danza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50607999",
+      "display" : "Altri diplomi di Accademia di danza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50700000",
+      "display" : "DIPLOMA DI SCUOLA SUPERIORE PER INTERPRETE E TRADUTTORE"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50700001",
+      "display" : "Diploma di interprete e traduttore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50700002",
+      "display" : "Diploma di interprete"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50700003",
+      "display" : "Diploma di traduttore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50700999",
+      "display" : "Altri diplomi di scuola per interprete e treduttore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50800000",
+      "display" : "DIPLOMA DI SCUOLA DI ARCHIVISTICA PALEOGRAFIA E DIPLOMATICA"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "50999999",
+      "display" : "Altri diplomi terziari extra-universitari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60000000",
+      "display" : "DIPLOMA UNIVERSITARIO"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001000",
+      "display" : "Gruppo scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001001",
+      "display" : "Matematica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001002",
+      "display" : "Metodologie fisiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001003",
+      "display" : "Scienza dei materiali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001004",
+      "display" : "Informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001005",
+      "display" : "Ottica tecnica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001006",
+      "display" : "Gestione dei rischi naturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001007",
+      "display" : "Scienza dei media e della comunicazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001008",
+      "display" : "Informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60001999",
+      "display" : "Altri diplomi del gruppo scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002000",
+      "display" : "Gruppo chimico farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002001",
+      "display" : "Chimica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002002",
+      "display" : "Scienze e tecniche cartarie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002003",
+      "display" : "Tecniche erboristiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002004",
+      "display" : "Controllo di qualità nel settore industriale farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002005",
+      "display" : "Informazione scientifica sul farmaco"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002006",
+      "display" : "Tecnologie farmaceutiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002007",
+      "display" : "Analisi chimico biologiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002008",
+      "display" : "Erboristeria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002009",
+      "display" : "Scienze e tecniche cartarie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60002999",
+      "display" : "Altri diplomi del gruppo chimico farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003000",
+      "display" : "Gruppo geo-biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003001",
+      "display" : "Valutazione e controllo ambientale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003002",
+      "display" : "Tecnico dello sviluppo ecocompatibile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003003",
+      "display" : "Geologo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003004",
+      "display" : "Biotecnologie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003005",
+      "display" : "Biologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003006",
+      "display" : "Geologo \"Tecnico del monitoraggio geoambientale\""
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003007",
+      "display" : "Operatore tecnico ambientale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003008",
+      "display" : "Scienze ambientali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003009",
+      "display" : "Prospettore geologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003010",
+      "display" : "Biotecnologie industriali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003011",
+      "display" : "Geologia per la protezione dell'ambiente"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003012",
+      "display" : "Geologia e sismologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003013",
+      "display" : "Tecnici in biologia del mare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60003999",
+      "display" : "Altri diplomi del gruppo geo biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004000",
+      "display" : "Gruppo medico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004001",
+      "display" : "Dietologia e dietetica applicata"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004002",
+      "display" : "Fisioterapista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004003",
+      "display" : "Igienista dentale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004004",
+      "display" : "Logopedia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004005",
+      "display" : "Ortottista ed assistente in oftalmologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004006",
+      "display" : "Ostetrica/o"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004007",
+      "display" : "Podologo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004008",
+      "display" : "Riabilitazione psichiatrica e psicosociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004009",
+      "display" : "Scienze infermieristiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004010",
+      "display" : "Tecnico di neurofisiopatologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004011",
+      "display" : "Tecnico di audiometria ed audioprotesi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004012",
+      "display" : "Tecnico di laboratorio biomedico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004013",
+      "display" : "Tecnico sanitario di radiologia medica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004014",
+      "display" : "Terapista della riabilitazione della neuro e psicomotricità dell'età evolutiva"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004015",
+      "display" : "Terapista della riabilitazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004016",
+      "display" : "Tecnico ortopedico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004017",
+      "display" : "Tecnico audiometrista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004018",
+      "display" : "Tecnico audioprotesista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004019",
+      "display" : "Dietista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004020",
+      "display" : "Tecnico sanitario di laboratorio biomedico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004021",
+      "display" : "Informatori medico scientifici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004022",
+      "display" : "Infermiere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004023",
+      "display" : "Logopedista"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004024",
+      "display" : "Tecnici in biotecnologie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004025",
+      "display" : "Terapista della neuro e psicomotricità dell'età evolutiva"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004026",
+      "display" : "Tecnico di igiene ambientale e del lavoro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004027",
+      "display" : "Tecnico dell'educazione e della riabilitazione psichiatrica e psicosociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004028",
+      "display" : "Disegno anatomico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004029",
+      "display" : "Tecnico sanitario per la prevenzione ambientale e dei luoghi lavorativi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004030",
+      "display" : "Assistenza nefrologica e tecniche dialitiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004031",
+      "display" : "Assistenza sociale psichiatrica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004032",
+      "display" : "Dietologia e dietetica applicata"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004033",
+      "display" : "Dirigenti dell'assistenza infermieristica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004034",
+      "display" : "Dirigenti e docenti di scienze infermieristiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004035",
+      "display" : "Discipline infermieristiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004036",
+      "display" : "Disegno anatomico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004037",
+      "display" : "Educazione sanitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004038",
+      "display" : "Fisica sanitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004039",
+      "display" : "Giornalismo medico scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004040",
+      "display" : "Igienisti dentali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004041",
+      "display" : "Neurofisiopatologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004042",
+      "display" : "Ortottista assistente in oftalmologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004043",
+      "display" : "Strumentisti di sala operatoria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004044",
+      "display" : "Tecnici con funzioni ispettive per la tutela della salute nei luoghi di lavoro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004045",
+      "display" : "Tecnici cosmetici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004046",
+      "display" : "Tecnici della riabilitazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004047",
+      "display" : "Tecnici della riabilitazione psichiatrica e psicosociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004048",
+      "display" : "Tecnici dermoestetisti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004049",
+      "display" : "Tecnici di anatomia patologica e citoistologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004050",
+      "display" : "Tecnici di anestesia e rianimazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004051",
+      "display" : "Tecnici di audiometria e protesizzazione acustica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004052",
+      "display" : "Tecnici di colpocitologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004053",
+      "display" : "Tecnici di fisiopatologia cardiocircolatoria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004054",
+      "display" : "Tecnici di logopedia e foniatria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004055",
+      "display" : "Tecnici di neurofisiopatologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004056",
+      "display" : "Tecnici di radiologia medica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004057",
+      "display" : "Tecnici di terapia intensiva chirurgica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004058",
+      "display" : "Tecnici in biotecnologie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004059",
+      "display" : "Tecnici ortodermisti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004060",
+      "display" : "Tecnico di audiometria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004061",
+      "display" : "Tecnico di igiene ambientale e del lavoro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004062",
+      "display" : "Tecnico di laboratorio biomedico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004063",
+      "display" : "Terapia enterostomale per infermieri professionali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004064",
+      "display" : "Terapia fisica e riabilitativa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004065",
+      "display" : "Terapisti della riabilitazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004066",
+      "display" : "Terapia della riabilitazione e terapia occupazionale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004067",
+      "display" : "Terapisti della riabilitazione della neuro e psicomotricità dell'età evolutiva"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004068",
+      "display" : "Terapisti della riabilitazione specializzati in chinesiterapia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004069",
+      "display" : "Scuola di ostetricia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004070",
+      "display" : "Scuola Infermieri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004071",
+      "display" : "Tecnico di dietologia e dietetica applicata"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004072",
+      "display" : "Tecnici di logopedia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004073",
+      "display" : "Terapisti della riabilitazione dell'apparato motore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004074",
+      "display" : "Audioprotesisti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60004999",
+      "display" : "Altri diplomi del gruppo medico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005000",
+      "display" : "Gruppo ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005001",
+      "display" : "Edilizia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005002",
+      "display" : "Ingegneria aerospaziale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005003",
+      "display" : "Ingegneria biomedica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005004",
+      "display" : "Ingegneria chimica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005005",
+      "display" : "Ingegneria dell'ambiente e delle risorse"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005006",
+      "display" : "Ingegneria dell'automazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005007",
+      "display" : "Ingegneria delle infrastrutture"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005008",
+      "display" : "Ingegneria delle telecomunicazioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005009",
+      "display" : "Ingegneria elettrica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005010",
+      "display" : "Ingegneria elettronica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005011",
+      "display" : "Ingegneria energetica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005012",
+      "display" : "Ingegneria informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005013",
+      "display" : "Ingegneria informatica e automatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005014",
+      "display" : "Ingegneria logistica e della produzione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005015",
+      "display" : "Ingegneria meccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005016",
+      "display" : "Sistemi informativi territoriali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005017",
+      "display" : "Produzione industriale (DU europeo)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005018",
+      "display" : "Ingegneria edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005019",
+      "display" : "Ingegneria delle strutture"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005020",
+      "display" : "Ingegneria meccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005021",
+      "display" : "Ingegneria dei materiali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005022",
+      "display" : "Ingegneria delle materie plastiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005023",
+      "display" : "Ingegneria industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005024",
+      "display" : "Tecnologie industriali e dei materiali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005025",
+      "display" : "Ingegneria per l'ambiente e il territorio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005026",
+      "display" : "Ingegneria dell'autoveicolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005027",
+      "display" : "Matematica per le scienze dell'ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005028",
+      "display" : "Ingegneria civile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005029",
+      "display" : "Progettazione per la nautica da diporto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005030",
+      "display" : "Strumentazione industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005031",
+      "display" : "Tecnologia ceramica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005032",
+      "display" : "Topografia applicata"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005033",
+      "display" : "Esperti della produzione industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005034",
+      "display" : "Tecniche per la protezione ambientale e per la sicurezza nei luoghi di lavoro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005035",
+      "display" : "Topografo esperto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005036",
+      "display" : "Tecnico superiore di elettronica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005037",
+      "display" : "Programmatori ed analisti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005038",
+      "display" : "Tecnologia protezione ambiente e sicurezza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005039",
+      "display" : "Impianti tecnici e frigoriferi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005040",
+      "display" : "Tecnologie tessili"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005041",
+      "display" : "Telecomunicazioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005042",
+      "display" : "Tecnici per il risparmio energetico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005043",
+      "display" : "Scienza ed ingegneria dei materiali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60005999",
+      "display" : "Altri diplomi del gruppo ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006000",
+      "display" : "Gruppo architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006001",
+      "display" : "Disegno industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006002",
+      "display" : "Tecniche e arti della stampa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006003",
+      "display" : "Realizzazione, riqualificazione e gestione degli spazi verdi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006004",
+      "display" : "Materiali per la manutenzione del costruito antico e moderno"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006005",
+      "display" : "Rilevamento e rappresentazione dei beni architettonici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006006",
+      "display" : "Scienze e arti della stampa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60006999",
+      "display" : "Altri diplomi del gruppo architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007000",
+      "display" : "Gruppo agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007001",
+      "display" : "Gestione tecnica e amministrativa in agricoltura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007002",
+      "display" : "Igiene e sanità animale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007003",
+      "display" : "Produzioni agrarie tropicali e subtropicali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007004",
+      "display" : "Produzioni animali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007005",
+      "display" : "Produzioni vegetali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007006",
+      "display" : "Tecniche forestali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007007",
+      "display" : "Tecniche forestali e tecnologie del legno"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007008",
+      "display" : "Tecnologie alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007009",
+      "display" : "Biotecnologie agro industriali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007010",
+      "display" : "Viticoltura ed enologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007011",
+      "display" : "Tecnologie agroalimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007012",
+      "display" : "Gestione delle imprese della pesca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007013",
+      "display" : "Agriturismo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007014",
+      "display" : "Agrometeorologia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007015",
+      "display" : "Tecnica enologica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007016",
+      "display" : "Tecniche di laboratorio per le industrie agro alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007017",
+      "display" : "Tecnologie della produzione della carne"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007018",
+      "display" : "Tecnica faunistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007019",
+      "display" : "Maricoltura, pesca e trasformazione pesca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60007999",
+      "display" : "Altri diplomi del gruppo agrario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008000",
+      "display" : "Gruppo economico-statistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008001",
+      "display" : "Amministrazione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008002",
+      "display" : "Commercio estero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008003",
+      "display" : "Economia delle amministrazioni pubbliche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008004",
+      "display" : "Economia delle imprese cooperative e delle organizzazioni nonprofit"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008005",
+      "display" : "Economia e amministrazione delle imprese"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008006",
+      "display" : "Economia e amministrazione delle imprese alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008007",
+      "display" : "Economia e gestione dei servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008008",
+      "display" : "Gestione delle amministrazioni pubbliche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008009",
+      "display" : "Gestione delle imprese alimentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008010",
+      "display" : "Marketing e comunicazione d'azienda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008011",
+      "display" : "Statistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008012",
+      "display" : "Statistica e informatica per la gestione delle imprese"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008013",
+      "display" : "Statistica e informatica per le amministrazioni pubbliche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008014",
+      "display" : "Scienze assicurative"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008015",
+      "display" : "Economia applicata"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008016",
+      "display" : "Metodi quantitativi per l'economia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008017",
+      "display" : "Moneta e finanza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008018",
+      "display" : "Economia e gestione dei servizi ambientali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008019",
+      "display" : "Operatore del turismo culturale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008020",
+      "display" : "Statistica (corso biennale)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008021",
+      "display" : "Economia ed ingegneria della qualità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008022",
+      "display" : "Banca e finanza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008023",
+      "display" : "Economia dell'ambiente"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008024",
+      "display" : "Amministrazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008025",
+      "display" : "Economia e amministrazione dell'azienda pubblica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008026",
+      "display" : "Economia e amministrazione delle imprese agricole"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008027",
+      "display" : "Economia e gestione delle arti e delle attività culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008028",
+      "display" : "Operatore turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008029",
+      "display" : "Tecniche finanziarie e assicurative"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008030",
+      "display" : "Economia, gestione e tutela dell'ambiente"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008031",
+      "display" : "Scienze bancarie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008032",
+      "display" : "Economia del sistema agro alimentare e dell'ambiente"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008033",
+      "display" : "Esperti in lingue nel settore del commercio estero"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008034",
+      "display" : "Operatori economici dei servizi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008035",
+      "display" : "Operatori economici nel sistema turistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008036",
+      "display" : "Scienze turistiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008037",
+      "display" : "Amministrazione e controllo aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008038",
+      "display" : "Economia e merceologia alimentare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008039",
+      "display" : "Studi turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008040",
+      "display" : "Operatori turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008041",
+      "display" : "Esperti di statistica informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008042",
+      "display" : "Tecnici dell'amministrazione aziendale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60008999",
+      "display" : "Altri diplomi del gruppo economico statistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009000",
+      "display" : "Gruppo politico-sociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009001",
+      "display" : "Giornalismo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009002",
+      "display" : "Servizio sociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009003",
+      "display" : "Tecnica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009004",
+      "display" : "Operatore della sicurezza e del controllo sociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009005",
+      "display" : "Tecnico audiovisivo e multimediale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009006",
+      "display" : "Scienze organizzative e gestionali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009007",
+      "display" : "Tecnologo della comunicazione audiovisiva e multimediale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009008",
+      "display" : "Relazioni pubbliche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009009",
+      "display" : "Coordinamento delle attività di protezione civile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009010",
+      "display" : "Assistenti sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009011",
+      "display" : "Scienze politiche e sociali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009012",
+      "display" : "Scuola servizio sociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009013",
+      "display" : "Tecnica pubblicitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009014",
+      "display" : "Relazioni pubbliche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60009999",
+      "display" : "Altri diplomi del gruppo politico sociale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010000",
+      "display" : "Gruppo giuridico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010001",
+      "display" : "Consulente del lavoro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010002",
+      "display" : "Operatore giudiziario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010003",
+      "display" : "Operatore giuridico d'impresa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010004",
+      "display" : "Operatore della pubblica amministrazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010005",
+      "display" : "Relazioni industriali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010006",
+      "display" : "Scienze strategiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010007",
+      "display" : "Scienze criminologiche applicate"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010008",
+      "display" : "Operatore immobiliare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010009",
+      "display" : "Consulenti del lavoro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010010",
+      "display" : "Pubblica amministrazione e governo locale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60010999",
+      "display" : "Altri diplomi del gruppo giuridico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011000",
+      "display" : "Gruppo letterario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011001",
+      "display" : "Archivisti paleografi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011002",
+      "display" : "Bibliotecari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011003",
+      "display" : "Conservatori di manoscritti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011004",
+      "display" : "Operatori/conservatori dei beni culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011005",
+      "display" : "Operatore di costume e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011006",
+      "display" : "Paleografia e filologia musicale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011007",
+      "display" : "Storia e didattica della musica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011008",
+      "display" : "Consulenza grafologica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011009",
+      "display" : "Tecnico per la diagnostica applicata al restauro e conservazione dei beni culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011010",
+      "display" : "Operatore dei beni culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011011",
+      "display" : "Operatore didattico dei beni culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011012",
+      "display" : "Tecniche artistiche e dello spettacolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011013",
+      "display" : "Metodologie e tecniche di restauro dei beni librari e documentari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011014",
+      "display" : "Beni culturali per operatori turistici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011015",
+      "display" : "Archivisti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011016",
+      "display" : "Costume e moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011017",
+      "display" : "Operatori tecnico scientifici per i beni culturali e ambientali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011018",
+      "display" : "Studi grafologici"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60011999",
+      "display" : "Altri diplomi del gruppo letterario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60012000",
+      "display" : "Gruppo linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60012001",
+      "display" : "Traduttori e interpreti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60012002",
+      "display" : "Traduttore ed interprete e corrispondente in lingue estere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60012003",
+      "display" : "Esperto linguistico d'impresa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60012004",
+      "display" : "Lingue straniere con specializzazione turistico culturale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60012999",
+      "display" : "Altri diplomi del gruppo linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013000",
+      "display" : "Gruppo insegnamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013001",
+      "display" : "Insegnamento della lingua italiana a stranieri"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013002",
+      "display" : "Abilitazione alla vigilanza nelle scuole elementari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013003",
+      "display" : "Educatore nelle comunità infantili"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013004",
+      "display" : "Tecnico di laboratorio della formazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013005",
+      "display" : "Educatore e divulgatore ambientale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013006",
+      "display" : "Educatori professionali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013007",
+      "display" : "Educatori di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013008",
+      "display" : "Educatori professionali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013009",
+      "display" : "Educatori di comunità"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60013999",
+      "display" : "Altri diplomi del gruppo insegnamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60014000",
+      "display" : "Gruppo psicologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60014001",
+      "display" : "Assistenti educativi di prima infanzia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60014999",
+      "display" : "Altri diplomi del gruppo psicologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60015000",
+      "display" : "Gruppo educazione fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60015001",
+      "display" : "Educazione fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60015002",
+      "display" : "Attività motorie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60015999",
+      "display" : "Altri diplomi del gruppo educazione fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "60999999",
+      "display" : "Altri diplomi universitari"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "70000000",
+      "display" : "LAUREA - Vecchio o nuovo ordinamento (corsi di durata compresa tra i 2 e i 6 anni)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71000000",
+      "display" : "LAUREA DI PRIMO LIVELLO - Nuovo ordinamento (corsi di 3 anni)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71001000",
+      "display" : "Gruppo scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71001001",
+      "display" : "Scienze matematiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71001002",
+      "display" : "Scienze e tecnologie fisiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71001003",
+      "display" : "Scienze e tecnologie informatiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71001999",
+      "display" : "Altre lauree di primo livello del guppo scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71002000",
+      "display" : "Gruppo chimico farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71002001",
+      "display" : "Scienze e tecnologie chimiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71002002",
+      "display" : "Scienze e tecnologie farmaceutiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71002990",
+      "display" : "Altre lauree di primo livello del guppo chimico farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003000",
+      "display" : "Gruppo geo-biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003001",
+      "display" : "Biotecnologie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003002",
+      "display" : "Scienze biologiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003003",
+      "display" : "Scienze della terra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003004",
+      "display" : "Scienze e tecnologie per l'ambiente e la natura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003005",
+      "display" : "Scienze geografiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71003990",
+      "display" : "Altre lauree di primo livello del guppo geo biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71004000",
+      "display" : "Gruppo medico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71004001",
+      "display" : "Professioni sanitarie infermieristiche e professione sanitaria ostestrica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71004002",
+      "display" : "Professioni sanitarie della riabilitazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71004003",
+      "display" : "Professioni sanitarie tecniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71004004",
+      "display" : "Professioni sanitarie della prevenzione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71004999",
+      "display" : "Altre lauree di primo livello del guppo medico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71005000",
+      "display" : "Gruppo ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71005001",
+      "display" : "Ingegneria civile e ambientale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71005002",
+      "display" : "Ingegneria dell'informazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71005003",
+      "display" : "Ingegneria industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71005999",
+      "display" : "Altre lauree di primo livello del guppo ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71006000",
+      "display" : "Gruppo architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71006001",
+      "display" : "Scienze dell'architettura e dell'ingegneria edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011000",
+      "display" : "Gruppo letterario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011001",
+      "display" : "Lettere"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011002",
+      "display" : "Scienze dei beni culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011003",
+      "display" : "Scienze e tecnologie delle arti figurative, della musica, dello spettacolo e della moda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011004",
+      "display" : "Filosofia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011005",
+      "display" : "Scienze storiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011006",
+      "display" : "Tecnologie per la conservazione e il restauro dei beni culturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71011999",
+      "display" : "Altre lauree di primo livello del guppo letterario"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71012000",
+      "display" : "Gruppo linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71012001",
+      "display" : "Scienze della mediazione linguistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71012002",
+      "display" : "Lingue e culture moderne"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71012999",
+      "display" : "Altre lauree di primo livello del guppo linguistico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71013000",
+      "display" : "Gruppo insegnamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71013001",
+      "display" : "Scienze dell'educazione e della formazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71013999",
+      "display" : "Altre lauree di primo livello del guppo insegnamento"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71014000",
+      "display" : "Gruppo psicologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71014001",
+      "display" : "Scienze e tecniche psicologiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71014999",
+      "display" : "Altre lauree di primo livello del guppo psicologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71015000",
+      "display" : "Gruppo educazione fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71015001",
+      "display" : "Scienze delle attività motorie e sportive"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71015999",
+      "display" : "Altre lauree di primo livello del guppo educazione fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71016000",
+      "display" : "Gruppo difesa e sicurezza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71016001",
+      "display" : "Scienze della difesa e della sicurezza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71016999",
+      "display" : "Altre lauree di primo livello del guppo difesa e sicurezza"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "71999999",
+      "display" : "Altre lauree di primo livello"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72000000",
+      "display" : "DIPLOMA DI LAUREA - Vecchio ordinamento (corsi di 4/6 anni)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001000",
+      "display" : "Gruppo scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001001",
+      "display" : "Matematica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001002",
+      "display" : "Fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001003",
+      "display" : "Astronomia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001004",
+      "display" : "Scienza dei materiali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001005",
+      "display" : "Discipline nautiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001006",
+      "display" : "Informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001007",
+      "display" : "Scienze dell'informazione"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001008",
+      "display" : "Scienze nautiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001998",
+      "display" : "Matematica e Fisica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72001999",
+      "display" : "Altri diplomi di laurea del gruppo scientifico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002000",
+      "display" : "Gruppo chimico farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002001",
+      "display" : "Chimica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002002",
+      "display" : "Chimica industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002003",
+      "display" : "Farmacia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002004",
+      "display" : "Chimica e tecnologia farmaceutiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002005",
+      "display" : "Biotecnologie farmaceutiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72002999",
+      "display" : "Altri diplomi di laurea del gruppo chimico farmaceutico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003000",
+      "display" : "Gruppo geo-biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003001",
+      "display" : "Scienze geologiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003002",
+      "display" : "Scienze naturali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003003",
+      "display" : "Scienze biologiche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003004",
+      "display" : "Scienze ambientali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003005",
+      "display" : "Biotecnologie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003006",
+      "display" : "Biotecnologie industriali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003007",
+      "display" : "Biotecnologie veterinarie"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003008",
+      "display" : "Biotecnologie mediche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003009",
+      "display" : "Biotecnologie agrarie vegetali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72003999",
+      "display" : "Altri diplomi di laurea del gruppo geo biologico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72004000",
+      "display" : "Gruppo medico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72004001",
+      "display" : "Medicina e chirurgia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72004002",
+      "display" : "Odontoiatria e protesi dentaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72004003",
+      "display" : "Scienze della programmazione sanitaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72004999",
+      "display" : "Altri diplomi di laurea del gruppo medico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005000",
+      "display" : "Gruppo ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005002",
+      "display" : "Ingegneria mineraria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005003",
+      "display" : "Ingegneria meccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005004",
+      "display" : "Ingegneria elettrotecnica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005005",
+      "display" : "Ingegneria elettronica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005006",
+      "display" : "Ingegneria nucleare"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005007",
+      "display" : "Ingegneria chimica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005008",
+      "display" : "Ingegneria navale e meccanica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005009",
+      "display" : "Ingegneria aerospaziale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005010",
+      "display" : "Ingegneria civile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005011",
+      "display" : "Ingegneria delle tecnologie industriali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005012",
+      "display" : "Ingegneria civile per la difesa del suolo e pianificazione territoriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005013",
+      "display" : "Ingegneria forestale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005014",
+      "display" : "Ingegneria dei materiali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005015",
+      "display" : "Ingegneria informatica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005016",
+      "display" : "Ingegneria elettrica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005017",
+      "display" : "Ingegneria delle telecomunicazioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005018",
+      "display" : "Ingegneria gestionale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005019",
+      "display" : "Ingegneria per l'ambiente e il territorio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005020",
+      "display" : "Ingegneria edile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005021",
+      "display" : "Ingegneria navale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005022",
+      "display" : "Ingegneria biomedica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005023",
+      "display" : "Ingegneria delle comunicazioni"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005024",
+      "display" : "Ingegneria industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005026",
+      "display" : "Ingegneria aeronautica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005027",
+      "display" : "Ingegneria civile difesa suolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005029",
+      "display" : "Ingegneria medica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005030",
+      "display" : "Ingegneria dell'autoveicolo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005031",
+      "display" : "Scienze matematiche per l'ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005032",
+      "display" : "Ingegneria edile architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72005999",
+      "display" : "Altri diplomi di laurea del gruppo ingegneria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006000",
+      "display" : "Gruppo architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006001",
+      "display" : "Architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006002",
+      "display" : "Urbanistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006003",
+      "display" : "Disegno industriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006004",
+      "display" : "Pianificazione territoriale ed urbanistica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006005",
+      "display" : "Storia e conservazione dei beni architettonici e ambientali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006006",
+      "display" : "Pianificazione territoriale, urbanistica ed ambientale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006007",
+      "display" : "Arti visive"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006008",
+      "display" : "Cultura e tecnica del teatro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72006999",
+      "display" : "Altri diplomi di laurea del gruppo architettura"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+      "code" : "72007000",
+      "display" : "Gruppo agrario"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

@@ -1,16 +1,6395 @@
 -------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
+{"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/istat-luogoNascita", "version": "0.0.1"}####
+e: {
+  "error" : "Unable to expand imported value set http://terminology.hl7.it/ValueSet/istat-stato: Unable to expand imported value set: Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere (and Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/valueset-valuecodeableconcept-obs-it", "version": "0.0.1"}####
+e: {
+  "valueSet" : {
   "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "valueSet" : ["http://terminology.hl7.it/ValueSet/istat-stato"]
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "url" : "http://terminology.hl7.it/ValueSet/valueset-valuecodeableconcept-obs-it",
+  "version" : "0.0.1",
+  "name" : "VsObservationValueCodeableConcept",
+  "title" : "Risultato osservazione codificato",
+  "status" : "active",
+  "date" : "2023-12-11T22:47:12+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    }]
+  }],
+  "expansion" : {
+    "identifier" : "urn:uuid:8a330135-685a-4885-91b0-652d7bf7c6b2",
+    "timestamp" : "2023-12-12T01:05:23.239Z",
+    "total" : 1264,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
     },
     {
-      "valueSet" : ["http://terminology.hl7.it/ValueSet/istat-comune"]
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/valueset-observation-value-microorganism|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/valueset-observation-value-microorganism|0.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/valueset-observation-value-bloodgroup|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/valueset-observation-value-bloodgroup|0.0.1"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/valueset-observation-value-presence-absence|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/valueset-observation-value-presence-absence|0.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "158005",
+      "display" : "Salmonella Irumu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "163009",
+      "display" : "Bacteroides stercoris"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "214001",
+      "display" : "Streptococcus mutans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "252000",
+      "display" : "Acinetobacter johnsonii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "280003",
+      "display" : "Salmonella Limete (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "312000",
+      "display" : "Salmonella Amba (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "484009",
+      "display" : "Eubacterium oxidoreducens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "509004",
+      "display" : "Salmonella II 30:k:e,n,x,z15"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "522007",
+      "display" : "Thermoactinomyces peptonophilus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "541005",
+      "display" : "Salmonella Ahuza (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "581003",
+      "display" : "Salmonella Canada (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "638008",
+      "display" : "Legionella oakridgensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "656008",
+      "display" : "Salmonella Os (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "709001",
+      "display" : "Ruminococcus callidus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "711005",
+      "display" : "Salmonella Tunis (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "748001",
+      "display" : "Salmonella Chandans (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "749009",
+      "display" : "Salmonella Truro (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "760000",
+      "display" : "Salmonella Djelfa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "761001",
+      "display" : "Salmonella Runby (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "800007",
+      "display" : "Salmonella Offa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "802004",
+      "display" : "Serratia ficaria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "909007",
+      "display" : "Mycobacterium parafortuitum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1009003",
+      "display" : "Salmonella Oakland (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1013005",
+      "display" : "Micropolyspora faeni"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1017006",
+      "display" : "Lactobacillus casei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1037005",
+      "display" : "Salmonella Aragua (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1056000",
+      "display" : "Salmonella II, 4,12:l,z28:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1081002",
+      "display" : "Salmonella II 9,12,(46),27:g,t:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1083004",
+      "display" : "Salmonella Wyldegreen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1245005",
+      "display" : "Salmonella Kiel (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1290001",
+      "display" : "Mycoplasma hominis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1291002",
+      "display" : "Salmonella Frankfurt (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1344006",
+      "display" : "Clostridium saccharolyticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1424001",
+      "display" : "Streptococcus, group K"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1445008",
+      "display" : "Providencia stuartii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1507005",
+      "display" : "Mycobacterium kansasii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1546007",
+      "display" : "Tatumella ptyseos"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1566003",
+      "display" : "Vibrio gazogenes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1574002",
+      "display" : "Salmonella Santiago (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1621003",
+      "display" : "Salmonella IV 45:z4,z23:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1687002",
+      "display" : "Actinomyces howellii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1743002",
+      "display" : "Pasteurella multocida ss. gallicida"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1804009",
+      "display" : "Salmonella Brijbhumi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1810009",
+      "display" : "Bacillus psychrophilus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1812001",
+      "display" : "Salmonella Jerusalem (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1839009",
+      "display" : "Actinobacillus ureae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1875006",
+      "display" : "Haemophilus piscium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1888009",
+      "display" : "Salmonella Wingrove (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1921001",
+      "display" : "Salmonella Donna (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1934000",
+      "display" : "Salmonella Ridge (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1957006",
+      "display" : "Salmonella Hydra (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1972005",
+      "display" : "Fusobacterium varium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2007003",
+      "display" : "Salmonella Aesch (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2047005",
+      "display" : "Salmonella Hoghton (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2111007",
+      "display" : "Salmonella Tamilnadu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2143007",
+      "display" : "Lactobacillus murinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2191008",
+      "display" : "Salmonella III arizonae 47:z29:--"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2203005",
+      "display" : "Salmonella Meskin (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2286000",
+      "display" : "Salmonella Agbeni (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2291004",
+      "display" : "Salmonella London (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2345009",
+      "display" : "Cedecea lapagei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2356009",
+      "display" : "Salmonella Patience (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2379005",
+      "display" : "Propionibacterium acidipropionici"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2399004",
+      "display" : "Salmonella Quiniela (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2401005",
+      "display" : "Bacteroides endodontalis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2434007",
+      "display" : "Salmonella Uganda (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2440000",
+      "display" : "Salmonella Inglis (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2445005",
+      "display" : "Salmonella Olten (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2527008",
+      "display" : "Salmonella II, 1,4,12,27:l,v:z39"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2599003",
+      "display" : "Salmonella Massenya (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2621000",
+      "display" : "Rhodococcus coprophilus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2654003",
+      "display" : "Mycoplasma salivarium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2744005",
+      "display" : "Actinomadura fulvescens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2785000",
+      "display" : "Enterococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2820001",
+      "display" : "Salmonella Saintpaul (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2872006",
+      "display" : "Salmonella Frintrop (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2932003",
+      "display" : "Salmonella Bispebjerg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2934002",
+      "display" : "Moraxella (Branhamella) caviae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3020006",
+      "display" : "Bacillus lentus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3092008",
+      "display" : "Staphylococcus aureus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3115008",
+      "display" : "Desulfotomaculum autareticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3128001",
+      "display" : "Legionella israelensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3154009",
+      "display" : "Salmonella Oyonnax (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3174002",
+      "display" : "Actinomyces meyeri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3196008",
+      "display" : "Spirochaeta aurantia ss. stricta"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3210007",
+      "display" : "Salmonella II 1,44:e,n,x:1,6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3288007",
+      "display" : "Salmonella II 65:-:1,6:-"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3293005",
+      "display" : "Borrelia mazzottii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3312002",
+      "display" : "Salmonella Fresno (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3316004",
+      "display" : "Salmonella Hithergreen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3335004",
+      "display" : "Salmonella Greiz (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3351007",
+      "display" : "Anaplasma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3373000",
+      "display" : "Salmonella Ibadan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3386009",
+      "display" : "Salmonella Doncaster (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3388005",
+      "display" : "Pasteurella testudinis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3402008",
+      "display" : "Vibrio alginolyticus ss. iophagus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3451006",
+      "display" : "Buttiauxella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3540008",
+      "display" : "Salmonella Aequatoria (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3567002",
+      "display" : "Salmonella Angers (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3596001",
+      "display" : "Salmonella Poano (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3603008",
+      "display" : "Brevibacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3624003",
+      "display" : "Salmonella Waral (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3626001",
+      "display" : "Mycoplasma caviae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3636009",
+      "display" : "Treponema minutum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3708006",
+      "display" : "Salmonella Uno (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3801008",
+      "display" : "Salmonella Ursenbach (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3835006",
+      "display" : "Salmonella Colobane (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3837003",
+      "display" : "Salmonella Sendai (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3840003",
+      "display" : "Arthrobacter globiformis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3846009",
+      "display" : "Salmonella Gamaba (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3878001",
+      "display" : "Ewingella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3970007",
+      "display" : "Salmonella Quentin (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4005005",
+      "display" : "Salmonella Jamaica (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4012001",
+      "display" : "Lactobacillus agilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4055002",
+      "display" : "Mycoplasma hyopharyngis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4099006",
+      "display" : "Treponema denticola"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4145004",
+      "display" : "Salmonella Ohlstedt (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4256006",
+      "display" : "Capnocytophaga ochracea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4267007",
+      "display" : "Salmonella Stourbridge (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4280005",
+      "display" : "Edwardsiella hoshinae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4298009",
+      "display" : "Shigella sonnei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4311001",
+      "display" : "Salmonella Coleypark (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4346009",
+      "display" : "Eikenella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4361005",
+      "display" : "Salmonella Thompson (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4427009",
+      "display" : "Veillonella ratti"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4492008",
+      "display" : "Salmonella Groenekan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4614004",
+      "display" : "Salmonella Galiema (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4668009",
+      "display" : "Yersinia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4687003",
+      "display" : "Salmonella Essen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4696003",
+      "display" : "Eubacterium hadrum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4769009",
+      "display" : "Salmonella Seremban (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4782001",
+      "display" : "Streptococcus, group P"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4791002",
+      "display" : "Eubacterium yurii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4794005",
+      "display" : "Salmonella Jedburgh (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4867001",
+      "display" : "Salmonella Malakal (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4868006",
+      "display" : "Salmonella Nottingham (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4918004",
+      "display" : "Salmonella Hiduddify (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5056007",
+      "display" : "Mycoplasma genitalium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5197002",
+      "display" : "Lactobacillus delbrueckii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5247005",
+      "display" : "Bordetella pertussis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5325008",
+      "display" : "Salmonella Menden (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5369001",
+      "display" : "Salmonella Ezra (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5372008",
+      "display" : "Salmonella Eko (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5461002",
+      "display" : "Salmonella Chester (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5484009",
+      "display" : "Actinomadura kijaniata"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5555002",
+      "display" : "Leptospira interrogans, serogroup Australis (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5595000",
+      "display" : "Eberthella typhi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5610000",
+      "display" : "Salmonella Azteca (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5612008",
+      "display" : "Salmonella Enugu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5615005",
+      "display" : "Eubacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5778005",
+      "display" : "Salmonella Muguga (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5837001",
+      "display" : "Salmonella IV 40:z4,z24:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5844005",
+      "display" : "Actinomyces denticolens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5851001",
+      "display" : "Corynebacterium diphtheriae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5864000",
+      "display" : "Salmonella Baildon (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5885000",
+      "display" : "Mycobacterium flavescens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5908004",
+      "display" : "Salmonella Haelsingborg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5912005",
+      "display" : "Bifidobacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5929008",
+      "display" : "Salmonella Virchow (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5933001",
+      "display" : "Clostridium difficile"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5937000",
+      "display" : "Salmonella Abadina (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5956005",
+      "display" : "Salmonella Kouka (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5957001",
+      "display" : "Salmonella Binningen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6065006",
+      "display" : "Salmonella Malstatt (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6086006",
+      "display" : "Salmonella Kinondoni (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6156002",
+      "display" : "Salmonella Sanga (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6184007",
+      "display" : "Salmonella Fulica (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6199007",
+      "display" : "Mycobacterium diernhoferi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6233000",
+      "display" : "Salmonella Warragul (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6246005",
+      "display" : "Treponema pallidum ss. pertenue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6265002",
+      "display" : "Citrobacter freundii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6272001",
+      "display" : "Salmonella II 56:d:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6294009",
+      "display" : "Lactobacillus fructosus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6302004",
+      "display" : "Salmonella Shipley (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6327006",
+      "display" : "Salmonella Glostrup (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6328001",
+      "display" : "Salmonella Banjul (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6350000",
+      "display" : "Salmonella Joal (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6377009",
+      "display" : "Lactobacillus aviarius ss. aviarius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6387008",
+      "display" : "Vibrio furnissii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6405003",
+      "display" : "Brevibacterium casei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6432008",
+      "display" : "Salmonella Brive (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6458008",
+      "display" : "Salmonella Yovokome (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6459000",
+      "display" : "Salmonella Riogrande (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6523009",
+      "display" : "Neorickettsia elokominica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6586003",
+      "display" : "Streptomyces paraguayensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6663003",
+      "display" : "Salmonella Morningside (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6675008",
+      "display" : "Salmonella Kibi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6695002",
+      "display" : "Actinobacillus capsulatus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6754006",
+      "display" : "Selenomonas artemidis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6768004",
+      "display" : "Salmonella Lodz (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6847008",
+      "display" : "Mobiluncus curtisii ss. curtisii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6851005",
+      "display" : "Salmonella Vietnam (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6938001",
+      "display" : "Salmonella Carmel (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6959008",
+      "display" : "Salmonella Windermere (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7031002",
+      "display" : "Salmonella California (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7172002",
+      "display" : "Ruminobacter amylophilus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7224005",
+      "display" : "Lactobacillus hilgardii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7303003",
+      "display" : "Salmonella II 28:m,t:(e,n,x)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7333005",
+      "display" : "Cardiobacterium hominis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7467004",
+      "display" : "Salmonella Gwoza (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7516004",
+      "display" : "Salmonella Malmoe (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7527002",
+      "display" : "Legionella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7531008",
+      "display" : "Brevibacterium frigoritolerans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7622003",
+      "display" : "Neisseria suis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7717005",
+      "display" : "Salmonella Adana (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7730006",
+      "display" : "Salmonella Rawash (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7747007",
+      "display" : "Salmonella Kikoma (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7757008",
+      "display" : "Acinetobacter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7784009",
+      "display" : "Pasteurella canis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7830000",
+      "display" : "Salmonella Hallfold (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7856007",
+      "display" : "Flavobacterium acidurans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7889007",
+      "display" : "Clostridium carnis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7912006",
+      "display" : "Streptococcus suis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7943004",
+      "display" : "Salmonella Lekke (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "7963006",
+      "display" : "Salmonella IV, group 57"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8044005",
+      "display" : "Salmonella Bareilly (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8051001",
+      "display" : "Salmonella Homosassa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8052008",
+      "display" : "Salmonella Agoueve (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8056006",
+      "display" : "Staphylococcus gallinarum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8058007",
+      "display" : "Salmonella Sinthia (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8077009",
+      "display" : "Salmonella II 1,9,12,(46),27:z10:z39"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8147000",
+      "display" : "Legionella wadsworthii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8191000",
+      "display" : "Clostridium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8208007",
+      "display" : "Clostridium bifermentans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8249007",
+      "display" : "Salmonella Denver (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8307000",
+      "display" : "Salmonella Lille (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8315002",
+      "display" : "Eubacterium ramulus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8331005",
+      "display" : "Clostridium perfringens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8339007",
+      "display" : "Salmonella Jangwani (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8379003",
+      "display" : "Salmonella Tucson (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8386006",
+      "display" : "Clostridium botulinum, type E"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8426007",
+      "display" : "Flexibacter flexilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8428008",
+      "display" : "Salmonella Ullevi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8432002",
+      "display" : "Salmonella Sternschanze (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8448001",
+      "display" : "Salmonella Rovaniemi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8455004",
+      "display" : "Salmonella Kentucky (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8472006",
+      "display" : "Leptospira interrogans, serogroup Djasiman (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8501000",
+      "display" : "Clostridium acidiurici"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8544001",
+      "display" : "Salmonella Potsdam (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8716004",
+      "display" : "Salmonella Gokul (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8730009",
+      "display" : "Salmonella Sinchew (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8741006",
+      "display" : "Salmonella Madigan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8745002",
+      "display" : "Gram-positive bacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8860008",
+      "display" : "Salmonella Ramatgan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8881008",
+      "display" : "Actinomadura yumaensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8922003",
+      "display" : "Salmonella Shanghai (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8940004",
+      "display" : "Actinomyces naeslundii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8984004",
+      "display" : "Mobiluncus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9004006",
+      "display" : "Salmonella Aderike (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9008009",
+      "display" : "Aerococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9041007",
+      "display" : "Campylobacter hyointestinalis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9179000",
+      "display" : "Salmonella Bronx (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9199006",
+      "display" : "Megamonas hypermegas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9211001",
+      "display" : "Actinomadura macra"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9254006",
+      "display" : "Nocardia vaccinii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9281006",
+      "display" : "Aeromonas veronii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9303008",
+      "display" : "Mycoplasma hyorhinis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9357001",
+      "display" : "Salmonella Ottawa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9393004",
+      "display" : "Salmonella Molade (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9433002",
+      "display" : "Salmonella Allandale (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9439003",
+      "display" : "Salmonella Horsham (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9453003",
+      "display" : "Salmonella Graz (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9459004",
+      "display" : "Salmonella Toricada (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9479007",
+      "display" : "Salmonella Wandsworth (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9506004",
+      "display" : "Salmonella Mbandaka (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9534006",
+      "display" : "Lactobacillus amylovorus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9541000",
+      "display" : "Salmonella II 42:z10:e,n,x,z15"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9679001",
+      "display" : "Mycobacterium moriokaense"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9691005",
+      "display" : "Salmonella Onderstepoort (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9699007",
+      "display" : "Saprospira"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9741003",
+      "display" : "Lactobacillus homohiochii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9752009",
+      "display" : "Bdellovibrio stolpii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9755006",
+      "display" : "Streptococcus, group S"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9766004",
+      "display" : "Clostridium beijerinckii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9784002",
+      "display" : "Staphylococcus carnosus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9786000",
+      "display" : "Clostridium celatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9818000",
+      "display" : "Salmonella Charity (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9852002",
+      "display" : "Salmonella Dahomey (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9861002",
+      "display" : "Streptococcus pneumoniae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9879003",
+      "display" : "Lactococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9892000",
+      "display" : "Campylobacter concisus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9939008",
+      "display" : "Mycobacterium fallax"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9952003",
+      "display" : "Salmonella Tanger (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9960002",
+      "display" : "Mycoplasma mycoides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10021006",
+      "display" : "Rahnella aquatilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10049004",
+      "display" : "Streptococcus ferus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10096007",
+      "display" : "Salmonella Leoben (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10111000",
+      "display" : "Vibrio aestuarianus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10112007",
+      "display" : "Salmonella Alamo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10183008",
+      "display" : "Salmonella Pensacola (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10248003",
+      "display" : "Salmonella Travis (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10262005",
+      "display" : "Enterococcus malodoratus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10276006",
+      "display" : "Lactobacillus vitulinus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10280001",
+      "display" : "Salmonella Tabligbo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10334001",
+      "display" : "Yersinia intermedia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10343005",
+      "display" : "Salmonella Adelaide (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10353006",
+      "display" : "Salmonella Bournemouth (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10402009",
+      "display" : "Helicobacter mustelae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10409000",
+      "display" : "Salmonella II 6,7:g,t:e,n,x:z42"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10413007",
+      "display" : "Serratia odorifera"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10454004",
+      "display" : "Salmonella Newlands (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10457006",
+      "display" : "Salmonella Dakota (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10467001",
+      "display" : "Clostridium ghonii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10487000",
+      "display" : "Bifidobacterium thermophilum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10549005",
+      "display" : "Arachnia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10556004",
+      "display" : "Salmonella Norwich (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10620008",
+      "display" : "Bordetella bronchiseptica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10667007",
+      "display" : "Streptococcus rattus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10704009",
+      "display" : "Salmonella Roan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10749007",
+      "display" : "Salmonella Kaitaan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10752004",
+      "display" : "Treponema macrodentium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10762006",
+      "display" : "Salmonella Omifisan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10794001",
+      "display" : "Lactobacillus pentosus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10851004",
+      "display" : "Salmonella Clerkenwell (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10874000",
+      "display" : "Salmonella Bassadji (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10879005",
+      "display" : "Pasteurella multocida"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10969007",
+      "display" : "Buttiauxella agrestis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10999003",
+      "display" : "Salmonella Potto (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11007001",
+      "display" : "Streptomyces somaliensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11027000",
+      "display" : "Bifidobacterium subtile"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11042002",
+      "display" : "Chromobacterium violaceum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11043007",
+      "display" : "Clostridium scatologenes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11062005",
+      "display" : "Salmonella Sherbrooke (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11097007",
+      "display" : "Salmonella Zega (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11139006",
+      "display" : "Salmonella Suberu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11166006",
+      "display" : "Salmonella II, group 58"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11167002",
+      "display" : "Mycoplasma gallopavonis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11188006",
+      "display" : "Salmonella Herzliya (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11309009",
+      "display" : "Oligella ureolytica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11325004",
+      "display" : "Salmonella Aqua (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11342005",
+      "display" : "Salmonella Othmarschen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11379008",
+      "display" : "Salmonella Ughelli (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11412008",
+      "display" : "Mycoplasma lipophilum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11471007",
+      "display" : "Gram-positive diplococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11488000",
+      "display" : "Salmonella Sundsvall (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11521007",
+      "display" : "Salmonella Hillingdon (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11539003",
+      "display" : "Bifidobacterium catenulatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11572003",
+      "display" : "Brachyspira"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11575001",
+      "display" : "Corynebacterium variabilis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11577009",
+      "display" : "Salmonella Lawndale (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11579007",
+      "display" : "Salmonella Cullingworth (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11590002",
+      "display" : "Gemella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11706004",
+      "display" : "Clostridium populeti"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11736008",
+      "display" : "Vibrio parahaemolyticus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11738009",
+      "display" : "Salmonella Sterrenbos (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11750003",
+      "display" : "Salmonella Lisboa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11776003",
+      "display" : "Vibrio mimicus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11787006",
+      "display" : "Borrelia hispanica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11827001",
+      "display" : "Salmonella II 1,40:a:z6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11893007",
+      "display" : "Salmonella Irigny (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11901002",
+      "display" : "Salmonella Kiambu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11903004",
+      "display" : "Salmonella Mesbit (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11926006",
+      "display" : "Salmonella Hannover (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11958001",
+      "display" : "Salmonella Niamey (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12006007",
+      "display" : "Ureaplasma urealyticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12040007",
+      "display" : "Salmonella Huddinge (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12050008",
+      "display" : "Corynebacterium pseudodiphtheriticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12069003",
+      "display" : "Actinomyces odontolyticus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12100004",
+      "display" : "Treponema socranskii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12127000",
+      "display" : "Clostridium dormicaceticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12154002",
+      "display" : "Leptospira interrogans, serogroup Louisiana (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12162005",
+      "display" : "Tatumella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12220009",
+      "display" : "Coxiella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12248009",
+      "display" : "Salmonella II 56:z10:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12278000",
+      "display" : "Salmonella Indiana (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12334006",
+      "display" : "Salmonella Bijlmer (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12370009",
+      "display" : "Salmonella Bornum (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12447002",
+      "display" : "Streptococcus equi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12452007",
+      "display" : "Anaeroplasma abactoclasticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12470005",
+      "display" : "Salmonella Bandia (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12517002",
+      "display" : "Salmonella Eschweiler (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12544007",
+      "display" : "Borrelia caucasica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12575003",
+      "display" : "Erysipelothrix tonsillarum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12638001",
+      "display" : "Neisseria elongata"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12662006",
+      "display" : "Salmonella Amunigun (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12704003",
+      "display" : "Streptococcus downei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12734008",
+      "display" : "Eubacterium brachy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12767007",
+      "display" : "Salmonella Crossness (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12768002",
+      "display" : "Clostridium puniceum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12806008",
+      "display" : "Mycoplasma neurolyticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12829000",
+      "display" : "Treponema pectinovorum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12837008",
+      "display" : "Salmonella Aschersleben (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12862008",
+      "display" : "Lactobacillus coryniformis ss. coryniformis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12918000",
+      "display" : "Mycoplasma equirhinis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12924006",
+      "display" : "Salmonella Breukelen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12948002",
+      "display" : "Clostridium malenominatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12964005",
+      "display" : "Salmonella II 3,10:d:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13009006",
+      "display" : "Salmonella Madelia (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13080008",
+      "display" : "Clostridium botulinum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13179007",
+      "display" : "Salmonella Montreal (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13250005",
+      "display" : "Streptococcus uberis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13257008",
+      "display" : "Eubacterium combesii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13291007",
+      "display" : "Streptococcus, group M"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13330009",
+      "display" : "Vibrio ordalii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13388005",
+      "display" : "Mycoplasma citelli"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13411008",
+      "display" : "Salmonella Freetown (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13421000",
+      "display" : "Salmonella Ried (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13430008",
+      "display" : "Bacillus firmus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13491009",
+      "display" : "Salmonella Brefet (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13511005",
+      "display" : "Salmonella Bodjonegoro (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13552001",
+      "display" : "Salmonella II 1,40:(z42):1,(5),7"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13615007",
+      "display" : "Salmonella Regent (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13679006",
+      "display" : "Salmonella Ahanou (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13682001",
+      "display" : "Salmonella Hessarek (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13716002",
+      "display" : "Mobiluncus mulieris"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13755001",
+      "display" : "Corynebacterium diphtheriae type mitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13794000",
+      "display" : "Salmonella Gambaga (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13796003",
+      "display" : "Clostridium propionicum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13834005",
+      "display" : "Mycoplasma alkalescens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13854006",
+      "display" : "Ruminococcus flavefaciens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13865001",
+      "display" : "Salmonella Tokoin (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13879009",
+      "display" : "Acinetobacter junii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13982003",
+      "display" : "Desulfotomaculum ruminis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13998005",
+      "display" : "Salmonella IV 53:z4,z23:--"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14007002",
+      "display" : "Salmonella Vom (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14040006",
+      "display" : "Acholeplasma parvum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14078008",
+      "display" : "Salmonella enterica subsp. enterica ser. Ioanda"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14121003",
+      "display" : "Legionella steigerwaltii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14145004",
+      "display" : "Salmonella Gdansk (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14161002",
+      "display" : "Pseudomonas fragi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14196002",
+      "display" : "Providencia rettgeri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14219002",
+      "display" : "Salmonella Kahla (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14262001",
+      "display" : "Salmonella Hilversum (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14264000",
+      "display" : "Clostridium fallax"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14277009",
+      "display" : "Mycoplasma canis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14298009",
+      "display" : "Pasteurella multocida ss. septica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14332009",
+      "display" : "Lactobacillus plantarum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14342006",
+      "display" : "Bacteroides caccae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14368004",
+      "display" : "Salmonella Bergen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14385002",
+      "display" : "Enterobacter cloacae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14424002",
+      "display" : "Salmonella Tees (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14528002",
+      "display" : "Salmonella IV 44:z4,z24:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14562002",
+      "display" : "Treponema carateum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14566004",
+      "display" : "Edwardsiella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14590003",
+      "display" : "Chlamydia psittaci"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14642002",
+      "display" : "Salmonella II 1,9,12,(46),27:z4,z24:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14677002",
+      "display" : "Leptospira interrogans, serogroup Mini (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14694000",
+      "display" : "Salmonella IV 11:z4,z32:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14717004",
+      "display" : "Microcystis flos-aquae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14754008",
+      "display" : "Clostridium sartagoformum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14795006",
+      "display" : "Flavobacterium devorans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14842004",
+      "display" : "Leptothrix discophora"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14882006",
+      "display" : "Salmonella II 43:e,n,x,z15:1,6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14909001",
+      "display" : "Clostridium tyrobutyricum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14943005",
+      "display" : "Yokenella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14966006",
+      "display" : "Salmonella Riverside (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14993009",
+      "display" : "Salmonella Mampeza (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15001007",
+      "display" : "Salmonella Stockholm (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15055006",
+      "display" : "Salmonella Riggil (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15063007",
+      "display" : "Salmonella II 53:z4,z24:-"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15091004",
+      "display" : "Salmonella Messina (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15105000",
+      "display" : "Ruminococcus obeum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15168000",
+      "display" : "Salmonella II 41:l,z13,z28:e,n,x,z15"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15189009",
+      "display" : "Salmonella II 6,7:g,[m],s,t:[z42] (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15288005",
+      "display" : "Salmonella Banco (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15319009",
+      "display" : "Salmonella Ealing (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15337005",
+      "display" : "Salmonella Isaszeg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15526005",
+      "display" : "Nocardiopsis dassonvillei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15549007",
+      "display" : "Salmonella Bamboye (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15553009",
+      "display" : "Salmonella Tchamba (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15560003",
+      "display" : "Sarcina maxima"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15578008",
+      "display" : "Salmonella Dahlem (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15691000",
+      "display" : "Salmonella Korbol (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15728008",
+      "display" : "Salmonella Leith (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15789003",
+      "display" : "Salmonella Vilvoorde (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15839003",
+      "display" : "Salmonella II 1,40:z6:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15844005",
+      "display" : "Salmonella Maracaibo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16049005",
+      "display" : "Salmonella II 16:b:z39"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16109000",
+      "display" : "Salmonella Coeln (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16158001",
+      "display" : "Salmonella Austin (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16168006",
+      "display" : "Salmonella II 58:b:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16184007",
+      "display" : "Mycoplasma putrefaciens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16194002",
+      "display" : "Salmonella Solna (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16241000",
+      "display" : "Chlamydia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16330004",
+      "display" : "Nocardiopsis syringae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16336005",
+      "display" : "Ehrlichia ondiri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16344005",
+      "display" : "Simonsiella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16346007",
+      "display" : "Salmonella Lubumbashi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16363006",
+      "display" : "Salmonella II 42:z6:1,6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16372003",
+      "display" : "Streptobacillus moniliformis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16377009",
+      "display" : "Mycoplasma agalactiae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16380005",
+      "display" : "Salmonella Wuppertal (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16580009",
+      "display" : "Bacillus pumilus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16582001",
+      "display" : "Salmonella 6,8:b:1,7"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16616000",
+      "display" : "Clostridium cadaveris"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16723007",
+      "display" : "Salmonella Rottnest (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16732009",
+      "display" : "Salmonella II, group 56"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16762003",
+      "display" : "Salmonella II 42:z10:z6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16768004",
+      "display" : "Clostridium nexile"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16820003",
+      "display" : "Salmonella Goldcoast (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16845000",
+      "display" : "Salmonella Keve (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16888008",
+      "display" : "Salmonella Brandenburg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16898002",
+      "display" : "Mycoplasma glycophilum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16914000",
+      "display" : "Mycobacterium piscium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16981003",
+      "display" : "Salmonella II 53:d:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17005004",
+      "display" : "Treponema refringens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17007007",
+      "display" : "Salmonella Llandoff (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17019004",
+      "display" : "Salmonella Blijdorp (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17031002",
+      "display" : "Erwinia tracheiphila"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17036007",
+      "display" : "Salmonella Djibouti (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17083009",
+      "display" : "Legionella feeleii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17109007",
+      "display" : "Treponema socranskii ss. socranskii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17191002",
+      "display" : "Pseudomonas pertucinogena"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17233007",
+      "display" : "Salmonella Simi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17298000",
+      "display" : "Legionella rubrilucens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17304009",
+      "display" : "Fusobacterium necrogenes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17323002",
+      "display" : "Salmonella Wimborne (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17330008",
+      "display" : "Salmonella Mississippi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17464006",
+      "display" : "Salmonella Amina (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17611002",
+      "display" : "Salmonella Fayed (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17625001",
+      "display" : "Mycoplasma equigenitalium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17634006",
+      "display" : "Clostridium polysaccharolyticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17680008",
+      "display" : "Salmonella II 9,46:m,t:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17688001",
+      "display" : "Klebsiella pneumoniae ss. rhinoscleromatis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17726008",
+      "display" : "Succinimonas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17792000",
+      "display" : "Helical Mycoplasma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17801007",
+      "display" : "Salmonella Toulon (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17834009",
+      "display" : "Salmonella Ord (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17872004",
+      "display" : "Neisseria meningitidis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17887009",
+      "display" : "Clostridium purinilyticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17939003",
+      "display" : "Salmonella Lomita (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18054009",
+      "display" : "Rickettsia rickettsii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18065004",
+      "display" : "Clostridium botulinum, type A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18088003",
+      "display" : "Salmonella Korlebu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18129006",
+      "display" : "Salmonella Ghana (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18163008",
+      "display" : "Salmonella Senftenberg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18214000",
+      "display" : "Legionella anisa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18238001",
+      "display" : "Salmonella IV 48:z4,z32:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18271002",
+      "display" : "Salmonella Bobo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18279000",
+      "display" : "Chlamydia psittaci var. ovis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18289001",
+      "display" : "Mycoplasma felis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18383003",
+      "display" : "Gram-negative coccus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18400002",
+      "display" : "Klebsiella pneumoniae ss. pneumoniae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18415001",
+      "display" : "Mycoplasma bovigenitalium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18562005",
+      "display" : "Salmonella II 48:a:z6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18578007",
+      "display" : "Salmonella Ashanti (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18635005",
+      "display" : "Mycoplasma molare"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18711009",
+      "display" : "Salmonella Saugus (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18717008",
+      "display" : "Salmonella Edmonton (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18810002",
+      "display" : "Salmonella Wohlen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18828000",
+      "display" : "Salmonella II 8:z29:e,n,x:z42"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18913004",
+      "display" : "Salmonella Bonames (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18986002",
+      "display" : "Flavobacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19027003",
+      "display" : "Ewingella americana"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19038003",
+      "display" : "Anaplasma marginale"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19084008",
+      "display" : "Clostridium butyricum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19118002",
+      "display" : "Salmonella Ahepe (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19185007",
+      "display" : "Clostridium hastiforme"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19190005",
+      "display" : "Salmonella Flottbek (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19191009",
+      "display" : "Salmonella Diguel (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19196004",
+      "display" : "Providencia rustigianii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19217002",
+      "display" : "Peptostreptococcus anaerobius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19251003",
+      "display" : "Leptospira interrogans, serogroup Icterohemorrhagiae (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19266000",
+      "display" : "Desulfotomaculum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19333001",
+      "display" : "Bifidobacterium pseudocatenulatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19368001",
+      "display" : "Salmonella Babelsberg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19374001",
+      "display" : "Salmonella enteritidis, phage type 4"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19415008",
+      "display" : "Clostridium innocuum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19425003",
+      "display" : "Moraxella (Moraxella) bovis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19428001",
+      "display" : "Pseudomonas nitroreducens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19430004",
+      "display" : "Salmonella Fitzroy (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19439003",
+      "display" : "Salmonella Giza (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19454009",
+      "display" : "Helicobacter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19464000",
+      "display" : "Bifidobacterium longum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19552006",
+      "display" : "Campylobacter sputorum ss. bubulus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19605006",
+      "display" : "Salmonella IV 57:z4,z23:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19610005",
+      "display" : "Clostridium perfringens, type C"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19683001",
+      "display" : "Staphylococcus hyicus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19687000",
+      "display" : "Salmonella II 40:z:z39"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19743000",
+      "display" : "Staphylococcus saprophyticus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19828009",
+      "display" : "Salmonella Neukoelln (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19857008",
+      "display" : "Salmonella II 11:-:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19870004",
+      "display" : "Streptococcus oralis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19890008",
+      "display" : "Salmonella II 16:b:z42"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19891007",
+      "display" : "Salmonella II 50:l,z28:z42"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19912000",
+      "display" : "Salmonella II 28:g,m,t:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19958004",
+      "display" : "Salmonella Marylebone (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19981002",
+      "display" : "Salmonella II 6,7:k:(z6)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20017000",
+      "display" : "Clostridium botulinum, type C"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20031000",
+      "display" : "Salmonella Berkeley (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20064000",
+      "display" : "Chromobacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20073008",
+      "display" : "Salmonella Manhattan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20128003",
+      "display" : "Anaplasma centrale"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20141004",
+      "display" : "Mycobacterium scrofulaceum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20209004",
+      "display" : "Salmonella Landwasser (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20266009",
+      "display" : "Salmonella Glidji (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20268005",
+      "display" : "Salmonella Taunton (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20314003",
+      "display" : "Salmonella Staoueli (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20347007",
+      "display" : "Eubacterium biforme"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20432002",
+      "display" : "Comamonas acidovorans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20439006",
+      "display" : "Clostridium arcticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20442000",
+      "display" : "Salmonella Borreze (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20498000",
+      "display" : "Mycobacterium chubuense"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20499008",
+      "display" : "Mycoplasma iowae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20519009",
+      "display" : "Geodermatophilus obscurus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20523001",
+      "display" : "Hafnia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20537005",
+      "display" : "Salmonella Bokanjac (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20542002",
+      "display" : "Salmonella IV 50:z4,z24:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20567004",
+      "display" : "Salmonella Kortrijk (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20578007",
+      "display" : "Eubacterium ventriosum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20585006",
+      "display" : "Peptococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20749008",
+      "display" : "Lactobacillus rogosae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20772005",
+      "display" : "Borrelia graingeri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20778009",
+      "display" : "Butyrivibrio"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20785008",
+      "display" : "Clostridium botulinum, type B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20788005",
+      "display" : "Clostridium cylindrosporum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20804002",
+      "display" : "Eubacterium cylindroides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20835008",
+      "display" : "Pseudomonas anguilliseptica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20855009",
+      "display" : "Salmonella Pullorum (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20862000",
+      "display" : "Salmonella Soerenga (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20872002",
+      "display" : "Salmonella Mbao (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20905000",
+      "display" : "Salmonella Sunnycove (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20950003",
+      "display" : "Salmonella Bellevue (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "20973006",
+      "display" : "Mycobacterium thermoresistibile"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21081003",
+      "display" : "Salmonella Burgas (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21087004",
+      "display" : "Actinomadura umbrina"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21146003",
+      "display" : "Salmonella Saphra (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21164005",
+      "display" : "Salmonella Bulgaria (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21176005",
+      "display" : "Salmonella Rogy (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21207005",
+      "display" : "Salmonella Cuckmere (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21218005",
+      "display" : "Salmonella Lokstedt (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21242009",
+      "display" : "Salmonella Mango (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21264000",
+      "display" : "Mycoplasma cricetuli"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21329006",
+      "display" : "Salmonella Djama (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21353000",
+      "display" : "Bdellovibrio bacteriovorus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21395009",
+      "display" : "Salmonella Grampian (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21433000",
+      "display" : "Mycobacterium nonchromogenicum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21436008",
+      "display" : "Salmonella Cyprus (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21469008",
+      "display" : "Salmonella Szentes (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21517001",
+      "display" : "Helicobacter-like organism"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21539004",
+      "display" : "Eubacterium fissicatena"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21544006",
+      "display" : "Xanthomonas"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21618001",
+      "display" : "Salmonella Morocco (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21633009",
+      "display" : "Veillonella atypica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21786003",
+      "display" : "Salmonella Bruck (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21816004",
+      "display" : "Salmonella Zaire (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21838002",
+      "display" : "Salmonella Annedal (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21865009",
+      "display" : "Salmonella Bracknell (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21927003",
+      "display" : "Bacillus anthracis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21953006",
+      "display" : "Salmonella II 47:z6:1,6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21975008",
+      "display" : "Salmonella Wien (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21996001",
+      "display" : "Mycobacterium haemophilum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22001003",
+      "display" : "Salmonella Lockleaze (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22117007",
+      "display" : "Salmonella Georgia (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22176007",
+      "display" : "Butyrivibrio fibrisolvens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22254006",
+      "display" : "Salmonella II 41:c:z6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22267009",
+      "display" : "Sarcina ventriculi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22292007",
+      "display" : "Cardiobacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22294008",
+      "display" : "Capnocytophaga"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22300006",
+      "display" : "Salmonella Hillsborough (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22307009",
+      "display" : "Salmonella Budapest (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22321006",
+      "display" : "Clostridium putrefaciens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22339002",
+      "display" : "Non-beta-hemolytic Streptococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22367006",
+      "display" : "Salmonella Chingola (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22373007",
+      "display" : "Treponema phagedenis, biotype reiteri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22423005",
+      "display" : "Xenorhabdus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22478004",
+      "display" : "Rhodococcus erythropolis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22533000",
+      "display" : "Coxiella burnetii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22581007",
+      "display" : "Kurthia zopfii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22590000",
+      "display" : "Salmonella Maricopa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22592008",
+      "display" : "Legionella birminghamensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22685008",
+      "display" : "Clostridium cellulolyticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22729005",
+      "display" : "Salmonella Bukavu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22752009",
+      "display" : "Salmonella Grumpensis (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22782003",
+      "display" : "Clostridium perfringens, type A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22831005",
+      "display" : "Salmonella II 30:g,m,s:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22832003",
+      "display" : "Acholeplasma axanthum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22899009",
+      "display" : "Salmonella Falkensee (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22937005",
+      "display" : "Clostridium kluyveri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23000006",
+      "display" : "Desulfobulbus propionicus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23029008",
+      "display" : "Lactobacillus helveticus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23032006",
+      "display" : "Salmonella Angoda (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23033001",
+      "display" : "Salmonella Yalding (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23057001",
+      "display" : "Salmonella II 40:b:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23131001",
+      "display" : "Salmonella Ajiobo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23271001",
+      "display" : "Salmonella Doulassame (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23277002",
+      "display" : "Beggiatoa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23310006",
+      "display" : "Streptococcus salivarius ss. thermophilus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23319007",
+      "display" : "Flexithrix dorotheae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23333007",
+      "display" : "Salmonella Sao (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23342000",
+      "display" : "Salmonella II 9,46:z39:1,7"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23566007",
+      "display" : "Listeria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23593005",
+      "display" : "Nocardiopsis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23595003",
+      "display" : "Selenomonas sputigena"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23665004",
+      "display" : "Salmonella Dakar (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23727001",
+      "display" : "Salmonella Wil (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23787004",
+      "display" : "Serratia liquefaciens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23790005",
+      "display" : "Salmonella Kokoli (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23810001",
+      "display" : "Pseudomonas tolaasii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23836008",
+      "display" : "Salmonella Pontypridd (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23837004",
+      "display" : "Salmonella Tchad (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23865002",
+      "display" : "Salmonella Amounderness (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23871008",
+      "display" : "Propionibacterium freudenreichii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "23930001",
+      "display" : "Francisella tularensis ss. mediasiatica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24009000",
+      "display" : "Salmonella Zuilen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24090006",
+      "display" : "Salmonella Senegal (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24224000",
+      "display" : "Brucella abortus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24226003",
+      "display" : "Moraxella (Branhamella) catarrhalis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24231001",
+      "display" : "Mitsuokella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24239004",
+      "display" : "Salmonella II 1,40:z:z6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24270007",
+      "display" : "Salmonella Magumeri (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24289007",
+      "display" : "Salmonella Lagos (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24477008",
+      "display" : "Bifidobacterium asteroides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24564002",
+      "display" : "Salmonella Livulu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24608007",
+      "display" : "Bifidobacterium globosum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24618002",
+      "display" : "Mycobacterium gilvum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24656001",
+      "display" : "Clostridium cocleatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24666009",
+      "display" : "Salmonella Worthington (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24680002",
+      "display" : "Salmonella Matopeni (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24716009",
+      "display" : "Bacteroides furcosus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24763006",
+      "display" : "Vibrio cholerae serotype Hikojima"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24871004",
+      "display" : "Mycobacterium gordonae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24896001",
+      "display" : "Salmonella Harvestehude (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24951009",
+      "display" : "Salmonella Wagenia (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24986006",
+      "display" : "Borrelia turicatae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25000009",
+      "display" : "Salmonella Bassa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25037003",
+      "display" : "Salmonella Emmastad (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25040003",
+      "display" : "Salmonella Lene (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25105001",
+      "display" : "Xanthomonas campestris"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25123009",
+      "display" : "Mycoplasma moatsii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25223004",
+      "display" : "Alcaligenes faecalis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25300000",
+      "display" : "Streptococcus, group H"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25382005",
+      "display" : "Salmonella Sharon (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25487003",
+      "display" : "Salmonella Eingedi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25520000",
+      "display" : "Salmonella Ruiru (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25535004",
+      "display" : "Salmonella Beaudesert (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25563002",
+      "display" : "Mycoplasma meleagridis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25687006",
+      "display" : "Mycoplasma columborale"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25695005",
+      "display" : "Salmonella Umbilo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25767003",
+      "display" : "Salmonella Liverpool (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25788007",
+      "display" : "Oxalobacter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25802000",
+      "display" : "Citrobacter intermedius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25812007",
+      "display" : "Salmonella Thiaroye (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25939003",
+      "display" : "Salmonella Lindi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26003002",
+      "display" : "Salmonella Bedford (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26031006",
+      "display" : "Salmonella Kibusi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26032004",
+      "display" : "Acholeplasma granularum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26044001",
+      "display" : "Megasphaera elsdenii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26080001",
+      "display" : "Salmonella Avignon (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26153006",
+      "display" : "Salmonella Heves (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26173001",
+      "display" : "Bifidobacterium choerinum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26183002",
+      "display" : "Bordetella parapertussis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26207009",
+      "display" : "Salmonella II 43:a:z6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26225002",
+      "display" : "Salmonella II 3,10:a:z39"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26247002",
+      "display" : "Neisseria animalis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26250004",
+      "display" : "Brucella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26443001",
+      "display" : "Salmonella Lattenkamp (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26455007",
+      "display" : "Salmonella Nima (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26463008",
+      "display" : "Salmonella Hartford (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26481006",
+      "display" : "Anaerobic diphtheroids"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26494008",
+      "display" : "Salmonella II 53:z:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26536005",
+      "display" : "Lachnospira"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26592005",
+      "display" : "Salmonella Tamale (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26615002",
+      "display" : "Leptospira interrogans, serogroup Grippotyphosa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26621003",
+      "display" : "Salmonella IV 48:z36,z38:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26622005",
+      "display" : "Salmonella Gnesta (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26685005",
+      "display" : "Salmonella Stuivenberg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26708003",
+      "display" : "Lactobacillus collinoides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26733000",
+      "display" : "Mycobacterium lepraemurium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26764003",
+      "display" : "Leptospira"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26793003",
+      "display" : "Salmonella II 6,8:z29:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26807002",
+      "display" : "Treponema socranskii ss. buccale"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26870001",
+      "display" : "Leptospira interrogans, serogroup Bataviae (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26894001",
+      "display" : "Salmonella Redlands (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26905006",
+      "display" : "Bifidobacterium cuniculi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "26964008",
+      "display" : "Salmonella Welikade (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27008003",
+      "display" : "Salmonella Niakhar (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27067005",
+      "display" : "Salmonella II 43:z29:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27095005",
+      "display" : "Vibrio nigripulchritudo"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27101006",
+      "display" : "Corynebacterium xerosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27108000",
+      "display" : "Bifidobacterium bifidum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27142009",
+      "display" : "Mycobacterium bovis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27165004",
+      "display" : "Actinobacillus equuli"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27268008",
+      "display" : "Salmonella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27274008",
+      "display" : "Fusobacterium necrophorum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27333006",
+      "display" : "Selenomonas flueggei"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27334000",
+      "display" : "Ehrlichia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27353005",
+      "display" : "Salmonella Bambylor (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27365009",
+      "display" : "Mycobacterium austroafricanum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27408007",
+      "display" : "Salmonella Yundum (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27471002",
+      "display" : "Aerobic bacteria"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27497008",
+      "display" : "Desulfobulbus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27522009",
+      "display" : "Salmonella II 21:z:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27543005",
+      "display" : "Salmonella Afula (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27663005",
+      "display" : "Mycoplasma columbinum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27715003",
+      "display" : "Streptomyces vinaceus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27716002",
+      "display" : "Streptococcus garviae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27784005",
+      "display" : "Haemophilus aegyptius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27922001",
+      "display" : "Cytophaga hutchinsonii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27987009",
+      "display" : "Salmonella Adamstua (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28013002",
+      "display" : "Salmonella Kristianstad (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28042005",
+      "display" : "Thermoactinomyces"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28090003",
+      "display" : "Salmonella Yarm (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28106004",
+      "display" : "Salmonella Lome (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28109006",
+      "display" : "Legionella erythra"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28124002",
+      "display" : "Salmonella Utah (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28141000",
+      "display" : "Salmonella Bolombo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28206007",
+      "display" : "Salmonella Cannstatt (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28207003",
+      "display" : "Acidaminococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28217008",
+      "display" : "Staphylococcus equorum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28270002",
+      "display" : "Aegyptianella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28285008",
+      "display" : "Salmonella Finkenwerder (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28382009",
+      "display" : "Vibrio metschnikovii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28418000",
+      "display" : "Salmonella Rossleben (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28461002",
+      "display" : "Brucella neotomae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28499009",
+      "display" : "Rickettsia prowazekii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28501001",
+      "display" : "Obesumbacterium proteus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28623007",
+      "display" : "Salmonella Treforest (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28717009",
+      "display" : "Salmonella Waycross (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28742000",
+      "display" : "Clostridium aurantibutyricum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28763003",
+      "display" : "Lactobacillus aviarius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28853003",
+      "display" : "Weeksella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28865004",
+      "display" : "Salmonella Umhlali (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28879007",
+      "display" : "Salmonella Gwale (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28901005",
+      "display" : "Rhodococcus fascians"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28907009",
+      "display" : "Ruminococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28932006",
+      "display" : "Salmonella Wayne (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28955009",
+      "display" : "Serratia plymuthica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29019008",
+      "display" : "Salmonella Singapore (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29049005",
+      "display" : "Salmonella Niloese (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29083003",
+      "display" : "Salmonella Nikolaifleet (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29090008",
+      "display" : "Salmonella Zanzibar (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29100001",
+      "display" : "Bacillus gornadae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29111009",
+      "display" : "Mycobacterium agri"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29115000",
+      "display" : "Salmonella Kisarawe (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29173000",
+      "display" : "Salmonella Tado (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29189002",
+      "display" : "Salmonella Tschangu (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29192003",
+      "display" : "Salmonella Benin (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29258005",
+      "display" : "Helicobacter cinaedi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29280008",
+      "display" : "Clostridium oroticum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29295005",
+      "display" : "Streptobacillus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29305002",
+      "display" : "Salmonella Teshie (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29335009",
+      "display" : "Salmonella Sokode (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29429005",
+      "display" : "Salmonella Handen (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29449001",
+      "display" : "Salmonella Ndjamena (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29469006",
+      "display" : "Salmonella Tennyson (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29511003",
+      "display" : "Enterobacter nimipressuralis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29528000",
+      "display" : "Salmonella Reubeuss (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29564004",
+      "display" : "Veillonella dispar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29575000",
+      "display" : "Eubacterium tenue"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29680004",
+      "display" : "Ureaplasma"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29741004",
+      "display" : "Treponema scoliodontum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29742006",
+      "display" : "Salmonella Gafsa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29790004",
+      "display" : "Beggiatoa alba"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29811007",
+      "display" : "Salmonella Jukestown (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29875005",
+      "display" : "Veillonella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29947009",
+      "display" : "Lactobacillus delbrueckii ss. delbrueckii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29948004",
+      "display" : "Salmonella II 30:z6:1,6"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29955002",
+      "display" : "Salmonella Tsevie (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29984006",
+      "display" : "Eubacterium budayi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30087004",
+      "display" : "Propionibacterium thoenii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30092002",
+      "display" : "Nocardia asteroides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30224004",
+      "display" : "Mobiluncus curtisii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30228001",
+      "display" : "Salmonella Neudorf (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30258007",
+      "display" : "Lyngbya majuscula"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30290002",
+      "display" : "Salmonella Mara (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30334005",
+      "display" : "Aeromonas salmonicida"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30335006",
+      "display" : "Salmonella Tounouma (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30343001",
+      "display" : "Mycoplasma anatis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30345008",
+      "display" : "Treponema"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30362003",
+      "display" : "Salmonella Ayinde (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30430002",
+      "display" : "Salmonella IV 45:g,z51:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30552009",
+      "display" : "Salmonella II 58:a:(z6)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30569006",
+      "display" : "Salmonella II 47:a:e,n,x,z15"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30665007",
+      "display" : "Salmonella Christiansborg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30686007",
+      "display" : "Salmonella Ochsenwerder (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30765003",
+      "display" : "Borrelia venezuelensis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30769009",
+      "display" : "Rickettsia akari"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30854004",
+      "display" : "Cedecea davisae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30864008",
+      "display" : "Salmonella Chittagong (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30892003",
+      "display" : "Salmonella Athinai (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30917009",
+      "display" : "Clostridium tetani"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30949009",
+      "display" : "Enterococcus casseliflavus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30955004",
+      "display" : "Pseudomonas pseudoalcaligenes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30974007",
+      "display" : "Rickettsia canada"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31014007",
+      "display" : "Morococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31044005",
+      "display" : "Salmonella Bessi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31093000",
+      "display" : "Salmonella Ekotedo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31169007",
+      "display" : "Clostridium baratii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31210009",
+      "display" : "Salmonella IV 43:g,z51:- (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31239009",
+      "display" : "Salmonella Rhydyfelin (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31277003",
+      "display" : "Pseudomonas citronellolis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31353007",
+      "display" : "Mycoplasma capricolum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31454000",
+      "display" : "Salmonella II 41:-:1,6 (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31469004",
+      "display" : "Salmonella Langensalza (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31517006",
+      "display" : "Salmonella Richmond (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31556000",
+      "display" : "Leminorella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31557009",
+      "display" : "Salmonella Pretoria (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31564006",
+      "display" : "Salmonella Claibornei (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31592001",
+      "display" : "Salmonella Mendoza (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31602000",
+      "display" : "Salmonella Businga (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31608001",
+      "display" : "Salmonella Gatuni (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31669006",
+      "display" : "Salmonella Reinickendorf (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31703004",
+      "display" : "Streptococcus, viridans group"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31711009",
+      "display" : "Ruminococcus albus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31718003",
+      "display" : "Salmonella II 6,8:g,m,t:(e,n,x)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31745002",
+      "display" : "Salmonella Lishabi (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31812005",
+      "display" : "Bifidobacterium pseudolongum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31832006",
+      "display" : "Salmonella II 1,40:m,t:z42"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31859003",
+      "display" : "Salmonella Egusitoo (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31900005",
+      "display" : "Salmonella Umhlatazana (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32017003",
+      "display" : "Kingella"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32054007",
+      "display" : "Salmonella Kubacha (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32118005",
+      "display" : "Pseudomonas asplenii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32122000",
+      "display" : "Salmonella Nessa (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32134008",
+      "display" : "Streptococcus pleomorphus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32244000",
+      "display" : "Salmonella Tyresoe (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32275009",
+      "display" : "Salmonella Godesberg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32310005",
+      "display" : "Salmonella Konstanz (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32320000",
+      "display" : "Salmonella Wilhelmsburg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32360004",
+      "display" : "Wolinella succinogenes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32365009",
+      "display" : "Salmonella Tornow (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32379001",
+      "display" : "Salmonella Fischerstrasse (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32412001",
+      "display" : "Lachnospira multipara"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32488009",
+      "display" : "Salmonella Paratyphi C (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32531009",
+      "display" : "Salmonella II 9,46:e,n,x:1,5,7"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32547006",
+      "display" : "Kluyvera cryocrescens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32549009",
+      "display" : "Salmonella Djermaia (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32562008",
+      "display" : "Pasteurella pneumotropica"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32624003",
+      "display" : "Salmonella Carrau (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32630003",
+      "display" : "Acholeplasma equifetale"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32681008",
+      "display" : "Salmonella Orion (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32691002",
+      "display" : "Rickettsia conorii"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32692009",
+      "display" : "Salmonella II 28:g,s,t:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32716002",
+      "display" : "Salmonella Vaertan (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32737005",
+      "display" : "Staphylococcus xylosus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32763000",
+      "display" : "Fusobacterium nucleatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32771001",
+      "display" : "Salmonella Ituri (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32772008",
+      "display" : "Lactobacillus fructivorans"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32829006",
+      "display" : "Clostridium botulinum, type F"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32854006",
+      "display" : "Salmonella Sanktgeorg (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32879009",
+      "display" : "Eubacterium tarantellus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32995008",
+      "display" : "Salmonella Mons (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33043009",
+      "display" : "Anaplasma caudatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33101000",
+      "display" : "Clostridium septicum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33108006",
+      "display" : "Salmonella Birkenhead (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33115003",
+      "display" : "Enterobacter asburiae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33136001",
+      "display" : "Salmonella Elisabethville (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33171001",
+      "display" : "Ruminococcus torques"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33172008",
+      "display" : "Salmonella Curacao (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33287009",
+      "display" : "Arthrobacter sulfureus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33296009",
+      "display" : "Salmonella Taksony (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33311002",
+      "display" : "Fusobacterium naviforme"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33391001",
+      "display" : "Eubacterium plexicaudatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33436009",
+      "display" : "Agrobacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33457001",
+      "display" : "Bacillus badius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33522002",
+      "display" : "Serratia marcescens"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33525000",
+      "display" : "Leptospira interrogans, serogroup Hebdomadis (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33529006",
+      "display" : "Actinomyces viscosus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33562003",
+      "display" : "Fusobacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33610009",
+      "display" : "Attenuated Mycobacterium bovis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33613006",
+      "display" : "Salmonella Holcomb (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33708000",
+      "display" : "Streptococcus zooepidemicus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33765004",
+      "display" : "Salmonella Lomnava (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33811005",
+      "display" : "Bifidobacterium angulatum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33827003",
+      "display" : "Salmonella Battle (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33896001",
+      "display" : "Vibrio orientalis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33900003",
+      "display" : "Bacillus mycoides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33909002",
+      "display" : "Salmonella Makiso (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33919008",
+      "display" : "Chryseomonas luteola"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34029008",
+      "display" : "Flavobacterium oceanosedimentum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34033001",
+      "display" : "Salmonella Nuatja (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34051000",
+      "display" : "Salmonella Sandow (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34107006",
+      "display" : "Salmonella Wentworth (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34153004",
+      "display" : "Salmonella Brazzaville (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34192006",
+      "display" : "Salmonella II 52:c:k"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34222006",
+      "display" : "Rikenella microfusus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34228005",
+      "display" : "Streptococcus alactolyticus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34236001",
+      "display" : "Bacteroides thetaiotaomicron"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34237005",
+      "display" : "Salmonella Miyazaki (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34256000",
+      "display" : "Salmonella Ayton (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34328008",
+      "display" : "Salmonella II 16:m,t:e,n,x"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34412002",
+      "display" : "Psychrobacter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34434000",
+      "display" : "Salmonella Zwickau (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34446001",
+      "display" : "Bifidobacterium adolescentis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34464008",
+      "display" : "Salmonella Texas (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34473000",
+      "display" : "Salmonella Wangata (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34498004",
+      "display" : "Bacillus tusciae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34520002",
+      "display" : "Salmonella Coogee (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34534002",
+      "display" : "Rhodococcus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34547007",
+      "display" : "Salmonella Eastbourne (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34568008",
+      "display" : "Leptothrix lopholea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34593005",
+      "display" : "Flexithrix"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34605002",
+      "display" : "Staphylococcus intermedius"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34726005",
+      "display" : "Borrelia recurrentis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34732000",
+      "display" : "Salmonella Okefoko (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34766009",
+      "display" : "Clostridium rectum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34778008",
+      "display" : "Salmonella Maryland (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34828004",
+      "display" : "Alysiella filiformis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34838009",
+      "display" : "Streptococcus mutans serotype a"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34844008",
+      "display" : "Propionibacterium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34872001",
+      "display" : "Vibrio"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35011006",
+      "display" : "Bifidobacterium breve"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35041008",
+      "display" : "Leuconostoc mesenteroides ss. cremoris"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35049005",
+      "display" : "Brucella ovis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35053007",
+      "display" : "Salmonella II 16:d:1,5"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35091007",
+      "display" : "Salmonella Trimdon (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35126006",
+      "display" : "Pseudomonas fuscovaginae"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35164008",
+      "display" : "Spirillum minus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "35197009",
+      "display" : "Salmonella Biafra (organism)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3067005",
+      "display" : "Blood group antigen C^u^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6800004",
+      "display" : "Blood group antigen E^u^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16345006",
+      "display" : "Blood group antigen G^u^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24403008",
+      "display" : "P-null phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25132006",
+      "display" : "Blood group N>2<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25384006",
+      "display" : "Blood group S>2<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34850003",
+      "display" : "Blood group antigen Fy^x^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38194003",
+      "display" : "Blood group antigen e^i^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45597001",
+      "display" : "Blood group A>3<B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "57652005",
+      "display" : "Blood group antigen V^u^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "58460004",
+      "display" : "Blood group O"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "64553001",
+      "display" : "Secretor gene absent (se)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "65087006",
+      "display" : "Blood group M>2<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74836001",
+      "display" : "Secretor gene present (Se)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "79248008",
+      "display" : "Blood group A>1<B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81835007",
+      "display" : "Blood group antigen c^v^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "88942003",
+      "display" : "Blood group A>2<B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "89109006",
+      "display" : "Blood group antigen D^u^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "103225004",
+      "display" : "Blood group P>2<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "112143006",
+      "display" : "ABO group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "112144000",
+      "display" : "Blood group A"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "112149005",
+      "display" : "Blood group B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115730009",
+      "display" : "Hh blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115731008",
+      "display" : "Blood group O>h< Bombay"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115732001",
+      "display" : "Blood group O>h< Bombay Indian type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115734000",
+      "display" : "Blood group O>h< Bombay Reunion type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115735004",
+      "display" : "Blood group Para-Bombay"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115736003",
+      "display" : "Blood group A>h<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115737007",
+      "display" : "Blood group B>h<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115748000",
+      "display" : "Lewis blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115749008",
+      "display" : "Le(a-b-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115750008",
+      "display" : "I blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115751007",
+      "display" : "i>cord< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115752000",
+      "display" : "i>adult< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115753005",
+      "display" : "i>1< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115754004",
+      "display" : "i>2< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115755003",
+      "display" : "I phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115756002",
+      "display" : "I>int< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115758001",
+      "display" : "Rhesus blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115759009",
+      "display" : "Rh>null< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115760004",
+      "display" : "X^o^rX^o^r blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115761000",
+      "display" : "Rr^-^ blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115762007",
+      "display" : "Rh>mod< blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115763002",
+      "display" : "Trans weak D phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115764008",
+      "display" : "Inherited weak D phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115794002",
+      "display" : "P blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115795001",
+      "display" : "P>1< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115796000",
+      "display" : "P>1<^k^ phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115797009",
+      "display" : "P>2<^k^ phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115798004",
+      "display" : "Landsteiner-Wiener phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115799007",
+      "display" : "LW(a-b-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115800006",
+      "display" : "MNS blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115801005",
+      "display" : "M^k^M^k^ phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115802003",
+      "display" : "U- phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115803008",
+      "display" : "En(a-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115804002",
+      "display" : "En(a-)(Fin) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115805001",
+      "display" : "En(a-)(UK) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115821006",
+      "display" : "Lutheran blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115822004",
+      "display" : "Lutheran negative phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115823009",
+      "display" : "LuLu phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115824003",
+      "display" : "In(Lu) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115825002",
+      "display" : "XS2 phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115826001",
+      "display" : "Acquired Lu(a-b-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115827005",
+      "display" : "Lutheran weak phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115830003",
+      "display" : "Kidd blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115831004",
+      "display" : "Jk(a-b-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115832006",
+      "display" : "JkJk phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115833001",
+      "display" : "In(Jk) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115834007",
+      "display" : "Duffy blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115835008",
+      "display" : "Fy(a-b-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115837000",
+      "display" : "Kell blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115838005",
+      "display" : "Kell>null< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115839002",
+      "display" : "Kell>mod< phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115844009",
+      "display" : "Kx blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115845005",
+      "display" : "McLeod phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115851000",
+      "display" : "Colton blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115852007",
+      "display" : "Co(a-b-) phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115853002",
+      "display" : "Gerbich blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115854008",
+      "display" : "Gerbich positive phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115855009",
+      "display" : "Gerbich negative phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115860008",
+      "display" : "Cromer blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115861007",
+      "display" : "Inab phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115866002",
+      "display" : "Chido-Rodgers blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115867006",
+      "display" : "Ch-Rg- phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115940004",
+      "display" : "Blood group phenotype"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131149001",
+      "display" : "Blood group A>1<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131150001",
+      "display" : "Blood group A>2<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131151002",
+      "display" : "Blood group A>3<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131152009",
+      "display" : "Blood group A>x<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131153004",
+      "display" : "Blood group A>m<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131154005",
+      "display" : "Blood group A>y<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131155006",
+      "display" : "Blood group A>end<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131156007",
+      "display" : "Blood group A>el<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131157003",
+      "display" : "Blood group antigen A variant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131158008",
+      "display" : "B subgroup"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131159000",
+      "display" : "Blood group B>3<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131160005",
+      "display" : "Blood group B>m<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131161009",
+      "display" : "Blood group B>el<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131162002",
+      "display" : "Blood group B>w<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131163007",
+      "display" : "Blood group B>x<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131164001",
+      "display" : "Blood group A>m<^h^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131165000",
+      "display" : "Blood group B>m<^h^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131166004",
+      "display" : "Blood group O>m<^h^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131167008",
+      "display" : "Blood group O>Hm<"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131168003",
+      "display" : "Blood group O>Hm<^A^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131169006",
+      "display" : "Blood group O>Hm<^B^"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131178000",
+      "display" : "Gerbich type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131179008",
+      "display" : "Yus type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131180006",
+      "display" : "Melasian type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "131181005",
+      "display" : "Leach type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "165743006",
+      "display" : "Group AB"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "165746003",
+      "display" : "Rh negative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "165747007",
+      "display" : "Rhesus positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "165751009",
+      "display" : "Duffy blood group"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250376006",
+      "display" : "Rh negative Du positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250389000",
+      "display" : "Kell antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250390009",
+      "display" : "Duffy antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250391008",
+      "display" : "Kidd antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250392001",
+      "display" : "MNS antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250394000",
+      "display" : "Landsteiner-Weiner antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250395004",
+      "display" : "Cartwright antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250396003",
+      "display" : "Diego antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250397007",
+      "display" : "Chido-Rogers antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250398002",
+      "display" : "H antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250399005",
+      "display" : "Kx antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250400003",
+      "display" : "Low incidence antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278147001",
+      "display" : "Blood group O Rh(D) positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278148006",
+      "display" : "Group O neg"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278149003",
+      "display" : "Blood group A Rh(D) positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278150003",
+      "display" : "Group B pos"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278151004",
+      "display" : "Blood group AB Rh(D) positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278152006",
+      "display" : "Group A neg"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278153001",
+      "display" : "Blood group B Rh(D) negative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "278154007",
+      "display" : "Group AB neg"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365637002",
+      "display" : "ABO blood group - finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365638007",
+      "display" : "Finding of Rhesus blood group (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365640002",
+      "display" : "Common composite blood groups - finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365641003",
+      "display" : "Minor blood groups"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365642005",
+      "display" : "Blood group antigen type - finding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365643000",
+      "display" : "Rh antigen type"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365645007",
+      "display" : "Finding of Rhesus genotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405847005",
+      "display" : "Fy(a+b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405848000",
+      "display" : "Fy(a-b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405849008",
+      "display" : "Fy(a+b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405850008",
+      "display" : "Fy(a-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405851007",
+      "display" : "Fy(a+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405852000",
+      "display" : "Fy(b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405853005",
+      "display" : "Fy(b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405854004",
+      "display" : "Jk(a+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405855003",
+      "display" : "Jk(a+b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405856002",
+      "display" : "Jk(a+b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405857006",
+      "display" : "Jk(a-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405858001",
+      "display" : "Jk(a-b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405859009",
+      "display" : "Jk(b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405860004",
+      "display" : "Jk(b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405861000",
+      "display" : "Le(a+b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405862007",
+      "display" : "Le(a-b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405863002",
+      "display" : "Le(a-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405864008",
+      "display" : "Le(a+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405865009",
+      "display" : "Le(b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405866005",
+      "display" : "Le(b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405868006",
+      "display" : "Lu(a-b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405869003",
+      "display" : "Lu(a+b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405870002",
+      "display" : "Lu(a+b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405871003",
+      "display" : "Lu(a-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405872005",
+      "display" : "Lu(a+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405873000",
+      "display" : "Lu(b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405874006",
+      "display" : "Lu(b-) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405875007",
+      "display" : "M+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405876008",
+      "display" : "M- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405877004",
+      "display" : "Le(a+b+) phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405878009",
+      "display" : "N+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405879001",
+      "display" : "N- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405880003",
+      "display" : "M-N- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405881004",
+      "display" : "M+N- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405882006",
+      "display" : "M+N+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405883001",
+      "display" : "M-N+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405884007",
+      "display" : "S- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405885008",
+      "display" : "S+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405886009",
+      "display" : "s- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405887000",
+      "display" : "s+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405888005",
+      "display" : "S+s+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405889002",
+      "display" : "S-s+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405890006",
+      "display" : "S-s- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405891005",
+      "display" : "S+s- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405892003",
+      "display" : "K+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405893008",
+      "display" : "K- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405894002",
+      "display" : "k- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405895001",
+      "display" : "k+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405896000",
+      "display" : "K+k+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405897009",
+      "display" : "K+k- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405898004",
+      "display" : "K-k- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405899007",
+      "display" : "K-k+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405900002",
+      "display" : "P1+ phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405901003",
+      "display" : "P1- phenotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406002002",
+      "display" : "cde haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406003007",
+      "display" : "Cde haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406004001",
+      "display" : "cdE haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406005000",
+      "display" : "CDe haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406006004",
+      "display" : "cDE haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406007008",
+      "display" : "cDe haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406008003",
+      "display" : "CdE haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "406009006",
+      "display" : "CDE haplotype (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "733119003",
+      "display" : "Rhc negative (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "733120009",
+      "display" : "Rhc positive (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1162254004",
+      "display" : "Fetal blood group Rhesus negative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1162255003",
+      "display" : "Fetal blood group Rhesus positive (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2667000",
+      "display" : "Absent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17511009",
+      "display" : "Normal absence"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41277001",
+      "display" : "Lacking"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "47492008",
+      "display" : "Not seen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260353006",
+      "display" : "Nothing at all"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260386005",
+      "display" : "Nil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260387001",
+      "display" : "No anaerobes detected"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260389003",
+      "display" : "No reaction"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260390007",
+      "display" : "Non-vital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260391006",
+      "display" : "Noninflammatory"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260392004",
+      "display" : "Non-patent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260393009",
+      "display" : "Non-pigmented"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260413007",
+      "display" : "None"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260414001",
+      "display" : "Nothing"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260415000",
+      "display" : "Not detected"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260416004",
+      "display" : "Not itching"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264868006",
+      "display" : "No growth"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264869003",
+      "display" : "No neoplasm"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264871003",
+      "display" : "Nodules absent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264887000",
+      "display" : "Not isolated"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264915001",
+      "display" : "Receptor absent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264929000",
+      "display" : "Superadded infection absent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276727009",
+      "display" : "Null"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373067005",
+      "display" : "No (qualifier value)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "895231008",
+      "display" : "Not detected in pooled specimen (qualifier value)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10828004",
+      "display" : "Positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "43261007",
+      "display" : "Abnormal presence of"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "46651001",
+      "display" : "Isolated"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "52101004",
+      "display" : "Present"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "83185005",
+      "display" : "Sensitive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260347006",
+      "display" : "+"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260348001",
+      "display" : "++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260349009",
+      "display" : "+++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260350009",
+      "display" : "++++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260351008",
+      "display" : "Just noticeable"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260373001",
+      "display" : "Detected"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260405006",
+      "display" : "Trace"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260408008",
+      "display" : "Weakly positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260410005",
+      "display" : "Vital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260412002",
+      "display" : "Anaerobes detected"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260417008",
+      "display" : "Strains different"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260418003",
+      "display" : "Strains similar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260976002",
+      "display" : "Presence of infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263650004",
+      "display" : "Presence of calculi"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263651000",
+      "display" : "Presence of delta phalanx"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264840007",
+      "display" : "Hyperplasia present"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264866005",
+      "display" : "Neoplasm present"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "264872005",
+      "display" : "Nodules present"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373066001",
+      "display" : "Yes (qualifier value)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441517005",
+      "display" : "Present ++ out of +++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441521003",
+      "display" : "Present three plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441614007",
+      "display" : "Present + out of +++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "720735008",
+      "display" : "Presumed positive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "735269004",
+      "display" : "Repeatedly reactive (qualifier value)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "897500001",
+      "display" : "Indeterminate in pooled specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "462371000124108",
+      "display" : "Detected in pooled specimen"
     }]
   }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere"
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

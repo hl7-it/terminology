@@ -12,14 +12,24 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.it.terminology
 canonical: http://terminology.hl7.it
-version: 0.1.0
-name: HL7ItaliaFHIRTerminology
+version: 0.0.1
+name: HL7ITTerminology
 title: HL7 Italia Terminologies
 status: active
-publisher: Giorgio Cangioli
-description: "HL7 Italia FHIR Terminologies"
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
-license: CC-BY-SA-4.0
+publisher:
+  - name: HL7 Italia
+    url: https://hl7.it
+contact:
+  - name: HL7 Italia
+    telecom:
+      - system: url
+        value: https://hl7.it
+
+jurisdiction: urn:iso:std:iso:3166#IT "Italy"
+copyrightYear: 2022+
+description: "HL7 Italia FHIR Terminologies"
 fhirVersion: 4.0.1
 parameters:
   show-inherited-invariants: false
@@ -27,12 +37,6 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   autoload-resources: true
-  
-
-copyrightYear: 2020+
-releaseLabel: CI Build
-
-FSHOnly: true
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
