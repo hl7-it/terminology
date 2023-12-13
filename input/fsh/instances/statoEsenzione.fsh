@@ -6,7 +6,7 @@ Usage: #definition
 Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'
 </div>
 """
-
+* experimental = false
 * url = "http://terminology.hl7.it/ValueSet/statoEsenzione"
 * version = "0.1.0"
 * name = "VsStatoEsenzione"

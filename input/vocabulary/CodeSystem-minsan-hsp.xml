@@ -13,13 +13,14 @@
 			Data di ultimo aggiornamento: 17 gennaio 2020
 		</div>
 	</text>
-	<url value="http://terminology.hl7.it/sid/minsan-hsp"/>
 	<version value="17_01_2020"/>
 	<name value="CsMinisteroSaluteHsp"/>
 	<title value="Ministero della Salute - Strutture di ricoveri"/>
 	<status value="active"/>
+	<hierarchyMeaning value="is-a"/>
 	<experimental value="false"/>
 	<description value="La denominazione, il codice e l'indirizzo delle Strutture di ricovero italiane. A cura di: Direzione generale della digitalizzazione, del sistema informativo sanitario e della statistica - Ufficio II - Direzione statistica"/>
+	<caseSensitive value="true"/> 
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
