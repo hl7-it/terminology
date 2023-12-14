@@ -73,6 +73,13 @@ Con *Profili* si intendono in questa guida:
 I profili tipicamente descrivono quali artefatti terminologici usare e
 come (**Vocabulary Binding**)
 
+### Dipendenze
+{% include dependency-table.xhtml %}
+
+### Details
+#### Cross-Version Analysis
+{% include cross-version-analysis.xhtml %}
+
 ### Struttura della guida
 
 Le principali sezioni di questa guida sono:
@@ -179,3 +186,7 @@ Le principali sezioni di questa guida sono:
 </tr>
 </tbody>
 </table>
+
+
+### Intellectual Property Statements
+{% include ip-statements.xhtml %}

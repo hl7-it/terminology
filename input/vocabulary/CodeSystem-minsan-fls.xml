@@ -13,13 +13,13 @@
 			Data di ultimo aggiornamento: 17 gennaio 2020
 		</div>
 	</text>
-	<url value="http://terminology.hl7.it/sid/minsan-fls"/>
 	<version value="17_01_2020"/>
 	<name value="CsMinisteroSaluteFlsHsp"/>
 	<title value="Ministero della Salute - ASL"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<description value="La denominazione, il codice e l'indirizzo delle Elenco Aziende sanitarie locali. A cura di: Direzione generale della digitalizzazione, del sistema informativo sanitario e della statistica - Ufficio II - Direzione statistica"/>
+ 	<caseSensitive value="true"/> 	
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>

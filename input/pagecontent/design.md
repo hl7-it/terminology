@@ -209,7 +209,7 @@ un problema utilizzando un codice di un code system alternativo (ad
 esempio ICD-11) come codice primario.
 
 Un altro esempio è dato in questa guida dallo slicing per l’elemento
-[Patient.identifier](StructureDefinition-Patient-it-base.html). In
+Patient.identifier. In
 questo caso sono rappresentati più possibili identificatori (codice
 fiscale ,id regionale, stp,…) ma una implementazione può decidere di
 usare uno o più di questi identificatori, od nessuno di questi; possono

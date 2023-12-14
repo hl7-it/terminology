@@ -2,7 +2,7 @@
 Alias: URI = urn:ietf:rfc:3986
 Alias: OID = urn:ietf:rfc:1155
 Alias: CS_unitaTerritoriali = http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali
-Alias: CS_Estero = http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere
+Alias: CS_Estero = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere //http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere
 
 Alias: CS_ProfessioniIstat = http://terminology.hl7.it/CodeSystem/istat-professioni
 Alias: CS_TitoloStudioIstat = http://terminology.hl7.it/CodeSystem/istat-ctsi03

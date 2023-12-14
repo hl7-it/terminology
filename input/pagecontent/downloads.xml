@@ -5,6 +5,7 @@
 	<p>
     Download the entire implementation guide <a href="full-ig.zip">here</a>
 	</p>
+
 	<table>
 		<tbody>
 			<tr>
@@ -45,4 +46,9 @@
 			</tr>
 		</tbody>
 	</table>
+
+	<div>
+		{% include globals-table.xhtml %}
+	</div>
+
 </div>

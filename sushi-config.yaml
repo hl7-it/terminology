@@ -32,7 +32,7 @@ parameters:
 copyrightYear: 2020+
 releaseLabel: CI Build
 
-FSHOnly: true
+FSHOnly: false
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │

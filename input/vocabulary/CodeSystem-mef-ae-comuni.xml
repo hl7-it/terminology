@@ -9,13 +9,13 @@
 		<div xmlns="http://www.w3.org/1999/xhtml"><h1>WARNING: A SCOPO DIMOSTRATIVO</h1>
 		Codice assegnato ai comuni dall'Agenzia delle Entrate.</div>
 	</text>
-	<url value="http://terminology.hl7.it/sid/mef-ae-comuni"/>
 	<version value="31_12_2019"/>
 	<name value="CsAgenziaEntrateComuni"/>
 	<title value="Agenzia delle Entrate - Comuni"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<description value="Codice assegnato ai comuni dall'Agenzia delle Entrate. E' un codice composto da quattro caratteri, il primo dei quali alfabetico e gli altri tre numerici. Il codice è stato assegnato inizialmente seguendo l'ordinamento alfabetico crescente dell'elenco di tutti i comuni di Italia, indipedentemente dalla Provincia di appartenenza. Per i comuni di nuova istituzione viene assegnato il primo codice alfanumerico disponibile. - 2019 - Agenzia delle Entrate. Chiamato anche 'codice nazionale', 'Codice Belfiore' o 'codice amministrativo catastale' o 'Codice catastale'."/>
+	<caseSensitive value="true"/> 
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>

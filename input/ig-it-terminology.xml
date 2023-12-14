@@ -106,7 +106,7 @@
 			<code value="find-other-resources"/>
 			<value value="true"/>
 		</parameter>
-		<parameter>
+		<!-- <parameter>
 			<code value="special-url"/>
 			<value value="http://terminology.hl7.it/CodeSystem/mef-ae-regioni"/>
 		</parameter>
@@ -181,7 +181,7 @@
 		<parameter>
 			<code value="special-url"/>
 			<value value="http://registry.geodati.gov.it/dug"/>
-		</parameter>
+		</parameter> -->
 		<parameter>
 			<code value="apply-jurisdiction"/>
 			<value value="true"/>
