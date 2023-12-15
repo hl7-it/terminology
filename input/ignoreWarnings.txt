@@ -9,22 +9,11 @@ The link 'StructureDefinition-Indirizzo.sch' for "Schematron" cannot be resolved
 The link 'StructureDefinition-MedicoCurante.sch' for "Schematron" cannot be resolved
 The link 'StructureDefinition-Paziente.sch' for "Schematron" cannot be resolved
 
-Unknown System 'http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere is unknown (from Tx-Server))
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://registry.geodati.gov.it/dug
-Unknown System 'http://terminology.hl7.it/sid/minsan-hsp' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://terminology.hl7.it/sid/minsan-hsp is unknown (from Tx-Server))
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/minsan-hsp
-Unknown System 'http://terminology.hl7.it/sid/minsan-fls' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://terminology.hl7.it/sid/minsan-fls is unknown (from Tx-Server))
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/minsan-fls 
-Unknown System 'http://terminology.hl7.it/sid/minsan-hsp' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://terminology.hl7.it/sid/minsan-hsp' could not be found so the code cannot be validated)
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/minsan-hsp
-Unknown System 'http://terminology.hl7.it/sid/minsan-hsp' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://terminology.hl7.it/sid/minsan-hsp' could not be found so the code cannot be validated)
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/minsan-hsp
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/minsan-regione
+
 Unknown System 'urn:ietf:rfc:1155' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:ietf:rfc:1155 is unknown (from Tx-Server))
 Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/minsan-esenzioni
-Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali
-Unknown System 'http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali' could not be found so the code cannot be validated)
-Unable to expand imported value set http://terminology.hl7.it/ValueSet/istat-stato: Unable to expand imported value set: Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere (and Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere)
-Unknown System 'http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali is unknown (from Tx-Server))
+The value set include has too many codes to validate (1.342)
+The value set include has too many codes to validate (7.903)
+This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended
+This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Evacuated urine specimen container, boric acid (H3BO3)] and examples for no FSN: [Cervical cytology microscopy slide, Cytology specimen container, Evacuated blood collection tube, Evacuated blood collection tube , K3EDTA/sodium fluoride, Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole])

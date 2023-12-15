@@ -221,7 +221,7 @@ Id: istat-dug
 Title: "ISTAT - DUG"
 Description: "Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 * ^experimental = false
-* codes from system http://registry.geodati.gov.it/dug
+* codes from system http://terminology.hl7.it/CodeSystem/dug //http://registry.geodati.gov.it/dug
 
 //=========================
 ValueSet: VsUriIdAslRegione

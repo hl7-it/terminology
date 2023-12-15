@@ -1,13 +1,3 @@
-
-ValueSet: VsIstatLuogoNascita
-Id: istat-luogoNascita
-Title: "ISTAT - Comune/Stato di Nascita"
-Description: "Codici ISTAT per Comune o Stato di nascita"
-* ^experimental = false
-//----------------------------------------
-* codes from valueset VsIstatStato
-* codes from valueset VsIstatComune
-
 ValueSet: VsIstatStato
 Id: istat-stato
 Title: "ISTAT - Stati"
@@ -8514,3 +8504,11 @@ Description: "Codici ISTAT Regione più sconosciuto"
 * CS_unitaTerritoriali#19 "Sicilia"
 * CS_unitaTerritoriali#20 "Sardegna"
 
+ValueSet: VsIstatLuogoNascita
+Id: istat-luogoNascita
+Title: "ISTAT - Comune/Stato di Nascita"
+Description: "Codici ISTAT per Comune o Stato di nascita"
+* ^experimental = false
+//----------------------------------------
+* include codes from valueset VsIstatStato
+* include codes from valueset VsIstatComune
