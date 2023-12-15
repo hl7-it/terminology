@@ -15,5 +15,7 @@ Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/minsan-esenzioni
 The value set include has too many codes to validate (1.342)
 The value set include has too many codes to validate (7.903)
+The value set include has too many codes to validate (1,342)
+The value set include has too many codes to validate (7,903)
 This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended
 This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Evacuated urine specimen container, boric acid (H3BO3)] and examples for no FSN: [Cervical cytology microscopy slide, Cytology specimen container, Evacuated blood collection tube, Evacuated blood collection tube , K3EDTA/sodium fluoride, Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole])
