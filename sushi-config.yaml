@@ -31,12 +31,39 @@ jurisdiction: urn:iso:std:iso:3166#IT "Italy"
 copyrightYear: 2022+
 description: "HL7 Italia FHIR Terminologies"
 fhirVersion: 4.0.1
-parameters:
+parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+#  produce-jekyll-data: true
   show-inherited-invariants: false
   find-other-resources: true
   apply-jurisdiction: true
   apply-publisher: true
   autoload-resources: true
+  special-url:
+    - http://hl7.org/fhir/StructureDefinition/address-official
+    # - http://terminology.hl7.it/sid/mef-ae-comuni
+    - http://registry.geodati.gov.it/dug
+
+pages:
+  index.md:
+    title: Home
+  copyright.md:
+    title: Copyrights
+  downloads.xml:
+    title: Downloads
+
+menu:
+  IG Home: index.html
+  Sommario: toc.html
+  Indice Artefatti: artifacts.html
+  Support:
+    FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
+    Copyrights: copyright.html
+    Downloads: downloads.html
+
+
+
+  
+
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │

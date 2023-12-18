@@ -5844,7 +5844,6 @@ v: {
   "code" : "415360003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5866,7 +5865,6 @@ v: {
   "code" : "103427005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5888,7 +5886,6 @@ v: {
   "code" : "91524009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5910,7 +5907,6 @@ v: {
   "code" : "91508008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5932,7 +5928,6 @@ v: {
   "code" : "91336002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5954,7 +5949,6 @@ v: {
   "code" : "91288006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5976,7 +5970,6 @@ v: {
   "code" : "90530002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -5998,7 +5991,6 @@ v: {
   "code" : "90272000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6020,7 +6012,6 @@ v: {
   "code" : "89896008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6042,7 +6033,6 @@ v: {
   "code" : "89709001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6064,7 +6054,6 @@ v: {
   "code" : "89605004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6086,7 +6075,6 @@ v: {
   "code" : "89331006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6108,7 +6096,6 @@ v: {
   "code" : "89293008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6130,7 +6117,6 @@ v: {
   "code" : "88520007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6152,7 +6138,6 @@ v: {
   "code" : "88274000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6174,7 +6159,6 @@ v: {
   "code" : "88227009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6196,7 +6180,6 @@ v: {
   "code" : "87919008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6218,7 +6201,6 @@ v: {
   "code" : "87875008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6240,7 +6222,6 @@ v: {
   "code" : "87402003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6262,7 +6243,6 @@ v: {
   "code" : "87271006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6284,7 +6264,6 @@ v: {
   "code" : "86432002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6306,7 +6285,6 @@ v: {
   "code" : "85944001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6328,7 +6306,6 @@ v: {
   "code" : "85908006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6350,7 +6327,6 @@ v: {
   "code" : "85738007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6372,7 +6348,6 @@ v: {
   "code" : "85729005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6394,7 +6369,6 @@ v: {
   "code" : "85288000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6416,7 +6390,6 @@ v: {
   "code" : "84955006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6438,7 +6411,6 @@ v: {
   "code" : "84210007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6460,7 +6432,6 @@ v: {
   "code" : "84180005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6482,7 +6453,6 @@ v: {
   "code" : "83841006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6504,7 +6474,6 @@ v: {
   "code" : "83821001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6526,7 +6495,6 @@ v: {
   "code" : "83723009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6548,7 +6516,6 @@ v: {
   "code" : "83675005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6570,7 +6537,6 @@ v: {
   "code" : "83617006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6592,7 +6558,6 @@ v: {
   "code" : "83358009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6614,7 +6579,6 @@ v: {
   "code" : "83285000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6636,7 +6600,6 @@ v: {
   "code" : "83088009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6658,7 +6621,6 @@ v: {
   "code" : "82550008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6680,7 +6642,6 @@ v: {
   "code" : "81951003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6702,7 +6663,6 @@ v: {
   "code" : "81701001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6724,7 +6684,6 @@ v: {
   "code" : "81665004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6746,7 +6705,6 @@ v: {
   "code" : "80897008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6768,7 +6726,6 @@ v: {
   "code" : "80166006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6790,7 +6747,6 @@ v: {
   "code" : "79875007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6812,7 +6768,6 @@ v: {
   "code" : "79817008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6834,7 +6789,6 @@ v: {
   "code" : "79437004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6856,7 +6810,6 @@ v: {
   "code" : "79284001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6878,7 +6831,6 @@ v: {
   "code" : "79128009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6900,7 +6852,6 @@ v: {
   "code" : "78981005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6922,7 +6873,6 @@ v: {
   "code" : "78475006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6944,7 +6894,6 @@ v: {
   "code" : "78444002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6966,7 +6915,6 @@ v: {
   "code" : "78181009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -6988,7 +6936,6 @@ v: {
   "code" : "78167007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7010,7 +6957,6 @@ v: {
   "code" : "78112006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7032,7 +6978,6 @@ v: {
   "code" : "78065002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7054,7 +6999,6 @@ v: {
   "code" : "77712002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7076,7 +7020,6 @@ v: {
   "code" : "77352002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7098,7 +7041,6 @@ v: {
   "code" : "77235003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7120,7 +7062,6 @@ v: {
   "code" : "77199003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7142,7 +7083,6 @@ v: {
   "code" : "77045006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7164,7 +7104,6 @@ v: {
   "code" : "76828008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7186,7 +7125,6 @@ v: {
   "code" : "76776000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7208,7 +7146,6 @@ v: {
   "code" : "76327009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7230,7 +7167,6 @@ v: {
   "code" : "75356003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7252,7 +7188,6 @@ v: {
   "code" : "75032006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7274,7 +7209,6 @@ v: {
   "code" : "74917007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7296,7 +7230,6 @@ v: {
   "code" : "74746009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7318,7 +7251,6 @@ v: {
   "code" : "74212009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7340,7 +7272,6 @@ v: {
   "code" : "74028009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7362,7 +7293,6 @@ v: {
   "code" : "73852008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7384,7 +7314,6 @@ v: {
   "code" : "73576007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7406,7 +7335,6 @@ v: {
   "code" : "73525009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7428,7 +7356,6 @@ v: {
   "code" : "73517007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7450,7 +7377,6 @@ v: {
   "code" : "72904005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7472,7 +7398,6 @@ v: {
   "code" : "72829003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7494,7 +7419,6 @@ v: {
   "code" : "72814000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7516,7 +7440,6 @@ v: {
   "code" : "72477006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7538,7 +7461,6 @@ v: {
   "code" : "72130005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7560,7 +7482,6 @@ v: {
   "code" : "71489006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7582,7 +7503,6 @@ v: {
   "code" : "70876001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7604,7 +7524,6 @@ v: {
   "code" : "70801007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7626,7 +7545,6 @@ v: {
   "code" : "70463000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7648,7 +7566,6 @@ v: {
   "code" : "68704007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7670,7 +7587,6 @@ v: {
   "code" : "68684004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7692,7 +7608,6 @@ v: {
   "code" : "68638009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7714,7 +7629,6 @@ v: {
   "code" : "67732000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7736,7 +7650,6 @@ v: {
   "code" : "67168003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7758,7 +7671,6 @@ v: {
   "code" : "66940008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7780,7 +7692,6 @@ v: {
   "code" : "66838002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7802,7 +7713,6 @@ v: {
   "code" : "66635002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7824,7 +7734,6 @@ v: {
   "code" : "66543000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7846,7 +7755,6 @@ v: {
   "code" : "65615007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7868,7 +7776,6 @@ v: {
   "code" : "65613000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7890,7 +7797,6 @@ v: {
   "code" : "65255000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7912,7 +7818,6 @@ v: {
   "code" : "65205008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7934,7 +7839,6 @@ v: {
   "code" : "65186004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7956,7 +7860,6 @@ v: {
   "code" : "64979004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -7978,7 +7881,6 @@ v: {
   "code" : "64930007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8000,7 +7902,6 @@ v: {
   "code" : "64889004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8022,7 +7923,6 @@ v: {
   "code" : "64694002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8044,7 +7944,6 @@ v: {
   "code" : "64589009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8066,7 +7965,6 @@ v: {
   "code" : "63938009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8088,7 +7986,6 @@ v: {
   "code" : "62987004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8110,7 +8007,6 @@ v: {
   "code" : "62944002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8132,7 +8028,6 @@ v: {
   "code" : "62748005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8154,7 +8049,6 @@ v: {
   "code" : "62644004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8176,7 +8070,6 @@ v: {
   "code" : "62587007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8198,7 +8091,6 @@ v: {
   "code" : "62496009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8220,7 +8112,6 @@ v: {
   "code" : "62065006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8242,7 +8133,6 @@ v: {
   "code" : "61949005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8264,7 +8154,6 @@ v: {
   "code" : "61708000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8286,7 +8175,6 @@ v: {
   "code" : "61419001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8308,7 +8196,6 @@ v: {
   "code" : "61399004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8330,7 +8217,6 @@ v: {
   "code" : "60927005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8352,7 +8238,6 @@ v: {
   "code" : "60817000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8374,7 +8259,6 @@ v: {
   "code" : "60588009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8396,7 +8280,6 @@ v: {
   "code" : "60558000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8418,7 +8301,6 @@ v: {
   "code" : "60502008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8440,7 +8322,6 @@ v: {
   "code" : "59881000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8462,7 +8343,6 @@ v: {
   "code" : "59774002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8484,7 +8364,6 @@ v: {
   "code" : "59250001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8506,7 +8385,6 @@ v: {
   "code" : "59083001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8528,7 +8406,6 @@ v: {
   "code" : "58939000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8550,7 +8427,6 @@ v: {
   "code" : "58928003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8572,7 +8448,6 @@ v: {
   "code" : "58923007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8594,7 +8469,6 @@ v: {
   "code" : "58869008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8616,7 +8490,6 @@ v: {
   "code" : "58768005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8638,7 +8511,6 @@ v: {
   "code" : "58663006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8660,7 +8532,6 @@ v: {
   "code" : "58503001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8682,7 +8553,6 @@ v: {
   "code" : "58432001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8704,7 +8574,6 @@ v: {
   "code" : "58242002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8726,7 +8595,6 @@ v: {
   "code" : "58234003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8748,7 +8616,6 @@ v: {
   "code" : "57311007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8770,7 +8637,6 @@ v: {
   "code" : "56596006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8792,7 +8658,6 @@ v: {
   "code" : "56415008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8814,7 +8679,6 @@ v: {
   "code" : "56395006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8836,7 +8700,6 @@ v: {
   "code" : "55905000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8858,7 +8721,6 @@ v: {
   "code" : "55462008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8880,7 +8742,6 @@ v: {
   "code" : "55288009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8902,7 +8763,6 @@ v: {
   "code" : "55174004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8924,7 +8784,6 @@ v: {
   "code" : "55032007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8946,7 +8805,6 @@ v: {
   "code" : "54925005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8968,7 +8826,6 @@ v: {
   "code" : "54365000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -8990,7 +8847,6 @@ v: {
   "code" : "53447008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9012,7 +8868,6 @@ v: {
   "code" : "53233007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9034,7 +8889,6 @@ v: {
   "code" : "53114006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9056,7 +8910,6 @@ v: {
   "code" : "52779006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9078,7 +8931,6 @@ v: {
   "code" : "52584002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9100,7 +8952,6 @@ v: {
   "code" : "52462004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9122,7 +8973,6 @@ v: {
   "code" : "51526001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9144,7 +8994,6 @@ v: {
   "code" : "51504002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9166,7 +9015,6 @@ v: {
   "code" : "51459000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9188,7 +9036,6 @@ v: {
   "code" : "51320008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9210,7 +9057,6 @@ v: {
   "code" : "50471002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9232,7 +9078,6 @@ v: {
   "code" : "50384007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9254,7 +9099,6 @@ v: {
   "code" : "50269000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9276,7 +9120,6 @@ v: {
   "code" : "50255000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9298,7 +9141,6 @@ v: {
   "code" : "50136005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9320,7 +9162,6 @@ v: {
   "code" : "49918008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9342,7 +9183,6 @@ v: {
   "code" : "49445003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9364,7 +9204,6 @@ v: {
   "code" : "48317004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9386,7 +9225,6 @@ v: {
   "code" : "48134004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9408,7 +9246,6 @@ v: {
   "code" : "47465002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9430,7 +9267,6 @@ v: {
   "code" : "46665004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9452,7 +9288,6 @@ v: {
   "code" : "46466005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9474,7 +9309,6 @@ v: {
   "code" : "46464008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9496,7 +9330,6 @@ v: {
   "code" : "45838003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9518,7 +9351,6 @@ v: {
   "code" : "45749000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9540,7 +9372,6 @@ v: {
   "code" : "45662006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9562,7 +9393,6 @@ v: {
   "code" : "44760001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9584,7 +9414,6 @@ v: {
   "code" : "44470000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9606,7 +9435,6 @@ v: {
   "code" : "44172002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9628,7 +9456,6 @@ v: {
   "code" : "44106000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9650,7 +9477,6 @@ v: {
   "code" : "44081006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9672,7 +9498,6 @@ v: {
   "code" : "43612004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9694,7 +9519,6 @@ v: {
   "code" : "43492007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9716,7 +9540,6 @@ v: {
   "code" : "43454006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9738,7 +9561,6 @@ v: {
   "code" : "43199008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9760,7 +9582,6 @@ v: {
   "code" : "43091008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9782,7 +9603,6 @@ v: {
   "code" : "41704008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9804,7 +9624,6 @@ v: {
   "code" : "41328007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9826,7 +9645,6 @@ v: {
   "code" : "41304005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9848,7 +9666,6 @@ v: {
   "code" : "41109008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9870,7 +9687,6 @@ v: {
   "code" : "41090000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9892,7 +9708,6 @@ v: {
   "code" : "40886007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9914,7 +9729,6 @@ v: {
   "code" : "40754006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9936,7 +9750,6 @@ v: {
   "code" : "40740003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9958,7 +9771,6 @@ v: {
   "code" : "40713003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -9980,7 +9792,6 @@ v: {
   "code" : "40614002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10002,7 +9813,6 @@ v: {
   "code" : "40333002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10024,7 +9834,6 @@ v: {
   "code" : "40039007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10046,7 +9855,6 @@ v: {
   "code" : "39739007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10068,7 +9876,6 @@ v: {
   "code" : "38324000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10090,7 +9897,6 @@ v: {
   "code" : "38322001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10112,7 +9918,6 @@ v: {
   "code" : "38004008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10134,7 +9939,6 @@ v: {
   "code" : "37900004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10156,7 +9960,6 @@ v: {
   "code" : "37220005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10178,7 +9981,6 @@ v: {
   "code" : "37081000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10200,7 +10002,6 @@ v: {
   "code" : "36833002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10222,7 +10023,6 @@ v: {
   "code" : "36764009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10244,7 +10044,6 @@ v: {
   "code" : "36700002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10266,7 +10065,6 @@ v: {
   "code" : "36354002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10288,7 +10086,6 @@ v: {
   "code" : "36249008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10310,7 +10107,6 @@ v: {
   "code" : "36115006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10332,7 +10128,6 @@ v: {
   "code" : "36094007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10354,7 +10149,6 @@ v: {
   "code" : "35439004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10376,7 +10170,6 @@ v: {
   "code" : "35408001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10398,7 +10191,6 @@ v: {
   "code" : "35029001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10420,7 +10212,6 @@ v: {
   "code" : "34872001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10442,7 +10233,6 @@ v: {
   "code" : "34706006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10464,7 +10254,6 @@ v: {
   "code" : "34348001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10486,7 +10275,6 @@ v: {
   "code" : "34212000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10508,7 +10296,6 @@ v: {
   "code" : "33610009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10530,7 +10317,6 @@ v: {
   "code" : "32829006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10552,7 +10338,6 @@ v: {
   "code" : "32691002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10574,7 +10359,6 @@ v: {
   "code" : "32488009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10596,7 +10380,6 @@ v: {
   "code" : "32452004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10618,7 +10401,6 @@ v: {
   "code" : "32178004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10640,7 +10422,6 @@ v: {
   "code" : "31551005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10662,7 +10443,6 @@ v: {
   "code" : "31169007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10684,7 +10464,6 @@ v: {
   "code" : "30974007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10706,7 +10485,6 @@ v: {
   "code" : "30949009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10728,7 +10506,6 @@ v: {
   "code" : "30917009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10750,7 +10527,6 @@ v: {
   "code" : "30769009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10772,7 +10548,6 @@ v: {
   "code" : "30434006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10794,7 +10569,6 @@ v: {
   "code" : "30345008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10816,7 +10590,6 @@ v: {
   "code" : "30020004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10838,7 +10611,6 @@ v: {
   "code" : "29724001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10860,7 +10632,6 @@ v: {
   "code" : "29680004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10882,7 +10653,6 @@ v: {
   "code" : "29111009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10904,7 +10674,6 @@ v: {
   "code" : "28732002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10926,7 +10695,6 @@ v: {
   "code" : "28625000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10948,7 +10716,6 @@ v: {
   "code" : "28499009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10970,7 +10737,6 @@ v: {
   "code" : "28382009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -10992,7 +10758,6 @@ v: {
   "code" : "28335002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11014,7 +10779,6 @@ v: {
   "code" : "28109006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11036,7 +10800,6 @@ v: {
   "code" : "27365009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11058,7 +10821,6 @@ v: {
   "code" : "27334000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11080,7 +10842,6 @@ v: {
   "code" : "27268008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11102,7 +10863,6 @@ v: {
   "code" : "27142009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11124,7 +10884,6 @@ v: {
   "code" : "26764003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11146,7 +10905,6 @@ v: {
   "code" : "26733000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11168,7 +10926,6 @@ v: {
   "code" : "26630006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11190,7 +10947,6 @@ v: {
   "code" : "26352009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11212,7 +10968,6 @@ v: {
   "code" : "26250004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11234,7 +10989,6 @@ v: {
   "code" : "24986006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11256,7 +11010,6 @@ v: {
   "code" : "24940009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11278,7 +11031,6 @@ v: {
   "code" : "24871004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11300,7 +11052,6 @@ v: {
   "code" : "24763006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11322,7 +11073,6 @@ v: {
   "code" : "24618002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11344,7 +11094,6 @@ v: {
   "code" : "24224000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11366,7 +11115,6 @@ v: {
   "code" : "23930001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11388,7 +11136,6 @@ v: {
   "code" : "23566007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11410,7 +11157,6 @@ v: {
   "code" : "23498004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11432,7 +11178,6 @@ v: {
   "code" : "23439005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11454,7 +11199,6 @@ v: {
   "code" : "22592008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11476,7 +11220,6 @@ v: {
   "code" : "22580008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11498,7 +11241,6 @@ v: {
   "code" : "22533000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11520,7 +11262,6 @@ v: {
   "code" : "21996001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11542,7 +11283,6 @@ v: {
   "code" : "21927003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11564,7 +11304,6 @@ v: {
   "code" : "21433000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11586,7 +11325,6 @@ v: {
   "code" : "20973006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11608,7 +11346,6 @@ v: {
   "code" : "20785008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11630,7 +11367,6 @@ v: {
   "code" : "20498000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11652,7 +11388,6 @@ v: {
   "code" : "20141004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11674,7 +11409,6 @@ v: {
   "code" : "20017000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11696,7 +11430,6 @@ v: {
   "code" : "19965007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11718,7 +11451,6 @@ v: {
   "code" : "19708001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11740,7 +11472,6 @@ v: {
   "code" : "19551004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11762,7 +11493,6 @@ v: {
   "code" : "19084008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11784,7 +11514,6 @@ v: {
   "code" : "19030005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11806,7 +11535,6 @@ v: {
   "code" : "18508006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11828,7 +11556,6 @@ v: {
   "code" : "18400002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11850,7 +11577,6 @@ v: {
   "code" : "18279000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11872,7 +11598,6 @@ v: {
   "code" : "18214000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11894,7 +11619,6 @@ v: {
   "code" : "18065004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11916,7 +11640,6 @@ v: {
   "code" : "18054009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11938,7 +11661,6 @@ v: {
   "code" : "17966003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11960,7 +11682,6 @@ v: {
   "code" : "17894007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -11982,7 +11703,6 @@ v: {
   "code" : "17872004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12004,7 +11724,6 @@ v: {
   "code" : "17688001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12026,7 +11745,6 @@ v: {
   "code" : "17579001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12048,7 +11766,6 @@ v: {
   "code" : "17298000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12070,7 +11787,6 @@ v: {
   "code" : "17083009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12092,7 +11808,6 @@ v: {
   "code" : "16914000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12114,7 +11829,6 @@ v: {
   "code" : "16439004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12136,7 +11850,6 @@ v: {
   "code" : "16362001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12158,7 +11871,6 @@ v: {
   "code" : "16241000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12180,7 +11892,6 @@ v: {
   "code" : "15302007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12202,7 +11913,6 @@ v: {
   "code" : "14590003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12224,7 +11934,6 @@ v: {
   "code" : "14121003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12246,7 +11955,6 @@ v: {
   "code" : "13953004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12268,7 +11976,6 @@ v: {
   "code" : "13879009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12290,7 +11997,6 @@ v: {
   "code" : "13755001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12312,7 +12018,6 @@ v: {
   "code" : "13687007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12334,7 +12039,6 @@ v: {
   "code" : "13126002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12356,7 +12060,6 @@ v: {
   "code" : "13080008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12378,7 +12081,6 @@ v: {
   "code" : "12220009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12400,7 +12102,6 @@ v: {
   "code" : "12006007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12422,7 +12123,6 @@ v: {
   "code" : "11776003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12444,7 +12144,6 @@ v: {
   "code" : "11736008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12466,7 +12165,6 @@ v: {
   "code" : "11428003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12488,7 +12186,6 @@ v: {
   "code" : "10514003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12510,7 +12207,6 @@ v: {
   "code" : "10262005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12532,7 +12228,6 @@ v: {
   "code" : "9939008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12554,7 +12249,6 @@ v: {
   "code" : "9892000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12576,7 +12270,6 @@ v: {
   "code" : "9861002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12598,7 +12291,6 @@ v: {
   "code" : "9679001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12620,7 +12312,6 @@ v: {
   "code" : "9194001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12642,7 +12333,6 @@ v: {
   "code" : "9041007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12664,7 +12354,6 @@ v: {
   "code" : "8672004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12686,7 +12375,6 @@ v: {
   "code" : "8467002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12708,7 +12396,6 @@ v: {
   "code" : "8386006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12730,7 +12417,6 @@ v: {
   "code" : "8147000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12752,7 +12438,6 @@ v: {
   "code" : "7757008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12774,7 +12459,6 @@ v: {
   "code" : "7527002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12796,7 +12480,6 @@ v: {
   "code" : "6895004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12818,7 +12501,6 @@ v: {
   "code" : "6415009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12840,7 +12522,6 @@ v: {
   "code" : "6387008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12862,7 +12543,6 @@ v: {
   "code" : "6246005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12884,7 +12564,6 @@ v: {
   "code" : "6199007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12906,7 +12585,6 @@ v: {
   "code" : "5885000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12928,7 +12606,6 @@ v: {
   "code" : "5851001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12950,7 +12627,6 @@ v: {
   "code" : "5595000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12972,7 +12648,6 @@ v: {
   "code" : "5247005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -12994,7 +12669,6 @@ v: {
   "code" : "5210005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13016,7 +12690,6 @@ v: {
   "code" : "5056007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13038,7 +12711,6 @@ v: {
   "code" : "4779006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13060,7 +12732,6 @@ v: {
   "code" : "4716008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13082,7 +12753,6 @@ v: {
   "code" : "4668009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13104,7 +12774,6 @@ v: {
   "code" : "4649006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13126,7 +12795,6 @@ v: {
   "code" : "4298009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13148,7 +12816,6 @@ v: {
   "code" : "3351007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13170,7 +12837,6 @@ v: {
   "code" : "3128001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13192,7 +12858,6 @@ v: {
   "code" : "3092008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13214,7 +12879,6 @@ v: {
   "code" : "2864009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13236,7 +12900,6 @@ v: {
   "code" : "2785000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13258,7 +12921,6 @@ v: {
   "code" : "2423009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13280,7 +12942,6 @@ v: {
   "code" : "1507005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13302,7 +12963,6 @@ v: {
   "code" : "1290001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13324,7 +12984,6 @@ v: {
   "code" : "909007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13346,7 +13005,6 @@ v: {
   "code" : "638008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -13368,7 +13026,6 @@ v: {
   "code" : "252000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14350,7 +14007,6 @@ v: {
   "code" : "119360007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14372,7 +14028,6 @@ v: {
   "code" : "365636006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14394,7 +14049,6 @@ v: {
   "code" : "409822003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14416,7 +14070,6 @@ v: {
   "code" : "441649000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14438,7 +14091,6 @@ v: {
   "code" : "414561005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14460,7 +14112,6 @@ v: {
   "code" : "84676004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14482,7 +14133,6 @@ v: {
   "code" : "49872002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14504,7 +14154,6 @@ v: {
   "code" : "417396000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14526,7 +14175,6 @@ v: {
   "code" : "419036000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14548,7 +14196,6 @@ v: {
   "code" : "426785004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14570,7 +14217,6 @@ v: {
   "code" : "370570004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14592,7 +14238,6 @@ v: {
   "code" : "417377004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14614,7 +14259,6 @@ v: {
   "code" : "243565002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14636,7 +14280,6 @@ v: {
   "code" : "272519000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14658,7 +14301,6 @@ v: {
   "code" : "260411009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14680,7 +14322,6 @@ v: {
   "code" : "1259913003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14702,7 +14343,6 @@ v: {
   "code" : "386961008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14724,7 +14364,6 @@ v: {
   "code" : "29725000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14746,7 +14385,6 @@ v: {
   "code" : "21611007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14768,7 +14406,6 @@ v: {
   "code" : "30531001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14790,7 +14427,6 @@ v: {
   "code" : "69519002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14812,7 +14448,6 @@ v: {
   "code" : "372628006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14834,7 +14469,6 @@ v: {
   "code" : "27763000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14856,7 +14490,6 @@ v: {
   "code" : "414407009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14878,7 +14511,6 @@ v: {
   "code" : "1256100007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14900,7 +14532,6 @@ v: {
   "code" : "1256101006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14922,7 +14553,6 @@ v: {
   "code" : "1256102004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14944,7 +14574,6 @@ v: {
   "code" : "387418006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14966,7 +14595,6 @@ v: {
   "code" : "412546005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -14988,7 +14616,6 @@ v: {
   "code" : "50045009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15010,7 +14637,6 @@ v: {
   "code" : "6910009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15032,7 +14658,6 @@ v: {
   "code" : "50306007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15054,7 +14679,6 @@ v: {
   "code" : "387168006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15076,7 +14700,6 @@ v: {
   "code" : "115281000146102",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15098,7 +14721,6 @@ v: {
   "code" : "702290003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15120,7 +14742,6 @@ v: {
   "code" : "706057008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15142,7 +14763,6 @@ v: {
   "code" : "706052002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15164,7 +14784,6 @@ v: {
   "code" : "702292006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15186,7 +14805,6 @@ v: {
   "code" : "767387006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15208,7 +14826,6 @@ v: {
   "code" : "767384004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15230,7 +14847,6 @@ v: {
   "code" : "767390000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15252,7 +14868,6 @@ v: {
   "code" : "767382000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15274,7 +14889,6 @@ v: {
   "code" : "767660003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15296,7 +14910,6 @@ v: {
   "code" : "767389009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15318,7 +14931,6 @@ v: {
   "code" : "702279008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15340,7 +14952,6 @@ v: {
   "code" : "702293001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15362,7 +14973,6 @@ v: {
   "code" : "702278000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15384,7 +14994,6 @@ v: {
   "code" : "702280006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15406,7 +15015,6 @@ v: {
   "code" : "702281005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15428,7 +15036,6 @@ v: {
   "code" : "702310001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15450,7 +15057,6 @@ v: {
   "code" : "706056004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15472,7 +15078,6 @@ v: {
   "code" : "702302002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15494,7 +15099,6 @@ v: {
   "code" : "702288004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15516,7 +15120,6 @@ v: {
   "code" : "702289007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15538,7 +15141,6 @@ v: {
   "code" : "702303007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15560,7 +15162,6 @@ v: {
   "code" : "702308003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15582,7 +15183,6 @@ v: {
   "code" : "706047007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15604,7 +15204,6 @@ v: {
   "code" : "706053007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15626,7 +15225,6 @@ v: {
   "code" : "702268003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15648,7 +15246,6 @@ v: {
   "code" : "702269006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15670,7 +15267,6 @@ v: {
   "code" : "874799005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15692,7 +15288,6 @@ v: {
   "code" : "706050005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15714,7 +15309,6 @@ v: {
   "code" : "702275002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15736,7 +15330,6 @@ v: {
   "code" : "702276001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15758,7 +15351,6 @@ v: {
   "code" : "702277005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15780,7 +15372,6 @@ v: {
   "code" : "702304001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15802,7 +15393,6 @@ v: {
   "code" : "702306004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15824,7 +15414,6 @@ v: {
   "code" : "702307008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15846,7 +15435,6 @@ v: {
   "code" : "702305000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15868,7 +15456,6 @@ v: {
   "code" : "702224000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15890,7 +15477,6 @@ v: {
   "code" : "706051009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15912,7 +15498,6 @@ v: {
   "code" : "702283008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15934,7 +15519,6 @@ v: {
   "code" : "702297000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15956,7 +15540,6 @@ v: {
   "code" : "702295008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -15978,7 +15561,6 @@ v: {
   "code" : "702282003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16000,7 +15582,6 @@ v: {
   "code" : "702299002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16022,7 +15603,6 @@ v: {
   "code" : "702298005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16044,7 +15624,6 @@ v: {
   "code" : "702284002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16066,7 +15645,6 @@ v: {
   "code" : "702300005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16088,7 +15666,6 @@ v: {
   "code" : "702285001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16110,7 +15687,6 @@ v: {
   "code" : "702286000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16132,7 +15708,6 @@ v: {
   "code" : "702256007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16154,7 +15729,6 @@ v: {
   "code" : "702287009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16176,7 +15750,6 @@ v: {
   "code" : "702296009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16198,7 +15771,6 @@ v: {
   "code" : "702264001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16220,7 +15792,6 @@ v: {
   "code" : "702309006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16242,7 +15813,6 @@ v: {
   "code" : "706058003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16264,7 +15834,6 @@ v: {
   "code" : "706046003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16286,7 +15855,6 @@ v: {
   "code" : "702223006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16308,7 +15876,6 @@ v: {
   "code" : "702244006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16330,7 +15897,6 @@ v: {
   "code" : "702232008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16352,7 +15918,6 @@ v: {
   "code" : "702294007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16374,7 +15939,6 @@ v: {
   "code" : "706054001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16396,7 +15960,6 @@ v: {
   "code" : "767385003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16418,7 +15981,6 @@ v: {
   "code" : "767383005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16440,7 +16002,6 @@ v: {
   "code" : "646165971000087107",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16462,7 +16023,6 @@ v: {
   "code" : "119376003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16484,7 +16044,6 @@ v: {
   "code" : "119359002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16506,7 +16065,6 @@ v: {
   "code" : "122571007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16528,7 +16086,6 @@ v: {
   "code" : "119297000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16550,7 +16107,6 @@ v: {
   "code" : "418564007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16572,7 +16128,6 @@ v: {
   "code" : "119303007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16594,7 +16149,6 @@ v: {
   "code" : "122554006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16616,7 +16170,6 @@ v: {
   "code" : "119326000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16638,7 +16191,6 @@ v: {
   "code" : "258450006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16660,7 +16212,6 @@ v: {
   "code" : "119327009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16682,7 +16233,6 @@ v: {
   "code" : "119361006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16704,7 +16254,6 @@ v: {
   "code" : "119334006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16726,7 +16275,6 @@ v: {
   "code" : "119373006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16748,7 +16296,6 @@ v: {
   "code" : "119339001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16770,7 +16317,6 @@ v: {
   "code" : "122552005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16792,7 +16338,6 @@ v: {
   "code" : "119341000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16814,7 +16359,6 @@ v: {
   "code" : "122555007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16836,7 +16380,6 @@ v: {
   "code" : "119342007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16858,7 +16401,6 @@ v: {
   "code" : "122575003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16880,7 +16422,6 @@ v: {
   "code" : "119347001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16902,7 +16443,6 @@ v: {
   "code" : "309051001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16924,7 +16464,6 @@ v: {
   "code" : "119351004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16946,7 +16485,6 @@ v: {
   "code" : "119364003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16968,7 +16506,6 @@ v: {
   "code" : "119312009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -16990,7 +16527,6 @@ v: {
   "code" : "258566005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17012,7 +16548,6 @@ v: {
   "code" : "258529004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17034,7 +16569,6 @@ v: {
   "code" : "119323008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17056,7 +16590,6 @@ v: {
   "code" : "258607008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17078,7 +16611,6 @@ v: {
   "code" : "122556008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17100,7 +16632,6 @@ v: {
   "code" : "258470000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17122,7 +16653,6 @@ v: {
   "code" : "122569007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17144,7 +16674,6 @@ v: {
   "code" : "258530009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17166,7 +16695,6 @@ v: {
   "code" : "440500007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17188,7 +16716,6 @@ v: {
   "code" : "258574006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17210,7 +16737,6 @@ v: {
   "code" : "119340004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17232,7 +16758,6 @@ v: {
   "code" : "119332005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17254,7 +16779,6 @@ v: {
   "code" : "258455001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17276,7 +16800,6 @@ v: {
   "code" : "119371008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17298,7 +16821,6 @@ v: {
   "code" : "168139001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17320,7 +16842,6 @@ v: {
   "code" : "258565009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17342,7 +16863,6 @@ v: {
   "code" : "442173007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17364,7 +16884,6 @@ v: {
   "code" : "309128003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17386,7 +16905,6 @@ v: {
   "code" : "119348006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17408,7 +16926,6 @@ v: {
   "code" : "258528007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17430,7 +16947,6 @@ v: {
   "code" : "122594008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17452,7 +16968,6 @@ v: {
   "code" : "258591005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17474,7 +16989,6 @@ v: {
   "code" : "127479004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17496,7 +17010,6 @@ v: {
   "code" : "432825001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17518,7 +17031,6 @@ v: {
   "code" : "446952006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17540,7 +17052,6 @@ v: {
   "code" : "258503004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17562,7 +17073,6 @@ v: {
   "code" : "447103002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17584,7 +17094,6 @@ v: {
   "code" : "119318008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17606,7 +17115,6 @@ v: {
   "code" : "699287008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17628,7 +17136,6 @@ v: {
   "code" : "119298005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17650,7 +17157,6 @@ v: {
   "code" : "703431007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17672,7 +17178,6 @@ v: {
   "code" : "122565001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17694,7 +17199,6 @@ v: {
   "code" : "705054005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17716,7 +17220,6 @@ v: {
   "code" : "309210009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17738,7 +17241,6 @@ v: {
   "code" : "708049000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17760,7 +17262,6 @@ v: {
   "code" : "440473005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17782,7 +17283,6 @@ v: {
   "code" : "733056005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17804,7 +17304,6 @@ v: {
   "code" : "446846006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17826,7 +17325,6 @@ v: {
   "code" : "258428005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17848,7 +17346,6 @@ v: {
   "code" : "258508008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17870,7 +17367,6 @@ v: {
   "code" : "258441009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17892,7 +17388,6 @@ v: {
   "code" : "119338009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17914,7 +17409,6 @@ v: {
   "code" : "119350003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17936,7 +17430,6 @@ v: {
   "code" : "258564008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17958,7 +17451,6 @@ v: {
   "code" : "119399004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -17980,7 +17472,6 @@ v: {
   "code" : "119329007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18002,7 +17493,6 @@ v: {
   "code" : "258458004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18024,7 +17514,6 @@ v: {
   "code" : "258589002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18046,7 +17535,6 @@ v: {
   "code" : "258459007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18068,7 +17556,6 @@ v: {
   "code" : "258603007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18090,7 +17577,6 @@ v: {
   "code" : "258465007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18112,7 +17598,6 @@ v: {
   "code" : "122567009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18134,7 +17619,6 @@ v: {
   "code" : "258466008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18156,7 +17640,6 @@ v: {
   "code" : "309176002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18178,7 +17661,6 @@ v: {
   "code" : "258469001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18200,7 +17682,6 @@ v: {
   "code" : "119300005",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18222,7 +17703,6 @@ v: {
   "code" : "119403008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18244,7 +17724,6 @@ v: {
   "code" : "439961009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18266,7 +17745,6 @@ v: {
   "code" : "258479004",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18288,7 +17766,6 @@ v: {
   "code" : "119336008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18310,7 +17787,6 @@ v: {
   "code" : "258482009",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18332,7 +17808,6 @@ v: {
   "code" : "445160003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18354,7 +17829,6 @@ v: {
   "code" : "258498002",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18376,7 +17850,6 @@ v: {
   "code" : "122572000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18398,7 +17871,6 @@ v: {
   "code" : "258500001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18420,7 +17892,6 @@ v: {
   "code" : "472929000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18442,7 +17913,6 @@ v: {
   "code" : "168141000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18464,7 +17934,6 @@ v: {
   "code" : "703430008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18486,7 +17955,6 @@ v: {
   "code" : "257261003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18508,7 +17976,6 @@ v: {
   "code" : "703432000",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18530,7 +17997,6 @@ v: {
   "code" : "258411007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18552,7 +18018,6 @@ v: {
   "code" : "708048008",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18574,7 +18039,6 @@ v: {
   "code" : "258415003",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18596,7 +18060,6 @@ v: {
   "code" : "732976006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18618,7 +18081,6 @@ v: {
   "code" : "258417006",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18640,7 +18102,6 @@ v: {
   "code" : "898201001",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18662,7 +18123,6 @@ v: {
   "code" : "258424007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -18684,7 +18144,6 @@ v: {
   "code" : "1003705007",
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/900000000000207008/version/20230901",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -47168,6 +46627,1180 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "462371000124108",
       "display" : "Detected in pooled specimen"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "702290003",
+        "display" : "Cervical cytology microscopy slide (physical object)"
+      },
+      {
+        "code" : "706057008",
+        "display" : "Cytology specimen container (physical object)"
+      },
+      {
+        "code" : "706052002",
+        "display" : "Evacuated blood collection tube (physical object)"
+      },
+      {
+        "code" : "702292006",
+        "display" : "Evacuated blood collection tube , K3EDTA/sodium fluoride (physical object)"
+      },
+      {
+        "code" : "767387006",
+        "display" : "Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole (physical object)"
+      },
+      {
+        "code" : "767384004",
+        "display" : "Evacuated blood collection tube with clot activator (physical object)"
+      },
+      {
+        "code" : "767390000",
+        "display" : "Evacuated blood collection tube with heparin lithium and gelseparator (physical object)"
+      },
+      {
+        "code" : "767382000",
+        "display" : "Evacuated blood collection tube with heparin sodium (physical object)"
+      },
+      {
+        "code" : "767660003",
+        "display" : "Evacuated blood collection tube with sodium fluoride (physical object)"
+      },
+      {
+        "code" : "767389009",
+        "display" : "Evacuated blood collection tube with tripotassium and ethylene diamine tetraacetic acid and aprotinin (physical object)"
+      },
+      {
+        "code" : "702279008",
+        "display" : "Evacuated blood collection tube, gel separator (physical object)"
+      },
+      {
+        "code" : "702293001",
+        "display" : "Evacuated blood collection tube, K2EDTA/aprotinin (physical object)"
+      },
+      {
+        "code" : "702278000",
+        "display" : "Evacuated blood collection tube, no additive/metal-free (physical object)"
+      },
+      {
+        "code" : "702280006",
+        "display" : "Evacuated blood collection tube, RNA stabiliser (physical object)"
+      },
+      {
+        "code" : "702281005",
+        "display" : "Evacuated blood collection tube, thrombin/clot activator/gelseparator (physical object)"
+      },
+      {
+        "code" : "702310001",
+        "display" : "Evacuated saliva specimen container, sodium azide (physical object)"
+      },
+      {
+        "code" : "706056004",
+        "display" : "Evacuated urine specimen container (physical object)"
+      },
+      {
+        "code" : "702302002",
+        "display" : "Evacuated urine specimen container, boric acid (H3BO3) (physical object)"
+      },
+      {
+        "code" : "702288004",
+        "display" : "Evacuated urine specimen container, boric acid (H3BO3)/sodiumformate (physical object)"
+      },
+      {
+        "code" : "702289007",
+        "display" : "Evacuated urine specimen container, ethyl paraben/sodium propionate/chlorhexidine (physical object)"
+      },
+      {
+        "code" : "702303007",
+        "display" : "Evacuated urine specimen container, multiple preservative (physical object)"
+      },
+      {
+        "code" : "702308003",
+        "display" : "Evacuated urine specimen container, no additive (physical object)"
+      },
+      {
+        "code" : "706047007",
+        "display" : "Fecal specimen container (physical object)"
+      },
+      {
+        "code" : "706053007",
+        "display" : "General specimen container (physical object)"
+      },
+      {
+        "code" : "702268003",
+        "display" : "General specimen container, no additive, non-sterile (physical object)"
+      },
+      {
+        "code" : "702269006",
+        "display" : "General specimen container, no additive, sterile (physical object)"
+      },
+      {
+        "code" : "874799005",
+        "display" : "Microbial cryotube (physical object)"
+      },
+      {
+        "code" : "706050005",
+        "display" : "Microcapillary blood collection tube (physical object)"
+      },
+      {
+        "code" : "702275002",
+        "display" : "Microcapillary blood collection tube, ammonium heparin (physical object)"
+      },
+      {
+        "code" : "702276001",
+        "display" : "Microcapillary blood collection tube, K2EDTA (physical object)"
+      },
+      {
+        "code" : "702277005",
+        "display" : "Microcapillary blood collection tube, no additive (physical object)"
+      },
+      {
+        "code" : "702304001",
+        "display" : "Microcapillary blood transfer tube, clot activator (physical object)"
+      },
+      {
+        "code" : "702306004",
+        "display" : "Microcapillary blood transfer tube, EDTA (physical object)"
+      },
+      {
+        "code" : "702307008",
+        "display" : "Microcapillary blood transfer tube, heparin (physical object)"
+      },
+      {
+        "code" : "702305000",
+        "display" : "Microcapillary sodium fluoride blood transfer tube (physical object)"
+      },
+      {
+        "code" : "702224000",
+        "display" : "Midstream urine specimen container (physical object)"
+      },
+      {
+        "code" : "706051009",
+        "display" : "Non-evacuated blood collection tube (physical object)"
+      },
+      {
+        "code" : "702283008",
+        "display" : "Non-evacuated blood collection tube with gel separator (physical object)"
+      },
+      {
+        "code" : "702297000",
+        "display" : "Non-evacuated blood collection tube, clot activator (physical object)"
+      },
+      {
+        "code" : "702295008",
+        "display" : "Non-evacuated blood collection tube, clot activator/gel separator (physical object)"
+      },
+      {
+        "code" : "702282003",
+        "display" : "Non-evacuated blood collection tube, EDTA (physical object)"
+      },
+      {
+        "code" : "702299002",
+        "display" : "Non-evacuated blood collection tube, K2EDTA (physical object)"
+      },
+      {
+        "code" : "702298005",
+        "display" : "Non-evacuated blood collection tube, K3EDTA (physical object)"
+      },
+      {
+        "code" : "702284002",
+        "display" : "Non-evacuated blood collection tube, lithium heparin (physical object)"
+      },
+      {
+        "code" : "702300005",
+        "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,non-sterile (physical object)"
+      },
+      {
+        "code" : "702285001",
+        "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,sterile (physical object)"
+      },
+      {
+        "code" : "702286000",
+        "display" : "Non-evacuated blood collection tube, NaEDTA/sodium fluoride (physical object)"
+      },
+      {
+        "code" : "702256007",
+        "display" : "Non-evacuated blood collection tube, no additive (physical object)"
+      },
+      {
+        "code" : "702287009",
+        "display" : "Non-evacuated blood collection tube, potassium oxalate/sodiumfluoride (physical object)"
+      },
+      {
+        "code" : "702296009",
+        "display" : "Non-evacuated blood collection tube, sodium citrate (physical object)"
+      },
+      {
+        "code" : "702264001",
+        "display" : "Non-sterile urine specimen container (physical object)"
+      },
+      {
+        "code" : "702309006",
+        "display" : "Saliva specimen container, no additive (physical object)"
+      },
+      {
+        "code" : "706058003",
+        "display" : "Secretory specimen container (physical object)"
+      },
+      {
+        "code" : "706046003",
+        "display" : "Specimen receptacle (physical object)"
+      },
+      {
+        "code" : "702223006",
+        "display" : "Sputum specimen container (physical object)"
+      },
+      {
+        "code" : "702244006",
+        "display" : "Sterile urine specimen container (physical object)"
+      },
+      {
+        "code" : "702232008",
+        "display" : "Sweat specimen container (physical object)"
+      },
+      {
+        "code" : "702294007",
+        "display" : "Syringe-blood collection tube transfer (physical object)"
+      },
+      {
+        "code" : "706054001",
+        "display" : "Urine specimen container (physical object)"
+      },
+      {
+        "code" : "767385003",
+        "display" : "Aerobic blood culture bottle (physical object)"
+      },
+      {
+        "code" : "767383005",
+        "display" : "Anaerobic blood culture bottle (physical object)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:6840e76b-30b2-465b-b13c-4eb579b027f0",
+    "timestamp" : "2023-12-18T10:05:27.715Z",
+    "total" : 61,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "702290003",
+      "display" : "Cervical cytology microscopy slide (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706057008",
+      "display" : "Cytology specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706052002",
+      "display" : "Evacuated blood collection tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702292006",
+      "display" : "Evacuated blood collection tube , K3EDTA/sodium fluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767387006",
+      "display" : "Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767384004",
+      "display" : "Evacuated blood collection tube with clot activator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767390000",
+      "display" : "Evacuated blood collection tube with heparin lithium and gelseparator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767382000",
+      "display" : "Evacuated blood collection tube with heparin sodium (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767660003",
+      "display" : "Evacuated blood collection tube with sodium fluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767389009",
+      "display" : "Evacuated blood collection tube with tripotassium and ethylene diamine tetraacetic acid and aprotinin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702279008",
+      "display" : "Evacuated blood collection tube, gel separator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702293001",
+      "display" : "Evacuated blood collection tube, K2EDTA/aprotinin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702278000",
+      "display" : "Evacuated blood collection tube, no additive/metal-free (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702280006",
+      "display" : "Evacuated blood collection tube, RNA stabiliser (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702281005",
+      "display" : "Evacuated blood collection tube, thrombin/clot activator/gelseparator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702310001",
+      "display" : "Evacuated saliva specimen container, sodium azide (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706056004",
+      "display" : "Evacuated urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702302002",
+      "display" : "Evacuated urine specimen container, boric acid (H3BO3) (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702288004",
+      "display" : "Evacuated urine specimen container, boric acid (H3BO3)/sodiumformate (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702289007",
+      "display" : "Evacuated urine specimen container, ethyl paraben/sodium propionate/chlorhexidine (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702303007",
+      "display" : "Evacuated urine specimen container, multiple preservative (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702308003",
+      "display" : "Evacuated urine specimen container, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706047007",
+      "display" : "Fecal specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706053007",
+      "display" : "General specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702268003",
+      "display" : "General specimen container, no additive, non-sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702269006",
+      "display" : "General specimen container, no additive, sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "874799005",
+      "display" : "Microbial cryotube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706050005",
+      "display" : "Microcapillary blood collection tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702275002",
+      "display" : "Microcapillary blood collection tube, ammonium heparin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702276001",
+      "display" : "Microcapillary blood collection tube, K2EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702277005",
+      "display" : "Microcapillary blood collection tube, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702304001",
+      "display" : "Microcapillary blood transfer tube, clot activator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702306004",
+      "display" : "Microcapillary blood transfer tube, EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702307008",
+      "display" : "Microcapillary blood transfer tube, heparin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702305000",
+      "display" : "Microcapillary sodium fluoride blood transfer tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702224000",
+      "display" : "Midstream urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706051009",
+      "display" : "Non-evacuated blood collection tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702283008",
+      "display" : "Non-evacuated blood collection tube with gel separator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702297000",
+      "display" : "Non-evacuated blood collection tube, clot activator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702295008",
+      "display" : "Non-evacuated blood collection tube, clot activator/gel separator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702282003",
+      "display" : "Non-evacuated blood collection tube, EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702299002",
+      "display" : "Non-evacuated blood collection tube, K2EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702298005",
+      "display" : "Non-evacuated blood collection tube, K3EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702284002",
+      "display" : "Non-evacuated blood collection tube, lithium heparin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702300005",
+      "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,non-sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702285001",
+      "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702286000",
+      "display" : "Non-evacuated blood collection tube, NaEDTA/sodium fluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702256007",
+      "display" : "Non-evacuated blood collection tube, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702287009",
+      "display" : "Non-evacuated blood collection tube, potassium oxalate/sodiumfluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702296009",
+      "display" : "Non-evacuated blood collection tube, sodium citrate (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702264001",
+      "display" : "Non-sterile urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702309006",
+      "display" : "Saliva specimen container, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706058003",
+      "display" : "Secretory specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706046003",
+      "display" : "Specimen receptacle (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702223006",
+      "display" : "Sputum specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702244006",
+      "display" : "Sterile urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702232008",
+      "display" : "Sweat specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702294007",
+      "display" : "Syringe-blood collection tube transfer (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706054001",
+      "display" : "Urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767385003",
+      "display" : "Aerobic blood culture bottle (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767383005",
+      "display" : "Anaerobic blood culture bottle (physical object)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "702290003",
+        "display" : "Cervical cytology microscopy slide (physical object)"
+      },
+      {
+        "code" : "706057008",
+        "display" : "Cytology specimen container (physical object)"
+      },
+      {
+        "code" : "706052002",
+        "display" : "Evacuated blood collection tube (physical object)"
+      },
+      {
+        "code" : "702292006",
+        "display" : "Evacuated blood collection tube , K3EDTA/sodium fluoride (physical object)"
+      },
+      {
+        "code" : "767387006",
+        "display" : "Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole (physical object)"
+      },
+      {
+        "code" : "767384004",
+        "display" : "Evacuated blood collection tube with clot activator (physical object)"
+      },
+      {
+        "code" : "767390000",
+        "display" : "Evacuated blood collection tube with heparin lithium and gelseparator (physical object)"
+      },
+      {
+        "code" : "767382000",
+        "display" : "Evacuated blood collection tube with heparin sodium (physical object)"
+      },
+      {
+        "code" : "767660003",
+        "display" : "Evacuated blood collection tube with sodium fluoride (physical object)"
+      },
+      {
+        "code" : "767389009",
+        "display" : "Evacuated blood collection tube with tripotassium and ethylene diamine tetraacetic acid and aprotinin (physical object)"
+      },
+      {
+        "code" : "702279008",
+        "display" : "Evacuated blood collection tube, gel separator (physical object)"
+      },
+      {
+        "code" : "702293001",
+        "display" : "Evacuated blood collection tube, K2EDTA/aprotinin (physical object)"
+      },
+      {
+        "code" : "702278000",
+        "display" : "Evacuated blood collection tube, no additive/metal-free (physical object)"
+      },
+      {
+        "code" : "702280006",
+        "display" : "Evacuated blood collection tube, RNA stabiliser (physical object)"
+      },
+      {
+        "code" : "702281005",
+        "display" : "Evacuated blood collection tube, thrombin/clot activator/gelseparator (physical object)"
+      },
+      {
+        "code" : "702310001",
+        "display" : "Evacuated saliva specimen container, sodium azide (physical object)"
+      },
+      {
+        "code" : "706056004",
+        "display" : "Evacuated urine specimen container (physical object)"
+      },
+      {
+        "code" : "702302002",
+        "display" : "Evacuated urine specimen container, boric acid (H3BO3) (physical object)"
+      },
+      {
+        "code" : "702288004",
+        "display" : "Evacuated urine specimen container, boric acid (H3BO3)/sodiumformate (physical object)"
+      },
+      {
+        "code" : "702289007",
+        "display" : "Evacuated urine specimen container, ethyl paraben/sodium propionate/chlorhexidine (physical object)"
+      },
+      {
+        "code" : "702303007",
+        "display" : "Evacuated urine specimen container, multiple preservative (physical object)"
+      },
+      {
+        "code" : "702308003",
+        "display" : "Evacuated urine specimen container, no additive (physical object)"
+      },
+      {
+        "code" : "706047007",
+        "display" : "Fecal specimen container (physical object)"
+      },
+      {
+        "code" : "706053007",
+        "display" : "General specimen container (physical object)"
+      },
+      {
+        "code" : "702268003",
+        "display" : "General specimen container, no additive, non-sterile (physical object)"
+      },
+      {
+        "code" : "702269006",
+        "display" : "General specimen container, no additive, sterile (physical object)"
+      },
+      {
+        "code" : "874799005",
+        "display" : "Microbial cryotube (physical object)"
+      },
+      {
+        "code" : "706050005",
+        "display" : "Microcapillary blood collection tube (physical object)"
+      },
+      {
+        "code" : "702275002",
+        "display" : "Microcapillary blood collection tube, ammonium heparin (physical object)"
+      },
+      {
+        "code" : "702276001",
+        "display" : "Microcapillary blood collection tube, K2EDTA (physical object)"
+      },
+      {
+        "code" : "702277005",
+        "display" : "Microcapillary blood collection tube, no additive (physical object)"
+      },
+      {
+        "code" : "702304001",
+        "display" : "Microcapillary blood transfer tube, clot activator (physical object)"
+      },
+      {
+        "code" : "702306004",
+        "display" : "Microcapillary blood transfer tube, EDTA (physical object)"
+      },
+      {
+        "code" : "702307008",
+        "display" : "Microcapillary blood transfer tube, heparin (physical object)"
+      },
+      {
+        "code" : "702305000",
+        "display" : "Microcapillary sodium fluoride blood transfer tube (physical object)"
+      },
+      {
+        "code" : "702224000",
+        "display" : "Midstream urine specimen container (physical object)"
+      },
+      {
+        "code" : "706051009",
+        "display" : "Non-evacuated blood collection tube (physical object)"
+      },
+      {
+        "code" : "702283008",
+        "display" : "Non-evacuated blood collection tube with gel separator (physical object)"
+      },
+      {
+        "code" : "702297000",
+        "display" : "Non-evacuated blood collection tube, clot activator (physical object)"
+      },
+      {
+        "code" : "702295008",
+        "display" : "Non-evacuated blood collection tube, clot activator/gel separator (physical object)"
+      },
+      {
+        "code" : "702282003",
+        "display" : "Non-evacuated blood collection tube, EDTA (physical object)"
+      },
+      {
+        "code" : "702299002",
+        "display" : "Non-evacuated blood collection tube, K2EDTA (physical object)"
+      },
+      {
+        "code" : "702298005",
+        "display" : "Non-evacuated blood collection tube, K3EDTA (physical object)"
+      },
+      {
+        "code" : "702284002",
+        "display" : "Non-evacuated blood collection tube, lithium heparin (physical object)"
+      },
+      {
+        "code" : "702300005",
+        "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,non-sterile (physical object)"
+      },
+      {
+        "code" : "702285001",
+        "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,sterile (physical object)"
+      },
+      {
+        "code" : "702286000",
+        "display" : "Non-evacuated blood collection tube, NaEDTA/sodium fluoride (physical object)"
+      },
+      {
+        "code" : "702256007",
+        "display" : "Non-evacuated blood collection tube, no additive (physical object)"
+      },
+      {
+        "code" : "702287009",
+        "display" : "Non-evacuated blood collection tube, potassium oxalate/sodiumfluoride (physical object)"
+      },
+      {
+        "code" : "702296009",
+        "display" : "Non-evacuated blood collection tube, sodium citrate (physical object)"
+      },
+      {
+        "code" : "702264001",
+        "display" : "Non-sterile urine specimen container (physical object)"
+      },
+      {
+        "code" : "702309006",
+        "display" : "Saliva specimen container, no additive (physical object)"
+      },
+      {
+        "code" : "706058003",
+        "display" : "Secretory specimen container (physical object)"
+      },
+      {
+        "code" : "706046003",
+        "display" : "Specimen receptacle (physical object)"
+      },
+      {
+        "code" : "702223006",
+        "display" : "Sputum specimen container (physical object)"
+      },
+      {
+        "code" : "702244006",
+        "display" : "Sterile urine specimen container (physical object)"
+      },
+      {
+        "code" : "702232008",
+        "display" : "Sweat specimen container (physical object)"
+      },
+      {
+        "code" : "702294007",
+        "display" : "Syringe-blood collection tube transfer (physical object)"
+      },
+      {
+        "code" : "706054001",
+        "display" : "Urine specimen container (physical object)"
+      },
+      {
+        "code" : "767385003",
+        "display" : "Aerobic blood culture bottle (physical object)"
+      },
+      {
+        "code" : "767383005",
+        "display" : "Anaerobic blood culture bottle (physical object)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:946566f8-76ac-46e1-86e3-b89040f1fbcf",
+    "timestamp" : "2023-12-18T10:26:49.214Z",
+    "total" : 61,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "702290003",
+      "display" : "Cervical cytology microscopy slide (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706057008",
+      "display" : "Cytology specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706052002",
+      "display" : "Evacuated blood collection tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702292006",
+      "display" : "Evacuated blood collection tube , K3EDTA/sodium fluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767387006",
+      "display" : "Evacuated blood collection tube with citrate and theophylline and adenosine and dipyramidole (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767384004",
+      "display" : "Evacuated blood collection tube with clot activator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767390000",
+      "display" : "Evacuated blood collection tube with heparin lithium and gelseparator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767382000",
+      "display" : "Evacuated blood collection tube with heparin sodium (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767660003",
+      "display" : "Evacuated blood collection tube with sodium fluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767389009",
+      "display" : "Evacuated blood collection tube with tripotassium and ethylene diamine tetraacetic acid and aprotinin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702279008",
+      "display" : "Evacuated blood collection tube, gel separator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702293001",
+      "display" : "Evacuated blood collection tube, K2EDTA/aprotinin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702278000",
+      "display" : "Evacuated blood collection tube, no additive/metal-free (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702280006",
+      "display" : "Evacuated blood collection tube, RNA stabiliser (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702281005",
+      "display" : "Evacuated blood collection tube, thrombin/clot activator/gelseparator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702310001",
+      "display" : "Evacuated saliva specimen container, sodium azide (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706056004",
+      "display" : "Evacuated urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702302002",
+      "display" : "Evacuated urine specimen container, boric acid (H3BO3) (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702288004",
+      "display" : "Evacuated urine specimen container, boric acid (H3BO3)/sodiumformate (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702289007",
+      "display" : "Evacuated urine specimen container, ethyl paraben/sodium propionate/chlorhexidine (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702303007",
+      "display" : "Evacuated urine specimen container, multiple preservative (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702308003",
+      "display" : "Evacuated urine specimen container, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706047007",
+      "display" : "Fecal specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706053007",
+      "display" : "General specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702268003",
+      "display" : "General specimen container, no additive, non-sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702269006",
+      "display" : "General specimen container, no additive, sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "874799005",
+      "display" : "Microbial cryotube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706050005",
+      "display" : "Microcapillary blood collection tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702275002",
+      "display" : "Microcapillary blood collection tube, ammonium heparin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702276001",
+      "display" : "Microcapillary blood collection tube, K2EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702277005",
+      "display" : "Microcapillary blood collection tube, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702304001",
+      "display" : "Microcapillary blood transfer tube, clot activator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702306004",
+      "display" : "Microcapillary blood transfer tube, EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702307008",
+      "display" : "Microcapillary blood transfer tube, heparin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702305000",
+      "display" : "Microcapillary sodium fluoride blood transfer tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702224000",
+      "display" : "Midstream urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706051009",
+      "display" : "Non-evacuated blood collection tube (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702283008",
+      "display" : "Non-evacuated blood collection tube with gel separator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702297000",
+      "display" : "Non-evacuated blood collection tube, clot activator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702295008",
+      "display" : "Non-evacuated blood collection tube, clot activator/gel separator (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702282003",
+      "display" : "Non-evacuated blood collection tube, EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702299002",
+      "display" : "Non-evacuated blood collection tube, K2EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702298005",
+      "display" : "Non-evacuated blood collection tube, K3EDTA (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702284002",
+      "display" : "Non-evacuated blood collection tube, lithium heparin (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702300005",
+      "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,non-sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702285001",
+      "display" : "Non-evacuated blood collection tube, lithium heparin/gel separator,sterile (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702286000",
+      "display" : "Non-evacuated blood collection tube, NaEDTA/sodium fluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702256007",
+      "display" : "Non-evacuated blood collection tube, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702287009",
+      "display" : "Non-evacuated blood collection tube, potassium oxalate/sodiumfluoride (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702296009",
+      "display" : "Non-evacuated blood collection tube, sodium citrate (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702264001",
+      "display" : "Non-sterile urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702309006",
+      "display" : "Saliva specimen container, no additive (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706058003",
+      "display" : "Secretory specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706046003",
+      "display" : "Specimen receptacle (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702223006",
+      "display" : "Sputum specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702244006",
+      "display" : "Sterile urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702232008",
+      "display" : "Sweat specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "702294007",
+      "display" : "Syringe-blood collection tube transfer (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "706054001",
+      "display" : "Urine specimen container (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767385003",
+      "display" : "Aerobic blood culture bottle (physical object)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "767383005",
+      "display" : "Anaerobic blood culture bottle (physical object)"
     }]
   }
 },

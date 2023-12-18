@@ -1,16 +1,8 @@
-
-ValueSet: VsIstatLuogoNascita
-Id: istat-luogoNascita
-Title: "ISTAT - Comune/Stato di Nascita"
-Description: "Codici ISTAT per Comune o Stato di nascita"
-//----------------------------------------
-* codes from valueset VsIstatStato
-* codes from valueset VsIstatComune
-
 ValueSet: VsIstatStato
 Id: istat-stato
 Title: "ISTAT - Stati"
 Description: "Codici ISTAT Stato"
+* ^experimental = false
 //----------------------------------------
 * CS_Estero#100 "Italia"
 * CS_Estero#201 "Albania"
@@ -246,6 +238,7 @@ ValueSet: VsIstatCittadinanza
 Id: istat-cittadinanza
 Title: "ISTAT - Cittadinanza"
 Description: "Codici ISTAT Cittadinanza; Eurostat. Regolamento 2017/543 del 22 marzo 2017"
+* ^experimental = false
 //----------------------------------------
 * CS_Estero#100 "Italia"
 * CS_Estero#201 "Albania"
@@ -458,6 +451,7 @@ ValueSet: VsIstatComune
 Id: istat-comune
 Title: "ISTAT - Comuni"
 Description: "Codici ISTAT Comune più sconosciuto"
+* ^experimental = false
 //----------------------------------------
 * CS_unitaTerritoriali#001001 "Agliè"
 * CS_unitaTerritoriali#001002 "Airasca"
@@ -8370,6 +8364,7 @@ ValueSet: VsIstatProvincia
 Id: istat-provincia
 Title: "ISTAT - Province"
 Description: "Codici ISTAT Provincia più sconosciuto"
+* ^experimental = false
 //----------------------------------------
 * $v3-NullFlavor#UNK "Sconosciuto"
 * CS_unitaTerritoriali#002 "Vercelli"
@@ -8487,7 +8482,7 @@ Title: "ISTAT - Regioni"
 Description: "Codici ISTAT Regione più sconosciuto"
 //----------------------------------------
 * $v3-NullFlavor#UNK
-
+* ^experimental = false
 * CS_unitaTerritoriali#01 "Piemonte"
 * CS_unitaTerritoriali#02 "Valle d'Aosta/Vallée d'Aoste"
 * CS_unitaTerritoriali#03 "Lombardia"
@@ -8509,3 +8504,11 @@ Description: "Codici ISTAT Regione più sconosciuto"
 * CS_unitaTerritoriali#19 "Sicilia"
 * CS_unitaTerritoriali#20 "Sardegna"
 
+ValueSet: VsIstatLuogoNascita
+Id: istat-luogoNascita
+Title: "ISTAT - Comune/Stato di Nascita"
+Description: "Codici ISTAT per Comune o Stato di nascita"
+* ^experimental = false
+//----------------------------------------
+* include codes from valueset VsIstatStato
+* include codes from valueset VsIstatComune

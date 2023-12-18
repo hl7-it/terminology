@@ -334,7 +334,6 @@ v: {
   "severity" : "error",
   "error" : "Unknown Code 'UK' in the system 'urn:iso:std:iso:3166|2018'; The provided code 'urn:iso:std:iso:3166#UK' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)",
   "class" : "UNKNOWN",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -356,7 +355,6 @@ v: {
   "code" : "IT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -378,7 +376,6 @@ v: {
   "code" : "IT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -400,7 +397,6 @@ v: {
   "code" : "AT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -422,7 +418,6 @@ v: {
   "code" : "BE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -444,7 +439,6 @@ v: {
   "code" : "BG",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -466,7 +460,6 @@ v: {
   "code" : "HR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -488,7 +481,6 @@ v: {
   "code" : "CY",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -510,7 +502,6 @@ v: {
   "code" : "CZ",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -532,7 +523,6 @@ v: {
   "code" : "DK",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -554,7 +544,6 @@ v: {
   "code" : "EE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -576,7 +565,6 @@ v: {
   "code" : "FI",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -598,7 +586,6 @@ v: {
   "code" : "FR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -620,7 +607,6 @@ v: {
   "code" : "GR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -642,7 +628,6 @@ v: {
   "code" : "DE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -664,7 +649,6 @@ v: {
   "code" : "HU",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -686,7 +670,6 @@ v: {
   "code" : "IE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -708,7 +691,6 @@ v: {
   "code" : "IT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -730,7 +712,6 @@ v: {
   "code" : "LV",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -752,7 +733,6 @@ v: {
   "code" : "LT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -774,7 +754,6 @@ v: {
   "code" : "LU",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -796,7 +775,6 @@ v: {
   "code" : "MT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -818,7 +796,6 @@ v: {
   "code" : "NL",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -840,7 +817,6 @@ v: {
   "code" : "PL",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -862,7 +838,6 @@ v: {
   "code" : "PT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -884,7 +859,6 @@ v: {
   "code" : "RO",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -906,7 +880,6 @@ v: {
   "code" : "SK",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -928,7 +901,6 @@ v: {
   "code" : "SI",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -950,7 +922,6 @@ v: {
   "code" : "ES",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -972,7 +943,6 @@ v: {
   "code" : "SE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -994,7 +964,6 @@ v: {
   "code" : "IS",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1016,7 +985,6 @@ v: {
   "code" : "LI",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1038,7 +1006,6 @@ v: {
   "code" : "NO",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1060,7 +1027,6 @@ v: {
   "code" : "CH",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1404,7 +1370,6 @@ v: {
   "code" : "IT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -1429,5 +1394,639 @@ v: {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "concept" : [{
+        "code" : "AT",
+        "display" : "Austria"
+      },
+      {
+        "code" : "BE",
+        "display" : "Belgium"
+      },
+      {
+        "code" : "BG",
+        "display" : "Bulgaria"
+      },
+      {
+        "code" : "HR",
+        "display" : "Croatia"
+      },
+      {
+        "code" : "CY",
+        "display" : "Cyprus"
+      },
+      {
+        "code" : "CZ",
+        "display" : "Czech Republic"
+      },
+      {
+        "code" : "DK",
+        "display" : "Denmark"
+      },
+      {
+        "code" : "EE",
+        "display" : "Estonia"
+      },
+      {
+        "code" : "FI",
+        "display" : "Finland"
+      },
+      {
+        "code" : "FR",
+        "display" : "France"
+      },
+      {
+        "code" : "GR",
+        "display" : "Greece"
+      },
+      {
+        "code" : "DE",
+        "display" : "Germany"
+      },
+      {
+        "code" : "HU",
+        "display" : "Hungary"
+      },
+      {
+        "code" : "IE",
+        "display" : "Ireland"
+      },
+      {
+        "code" : "IT",
+        "display" : "Italy"
+      },
+      {
+        "code" : "LV",
+        "display" : "Latvia"
+      },
+      {
+        "code" : "LT",
+        "display" : "Lithuania"
+      },
+      {
+        "code" : "LU",
+        "display" : "Luxembourg"
+      },
+      {
+        "code" : "MT",
+        "display" : "Malta"
+      },
+      {
+        "code" : "NL",
+        "display" : "Netherlands"
+      },
+      {
+        "code" : "PL",
+        "display" : "Poland"
+      },
+      {
+        "code" : "PT",
+        "display" : "Portugal"
+      },
+      {
+        "code" : "RO",
+        "display" : "Romania"
+      },
+      {
+        "code" : "SK",
+        "display" : "Slovakia"
+      },
+      {
+        "code" : "SI",
+        "display" : "Slovenia"
+      },
+      {
+        "code" : "ES",
+        "display" : "Spain"
+      },
+      {
+        "code" : "SE",
+        "display" : "Sweden"
+      },
+      {
+        "code" : "IS",
+        "display" : "Iceland"
+      },
+      {
+        "code" : "LI",
+        "display" : "Liechtenstein"
+      },
+      {
+        "code" : "NO",
+        "display" : "Norway"
+      },
+      {
+        "code" : "CH",
+        "display" : "Switzerland"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:78ab8453-dde8-4f19-bd0c-6efb1b63f6f7",
+    "timestamp" : "2023-12-18T10:05:28.356Z",
+    "total" : 31,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:iso:std:iso:3166|2018"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:iso:std:iso:3166|2018"
+    }],
+    "contains" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AT",
+      "display" : "Austria"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BG",
+      "display" : "Bulgaria"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "HR",
+      "display" : "Croatia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CY",
+      "display" : "Cyprus"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czech Republic"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DK",
+      "display" : "Denmark"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EE",
+      "display" : "Estonia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FI",
+      "display" : "Finland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "GR",
+      "display" : "Greece"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "HU",
+      "display" : "Hungary"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IE",
+      "display" : "Ireland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LV",
+      "display" : "Latvia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT",
+      "display" : "Lithuania"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LU",
+      "display" : "Luxembourg"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "MT",
+      "display" : "Malta"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NL",
+      "display" : "Netherlands"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PL",
+      "display" : "Poland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "RO",
+      "display" : "Romania"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "SK",
+      "display" : "Slovakia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "SI",
+      "display" : "Slovenia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "SE",
+      "display" : "Sweden"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IS",
+      "display" : "Iceland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LI",
+      "display" : "Liechtenstein"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CH",
+      "display" : "Switzerland"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "concept" : [{
+        "code" : "AT",
+        "display" : "Austria"
+      },
+      {
+        "code" : "BE",
+        "display" : "Belgium"
+      },
+      {
+        "code" : "BG",
+        "display" : "Bulgaria"
+      },
+      {
+        "code" : "HR",
+        "display" : "Croatia"
+      },
+      {
+        "code" : "CY",
+        "display" : "Cyprus"
+      },
+      {
+        "code" : "CZ",
+        "display" : "Czech Republic"
+      },
+      {
+        "code" : "DK",
+        "display" : "Denmark"
+      },
+      {
+        "code" : "EE",
+        "display" : "Estonia"
+      },
+      {
+        "code" : "FI",
+        "display" : "Finland"
+      },
+      {
+        "code" : "FR",
+        "display" : "France"
+      },
+      {
+        "code" : "GR",
+        "display" : "Greece"
+      },
+      {
+        "code" : "DE",
+        "display" : "Germany"
+      },
+      {
+        "code" : "HU",
+        "display" : "Hungary"
+      },
+      {
+        "code" : "IE",
+        "display" : "Ireland"
+      },
+      {
+        "code" : "IT",
+        "display" : "Italy"
+      },
+      {
+        "code" : "LV",
+        "display" : "Latvia"
+      },
+      {
+        "code" : "LT",
+        "display" : "Lithuania"
+      },
+      {
+        "code" : "LU",
+        "display" : "Luxembourg"
+      },
+      {
+        "code" : "MT",
+        "display" : "Malta"
+      },
+      {
+        "code" : "NL",
+        "display" : "Netherlands"
+      },
+      {
+        "code" : "PL",
+        "display" : "Poland"
+      },
+      {
+        "code" : "PT",
+        "display" : "Portugal"
+      },
+      {
+        "code" : "RO",
+        "display" : "Romania"
+      },
+      {
+        "code" : "SK",
+        "display" : "Slovakia"
+      },
+      {
+        "code" : "SI",
+        "display" : "Slovenia"
+      },
+      {
+        "code" : "ES",
+        "display" : "Spain"
+      },
+      {
+        "code" : "SE",
+        "display" : "Sweden"
+      },
+      {
+        "code" : "IS",
+        "display" : "Iceland"
+      },
+      {
+        "code" : "LI",
+        "display" : "Liechtenstein"
+      },
+      {
+        "code" : "NO",
+        "display" : "Norway"
+      },
+      {
+        "code" : "CH",
+        "display" : "Switzerland"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4f3f17ec-3435-4be7-8e14-a4a866dbe157",
+    "timestamp" : "2023-12-18T10:26:50.745Z",
+    "total" : 31,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:iso:std:iso:3166|2018"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "urn:iso:std:iso:3166|2018"
+    }],
+    "contains" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AT",
+      "display" : "Austria"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BG",
+      "display" : "Bulgaria"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "HR",
+      "display" : "Croatia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CY",
+      "display" : "Cyprus"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CZ",
+      "display" : "Czech Republic"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DK",
+      "display" : "Denmark"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EE",
+      "display" : "Estonia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FI",
+      "display" : "Finland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "GR",
+      "display" : "Greece"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "HU",
+      "display" : "Hungary"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IE",
+      "display" : "Ireland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LV",
+      "display" : "Latvia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LT",
+      "display" : "Lithuania"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LU",
+      "display" : "Luxembourg"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "MT",
+      "display" : "Malta"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NL",
+      "display" : "Netherlands"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PL",
+      "display" : "Poland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "RO",
+      "display" : "Romania"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "SK",
+      "display" : "Slovakia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "SI",
+      "display" : "Slovenia"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "SE",
+      "display" : "Sweden"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IS",
+      "display" : "Iceland"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "LI",
+      "display" : "Liechtenstein"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CH",
+      "display" : "Switzerland"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

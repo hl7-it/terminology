@@ -13,7 +13,6 @@
 	<experimental value="false"/>
 	<date value="2019-11-01T09:29:23+11:00"/>
 	<description value="Il genere di una persona, utilizzato per fini amministrativi."/>
-	<caseSensitive value="true"/>
 	<content value="supplement"/>
 	 <supplements value="http://hl7.org/fhir/administrative-gender"/> 
 	<concept>

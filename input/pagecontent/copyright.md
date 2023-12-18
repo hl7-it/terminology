@@ -118,3 +118,6 @@ potrebbero richiedere licenze separate:
 HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR ® are trademarks owned by
 Health Level Seven International, registered with the United States
 Patent and Trademark Office.
+
+### Intellectual Property Statements
+{% include ip-statements.xhtml %}

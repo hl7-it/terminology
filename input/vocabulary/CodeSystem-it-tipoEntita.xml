@@ -6,6 +6,7 @@
 	<title value="HL7 Italia - Tipo di Entità"/>
 	<status value="draft"/>
 	<experimental value="false"/>
+	<hierarchyMeaning value="is-a"/>
 	<description value="Codifica delle diverse entità che hanno compiuto, compiono od intendono compiere un certo atto. Per esempio la certificazione di un record Paziente"/>
 	<caseSensitive value="true"/>
 	<!--
