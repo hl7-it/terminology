@@ -5,7 +5,8 @@ Title: "Risultato osservazione codificato - microorganismo IPS di SNOMED CT"
 Description: "Questo valueset include i codici per i microrganismi dal sottoinsieme SNOMED International Patient Set (IPS) di SNOMED CT."
 
 * ^status = #active
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
+
 * $sct#646165971000087107 "Shigella flexneri 5a (organism)"
 * $sct#840533007 "Severe acute respiratory syndrome coronavirus 2 (organism)"
 * $sct#767451000 "Trichinella nelsoni (organism)"
@@ -1360,7 +1361,7 @@ Id: sezione-referto-laboratorio
 Title: "Sezioni Composition Lab Report"
 Description: "Valueset contenente i codici LOINC per la specialità di laboratorio."
 * ^status = #draft
-* ^experimental = false
+* insert LOINCCopyrightForVS
 * $LOINC#18718-7 "Studi di marcatori cellulari"
 * $LOINC#18719-5 "Studi di chimica"
 * $LOINC#18720-3 "Studi di coagulazione"
@@ -1400,8 +1401,7 @@ Id: risultato-osservazione
 Title: "Tipo Osservazione"
 Description: "Valueset contente i codici che identificano il tipo di osservazione nel referto di laboratorio."
 * ^status = #draft
-* ^experimental = false
-
+* insert LOINCCopyrightForVS
 * include codes from system $LOINC where STATUS = "ACTIVE" and CLASSTYPE = "1"
 * exclude codes from system $LOINC
     where CLASS regex /CYTO|HL7\.CYTOGEN|HL7\.GENETICS|^PATH(\..*)?|^MOLPATH(\..*)?|NR STATS|H&P\.HX\.LAB|CHALSKIN|LABORDERS/
@@ -1423,7 +1423,7 @@ Id:	       tipo-campione-lab-it
 Title:	       "Tipo campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione del tipo di campione di laboratorio."
 * ^status = #draft
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
 * $sct#119376003	"Tissue specimen"
 * $sct#119359002	"Bone marrow specimen"
 * $sct#122571007	"Pericardial fluid"
@@ -1535,7 +1535,7 @@ Title:	       "Additivo Campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione dell'additivo utilizzato per il campione di laboratorio."
 
 * ^status = #draft
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
 * $sct#1259913003   "Heparin ammonium (substance)"
 * $sct#386961008    "Aprotinin (substance)"
 * $sct#29725000 "Heparin calcium (substance)"
@@ -1561,7 +1561,7 @@ Id:	       campione-container-lab-it
 Title:	       "Container Campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione del container del campione di laboratorio."
 * ^status = #draft
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
 * $sct#702290003 "Cervical cytology microscopy slide (physical object)"
 * $sct#706057008 "Cytology specimen container (physical object)"
 * $sct#706052002 "Evacuated blood collection tube (physical object)"
@@ -1635,14 +1635,14 @@ Description: "Valueset contenente i codici per la risorsa Observation - Lab Repo
 * include codes from valueset valueset-observation-value-bloodgroup
 * include codes from valueset valueset-observation-value-presence-absence
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
 
 ValueSet: VsObservationBloodGroup
 Id: valueset-observation-value-bloodgroup
 Title: "Risultato osservazione codificato gruppo sanguigno"
 Description: "Valueset contenente i codici SNOMED di gruppo sanguigno per la risorsa Observation - Lab Report per la descrizione del risultato della rilevazione."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
 * include codes from system $sct where concept descendent-of #365636006
 
 ValueSet: VsObservationPresenzaAssenza
@@ -1653,16 +1653,15 @@ Description: "Valueset contenente i codici SNOMED di presenza/assenza per la ris
 * include codes from system $sct where concept descendent-of #272519000 
 * include codes from system $sct where concept descendent-of #260411009
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^experimental = false
+* insert SNOMEDCopyrightForVS
 
 
 ValueSet: VsObservationMicroorganismi
 Id: valueset-observation-value-microorganism
 Title: "Risultato osservazione codificato microorganismi"
 Description: "Valueset contenente i codici SNOMED di microorganismi per la risorsa Observation - Lab Report per la descrizione del risultato della rilevazione."
-
+* insert SNOMEDCopyrightForVS
 * include codes from system $sct where concept descendent-of #409822003 
-
 * include codes from system $sct where concept descendent-of #441649000
 * include codes from system $sct where concept descendent-of #414561005 
 * include codes from system $sct where concept descendent-of #84676004 
@@ -1674,107 +1673,44 @@ Description: "Valueset contenente i codici SNOMED di microorganismi per la risor
 * include codes from system $sct where concept descendent-of #417377004 
 * include codes from system $sct where concept descendent-of #243565002 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^experimental = false
 
 ValueSet: VsGruppoSanguigno
 Id: results-observation-bloodgroup
 Title: "Risultato osservazione codificato - Gruppo Sanguigno IPS di SNOMED CT"
 Description: "Questo valueset include i codici per i risultati dei gruppi sanguigni dal sottoinsieme SNOMED International Patient Set (IPS) di SNOMED CT."
 
-* ^version = "1.0.0"
 * ^status = #active
-* ^experimental = false
-* ^publisher = "Health Level Seven International - Patient Care Work Group"
-// * ^immutable = false
-* ^expansion.timestamp = "2022-08-19T23:02:06+00:00"
-// * ^expansion.total = 13
-// * ^expansion.offset = 0
-// * ^expansion.parameter.name = "version"
-// * ^expansion.parameter.valueUri = "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-* ^expansion.contains[0].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278154007
-* ^expansion.contains[=].display = "Blood group AB Rh(D) negative"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278153001
-* ^expansion.contains[=].display = "Blood group B Rh(D) negative"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278152006
-* ^expansion.contains[=].display = "Blood group A Rh(D) negative"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278151004
-* ^expansion.contains[=].display = "Blood group AB Rh(D) positive"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278150003
-* ^expansion.contains[=].display = "Blood group B Rh(D) positive"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278149003
-* ^expansion.contains[=].display = "Blood group A Rh(D) positive"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278148006
-* ^expansion.contains[=].display = "Blood group O Rh(D) negative"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #278147001
-* ^expansion.contains[=].display = "Blood group O Rh(D) positive"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #165746003
-* ^expansion.contains[=].display = "RhD negative"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #165743006
-* ^expansion.contains[=].display = "Blood group AB"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #112149005
-* ^expansion.contains[=].display = "Blood group B"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #112144000
-* ^expansion.contains[=].display = "Blood group A"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #58460004
-* ^expansion.contains[=].display = "Blood group O"
-* include codes from system http://snomed.info/sct|http://snomed.info/sct/900000000000207008
-    where constraint = "< 365636006 |Finding of blood group (finding)| AND ^ 816080008 |International Patient Summary (foundation metadata concept)|"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* insert SNOMEDCopyrightForVS
+* $sct#278154007 "Blood group AB Rh(D) negative"
+* $sct#278153001 "Blood group B Rh(D) negative"
+* $sct#278152006 "Blood group A Rh(D) negative"
+* $sct#278151004 "Blood group AB Rh(D) positive"
+* $sct#278150003 "Blood group B Rh(D) positive"
+* $sct#278149003 "Blood group A Rh(D) positive"
+* $sct#278148006 "Blood group O Rh(D) negative"
+* $sct#278147001 "Blood group O Rh(D) positive"
+* $sct#165746003 "RhD negative"
+* $sct#165743006 "Blood group AB"
+* $sct#112149005 "Blood group B"
+* $sct#112144000 "Blood group A"
+* $sct#58460004 "Blood group O"
+// * include codes from system http://snomed.info/sct|http://snomed.info/sct/900000000000207008 where constraint = "< 365636006 |Finding of blood group (finding)| AND ^ 816080008 |International Patient Summary (foundation metadata concept)|"
 
 ValueSet: VsResultsPresenceAbsenceSnomedCtIpsFreeSet
 Id: results-presence-absence-snomed-ct-ips-free-set
 Title: "Risultato osservazione codificato -  presenza/assenza IPS di SNOMED CT"
 Description: "Questo valueset include i codici per i risultati di presenza o assenza dal sottoinsieme SNOMED International Patient Set (IPS) di SNOMED CT."
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-// * ^version = "1.0.0"
-// * ^status = #active
-* ^experimental = false
-// * ^publisher = "Health Level Seven International - Patient Care Work Group"
-// * ^immutable = false
-* ^expansion.timestamp = "2022-08-19T22:04:26+00:00"
-// * ^expansion.total = 9
-// * ^expansion.offset = 0
-// * ^expansion.parameter.name = "version"
-// * ^expansion.parameter.valueUri = "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-* ^expansion.contains[0].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #441614007
-* ^expansion.contains[=].display = "Present one plus out of three plus"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #441521003
-* ^expansion.contains[=].display = "Present three plus out of three plus"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #441517005
-* ^expansion.contains[=].display = "Present two plus out of three plus"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #260350009
-* ^expansion.contains[=].display = "++++"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #260349009
-* ^expansion.contains[=].display = "+++"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #260348001
-* ^expansion.contains[=].display = "++"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #260347006
-* ^expansion.contains[=].display = "+"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #52101004
-* ^expansion.contains[=].display = "Present"
-* ^expansion.contains[+].system = "http://snomed.info/sct"
-* ^expansion.contains[=].code = #2667000
-* ^expansion.contains[=].display = "Absent"
+
+* insert SNOMEDCopyrightForVS
+* $sct#441614007 "Present one plus out of three plus"
+* $sct#441521003 "Present three plus out of three plus"
+* $sct#441517005 "Present two plus out of three plus"
+* $sct#260350009 "++++"
+* $sct#260349009 "+++"
+* $sct#260348001 "++"
+* $sct#260347006 "+"
+* $sct#52101004 "Present"
+* $sct#2667000 "Absent"
+/* 
 * include codes from system http://snomed.info/sct|http://snomed.info/sct/900000000000207008
-    where constraint = "(< 260411009 |Presence findings (qualifier value)| OR < 272519000 |Absence findings (qualifier value)|) AND ^ 816080008 |International Patient Summary (foundation metadata concept)|"
+    where constraint = "(< 260411009 |Presence findings (qualifier value)| OR < 272519000 |Absence findings (qualifier value)|) AND ^ 816080008 |International Patient Summary (foundation metadata concept)|" */

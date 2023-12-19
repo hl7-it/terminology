@@ -22,7 +22,8 @@ e: {
   "name" : "VsIcd9cm",
   "title" : "WHO ICD-9-CM",
   "status" : "active",
-  "date" : "2023-12-11T22:47:12+01:00",
+  "experimental" : false,
+  "date" : "2023-12-19T09:48:41+01:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -31,8 +32,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:0115400f-8257-415d-a672-5da56761e036",
-    "timestamp" : "2023-12-12T01:05:48.364Z",
+    "identifier" : "urn:uuid:5cf7df6c-dbba-4c6a-8a77-3a536c29eced",
+    "timestamp" : "2023-12-19T09:23:05.497Z",
     "total" : 22,
     "parameter" : [{
       "name" : "limitedExpansion",

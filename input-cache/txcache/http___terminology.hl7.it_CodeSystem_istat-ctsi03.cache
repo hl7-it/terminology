@@ -9,7 +9,7 @@ e: {
   "title" : "ISTAT - Titolo Studio",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-18T12:15:44+01:00",
+  "date" : "2023-12-19T09:48:41+01:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -22,8 +22,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:d39e33e7-0e32-4a44-8452-2c29f9d2e0dd",
-    "timestamp" : "2023-12-18T11:43:11.779Z",
+    "identifier" : "urn:uuid:c37d724c-708a-443e-a280-5830736aad3d",
+    "timestamp" : "2023-12-19T09:21:08.044Z",
     "total" : 1000,
     "parameter" : [{
       "name" : "limitedExpansion",

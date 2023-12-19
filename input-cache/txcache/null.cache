@@ -1,7 +1,1207 @@
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/istat-luogoNascita", "version": "0.0.1"}####
 e: {
-  "error" : "Unable to expand imported value set http://terminology.hl7.it/ValueSet/istat-stato: Unable to expand imported value set: Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere (and Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere)"
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-istat-unitaAmministrativeTerritoriali.html\">codesystem ISTAT - Unità Amministrative Territoriali v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html\">codesystem ISTAT - Unita Amministrative Territoriali Estere v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-istat-unitaAmministrativeTerritoriali.html\">system ISTAT - Unità Amministrative Territoriali v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html\">system ISTAT - Unita Amministrative Territoriali Estere v0.0.1 (CodeSystem)</a></li><li><a href=\"ValueSet-istat-comune.html\">system ISTAT - Comuni v0.0.1 (ValueSet)</a></li><li><a href=\"ValueSet-istat-stato.html\">system ISTAT - Stati v0.0.1 (ValueSet)</a></li><li><a href=\"ValueSet-istat-comune.html\">valueset ISTAT - Comuni v0.0.1 (ValueSet)</a></li><li><a href=\"ValueSet-istat-stato.html\">valueset ISTAT - Stati v0.0.1 (ValueSet)</a></li></ul></div><p style=\"border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px\">This value set has &gt;1000 codes in it. In order to keep the publication size manageable, only a selection (1000 codes) of the whole set of codes is shown</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-100\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-100\">100</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Italia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-201\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-201\">201</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Albania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-202\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-202\">202</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Andorra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-203\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-203\">203</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Austria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-206\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-206\">206</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Belgio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-209\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-209\">209</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bulgaria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-212\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-212\">212</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Danimarca</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-214\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-214\">214</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Finlandia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-215\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-215\">215</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Francia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-216\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-216\">216</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Germania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-219\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-219\">219</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Regno Unito</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-220\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-220\">220</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Grecia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-221\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-221\">221</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Irlanda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-223\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-223\">223</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Islanda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-225\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-225\">225</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Liechtenstein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-226\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-226\">226</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Lussemburgo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-227\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-227\">227</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Malta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-229\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-229\">229</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Monaco</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-231\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-231\">231</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Norvegia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-232\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-232\">232</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Paesi Bassi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-233\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-233\">233</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Polonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-234\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-234\">234</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Portogallo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-235\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-235\">235</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Romania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-236\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-236\">236</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>San Marino</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-239\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-239\">239</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Spagna</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-240\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-240\">240</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Svezia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-241\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-241\">241</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Svizzera</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-243\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-243\">243</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Ucraina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-244\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-244\">244</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Ungheria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-245\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-245\">245</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Federazione russa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-246\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-246\">246</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Stato della Città del Vaticano</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-247\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-247\">247</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Estonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-248\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-248\">248</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Lettonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-249\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-249\">249</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Lituania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-250\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-250\">250</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Croazia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-251\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-251\">251</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Slovenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-252\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-252\">252</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bosnia-Erzegovina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-253\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-253\">253</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Macedonia del Nord</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-254\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-254\">254</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Moldova</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-255\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-255\">255</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Slovacchia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-256\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-256\">256</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bielorussia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-257\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-257\">257</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Repubblica ceca</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-270\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-270\">270</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Montenegro</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-271\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-271\">271</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Serbia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-272\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-272\">272</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Kosovo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-301\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-301\">301</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Afghanistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-302\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-302\">302</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Arabia Saudita</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-304\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-304\">304</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bahrein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-305\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-305\">305</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bangladesh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-306\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-306\">306</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bhutan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-307\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-307\">307</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Myanmar/Birmania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-309\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-309\">309</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Brunei Darussalam</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-310\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-310\">310</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Cambogia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-311\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-311\">311</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sri Lanka</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-314\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-314\">314</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Cina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-315\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-315\">315</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Cipro</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-319\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-319\">319</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Corea del Nord</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-320\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-320\">320</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Corea del Sud</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-322\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-322\">322</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Emirati Arabi Uniti</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-323\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-323\">323</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Filippine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-324\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-324\">324</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Palestina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-326\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-326\">326</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Giappone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-327\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-327\">327</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Giordania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-330\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-330\">330</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>India</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-331\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-331\">331</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Indonesia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-332\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-332\">332</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Iran</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-333\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-333\">333</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Iraq</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-334\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-334\">334</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Israele</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-335\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-335\">335</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Kuwait</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-336\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-336\">336</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Laos</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-337\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-337\">337</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Libano</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-338\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-338\">338</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Timor Leste</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-339\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-339\">339</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Maldive</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-340\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-340\">340</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Malaysia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-341\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-341\">341</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Mongolia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-342\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-342\">342</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Nepal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-343\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-343\">343</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Oman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-344\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-344\">344</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Pakistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-345\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-345\">345</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Qatar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-346\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-346\">346</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Singapore</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-348\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-348\">348</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Siria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-349\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-349\">349</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Thailandia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-351\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-351\">351</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Turchia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-353\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-353\">353</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Vietnam</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-354\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-354\">354</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Yemen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-356\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-356\">356</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Kazakhstan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-357\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-357\">357</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Uzbekistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-358\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-358\">358</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Armenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-359\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-359\">359</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Azerbaigian</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-360\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-360\">360</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Georgia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-361\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-361\">361</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Kirghizistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-362\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-362\">362</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Tagikistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-363\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-363\">363</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Taiwan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-364\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-364\">364</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Turkmenistan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-401\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-401\">401</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Algeria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-402\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-402\">402</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Angola</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-404\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-404\">404</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Costa d'Avorio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-406\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-406\">406</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Benin</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-408\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-408\">408</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Botswana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-409\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-409\">409</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Burkina Faso</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-410\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-410\">410</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Burundi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-411\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-411\">411</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Camerun</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-413\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-413\">413</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Capo Verde</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-414\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-414\">414</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Repubblica Centrafricana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-415\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-415\">415</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Ciad</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-417\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-417\">417</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Comore</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-418\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-418\">418</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Congo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-419\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-419\">419</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Egitto</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-420\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-420\">420</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Etiopia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-421\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-421\">421</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Gabon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-422\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-422\">422</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Gambia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-423\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-423\">423</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Ghana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-424\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-424\">424</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Gibuti</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-425\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-425\">425</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Guinea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-426\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-426\">426</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Guinea-Bissau</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-427\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-427\">427</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Guinea equatoriale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-428\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-428\">428</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Kenya</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-429\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-429\">429</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Lesotho</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-430\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-430\">430</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Liberia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-431\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-431\">431</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Libia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-432\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-432\">432</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Madagascar</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-434\">434</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Malawi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-435\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-435\">435</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Mali</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-436\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-436\">436</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Marocco</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-437\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-437\">437</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Mauritania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-438\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-438\">438</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Maurizio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-440\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-440\">440</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Mozambico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-441\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-441\">441</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Namibia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-442\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-442\">442</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Niger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-443\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-443\">443</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Nigeria</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-446\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-446\">446</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Ruanda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-448\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-448\">448</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sao Tomé e Principe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-449\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-449\">449</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Seychelles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-450\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-450\">450</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Senegal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-451\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-451\">451</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sierra Leone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-453\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-453\">453</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Somalia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-454\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-454\">454</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sudafrica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-455\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-455\">455</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sudan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-456\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-456\">456</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Eswatini</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-457\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-457\">457</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Tanzania</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-458\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-458\">458</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Togo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-460\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-460\">460</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Tunisia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-461\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-461\">461</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Uganda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-463\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-463\">463</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Repubblica Democratica del Congo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-464\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-464\">464</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Zambia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-465\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-465\">465</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Zimbabwe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-466\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-466\">466</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Eritrea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-467\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-467\">467</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sud Sudan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-503\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-503\">503</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Antigua e Barbuda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-505\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-505\">505</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bahamas</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-506\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-506\">506</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Barbados</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-507\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-507\">507</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Belize</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-509\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-509\">509</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Canada</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-513\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-513\">513</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Costa Rica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-514\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-514\">514</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Cuba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-515\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-515\">515</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Dominica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-516\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-516\">516</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Repubblica Dominicana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-517\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-517\">517</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>El Salvador</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-518\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-518\">518</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Giamaica</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-519\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-519\">519</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Grenada</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-523\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-523\">523</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Guatemala</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-524\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-524\">524</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Haiti</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-525\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-525\">525</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Honduras</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-527\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-527\">527</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Messico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-529\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-529\">529</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Nicaragua</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-530\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-530\">530</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Panama</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-532\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-532\">532</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Santa Lucia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-533\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-533\">533</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Saint Vincent e Grenadine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-534\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-534\">534</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Saint Kitts e Nevis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-536\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-536\">536</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Stati Uniti d'America</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-602\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-602\">602</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Argentina</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-604\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-604\">604</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bolivia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-605\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-605\">605</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Brasile</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-606\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-606\">606</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Cile</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-608\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-608\">608</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Colombia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-609\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-609\">609</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Ecuador</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-612\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-612\">612</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Guyana</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-614\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-614\">614</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Paraguay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-615\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-615\">615</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Perù</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-616\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-616\">616</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Suriname</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-617\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-617\">617</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Trinidad e Tobago</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-618\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-618\">618</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Uruguay</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-619\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-619\">619</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Venezuela</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-701\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-701\">701</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Australia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-703\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-703\">703</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Figi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-708\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-708\">708</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Kiribati</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-712\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-712\">712</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Marshall</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-713\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-713\">713</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Stati Federati di Micronesia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-715\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-715\">715</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Nauru</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-719\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-719\">719</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Nuova Zelanda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-720\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-720\">720</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Palau</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-721\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-721\">721</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Papua Nuova Guinea</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-725\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-725\">725</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Salomone</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-727\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-727\">727</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Samoa</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-730\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-730\">730</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Tonga</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-731\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-731\">731</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Tuvalu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-732\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-732\">732</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Vanuatu</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-902\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-902\">902</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Nuova Caledonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-904\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-904\">904</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Saint-Martin (FR)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-905\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-905\">905</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sahara occidentale</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-906\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-906\">906</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Saint-Barthélemy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-908\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-908\">908</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Bermuda</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-909\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-909\">909</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Cook (NZ)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-910\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-910\">910</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Gibilterra</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-911\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-911\">911</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Cayman</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-917\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-917\">917</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Anguilla</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-920\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-920\">920</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Polinesia francese</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-924\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-924\">924</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Fær Øer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-925\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-925\">925</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Jersey</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-926\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-926\">926</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Aruba</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-928\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-928\">928</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sint Maarten (NL)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-934\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-934\">934</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Groenlandia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-939\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-939\">939</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sark</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-940\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-940\">940</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Guernsey</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-958\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-958\">958</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Falkland (Malvine)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-959\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-959\">959</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isola di Man</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-964\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-964\">964</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Montserrat</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-966\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-966\">966</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Curaçao</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-972\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-972\">972</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Pitcairn</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-980\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-980\">980</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Saint Pierre e Miquelon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-983\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-983\">983</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Sant'Elena</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-988\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-988\">988</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Terre australi e antartiche francesi</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-992\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-992\">992</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Turks e Caicos</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-994\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-994\">994</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Isole Vergini britanniche</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-997\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-997\">997</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Wallis e Futuna</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.it-CodeSystem-istat-unitaAmministrativeTerritorialiEstere-998\"> </a>\u00a0\u00a0<a href=\"CodeSystem-istat-unitaAmministrativeTerritorialiEstere.html#istat-unitaAmministrativeTerritorialiEstere-998\">998</a></td><td>http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere</td><td>Altro/Non indicato/In corso di definizione</td></tr></table></div>"
+  },
+  "url" : "http://terminology.hl7.it/ValueSet/istat-luogoNascita",
+  "version" : "0.0.1",
+  "name" : "VsIstatLuogoNascita",
+  "title" : "ISTAT - Comune/Stato di Nascita",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-12-19T09:48:41+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "IT",
+      "display" : "Italy"
+    }]
+  }],
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:65b6ef97-08dd-4f0f-bd5e-41e40f3aad1b",
+    "timestamp" : "2023-12-19T09:20:06.544Z",
+    "total" : 226,
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/istat-stato|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/istat-stato|0.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere|0.0.1"
+    },
+    {
+      "name" : "used-valueset",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/istat-comune|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/ValueSet/istat-comune|0.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali|0.0.1"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali|0.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "100",
+      "display" : "Italia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "201",
+      "display" : "Albania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "202",
+      "display" : "Andorra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "203",
+      "display" : "Austria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "206",
+      "display" : "Belgio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "209",
+      "display" : "Bulgaria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "212",
+      "display" : "Danimarca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "214",
+      "display" : "Finlandia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "215",
+      "display" : "Francia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "216",
+      "display" : "Germania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "219",
+      "display" : "Regno Unito"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "220",
+      "display" : "Grecia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "221",
+      "display" : "Irlanda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "223",
+      "display" : "Islanda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "225",
+      "display" : "Liechtenstein"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "226",
+      "display" : "Lussemburgo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "227",
+      "display" : "Malta"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "229",
+      "display" : "Monaco"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "231",
+      "display" : "Norvegia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "232",
+      "display" : "Paesi Bassi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "233",
+      "display" : "Polonia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "234",
+      "display" : "Portogallo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "235",
+      "display" : "Romania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "236",
+      "display" : "San Marino"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "239",
+      "display" : "Spagna"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "240",
+      "display" : "Svezia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "241",
+      "display" : "Svizzera"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "243",
+      "display" : "Ucraina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "244",
+      "display" : "Ungheria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "245",
+      "display" : "Federazione russa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "246",
+      "display" : "Stato della Città del Vaticano"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "247",
+      "display" : "Estonia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "248",
+      "display" : "Lettonia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "249",
+      "display" : "Lituania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "250",
+      "display" : "Croazia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "251",
+      "display" : "Slovenia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "252",
+      "display" : "Bosnia-Erzegovina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "253",
+      "display" : "Macedonia del Nord"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "254",
+      "display" : "Moldova"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "255",
+      "display" : "Slovacchia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "256",
+      "display" : "Bielorussia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "257",
+      "display" : "Repubblica ceca"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "270",
+      "display" : "Montenegro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "271",
+      "display" : "Serbia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "272",
+      "display" : "Kosovo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "301",
+      "display" : "Afghanistan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "302",
+      "display" : "Arabia Saudita"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "304",
+      "display" : "Bahrein"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "305",
+      "display" : "Bangladesh"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "306",
+      "display" : "Bhutan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "307",
+      "display" : "Myanmar/Birmania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "309",
+      "display" : "Brunei Darussalam"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "310",
+      "display" : "Cambogia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "311",
+      "display" : "Sri Lanka"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "314",
+      "display" : "Cina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "315",
+      "display" : "Cipro"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "319",
+      "display" : "Corea del Nord"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "320",
+      "display" : "Corea del Sud"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "322",
+      "display" : "Emirati Arabi Uniti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "323",
+      "display" : "Filippine"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "324",
+      "display" : "Palestina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "326",
+      "display" : "Giappone"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "327",
+      "display" : "Giordania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "330",
+      "display" : "India"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "331",
+      "display" : "Indonesia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "332",
+      "display" : "Iran"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "333",
+      "display" : "Iraq"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "334",
+      "display" : "Israele"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "335",
+      "display" : "Kuwait"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "336",
+      "display" : "Laos"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "337",
+      "display" : "Libano"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "338",
+      "display" : "Timor Leste"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "339",
+      "display" : "Maldive"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "340",
+      "display" : "Malaysia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "341",
+      "display" : "Mongolia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "342",
+      "display" : "Nepal"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "343",
+      "display" : "Oman"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "344",
+      "display" : "Pakistan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "345",
+      "display" : "Qatar"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "346",
+      "display" : "Singapore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "348",
+      "display" : "Siria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "349",
+      "display" : "Thailandia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "351",
+      "display" : "Turchia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "353",
+      "display" : "Vietnam"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "354",
+      "display" : "Yemen"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "356",
+      "display" : "Kazakhstan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "357",
+      "display" : "Uzbekistan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "358",
+      "display" : "Armenia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "359",
+      "display" : "Azerbaigian"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "360",
+      "display" : "Georgia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "361",
+      "display" : "Kirghizistan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "362",
+      "display" : "Tagikistan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "363",
+      "display" : "Taiwan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "364",
+      "display" : "Turkmenistan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "401",
+      "display" : "Algeria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "402",
+      "display" : "Angola"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "404",
+      "display" : "Costa d'Avorio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "406",
+      "display" : "Benin"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "408",
+      "display" : "Botswana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "409",
+      "display" : "Burkina Faso"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "410",
+      "display" : "Burundi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "411",
+      "display" : "Camerun"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "413",
+      "display" : "Capo Verde"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "414",
+      "display" : "Repubblica Centrafricana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "415",
+      "display" : "Ciad"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "417",
+      "display" : "Comore"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "418",
+      "display" : "Congo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "419",
+      "display" : "Egitto"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "420",
+      "display" : "Etiopia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "421",
+      "display" : "Gabon"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "422",
+      "display" : "Gambia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "423",
+      "display" : "Ghana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "424",
+      "display" : "Gibuti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "425",
+      "display" : "Guinea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "426",
+      "display" : "Guinea-Bissau"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "427",
+      "display" : "Guinea equatoriale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "428",
+      "display" : "Kenya"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "429",
+      "display" : "Lesotho"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "430",
+      "display" : "Liberia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "431",
+      "display" : "Libia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "432",
+      "display" : "Madagascar"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "434",
+      "display" : "Malawi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "435",
+      "display" : "Mali"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "436",
+      "display" : "Marocco"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "437",
+      "display" : "Mauritania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "438",
+      "display" : "Maurizio"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "440",
+      "display" : "Mozambico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "441",
+      "display" : "Namibia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "442",
+      "display" : "Niger"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "443",
+      "display" : "Nigeria"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "446",
+      "display" : "Ruanda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "448",
+      "display" : "Sao Tomé e Principe"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "449",
+      "display" : "Seychelles"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "450",
+      "display" : "Senegal"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "451",
+      "display" : "Sierra Leone"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "453",
+      "display" : "Somalia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "454",
+      "display" : "Sudafrica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "455",
+      "display" : "Sudan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "456",
+      "display" : "Eswatini"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "457",
+      "display" : "Tanzania"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "458",
+      "display" : "Togo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "460",
+      "display" : "Tunisia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "461",
+      "display" : "Uganda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "463",
+      "display" : "Repubblica Democratica del Congo"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "464",
+      "display" : "Zambia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "465",
+      "display" : "Zimbabwe"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "466",
+      "display" : "Eritrea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "467",
+      "display" : "Sud Sudan"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "503",
+      "display" : "Antigua e Barbuda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "505",
+      "display" : "Bahamas"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "506",
+      "display" : "Barbados"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "507",
+      "display" : "Belize"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "509",
+      "display" : "Canada"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "513",
+      "display" : "Costa Rica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "514",
+      "display" : "Cuba"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "515",
+      "display" : "Dominica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "516",
+      "display" : "Repubblica Dominicana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "517",
+      "display" : "El Salvador"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "518",
+      "display" : "Giamaica"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "519",
+      "display" : "Grenada"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "523",
+      "display" : "Guatemala"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "524",
+      "display" : "Haiti"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "525",
+      "display" : "Honduras"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "527",
+      "display" : "Messico"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "529",
+      "display" : "Nicaragua"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "530",
+      "display" : "Panama"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "532",
+      "display" : "Santa Lucia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "533",
+      "display" : "Saint Vincent e Grenadine"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "534",
+      "display" : "Saint Kitts e Nevis"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "536",
+      "display" : "Stati Uniti d'America"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "602",
+      "display" : "Argentina"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "604",
+      "display" : "Bolivia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "605",
+      "display" : "Brasile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "606",
+      "display" : "Cile"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "608",
+      "display" : "Colombia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "609",
+      "display" : "Ecuador"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "612",
+      "display" : "Guyana"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "614",
+      "display" : "Paraguay"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "615",
+      "display" : "Perù"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "616",
+      "display" : "Suriname"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "617",
+      "display" : "Trinidad e Tobago"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "618",
+      "display" : "Uruguay"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "619",
+      "display" : "Venezuela"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "701",
+      "display" : "Australia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "703",
+      "display" : "Figi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "708",
+      "display" : "Kiribati"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "712",
+      "display" : "Isole Marshall"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "713",
+      "display" : "Stati Federati di Micronesia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "715",
+      "display" : "Nauru"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "719",
+      "display" : "Nuova Zelanda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "720",
+      "display" : "Palau"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "721",
+      "display" : "Papua Nuova Guinea"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "725",
+      "display" : "Isole Salomone"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "727",
+      "display" : "Samoa"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "730",
+      "display" : "Tonga"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "731",
+      "display" : "Tuvalu"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "732",
+      "display" : "Vanuatu"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "902",
+      "display" : "Nuova Caledonia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "904",
+      "display" : "Saint-Martin (FR)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "905",
+      "display" : "Sahara occidentale"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "906",
+      "display" : "Saint-Barthélemy"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "908",
+      "display" : "Bermuda"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "909",
+      "display" : "Isole Cook (NZ)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "910",
+      "display" : "Gibilterra"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "911",
+      "display" : "Isole Cayman"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "917",
+      "display" : "Anguilla"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "920",
+      "display" : "Polinesia francese"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "924",
+      "display" : "Isole Fær Øer"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "925",
+      "display" : "Jersey"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "926",
+      "display" : "Aruba"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "928",
+      "display" : "Sint Maarten (NL)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "934",
+      "display" : "Groenlandia"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "939",
+      "display" : "Sark"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "940",
+      "display" : "Guernsey"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "958",
+      "display" : "Isole Falkland (Malvine)"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "959",
+      "display" : "Isola di Man"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "964",
+      "display" : "Montserrat"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "966",
+      "display" : "Curaçao"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "972",
+      "display" : "Isole Pitcairn"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "980",
+      "display" : "Saint Pierre e Miquelon"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "983",
+      "display" : "Sant'Elena"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "988",
+      "display" : "Terre australi e antartiche francesi"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "992",
+      "display" : "Isole Turks e Caicos"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "994",
+      "display" : "Isole Vergini britanniche"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "997",
+      "display" : "Wallis e Futuna"
+    },
+    {
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "code" : "998",
+      "display" : "Altro/Non indicato/In corso di definizione"
+    }]
+  }
+},
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/valueset-valuecodeableconcept-obs-it", "version": "0.0.1"}####
@@ -16,7 +1216,8 @@ e: {
   "name" : "VsObservationValueCodeableConcept",
   "title" : "Risultato osservazione codificato",
   "status" : "active",
-  "date" : "2023-12-11T22:47:12+01:00",
+  "experimental" : false,
+  "date" : "2023-12-19T09:48:41+01:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -25,8 +1226,8 @@ e: {
     }]
   }],
   "expansion" : {
-    "identifier" : "urn:uuid:8a330135-685a-4885-91b0-652d7bf7c6b2",
-    "timestamp" : "2023-12-12T01:05:23.239Z",
+    "identifier" : "urn:uuid:7ce02b50-3597-487c-b2c5-9289cec052af",
+    "timestamp" : "2023-12-19T09:22:39.091Z",
     "total" : 1264,
     "parameter" : [{
       "name" : "limitedExpansion",

@@ -31,7 +31,7 @@ Id: who-atc
 Title: "WHO ATC"
 Description: "WHO Anatomical Therapeutic Chemical classification system"
 //-------------------------------------------------------------------------------------------
-* ^experimental = false
+* insert ATCCopyrightForVS
 * codes from system $atc
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -50,7 +50,8 @@ Title: "EHIC Personal ID (system IDs - uri)"
 Description: "System identifiers (uri) used for the EHIC#6 Personal Identification Number"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* URI#http://hl7.it/sid/codiceFiscale "Italian Fiscal Code"
+* ^copyright = "Copyright (C) The Internet Society (2005)"
+* $uri#http://hl7.it/sid/codiceFiscale "Italian Fiscal Code"
 
 
 
@@ -61,7 +62,7 @@ Title: "EHIC Personal ID (system IDs - oid)"
 Description: "System identifiers (oid) used for the EHIC#6 Personal Identification Number"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* OID#2.16.840.1.113883.2.9.4.3.2 "Italian Fiscal Code"
+* $oid#2.16.840.1.113883.2.9.4.3.2 "Italian Fiscal Code"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -71,37 +72,38 @@ Title: "ISO 3166 - EHIC Country Codes"
 Description: "ISO 3166 - Country Codes used by the European Healthcare Insurance Card"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* CS_ISO3166#AT "Austria"
-* CS_ISO3166#BE "Belgium"
-* CS_ISO3166#BG "Bulgaria"
-* CS_ISO3166#HR "Croatia"
-* CS_ISO3166#CY "Cyprus"
-* CS_ISO3166#CZ "Czech Republic"
-* CS_ISO3166#DK "Denmark"
-* CS_ISO3166#EE "Estonia"
-* CS_ISO3166#FI "Finland"
-* CS_ISO3166#FR "France"
-* CS_ISO3166#GR "Greece"
-* CS_ISO3166#DE "Germany"
-* CS_ISO3166#HU "Hungary"
-* CS_ISO3166#IE "Ireland"
-* CS_ISO3166#IT "Italy" 
-* CS_ISO3166#LV "Latvia"
-* CS_ISO3166#LT "Lithuania" 
-* CS_ISO3166#LU "Luxembourg" 
-* CS_ISO3166#MT "Malta" 
-* CS_ISO3166#NL "Netherlands"
-* CS_ISO3166#PL "Poland"
-* CS_ISO3166#PT "Portugal" 
-* CS_ISO3166#RO "Romania"
-* CS_ISO3166#SK "Slovakia" 
-* CS_ISO3166#SI "Slovenia"
-* CS_ISO3166#ES "Spain" 
-* CS_ISO3166#SE "Sweden"
-* CS_ISO3166#IS "Iceland"
-* CS_ISO3166#LI "Liechtenstein"
-* CS_ISO3166#NO "Norway"
-* CS_ISO3166#CH "Switzerland"
+* ^copyright = "ISO Maintains the copyright on the country codes, and controls it's use carefully. For further details, see the ISO 3166 Home Page"
+* $iso3166#AT "Austria"
+* $iso3166#BE "Belgium"
+* $iso3166#BG "Bulgaria"
+* $iso3166#HR "Croatia"
+* $iso3166#CY "Cyprus"
+* $iso3166#CZ "Czech Republic"
+* $iso3166#DK "Denmark"
+* $iso3166#EE "Estonia"
+* $iso3166#FI "Finland"
+* $iso3166#FR "France"
+* $iso3166#GR "Greece"
+* $iso3166#DE "Germany"
+* $iso3166#HU "Hungary"
+* $iso3166#IE "Ireland"
+* $iso3166#IT "Italy" 
+* $iso3166#LV "Latvia"
+* $iso3166#LT "Lithuania" 
+* $iso3166#LU "Luxembourg" 
+* $iso3166#MT "Malta" 
+* $iso3166#NL "Netherlands"
+* $iso3166#PL "Poland"
+* $iso3166#PT "Portugal" 
+* $iso3166#RO "Romania"
+* $iso3166#SK "Slovakia" 
+* $iso3166#SI "Slovenia"
+* $iso3166#ES "Spain" 
+* $iso3166#SE "Sweden"
+* $iso3166#IS "Iceland"
+* $iso3166#LI "Liechtenstein"
+* $iso3166#NO "Norway"
+* $iso3166#CH "Switzerland"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -229,28 +231,29 @@ Id: uri-idAslRegione
 Title: "Identificativi regionali per ASL (3 char)"
 Description: "Identificativi regionali per ASL a 3 caratteri, come da file ministeriale"
 * ^experimental = false
-* URI#http://hl7.it/sid/abruzzo/asl
-* URI#http://hl7.it/sid/basilicata/asl
-* URI#http://hl7.it/sid/calabria/asl
-* URI#http://hl7.it/sid/campania/asl
-* URI#http://hl7.it/sid/rer/asl
-* URI#http://hl7.it/sid/fvg/asl
-* URI#http://hl7.it/sid/lazio/asl
-* URI#http://hl7.it/sid/liguria/asl
-* URI#http://hl7.it/sid/lombardia/asl
-* URI#http://hl7.it/sid/marche/asl
-* URI#http://hl7.it/sid/molise/asl
-* URI#http://hl7.it/sid/piemonte/asl
-* URI#http://hl7.it/sid/puglia/asl
-* URI#http://hl7.it/sid/sardegna/asl
-* URI#http://hl7.it/sid/sicilia/asl
-* URI#http://hl7.it/sid/toscana/asl
-* URI#http://hl7.it/sid/taa/asl
-* URI#http://hl7.it/sid/apb/asl
-* URI#http://hl7.it/sid/pat/asl
-* URI#http://hl7.it/sid/umbria/asl
-* URI#http://hl7.it/sid/vda/asl
-* URI#http://hl7.it/sid/veneto/asl
+* ^copyright = "Copyright (C) The Internet Society (2005)"
+* $uri#http://hl7.it/sid/abruzzo/asl
+* $uri#http://hl7.it/sid/basilicata/asl
+* $uri#http://hl7.it/sid/calabria/asl
+* $uri#http://hl7.it/sid/campania/asl
+* $uri#http://hl7.it/sid/rer/asl
+* $uri#http://hl7.it/sid/fvg/asl
+* $uri#http://hl7.it/sid/lazio/asl
+* $uri#http://hl7.it/sid/liguria/asl
+* $uri#http://hl7.it/sid/lombardia/asl
+* $uri#http://hl7.it/sid/marche/asl
+* $uri#http://hl7.it/sid/molise/asl
+* $uri#http://hl7.it/sid/piemonte/asl
+* $uri#http://hl7.it/sid/puglia/asl
+* $uri#http://hl7.it/sid/sardegna/asl
+* $uri#http://hl7.it/sid/sicilia/asl
+* $uri#http://hl7.it/sid/toscana/asl
+* $uri#http://hl7.it/sid/taa/asl
+* $uri#http://hl7.it/sid/apb/asl
+* $uri#http://hl7.it/sid/pat/asl
+* $uri#http://hl7.it/sid/umbria/asl
+* $uri#http://hl7.it/sid/vda/asl
+* $uri#http://hl7.it/sid/veneto/asl
 
 //=========================
 ValueSet: VsUriIdRegionali
@@ -258,23 +261,25 @@ Id: uri-idRegionali
 Title: "Identificativi per anagrafi regionali"
 Description: "Identificativi per anagrafi regionali"
 * ^experimental = false
-* URI#http://hl7.it/sid/lazio/asur  "Anagrafe Sanitaria Unica Regionale - Lazio"
-* URI#http://hl7.it/sid/piemonte/aura  "Archivio Unico Regionale degli Assistiti - Piemonte"
-* URI#urn:oid:2.16.840.1.113883.2.9.2.20.4.1 "MPI (angrafe unica aziendale) - Valle d'Aosta"
-* URI#urn:oid:2.16.840.1.113883.2.9.2.50.4.1 "ANAGRAFE UNICA REGIONALE - Veneto"
-* URI#urn:oid:2.16.840.1.113883.2.9.2.60.4.1 "Anagrafe Unica - Friuli-Venezia Giulia"
-* URI#http://www.regione.toscana.it/sanita/cur "Centrale Unica Regionale - Toscana"
+* ^copyright = "Copyright (C) The Internet Society (2005)"
+* $uri#http://hl7.it/sid/lazio/asur  "Anagrafe Sanitaria Unica Regionale - Lazio"
+* $uri#http://hl7.it/sid/piemonte/aura  "Archivio Unico Regionale degli Assistiti - Piemonte"
+* $uri#urn:oid:2.16.840.1.113883.2.9.2.20.4.1 "MPI (angrafe unica aziendale) - Valle d'Aosta"
+* $uri#urn:oid:2.16.840.1.113883.2.9.2.50.4.1 "ANAGRAFE UNICA REGIONALE - Veneto"
+* $uri#urn:oid:2.16.840.1.113883.2.9.2.60.4.1 "Anagrafe Unica - Friuli-Venezia Giulia"
+* $uri#http://www.regione.toscana.it/sanita/cur "Centrale Unica Regionale - Toscana"
 //=========================
 ValueSet: VsUriIdStp
 Id: uri-idStp
 Title: "Identificativi per codici STP regionali"
 Description: "Identificativi per codici STP regionali."
 * ^experimental = false
-* URI#http://hl7.it/sid/stp "Codici STP"
-* URI#http://hl7.it/sid/lazio/stp "Codici STP - Lazio"
-* URI#http://hl7.it/sid/piemonte/stp  "Codici STP - Piemonte"
-* URI#http://hl7.it/sid/vallee/stp "Codici STP - Valle d'Aosta"
-* URI#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1 "Codici STP - Veneto"
+* ^copyright = "Copyright (C) The Internet Society (2005)"
+* $uri#http://hl7.it/sid/stp "Codici STP"
+* $uri#http://hl7.it/sid/lazio/stp "Codici STP - Lazio"
+* $uri#http://hl7.it/sid/piemonte/stp  "Codici STP - Piemonte"
+* $uri#http://hl7.it/sid/vallee/stp "Codici STP - Valle d'Aosta"
+* $uri#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1 "Codici STP - Veneto"
 
 
 //=========================
@@ -283,13 +288,13 @@ Id: uri-idEni
 Title: "Identificativi per codici ENI regionali"
 Description: "Identificativi per codici ENI regionali."
 * ^experimental = false
-* URI#http://hl7.it/sid/eni "Codici ENI"
-* URI#http://hl7.it/sid/lazio/eni "Codici ENI - Lazio"
-* URI#http://hl7.it/sid/piemonte/eni  "Codici ENI - Piemonte"
-* URI#http://hl7.it/sid/vallee/eni "Codici ENI - Valle d'Aosta"
-* URI#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4 "Codici ENI - Veneto"
+* ^copyright = "Copyright (C) The Internet Society (2005)"
+* $uri#http://hl7.it/sid/eni "Codici ENI"
+* $uri#http://hl7.it/sid/lazio/eni "Codici ENI - Lazio"
+* $uri#http://hl7.it/sid/piemonte/eni  "Codici ENI - Piemonte"
+* $uri#http://hl7.it/sid/vallee/eni "Codici ENI - Valle d'Aosta"
+* $uri#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4 "Codici ENI - Veneto"
 //=========================
-
 
 
 //----------------------------------------
@@ -300,19 +305,6 @@ Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11)
 * ^experimental = false
 //----------------------------------------
 * codes from system UriHsp
-// exclude not yet implemented by sushi and publisher
-// * exclude codes from valueset VsMinisteroSaluteIdAziendeOspedaliere
-// * exclude codes from valueset VsMinisteroSaluteIdStruttureInterne
-
-/* -----------  
-//----------------------------------------
-ValueSet: VsMinisteroSaluteIdStruttureInterne
-Id: minsan-idStruttureInterne
-Title: "Ministero della Salute - ID Strutture Interne di Ricovero"
-Description: "Ministero della Salute - Identificativi Strutture Intene di Ricovero (HSP11) [attivi e ritirati]"
-//----------------------------------------
-* codes from system UriHsp
-----------*/
 
 
 //----------------------------------------

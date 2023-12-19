@@ -1,6 +1,6 @@
 //============== ALIAS Terminology.it===============
-Alias: URI = urn:ietf:rfc:3986
-Alias: OID = urn:ietf:rfc:1155
+Alias: $uri = urn:ietf:rfc:3986
+Alias: $oid = urn:ietf:rfc:1155
 Alias: CS_unitaTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali //http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali
 Alias: CS_Estero = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere //http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere
 
@@ -13,7 +13,7 @@ Alias: UriFls11 = http://terminology.hl7.it/CodeSystem/minsan-fls //http://termi
 Alias: UriHsp = http://terminology.hl7.it/CodeSystem/minsan-hsp //http://terminology.hl7.it/sid/minsan-hsp
 Alias: MinSanRegioni = http://terminology.hl7.it/CodeSystem/minsan-regione //http://terminology.hl7.it/sid/minsan-regione
 Alias: V3RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
-Alias: CS_ISO3166 = urn:iso:std:iso:3166
+Alias: $iso3166 = urn:iso:std:iso:3166
 
 Alias: $aic = http://terminology.hl7.it/CodeSystem/aifa-aic
 Alias: $gruppo-equivalenza = http://terminology.hl7.it/CodeSystem/aifa-ge

@@ -9,7 +9,7 @@ e: {
   "title" : "ISTAT - Professioni",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-18T12:15:44+01:00",
+  "date" : "2023-12-19T09:48:41+01:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -22,8 +22,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:bbf385e0-f3f1-40d6-8632-afa97358a778",
-    "timestamp" : "2023-12-18T11:42:47.889Z",
+    "identifier" : "urn:uuid:4d94f5b8-29dc-4661-9cba-0f22a85b5594",
+    "timestamp" : "2023-12-19T09:20:47.622Z",
     "total" : 1000,
     "parameter" : [{
       "name" : "limitedExpansion",
