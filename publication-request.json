@@ -2,8 +2,13 @@
   "package-id" : "hl7.fhir.it.terminology",
   "version" : "0.0.1",
   "path" : "http://terminology.hl7.it/0.0.1",
+  "ci-build" : "https://build.fhir.org/ig/hl7-it/terminology",
   "status" : "trial-use",
+  "first": true,
+  "title" : "HL7 Italy terminologies",
+  "category" : "Terminology",
   "sequence" : "2023-24",
   "mode": "milestone",
-  "desc" : "This is the December 2023 STU version."
+  "desc" : "This is the December 2023 STU version.",
+  "introduction" : "This guide documents the terminologies used by the HL7 Italy specifications."
 }
