@@ -1,0 +1,9 @@
+{
+  "package-id" : "hl7.fhir.it.terminology",
+  "version" : "0.0.1",
+  "path" : "http://terminology.hl7.it/0.0.1",
+  "status" : "trial-use",
+  "sequence" : "2023-24",
+  "mode": "milestone",
+  "desc" : "This is the December 2023 STU version."
+}

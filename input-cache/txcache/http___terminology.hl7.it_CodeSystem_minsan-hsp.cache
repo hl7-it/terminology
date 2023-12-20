@@ -9,7 +9,7 @@ e: {
   "title" : "Ministero della Salute - ID Strutture Ricovero",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-19T09:48:41+01:00",
+  "date" : "2023-12-19T17:14:22+01:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -22,8 +22,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:c5c25322-1f59-45ce-8224-37cda4f95235",
-    "timestamp" : "2023-12-19T09:21:24.841Z",
+    "identifier" : "urn:uuid:c79a5bcc-9578-4b25-acbe-e578634ef9df",
+    "timestamp" : "2023-12-19T16:37:30.481Z",
     "total" : 1000,
     "parameter" : [{
       "name" : "limitedExpansion",
