@@ -8,3 +8,10 @@ Error from http://tx.fhir.org/r4: Unable to provide support for code system http
 #  Too many codes to validate
 The value set include has too many codes to validate (1.342)
 The value set include has too many codes to validate (7.903)
+
+The value set http://terminology.hl7.it/ValueSet/istat-comune has too many codes to display (>1000) (and Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali)
+Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
+Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
+The value set include has too many codes to validate (7.894)
+Unknown System 'urn:ietf:rfc:1155' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:ietf:rfc:1155' could not be found, so the code cannot be validated)
+
