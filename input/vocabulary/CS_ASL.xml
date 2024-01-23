@@ -1147,7 +1147,7 @@
     </concept>
     <concept>
         <code value="130202"/>
-        <display value=" LANCIANO-VASTO-CHIETI"/>
+        <display value="LANCIANO-VASTO-CHIETI"/>
         <property>
             <code value="regione"/>
             <valueCode value="130"/>
