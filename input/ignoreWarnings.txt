@@ -15,3 +15,4 @@ Error from http://tx.fhir.org/r4: Unable to provide support for code system http
 The value set include has too many codes to validate (7.894)
 Unknown System 'urn:ietf:rfc:1155' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:ietf:rfc:1155' could not be found, so the code cannot be validated)
 
+The value set expansion is incomplete

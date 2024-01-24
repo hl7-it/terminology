@@ -452,8 +452,8 @@ Id: istat-comune
 Title: "ISTAT - Comuni"
 Description: "Codici ISTAT Comune più sconosciuto"
 * ^experimental = false
-* ^expansion.total = 100
-* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+//* ^expansion.total = 100
+//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 //----------------------------------------
 * include codes from system $istatUnitaAmministrativeTerritoriali  
 // * $CS_unitaTerritoriali#001001 "Agliè"

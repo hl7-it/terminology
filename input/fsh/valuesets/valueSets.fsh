@@ -14,8 +14,8 @@ Title: "AIFA Note"
 Description: "Indicazioni terapeutiche per un determinato farmaco rimborsabile dal Servizio Sanitario Nazionale"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* ^expansion.total = 100
-* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+//* ^expansion.total = 100
+//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 * codes from system $aifa-nota
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -43,8 +43,8 @@ Title: "AIFA Gruppo di Equivalenza"
 Description: "AIFA Gruppo di Equivalenza"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* ^expansion.total = 100
-* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+//* ^expansion.total = 100
+//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 * codes from system $gruppo-equivalenza
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -221,8 +221,8 @@ Id: istat-titoloStudio
 Title: "ISTAT - Titolo Studio"
 Description: "Classificazione dei titoli di studio italiani"
 * ^experimental = false
-* ^expansion.total = 100
-* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+//* ^expansion.total = 100
+//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 //-------------------------------------------------------------------------------------------
 * codes from system $CS_TitoloStudioIstat
 
@@ -232,8 +232,8 @@ Id: istat-professione
 Title: "ISTAT - Professioni"
 Description: "Classificazione delle professioni"
 * ^experimental = false
-* ^expansion.total = 100
-* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+//* ^expansion.total = 100
+//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 //-------------------------------------------------------------------------------------------
 * codes from system $CS_ProfessioniIstat
 
@@ -323,8 +323,8 @@ Id: minsan-idStrutture
 Title: "Ministero della Salute - ID Strutture Ricovero"
 Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11)"
 * ^experimental = false
-* ^expansion.total = 100
-* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+//* ^expansion.total = 100
+//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 //----------------------------------------
 * codes from system $UriHsp
 
