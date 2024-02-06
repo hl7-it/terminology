@@ -28,7 +28,7 @@ Lista dei codesystems inerenti al Ministero della salute e relative specifiche d
   </tr>
   <tr>
   <td>Elenco farmacie</td>
-  <td>ELenco Farmacie</td>
+  <td>Elenco Farmacie</td>
     <td><a href="./specifiche_elencoFarma.html">Specifiche Farmacie</a></td>
   </tr>
   <tr>
