@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="cs-asl"/>
     <name value="CsMDSASL"/>
-    <title value="Ministero della Salute - ASL"/>
+    <title value="MDS - ASL"/>
     <status value="draft"/>
     <experimental value="false"/>
     <caseSensitive value="false"/>
-    <description value="Ministero della Salute - ASL"/>
+    <description value="MDS - ASL"/>
     <content value="complete"/>
     <filter>
         <code value="regione"/>

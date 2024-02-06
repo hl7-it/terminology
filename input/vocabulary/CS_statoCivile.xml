@@ -12,7 +12,7 @@
 	<status value="draft"/>
 	<experimental value="false"/>
 	<caseSensitive value="false"/>
-	<description value="Tabella ISTAT Stato Civile"/>
+	<description value="ISTAT - Stato Civile"/>
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>

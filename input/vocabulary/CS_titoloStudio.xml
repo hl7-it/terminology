@@ -15,7 +15,7 @@
 	<status value="active"/>
 	<experimental value="false"/>
 	<caseSensitive value="false"/>
-	<description value="Classificazione dei titoli di studio - ISTAT"/>
+	<description value="ISTAT - Classificazione dei titoli di studio italiani"/>
 	<jurisdiction>		
 		<coding>
 			<system value="urn:iso:std:iso:3166"/>
