@@ -1,11 +1,11 @@
 
-CodeSystem: CsMinsanRia
-Id: minsan-ria
-Title: "Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"
-Description: "Ministero della Salute - Codici strutture di ricovero pubbliche, istituti e centri di riabilitazione pubblici (RIA) ex art. 26 ed istituti penitenziari. Source: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&id=1053"
-* ^experimental = false 
-* ^caseSensitive = true 
-//--------------------------
+// CodeSystem: CsMinsanRia
+// Id: minsan-ria
+// Title: "Ministero della Salute - Codici strutture di ricovero pubbliche (RIA)"
+// Description: "Ministero della Salute - Codici strutture di ricovero pubbliche, istituti e centri di riabilitazione pubblici (RIA) ex art. 26 ed istituti penitenziari. Source: https://www.salute.gov.it/portale/documentazione/p6_2_2_1.jsp?lingua=italiano&id=1053"
+// * ^experimental = false 
+// * ^caseSensitive = true 
+// //--------------------------
 
 // CodeSystem: CsMinsanFarmacie
 // Id: minsan-farmacie
@@ -22,6 +22,91 @@ Description: "Ministero della Salute - Codici strutture di ricovero pubbliche, i
 // * ^experimental = false
 // * ^caseSensitive = true 
 // //--------------------------
+
+CodeSystem: CsTipoStruttura
+Id: mds-tipo-struttura
+Title: "MDS - Tipologia Srutture di ricovero"
+Description: "MDS - Tipologia Srutture di ricovero"
+* ^experimental = false
+* ^caseSensitive = true 
+
+* ^concept[0].code = #0
+* ^concept[0].display = "Azienda Ospedaliera"
+* ^concept[0].definition = "Pubblico"
+* ^concept[+].code = #1
+* ^concept[=].display = "Ospedale a gestione diretta"
+* ^concept[=].definition = "Pubblico"
+* ^concept[+].code = #2.1
+* ^concept[=].display = "A.O. integrata con SSN"
+* ^concept[=].definition = "Pubblico"
+* ^concept[+].code = #2.2
+* ^concept[=].display = "A.O. integrata con Università"
+* ^concept[=].definition = "Pubblico"
+* ^concept[+].code = #2.3
+* ^concept[=].display = "Policlinico universitario privato"
+* ^concept[=].definition = "Privato (Equiparato a pubblico)"
+* ^concept[+].code = #3.1
+* ^concept[=].display = "IRCCS pubblico"
+* ^concept[=].definition = "Pubblico"
+* ^concept[+].code = #3.2
+* ^concept[=].display = "IRCCS privato"
+* ^concept[=].definition = "Privato (Equiparato a pubblico)"
+* ^concept[+].code = #3.3
+* ^concept[=].display = "IRCCS fondazione"
+* ^concept[=].definition = "Privato (Equiparato a pubblico)"
+* ^concept[+].code = #4
+* ^concept[=].display = "Ospedale classificato o assimilato ai sensi dell'art. 1, ultimo comma, L.132/1968"
+* ^concept[=].definition = "Privato (Equiparato a pubblico)"
+* ^concept[+].code = #5.1
+* ^concept[=].display = "Casa di cura privata accreditata"
+* ^concept[=].definition = "Privata"
+* ^concept[+].code = #5.2
+* ^concept[=].display = "Casa di cura privata non accreditata"
+* ^concept[=].definition = "Privata"
+* ^concept[+].code = #8
+* ^concept[=].display = "Istituto qualificato presidio della U.S.L."
+* ^concept[=].definition = "Privato (Equiparato a pubblico)"
+* ^concept[+].code = #9
+* ^concept[=].display = "Ente di ricerca"
+* ^concept[=].definition = "Privato (Equiparato a pubblico)"
+
+CodeSystem: CsContinente
+Id: istat-continente
+Title: "ISTAT - Continente"
+Description: "ISTAT - Continente"
+* ^experimental = false
+* ^caseSensitive = true 
+
+* #1 "Europa"
+* #2 "Africa"
+* #3 "Asia"
+* #4 "America"
+* #5 "Oceania"
+
+CodeSystem: CsRipartizionegeografica
+Id: istat-ripartizione-geografica
+Title: "ISTAT - Ripartizione Geografica"
+Description: "ISTAT - Codice Istat della Ripartizione geografica secondo la suddivisione del territorio nazionale"
+* ^experimental = false
+* ^caseSensitive = true 
+
+* #1 "Nord-ovest"
+* #2 "Nord-est"
+* #3 "Centro"
+* #4 "Sud"
+* #5 "Isole"
+
+CodeSystem: CsTipologiaFarmacia
+Id: mds-tipologia-farmacia
+Title: "MDS - Tipologia Farmacia"
+Description: "MDS - Tipologia Farmacia"
+* ^experimental = false
+* ^caseSensitive = true 
+
+* #1 "Ordinaria"
+* #2 "Succursale"
+* #3 "Dispensario"
+* #4 "Dispensario Stagionale"
 
 CodeSystem: CsAifaNota
 Id: aifa-nota
@@ -48,12 +133,12 @@ Description: "AIFA - Autorizzazione Immissione in Commercio."
 // * ^url = "http://terminology.hl7.it/CodeSystem/aifa-ge"
 // * ^experimental = false
 // * ^caseSensitive = true 
-// //--------------------------
+//--------------------------
 
 CodeSystem: CsMinSanRegioni
 Id: minsan-regione
-Title: "Ministero della Salute - Codici Regioni / PPAA"
-Description: "Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11."
+Title: "MDS - Codici Regioni / PPAA"
+Description: "MDS - Codici Regioni / PPAA"
 * ^experimental = false
 * ^caseSensitive = true 
 * #010	"PIEMONTE"
@@ -314,36 +399,34 @@ Description: "ISTAT - Province"
 * #111	"Sud Sardegna"
 
 
-CodeSystem: CsAnagrafiRegionali
-Id: cs-anagrafi-regionali
-Title: "Anagrafi Regionali"
-Description: "Anagrafi Regionali"
-* ^experimental = false
-* ^caseSensitive = false
-// //------------------------------------------------------------------------------------------- 
-* #2.16.840.1.113883.2.9.2.10.4.1. "Anagrafi Regionali - Piemonte"
-* #2.16.840.1.113883.2.9.2.20.4.1 "Anagrafi Regionali - Valle d`aosta"
-* #2.16.840.1.113883.2.9.2.30.4.1 "Anagrafi Regionali - Lombardia"
-* #2.16.840.1.113883.2.9.2.41.4.1 "Anagrafi Regionali - prov. auton. bolzano"
-* #2.16.840.1.113883.2.9.2.42.4.1 "Anagrafi Regionali - prov. auton. trento"
-* #2.16.840.1.113883.2.9.2.50.4.1 "Anagrafi Regionali - Veneto"
-* #2.16.840.1.113883.2.9.2.60.4.1 "Anagrafi Regionali - Friuli venezia giulia"
-* #2.16.840.1.113883.2.9.2.70.4.1 "Anagrafi Regionali - Liguria"
-* #2.16.840.1.113883.2.9.2.80.4.1 "Anagrafi Regionali - Emilia romagna"
-* #2.16.840.1.113883.2.9.2.90.4.1 "Anagrafi Regionali - Toscana"
-* #2.16.840.1.113883.2.9.2.100.4.1 "Anagrafi Regionali - Umbria"
-* #2.16.840.1.113883.2.9.2.110.4.1 "Anagrafi Regionali - Marche"
-* #2.16.840.1.113883.2.9.2.120.4.1 "Anagrafi Regionali - Lazio"
-* #2.16.840.1.113883.2.9.2.130.4.1 "Anagrafi Regionali - Abruzzo"
-* #2.16.840.1.113883.2.9.2.140.4.1 "Anagrafi Regionali - Molise"
-* #2.16.840.1.113883.2.9.2.150.4.1 "Anagrafi Regionali - Campania"
-* #2.16.840.1.113883.2.9.2.160.4.1 "Anagrafi Regionali - Puglia"
-* #2.16.840.1.113883.2.9.2.170.4.1 "Anagrafi Regionali - Basilicata"
-* #2.16.840.1.113883.2.9.2.180.4.1 "Anagrafi Regionali - Calabria"
-* #2.16.840.1.113883.2.9.2.190.4.1 "Anagrafi Regionali - Sicilia"
-* #2.16.840.1.113883.2.9.2.200.4.1 "Anagrafi Regionali - Sardegna"
-
-
+// CodeSystem: CsAnagrafiRegionali
+// Id: cs-anagrafi-regionali
+// Title: "Anagrafi Regionali"
+// Description: "Anagrafi Regionali"
+// * ^experimental = false
+// * ^caseSensitive = false
+// // //------------------------------------------------------------------------------------------- 
+// * #2.16.840.1.113883.2.9.2.10.4.1. "Anagrafi Regionali - Piemonte"
+// * #2.16.840.1.113883.2.9.2.20.4.1 "Anagrafi Regionali - Valle d`aosta"
+// * #2.16.840.1.113883.2.9.2.30.4.1 "Anagrafi Regionali - Lombardia"
+// * #2.16.840.1.113883.2.9.2.41.4.1 "Anagrafi Regionali - prov. auton. bolzano"
+// * #2.16.840.1.113883.2.9.2.42.4.1 "Anagrafi Regionali - prov. auton. trento"
+// * #2.16.840.1.113883.2.9.2.50.4.1 "Anagrafi Regionali - Veneto"
+// * #2.16.840.1.113883.2.9.2.60.4.1 "Anagrafi Regionali - Friuli venezia giulia"
+// * #2.16.840.1.113883.2.9.2.70.4.1 "Anagrafi Regionali - Liguria"
+// * #2.16.840.1.113883.2.9.2.80.4.1 "Anagrafi Regionali - Emilia romagna"
+// * #2.16.840.1.113883.2.9.2.90.4.1 "Anagrafi Regionali - Toscana"
+// * #2.16.840.1.113883.2.9.2.100.4.1 "Anagrafi Regionali - Umbria"
+// * #2.16.840.1.113883.2.9.2.110.4.1 "Anagrafi Regionali - Marche"
+// * #2.16.840.1.113883.2.9.2.120.4.1 "Anagrafi Regionali - Lazio"
+// * #2.16.840.1.113883.2.9.2.130.4.1 "Anagrafi Regionali - Abruzzo"
+// * #2.16.840.1.113883.2.9.2.140.4.1 "Anagrafi Regionali - Molise"
+// * #2.16.840.1.113883.2.9.2.150.4.1 "Anagrafi Regionali - Campania"
+// * #2.16.840.1.113883.2.9.2.160.4.1 "Anagrafi Regionali - Puglia"
+// * #2.16.840.1.113883.2.9.2.170.4.1 "Anagrafi Regionali - Basilicata"
+// * #2.16.840.1.113883.2.9.2.180.4.1 "Anagrafi Regionali - Calabria"
+// * #2.16.840.1.113883.2.9.2.190.4.1 "Anagrafi Regionali - Sicilia"
+// * #2.16.840.1.113883.2.9.2.200.4.1 "Anagrafi Regionali - Sardegna"
 
 
 

@@ -14,8 +14,6 @@ Title: "AIFA Note"
 Description: "Indicazioni terapeutiche per un determinato farmaco rimborsabile dal Servizio Sanitario Nazionale"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-//* ^expansion.total = 100
-//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 * codes from system $aifa-nota
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -37,15 +35,14 @@ Description: "Sistema di classificazione anatomico, terapeutico e chimico per la
 * codes from system $atc
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsGruppoEquivalenza
-Id: aifa-ge
-Title: "AIFA Gruppo di Equivalenza"
-Description: "AIFA Gruppo di Equivalenza"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-//* ^expansion.total = 100
-//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
-* codes from system $gruppo-equivalenza
+// ValueSet: VsGruppoEquivalenza
+// Id: aifa-ge
+// Title: "AIFA Gruppo di Equivalenza"
+// Description: "AIFA Gruppo di Equivalenza"
+// -------------------------------------------------------------------------------------------
+// * ^experimental = false
+
+// * codes from system $gruppo-equivalenza
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsStrutturePubbliche
@@ -64,12 +61,12 @@ Title: "EHIC Personal ID (system IDs - oid)"
 Description: "Sistema di identificazione delle persone fisiche"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* $oid#2.16.840.1.113883.2.9.4.3.2 "Codice Fiscale Italiano"
-* $oid#2.16.840.1.113883.2.9.4.3.7 "Numero di Tessera TEAM estera"
-* $oid#2.16.840.1.113883.2.9.4.3.3 "Numero di identificazione personale TEAM"
-* $oid#2.16.840.1.113883.2.9.4.3.18 "Europei Non Iscritti al SSN"
-* $oid#2.16.840.1.113883.2.9.4.3.17 "Stranieri Temporaneamente Presenti"
-* $oid#2.16.840.1.113883.2.9.4.3.15 "Codice Anagrafica Nazionale degli Assisti"
+* $uri#urn:oid:2.16.840.1.113883.2.9.4.3.2 "Codice Fiscale Italiano"
+* $uri#urn:oid:2.16.840.1.113883.2.9.4.3.7 "Numero di Tessera TEAM estera"
+* $uri#urn:oid:2.16.840.1.113883.2.9.4.3.3 "Numero di identificazione personale TEAM"
+* $uri#urn:oid:2.16.840.1.113883.2.9.4.3.18 "Europei Non Iscritti al SSN"
+* $uri#urn:oid:2.16.840.1.113883.2.9.4.3.17 "Stranieri Temporaneamente Presenti"
+* $uri#urn:oid:2.16.840.1.113883.2.9.4.3.15 "Codice Anagrafica Nazionale degli Assisti"
 
 
 // ValueSet: VsIstatRegione
@@ -221,8 +218,7 @@ Id: istat-titoloStudio
 Title: "ISTAT - Titolo Studio"
 Description: "Classificazione dei titoli di studio italiani"
 * ^experimental = false
-//* ^expansion.total = 100
-//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+
 //-------------------------------------------------------------------------------------------
 * codes from system $CS_TitoloStudioIstat
 
@@ -232,8 +228,7 @@ Id: istat-professione
 Title: "ISTAT - Professioni"
 Description: "Classificazione delle professioni"
 * ^experimental = false
-//* ^expansion.total = 100
-//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
+
 //-------------------------------------------------------------------------------------------
 * codes from system $CS_ProfessioniIstat
 
@@ -323,8 +318,6 @@ Id: minsan-idStrutture
 Title: "Ministero della Salute - ID Strutture Ricovero"
 Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11)"
 * ^experimental = false
-//* ^expansion.total = 100
-//* ^expansion.timestamp = "2024-01-22T23:02:06+00:00"
 //----------------------------------------
 * codes from system $UriHsp
 

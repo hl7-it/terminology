@@ -37,6 +37,6 @@ Alias: $sct = http://snomed.info/sct
 
 Alias: $aRegionali = http://terminology.hl7.it/CodeSystem/cs-anagrafi-regionali
 Alias: $strutturePub = http://terminology.hl7.it/CodeSystem/minsan-hsp
-
+Alias: $comuni = http://terminology.hl7.it/CodeSystem/istat-comuni
 Alias: $istatUnitaAmministrativeTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
 //Alias: $CsMinSanRegioni = http://terminology.hl7.it/CodeSystem/minsan-regione

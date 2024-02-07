@@ -50,10 +50,26 @@ pages:
     title: Copyrights
   downloads.xml:
     title: Downloads
-
+  specifiche_properties.md:
+    title: Specifiche
+  specifiche_farmEquivalenti.md:
+    title: Specifiche farmaci equivalenti
+  specifiche_parafarm.md:
+    title: Specifiche per le parafarmacie
+  specifiche_Asl.md:
+    title: Specifiche per le ASL
+  specifiche_elencoFarma.md:
+    title: Specifiche per le farmacie
+  specifiche_struttureRicovero.md:
+    title: Specifiche per le strutture di ricovero  
+  specifice_unitaAmministrative.md:
+    title: Specifiche per le unità amministrative  
+  specifice_unitaAmministrativeEstere.md:
+    title: Specifiche per le unità amministrative estere 
 menu:
   IG Home: index.html
   Sommario: toc.html
+  Specifiche: specifiche_properties.html
   Indice Artefatti: artifacts.html
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
