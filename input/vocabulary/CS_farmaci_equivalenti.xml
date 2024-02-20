@@ -3,7 +3,7 @@
     <id value="aifa-ge"/>
     <name value="CsFarmaciEquivalenti"/>
     <title value="AIFA - Farmaci equivalenti"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
     <caseSensitive value="false"/>
     <description value="Farmaci Equivalenti"/>

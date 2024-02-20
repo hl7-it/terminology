@@ -4,7 +4,7 @@ Usage: #definition
 * version = "4.0.1"
 * name = "HL7_ISTAT_StatoCivile"
 * title = "Mapping fra VS HL7 e Tabella ISTAT Stato Civile"
-* status = #draft
+* status = #active
 * experimental = true
 * date = "2012-06-13"
 * publisher = "HL7 Italia"

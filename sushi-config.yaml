@@ -50,6 +50,8 @@ pages:
     title: Copyrights
   downloads.xml:
     title: Downloads
+  artifacts.md:
+    title: Indice Artefatti
   specifiche_properties.md:
     title: Specifiche
   specifiche_farmEquivalenti.md:
@@ -58,7 +60,7 @@ pages:
     title: Specifiche per le parafarmacie
   specifiche_Asl.md:
     title: Specifiche per le ASL
-  specifiche_elencoFarma.md:
+  specifiche_farma.md:
     title: Specifiche per le farmacie
   specifiche_struttureRicovero.md:
     title: Specifiche per le strutture di ricovero  
@@ -66,6 +68,16 @@ pages:
     title: Specifiche per le unità amministrative  
   specifice_unitaAmministrativeEstere.md:
     title: Specifiche per le unità amministrative estere 
+  allConceptmap.md:
+    title: Concept Map
+  principalCodesystem.md:
+    title: Codesystems Prinicipali
+  anotherCodesystem.md:
+    title: Codesystems Derivati
+  allValueset.md:
+    title: ValueSet
+
+
 menu:
   IG Home: index.html
   Sommario: toc.html

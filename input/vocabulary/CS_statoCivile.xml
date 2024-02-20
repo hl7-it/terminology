@@ -9,10 +9,10 @@
 	<url value="http://terminology.hl7.it/CodeSystem/istat-statoCivile"/>
 	<name value="CsIstatStatoCivile"/>
 	<title value="ISTAT - Stato Civile"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<experimental value="false"/>
 	<caseSensitive value="false"/>
-	<description value="ISTAT - Stato Civile"/>
+	<description value="Tabella ISTAT Stato Civile"/>
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>
