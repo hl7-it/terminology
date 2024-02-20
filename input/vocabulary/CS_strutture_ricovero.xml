@@ -3,7 +3,7 @@
     <id value="minsan-hsp"/>
     <name value="CsMDStruttureRicovero"/>
     <title value="MDS - Strutture di Ricovero"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
     <caseSensitive value="false"/>
     <description value="Ministero della Salute - Strutture di Ricovero"/>

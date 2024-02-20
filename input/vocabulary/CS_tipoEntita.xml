@@ -3,7 +3,7 @@
 	<id value="it-tipoEntita"/>	
 	<name value="CSItTipoEntita"/>
 	<title value="HL7 Italia - Tipo di Entità"/>
-	<status value="draft"/>
+	<status value="active"/>
 	<experimental value="false"/>
 	<caseSensitive value="false"/>
 	<description value="Codifica delle diverse entità che hanno compiuto, compiono od intendono compiere un certo atto. Per esempio la certificazione di un record Paziente"/>

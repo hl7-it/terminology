@@ -1,7 +1,7 @@
 ValueSet: VsAnagrafiRegionali
 Id: vs-anagrafi-regionali
-Title: "Anagrafi Regionali"
-Description: "Anagrafi Regionali"
+Title: "VS-Anagrafi Regionali"
+Description: "VS-Anagrafi Regionali"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
 * $uri#urn:oid:2.16.840.1.113883.2.9.2.10.4.1. "Anagrafi Regionali - Piemonte"

@@ -23,13 +23,13 @@ Lista dei codesystems inerenti al Ministero della salute e relative specifiche d
   </tr>
   <tr>
   <td>Parafarmacie</td>
-  <td>Elenco Parafarmacie</td>
+  <td>Parafarmacie</td>
   <td><a href="./specifiche_parafarm.html">Specifiche Parafarmacie</a></td>
   </tr>
   <tr>
-  <td>Elenco farmacie</td>
-  <td>Elenco Farmacie</td>
-    <td><a href="./specifiche_elencoFarma.html">Specifiche Farmacie</a></td>
+  <td>Farmacie</td>
+  <td>Farmacie</td>
+    <td><a href="./specifiche_farma.html">Specifiche Farmacie</a></td>
   </tr>
   <tr>
   <td>Strutture di Ricovero</td>
@@ -38,7 +38,7 @@ Lista dei codesystems inerenti al Ministero della salute e relative specifiche d
   </tr>
   <tr>
   <td>ASL</td>
-  <td>Elenco Aziende sanitarie locali</td>
+  <td>Aziende sanitarie locali</td>
   <td><a href="./specifiche_Asl.html">Specifiche Aziende sanitarie</a></td>
   </tr>
 </table>

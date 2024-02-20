@@ -1360,7 +1360,7 @@ ValueSet: VsSezioniRefertoLaboratorio
 Id: sezione-referto-laboratorio
 Title: "Sezioni Composition Lab Report"
 Description: "Valueset contenente i codici LOINC per la specialità di laboratorio."
-* ^status = #draft
+* ^status = #active
 * insert LOINCCopyrightForVS
 * $LOINC#18718-7 "Studi di marcatori cellulari"
 * $LOINC#18719-5 "Studi di chimica"
@@ -1400,7 +1400,7 @@ ValueSet: VsResultsLaboratoryObservation
 Id: risultato-osservazione
 Title: "Tipo Osservazione"
 Description: "Valueset contente i codici che identificano il tipo di osservazione nel referto di laboratorio."
-* ^status = #draft
+* ^status = #active
 * insert LOINCCopyrightForVS
 * include codes from system $LOINC where STATUS = "ACTIVE" and CLASSTYPE = "1"
 * exclude codes from system $LOINC
@@ -1422,7 +1422,7 @@ ValueSet:      VsLabSpecimenTypesIt
 Id:	       tipo-campione-lab-it
 Title:	       "Tipo campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione del tipo di campione di laboratorio."
-* ^status = #draft
+* ^status = #active
 * insert SNOMEDCopyrightForVS
 * $sct#119376003	"Tissue specimen"
 * $sct#119359002	"Bone marrow specimen"
@@ -1534,7 +1534,7 @@ Id:	       additivo-campione-it
 Title:	       "Additivo Campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione dell'additivo utilizzato per il campione di laboratorio."
 
-* ^status = #draft
+* ^status = #active
 * insert SNOMEDCopyrightForVS
 * $sct#1259913003   "Heparin ammonium (substance)"
 * $sct#386961008    "Aprotinin (substance)"
@@ -1560,7 +1560,7 @@ ValueSet:      VsLabSpecimenContainerIt
 Id:	       campione-container-lab-it
 Title:	       "Container Campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione del container del campione di laboratorio."
-* ^status = #draft
+* ^status = #active
 * insert SNOMEDCopyrightForVS
 * $sct#702290003 "Cervical cytology microscopy slide (physical object)"
 * $sct#706057008 "Cytology specimen container (physical object)"

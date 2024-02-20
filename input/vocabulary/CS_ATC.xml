@@ -3,7 +3,7 @@
     <id value="aifa-atc"/>
     <name value="CsAtcPrincipio"/>
     <title value="AIFA - ATC"/>
-    <status value="draft"/>
+    <status value="active"/>
     <experimental value="false"/>
     <caseSensitive value="false"/>
     <description value="AIFA - ATC"/>
