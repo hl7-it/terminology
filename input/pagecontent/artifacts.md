@@ -4,7 +4,6 @@
     display: none;
   }
 </style>
-<p id="publish-box">HL7 Italia Terminologies - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://terminology.hl7.it/history.html">Directory of published versions</a></p>
 <ul class="nav nav-tabs">
   <li id="l1" class="nav-item active">
     <a class="nav-link" aria-current="page" href="./artifacts.html">All Content</a>
@@ -610,10 +609,6 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
       </tbody>
     </table>
   </div>
-
-
 <script>
 document.getElementsByClassName("markdown-toc")[0].remove()
-box=document.getElementById('publish-box');
-box.remove()
 </script>
