@@ -178,6 +178,5 @@
 </table>
 <script>
 document.getElementsByClassName("markdown-toc")[0].remove()
-box=document.getElementById('publish-box');
-box.remove()
+
 </script>
