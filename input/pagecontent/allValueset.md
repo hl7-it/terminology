@@ -4,6 +4,7 @@
     display: none;
   }
 </style>
+<p id="publish-box">HL7 Italia Terminologies - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://terminology.hl7.it/history.html">Directory of published versions</a></p>
 <ul class="nav nav-tabs">
   <li id="l1" class="nav-item">
     <a class="nav-link" href="./artifacts.html">All Content</a>
@@ -170,6 +171,14 @@
         <p>Identificativi regionali per ASL a 3 caratteri, come da file ministeriale</p>
       </td>
     </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-minsan-idStruttureInterne.html" title="ValueSet/minsan-idStruttureInterne">MDS - Codici delle Strutture Interne</a>
+      </td>
+      <td>
+        <p>MDS - Codici delle Strutture Interne</p>
+      </td>
+    </tr>    
     <tr>
       <td style="column-width:30%">
         <a href="ValueSet-minsan-regione.html" title="ValueSet/minsan-regione">MDS - Codici Regionali</a>
@@ -366,4 +375,6 @@
 </table>
 <script>
 document.getElementsByClassName("markdown-toc")[0].remove()
+box=document.getElementById('publish-box');
+box.remove()
 </script>
