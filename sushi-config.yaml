@@ -52,6 +52,14 @@ pages:
     title: Downloads
   artifacts.md:
     title: Indice Artefatti
+  principalCodesystem.md:
+    title: Codesystems Prinicipali    
+  anotherCodesystem.md:
+    title: Codesystems Derivati
+  allValueset.md:
+    title: ValueSet    
+  allConceptmap.md:
+    title: Concept Map
   specifiche_properties.md:
     title: Specifiche
   specifiche_farmEquivalenti.md:
@@ -68,14 +76,7 @@ pages:
     title: Specifiche per le unità amministrative  
   specifice_unitaAmministrativeEstere.md:
     title: Specifiche per le unità amministrative estere 
-  allConceptmap.md:
-    title: Concept Map
-  principalCodesystem.md:
-    title: Codesystems Prinicipali
-  anotherCodesystem.md:
-    title: Codesystems Derivati
-  allValueset.md:
-    title: ValueSet
+
 
 
 menu:
