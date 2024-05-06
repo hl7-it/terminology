@@ -4,7 +4,6 @@
     display: none;
   }
 </style>
-<p id="publish-box">HL7 Italia Terminologies - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://terminology.hl7.it/history.html">Directory of published versions</a></p>
 <ul class="nav nav-tabs">
   <li id="l1" class="nav-item">
     <a class="nav-link" href="./artifacts.html">All Content</a>
@@ -54,7 +53,7 @@
     </tr>
     <tr>
       <td style="column-width:30%">
-        <a href="CodeSystem-administrative-gender.html" title="CodeSystem/administrative-gender">HL7 Italia - AdministrativeGender (translation)</a>
+      <a href="CodeSystem-administrative-gender.html" title="CodeSystem/administrative-gender">HL7 Italia - AdministrativeGender (translation)</a>
       </td>
       <td>
         <p>HL7 Italia - Il genere di una persona, utilizzato per fini amministrativi.</p>
@@ -182,10 +181,13 @@
         <p>MDS - Strutture di Ricovero</p>
       </td>
     </tr>
+         <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-minsan-esenzioni.html" title="CodeSystem/minsan-esenzioni">MDS - Esenzioni</a>
+      </td>
+      <td>
+        <p>MDS - Esenzioni</p>
+      </td>
+    </tr>
   </tbody>
 </table>
-<script>
-document.getElementsByClassName("markdown-toc")[0].remove()
-box=document.getElementById('publish-box');
-box.remove()
-</script>
