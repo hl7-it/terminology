@@ -239,7 +239,7 @@ Id: istat-dug
 Title: "ISTAT - DUG"
 Description: "Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 * ^experimental = false
-* codes from system http://terminology.hl7.it/CodeSystem/dug //http://registry.geodati.gov.it/dug
+* codes from system http://140.164.14.210/terminology/site/CodeSystem/dug //http://registry.geodati.gov.it/dug
 
 //=========================
 ValueSet: VsUriIdAslRegione
@@ -816,3 +816,11 @@ Description: "Ministero della Salute - Identificativi Strutture Interne di Ricov
 * $cs_strttureInterne#200905.02 "Stabilimento SS. Annunziata"
 * $cs_strttureInterne#200906.01 "San Giovanni di Dio"
 * $cs_strttureInterne#200906.02 "Policlinico Monserrato"
+
+ValueSet: VsMinisteroSaluteEsenzioni
+Id: minsan-esenzioni
+Title: "Ministero della Salute - Esenzioni"
+Description: "Codici Esenzioni Ministero della Salute"
+* ^experimental = false
+* ^status = #active
+* include codes from  system $minsan-esenzioni
