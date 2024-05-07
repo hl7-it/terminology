@@ -817,10 +817,10 @@ Description: "Ministero della Salute - Identificativi Strutture Interne di Ricov
 * $cs_strttureInterne#200906.01 "San Giovanni di Dio"
 * $cs_strttureInterne#200906.02 "Policlinico Monserrato"
 
-ValueSet: VsMinisteroSaluteEsenzioni
-Id: minsan-esenzioni
-Title: "Ministero della Salute - Esenzioni"
-Description: "Codici Esenzioni Ministero della Salute"
-* ^experimental = false
-* ^status = #active
-* include codes from  system $minsan-esenzioni
+// ValueSet: VsMinisteroSaluteEsenzioni
+// Id: minsan-esenzioni
+// Title: "Ministero della Salute - Esenzioni"
+// Description: "Codici Esenzioni Ministero della Salute"
+// * ^experimental = false
+// * ^status = #active
+// * include codes from  system $minsan-esenzioni
