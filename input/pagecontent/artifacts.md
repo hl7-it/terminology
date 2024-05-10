@@ -256,14 +256,14 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
         <p>MDS - Tipologia Srutture di ricovero</p>
       </td>
     </tr>
-         <tr>
+      <!-- <tr>
       <td style="column-width:30%">
         <a href="CodeSystem-minsan-esenzioni.html" title="CodeSystem/minsan-esenzioni">MDS - Esenzioni</a>
       </td>
       <td>
         <p>MDS - Esenzioni</p>
       </td>
-    </tr>
+    </tr> -->
   </tbody>
 </table>
 

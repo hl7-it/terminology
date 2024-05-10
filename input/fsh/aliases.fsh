@@ -26,7 +26,7 @@ Alias: $atc = http://www.whocc.no/atc
 Alias: $icd-9-cm = http://hl7.org/fhir/sid/icd-9-cm
 
 
-Alias: $minsan-esenzioni = http://140.164.14.210/terminology/site/CodeSystem/minsan-esenzioni
+//Alias: $minsan-esenzioni = http://140.164.14.210/terminology/site/CodeSystem/minsan-esenzioni
 Alias: $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203

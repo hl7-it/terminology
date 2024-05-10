@@ -16,6 +16,6 @@ In questa sezione vengono messe in evidenza le proprietà codificate come CodeSy
     <tr>
         <td>gruppoEquivalenza</td>
         <td>Proprietà che identifica il Gruppo di equivalenza del farmaco</td>
-        <td><a href="./">CodeSystems Gruppo equivalenza</a></td>
+        <td><a href="./CodeSystem-aifa-gruppo-equivalenza.html">CodeSystems Gruppo equivalenza</a></td>
     </tr>
 </table>
