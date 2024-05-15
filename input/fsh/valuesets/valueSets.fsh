@@ -8,13 +8,13 @@ Description: "WHO ICD-9-CM"
 * codes from system $icd-9-cm
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsNotaAifa
-Id: aifa-nota
-Title: "AIFA Note"
-Description: "Indicazioni terapeutiche per un determinato farmaco rimborsabile dal Servizio Sanitario Nazionale"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* codes from system $aifa-nota
+// ValueSet: VsNotaAifa
+// Id: aifa-nota
+// Title: "AIFA Note"
+// Description: "Indicazioni terapeutiche per un determinato farmaco rimborsabile dal Servizio Sanitario Nazionale"
+// //-------------------------------------------------------------------------------------------
+// * ^experimental = false
+// * codes from system $aifa-nota
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsAic
@@ -239,7 +239,7 @@ Id: istat-dug
 Title: "ISTAT - DUG"
 Description: "Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 * ^experimental = false
-* codes from system http://140.164.14.210/terminology/site/CodeSystem/dug //http://registry.geodati.gov.it/dug
+* codes from system https://terminology.hl7.it/site/CodeSystem/dug //http://registry.geodati.gov.it/dug
 
 //=========================
 ValueSet: VsUriIdAslRegione
@@ -824,3 +824,12 @@ Description: "Ministero della Salute - Identificativi Strutture Interne di Ricov
 // * ^experimental = false
 // * ^status = #active
 // * include codes from  system $minsan-esenzioni
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsNotaAifa
+Id: vs-aifa-nota
+Title: "AIFA Note"
+Description: "Indicazioni terapeutiche per un determinato farmaco rimborsabile dal Servizio Sanitario Nazionale"
+//-------------------------------------------------------------------------------------------
+* ^experimental = false
+* codes from system $aifa-nota

@@ -36,7 +36,7 @@
     </tr>
     <tr>
       <td style="column-width:30%">
-        <a href="ValueSet-aifa-nota.html" title="ValueSet/aifa-nota">AIFA - Note</a>
+        <a href="ValueSet-vs-aifa-nota.html" title="ValueSet/vs-aifa-nota">AIFA - Note</a>
       </td>
       <td>
         <p>AIFA - Indicazioni terapeutiche per un determinato farmaco rimborsabile dal Servizio Sanitario Nazionale</p>

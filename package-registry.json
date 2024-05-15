@@ -1,0 +1,23 @@
+{
+    "packages" : [
+      {
+        "path" : "terminology/package-list.json",
+        "package-id" : "hl7.fhir.it.terminology",
+        "title" : "HL7 Italia Terminologies",
+        "canonical" : "https://terminology.hl7.it/site",
+        "category" : "Terminology",
+        "ci-build" : "https://build.fhir.org/ig/hl7-it/terminology",
+        "version-count" : 1,
+        "latest" : {
+          "version" : "0.1.0",
+          "date" : "2024-05-15",
+          "path" : "https://terminology.hl7.it/site/0.1.0"
+        },    
+        "milestone" : {
+          "version" : "0.1.0",
+          "date" : "2024-05-15",
+          "path" : "https://terminology.hl7.it/site/0.1.0"
+        }
+      }
+    ]
+  }
