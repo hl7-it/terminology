@@ -16,7 +16,7 @@ version: 0.0.1
 name: HL7ITTerminology
 title: HL7 Italia Terminologies
 status: active
-releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ci-build #| draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
 publisher:
   - name: HL7 Italia
