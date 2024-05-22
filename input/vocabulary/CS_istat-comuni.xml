@@ -3,6 +3,7 @@
     <id value="istat-comuni"/>
     <name value="CsIstatComuni"/>
     <title value="ISTAT - Comuni"/>
+    <status value="active"/>
     <description value="ISTAT - Comuni"/>
     <content value="complete"/>
     <experimental value="false"/>
