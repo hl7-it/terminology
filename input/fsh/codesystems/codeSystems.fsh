@@ -103,7 +103,7 @@ Description: "MDS - TIpologia Farmacia"
 // Id: aifa-nota
 // Title: "AIFA - Indicazioni terapeutiche (Nota AIFA)"
 // Description: "AIFA - Indicazioni terapeutiche per le quali un determinato farmaco è rimborsabile a carico del Servizio Sanitario Nazionale. Conosciute come Note AIFA"
-// * ^url = "https://terminology.hl7.it/site/CodeSystem/aifa-nota"
+// * ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/aifa-nota"
 // * ^experimental = false
 // * ^caseSensitive = true 
 //--------------------------
@@ -112,7 +112,7 @@ CodeSystem: CsAifaAic
 Id: aifa-aic
 Title: "AIFA - Autorizzazione Immissione in Commercio"
 Description: "AIFA - Autorizzazione Immissione in Commercio."
-* ^url = "https://terminology.hl7.it/site/CodeSystem/aifa-aic"
+* ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/aifa-aic"
 * ^experimental = false
 * ^caseSensitive = true
 //--------------------------
@@ -121,7 +121,7 @@ Description: "AIFA - Autorizzazione Immissione in Commercio."
 // Id: aifa-ge
 // Title: "AIFA - Gruppo di equivalenza"
 // Description: "AIFA - Liste di Trasparenza - Farmaci equivalenti (Legge 178/2002)"
-// * ^url = "https://terminology.hl7.it/site/CodeSystem/aifa-ge"
+// * ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/aifa-ge"
 // * ^experimental = false
 // * ^caseSensitive = true 
 //--------------------------
@@ -254,7 +254,7 @@ Id: it-V3RoleCode
 Title: "HL7 Italia - HL7 V3 RoleCode (estensione)"
 Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 //-------------------------------------------------------------------------------------------
-* ^url = "https://terminology.hl7.it/site/CodeSystem/it-V3RoleCode"
+* ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/it-V3RoleCode"
 * ^experimental = false
 * ^caseSensitive = true 
 * #MMG  "medico di medicina generale"
@@ -278,7 +278,7 @@ Id: province-istat
 Title: "ISTAT - Province"
 Description: "ISTAT - Province"
 //-------------------------------------------------------------------------------------------
-//* ^url = "https://terminology.hl7.it/site/CodeSystem/mef-ae-province"
+//* ^url = "https://www.hl7.it/fhir/terminology/CodeSystem/mef-ae-province"
 * ^experimental = false
 * ^caseSensitive = true 
 * #001	"Torino"

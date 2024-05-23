@@ -7,7 +7,7 @@ Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle es
 </div>
 """
 * experimental = false
-* url = "https://terminology.hl7.it/site/ValueSet/statoEsenzione"
+* url = "https://www.hl7.it/fhir/terminology/ValueSet/statoEsenzione"
 * version = "0.1.0"
 * name = "VsStatoEsenzione"
 * title = "Stato Esenzione"

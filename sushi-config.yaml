@@ -11,7 +11,7 @@
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.it.terminology
-canonical: https://terminology.hl7.it/site
+canonical: https://www.hl7.it/fhir/terminology
 version: 0.0.1
 name: HL7ITTerminology
 title: HL7 Italia Terminologies
