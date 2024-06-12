@@ -1,5 +1,5 @@
 <div xmlns="http://www.w3.org/1999/xhtml"><h1 id="title-1">Title 1</h1>
-<p><em>&lt; tutto quello che è inserito da titolo 1 a titolo 3 non veràà inserito nella pagina&gt;</em></p>
+<p><em>&lt; tutto quello che è inserito da titolo 1 a titolo 3 non verrà inserito nella pagina&gt;</em></p>
 <h2 id="ig-home-page">IG Home Page</h2>
 <h3 id="scopo">Scopo</h3>
 <p>Raccogliere i profili <a href="http://hl7.org/fhir">HL7 FHIR</a> base sviluppati da <a href="http://hl7.it">HL7 Italia</a> e le principali risorse (e.g. modelli logici, value set, code system) da usarsi trasversalmente in vari scenari di uso.</p>
