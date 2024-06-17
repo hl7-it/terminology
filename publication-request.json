@@ -5,7 +5,7 @@
   "ci-build" : "https://build.fhir.org/ig/hl7-it/terminology",
   "status" : "trial-use",
   "first": true,
-  "title" : "HL7 Italy terminologies",
+  "title" : "HL7 Italy Terminology",
   "category" : "Terminology",
   "sequence" : "2023-24",
   "mode": "milestone",

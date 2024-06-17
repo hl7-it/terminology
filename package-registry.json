@@ -3,7 +3,7 @@
       {
         "path" : "terminology/package-list.json",
         "package-id" : "hl7.fhir.it.terminology",
-        "title" : "HL7 Italia Terminologies",
+        "title" : "HL7 Italia Terminology",
         "canonical" : "https://www.hl7.it/fhir/terminology",
         "category" : "Terminology",
         "ci-build" : "https://build.fhir.org/ig/hl7-it/terminology",

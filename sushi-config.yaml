@@ -12,9 +12,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.it.terminology
 canonical: https://www.hl7.it/fhir/terminology
-version: 0.0.1
+version: 0.1.0
 name: HL7ITTerminology
-title: HL7 Italia Terminologies
+title: HL7 Italia Terminology
 status: active
 releaseLabel: ci-build #| draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
@@ -29,7 +29,7 @@ contact:
 
 jurisdiction: urn:iso:std:iso:3166#IT "Italy"
 copyrightYear: 2022+
-description: "HL7 Italia FHIR Terminologies"
+description: "HL7 Italia FHIR Terminology"
 fhirVersion: 4.0.1
 parameters: #see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
 #  produce-jekyll-data: true
