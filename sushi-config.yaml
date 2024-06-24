@@ -12,7 +12,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.it.terminology
 canonical: https://www.hl7.it/fhir/terminology
-version: 0.1.0
+version: 0.1.2
 name: HL7ITTerminology
 title: HL7 Italia Terminology
 status: active

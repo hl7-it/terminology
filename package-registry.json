@@ -9,14 +9,14 @@
         "ci-build" : "https://build.fhir.org/ig/hl7-it/terminology",
         "version-count" : 1,
         "latest" : {
-          "version" : "0.1.0",
+          "version" : "0.1.2",
           "date" : "2024-05-15",
-          "path" : "https://www.hl7.it/fhir/terminology/0.1.0"
+          "path" : "https://www.hl7.it/fhir/terminology/0.1.2"
         },    
         "milestone" : {
-          "version" : "0.1.0",
+          "version" : "0.1.2",
           "date" : "2024-05-15",
-          "path" : "https://www.hl7.it/fhir/terminology/0.1.0"
+          "path" : "https://www.hl7.it/fhir/terminology/0.1.2"
         }
       }
     ]
