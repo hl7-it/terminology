@@ -298,6 +298,14 @@
         <p>Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG ‘DOCUMENTO DI ESENZIONE’</p>
       </td>
     </tr>
+     <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-esenzioni.html" title="ValeSet/vs-mds-esenzioni">MDS - Esenzioni</a>
+      </td>
+      <td>
+        <p>Valueset contenente i codici esenzione</p>
+      </td>
+    </tr>
     <tr>
       <td style="column-width:30%">
         <a href="ValueSet-risultato-osservazione.html" title="ValueSet/risultato-osservazione">Tipo Osservazione</a>

@@ -825,6 +825,17 @@ Description: "Ministero della Salute - Identificativi Strutture Interne di Ricov
 // * ^status = #active
 // * include codes from  system $minsan-esenzioni
 
+//-------------------------------------------------------------------------------------------
+
+
+ValueSet: VsMinisteroSaluteEsenzioni
+Id: vs-mds-esenzioni
+Title: "Ministero della Salute - Esenzioni"
+Description: "Codici Esenzioni Ministero della Salute"
+* ^experimental = false
+* ^status = #active
+* include codes from  system mds-esenzioni
+
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsNotaAifa
 Id: vs-aifa-nota
