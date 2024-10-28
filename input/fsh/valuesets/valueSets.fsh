@@ -101,18 +101,18 @@ Description: "Codifica geografica standardizzata"
 * $iso3166#DE "Germany"
 * $iso3166#HU "Hungary"
 * $iso3166#IE "Ireland"
-* $iso3166#IT "Italy" 
+* $iso3166#IT "Italy"
 * $iso3166#LV "Latvia"
-* $iso3166#LT "Lithuania" 
-* $iso3166#LU "Luxembourg" 
-* $iso3166#MT "Malta" 
+* $iso3166#LT "Lithuania"
+* $iso3166#LU "Luxembourg"
+* $iso3166#MT "Malta"
 * $iso3166#NL "Netherlands"
 * $iso3166#PL "Poland"
-* $iso3166#PT "Portugal" 
+* $iso3166#PT "Portugal"
 * $iso3166#RO "Romania"
-* $iso3166#SK "Slovakia" 
+* $iso3166#SK "Slovakia"
 * $iso3166#SI "Slovenia"
-* $iso3166#ES "Spain" 
+* $iso3166#ES "Spain"
 * $iso3166#SE "Sweden"
 * $iso3166#IS "Iceland"
 * $iso3166#LI "Liechtenstein"
@@ -835,6 +835,16 @@ Description: "Codici Esenzioni Ministero della Salute"
 * ^experimental = false
 * ^status = #active
 * include codes from  system mds-esenzioni
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ValueSet: VsFarmacia
+Id: vs-mds-farmacia
+Title: "MDS - Farmacia"
+Description: "Ministero della Salute - Elenco Farmacie"
+* ^experimental = false
+* include codes from system $minsan-farmacie
+
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsNotaAifa

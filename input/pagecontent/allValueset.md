@@ -178,6 +178,14 @@
         <p>MDS - Codici delle Strutture Interne</p>
       </td>
     </tr>    
+         <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-farmacia.html" title="ValueSet/vs-mds-farmacia">MDS - Elenco Farmacie</a>
+      </td>
+      <td>
+        <p>MDS - Elenco Farmacie</p>
+      </td>
+    </tr>
     <tr>
       <td style="column-width:30%">
         <a href="ValueSet-minsan-regione.html" title="ValueSet/minsan-regione">MDS - Codici Regionali</a>

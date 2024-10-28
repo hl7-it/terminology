@@ -609,6 +609,14 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
     </tr>
     <tr>
       <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-farmacia.html" title="ValueSet/vs-mds-farmacia">MDS - Elenco Farmacie</a>
+      </td>
+      <td>
+        <p>MDS - Elenco Farmacie</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
         <a href="ValueSet-who-atc.html" title="ValueSet/who-atc">WHO ATC</a>
       </td>
       <td>
