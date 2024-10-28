@@ -49,3 +49,7 @@ Alias: $asl = https://www.hl7.it/fhir/terminology/CodeSystem/cs-asl
 Alias: $statoCivile = https://www.hl7.it/fhir/terminology/CodeSystem/istat-statoCivile
 
 Alias: $aifa-nota = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-nota
+Alias: $cs-statoEsenzione = https://www.hl7.it/fhir/terminology/CodeSystem/statoEsenzione
+Alias: $V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
+Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
+Alias: $mds-esenzione = http://hl7.it/fhir/dossier-pharma/CodeSystem/mds-esenzioni

@@ -1863,3 +1863,19 @@ INIBITORI DPP4: alogliptin - linagliptin - saxagliptin - sitagliptin - vildaglip
 ASSOCIAZIONI PRECOSTITUITE: canagliflozin/metformina - dapagliflozin/metformina - empagliflozin/metformina - empagliflozin/linagliptin - ertugliflozin/metformina - ertugliflozin/sitagliptin - saxagliptin/dapagliflozin - degludec/liraglutide - glargine/lixisenatide - alogliptin/metformina - alogliptin/pioglitazone - linagliptin/metformina - saxagliptin/metformina - sitagliptin/metformina - vildagliptin/metformina"
 * #101 "Farmaci in Nota: Anticoagulanti orali inibitori della vitamina K (AVK): warfarin - acenocumarolo
 Inibitori diretti della trombina o del fattore Xa (NAO/DOAC): dabigatran - apixaban - edoxaban - rivaroxaban"
+
+CodeSystem: CsIstatStatoCivile
+Id: istat-statoCivile
+Title: "ISTAT - Stato Civile"
+Description: "ISTAT - Stato Civile"
+* ^experimental = false
+* ^caseSensitive = true 
+
+* #1 "Celibe/Nubile"
+* #2 "Coniugato/a"
+* #3 "Vedovo/a"
+* #4 "Divorziato/a"
+* #9 "Non classificabile/ignoto/n.c"
+* #6 "Unito civilmente"
+* #7 "Stato libero a seguito di decesso della parte unita civilmente"
+* #8 "Stato libero a seguito di scioglimento dell'unione"
