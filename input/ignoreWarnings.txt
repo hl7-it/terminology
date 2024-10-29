@@ -50,3 +50,5 @@ This property has only a code ('naturaGiuridica') and not a URI, so it has no cl
 This property has only a code ('flagCapoluogo') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 This property has only a code ('ripartizioneGeografica') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 
+When a CodeSystem has content = 'complete', it doesnt make sense for there to be no concepts defined
+The link 'CodeSystem-istat-statoCivile.html#istat-statoCivile-ValueSet-istat-statoCivile-vs.46html' for "ValueSet-istat-statoCivile-vs.html" cannot be resolved (valid targets: [istat-statoCivile-und, publish-box, segment-post-footer, codesystem-istat-stato-civile, family-logo, istat-statoCivile-8, istat-statoCivile-9, top, root, stripe, istat-statoCivile-2, segment-footer, istat-statoCivile-3, istat-statoCivile-1, segment-content, istat-statoCivile-6, istat-statoCivile-7, istat-statoCivile-4, istat-statoCivile, segment-header, hcistat-statoCivile, bottom, hl7-logo, family-nav, ig-status, hl7-nav, segment-navbar, segment-breadcrumb])

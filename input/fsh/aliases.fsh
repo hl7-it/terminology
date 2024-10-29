@@ -15,7 +15,7 @@ Alias: $cs_strttureInterne = https://www.hl7.it/fhir/terminology/CodeSystem/cs-m
 Alias: $MinSanRegioni = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-regione //https://www.hl7.it/fhir/terminology/sid/minsan-regione
 Alias: $V3RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $it-V3RoleCode = https://www.hl7.it/fhir/terminology/CodeSystem/it-V3RoleCode
-
+Alias: $minsan-farmacie = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-farmacie
 Alias: $iso3166 = urn:iso:std:iso:3166
 
 Alias: $aic = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-aic
@@ -49,3 +49,7 @@ Alias: $asl = https://www.hl7.it/fhir/terminology/CodeSystem/cs-asl
 Alias: $statoCivile = https://www.hl7.it/fhir/terminology/CodeSystem/istat-statoCivile
 
 Alias: $aifa-nota = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-nota
+Alias: $cs-statoEsenzione = https://www.hl7.it/fhir/terminology/CodeSystem/statoEsenzione
+Alias: $V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
+Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
+Alias: $mds-esenzione = http://hl7.it/fhir/dossier-pharma/CodeSystem/mds-esenzioni

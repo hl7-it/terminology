@@ -857,6 +857,38 @@ Description: "MDS - Identificativi Strutture Interne di Ricovero"
 * #200906.01 "San Giovanni di Dio"
 * #200906.02 "Policlinico Monserrato"
 
+//-------------------------------------------------------------------------------------------
+CodeSystem: CsEsenzioni
+Id: mds-esenzioni
+Title: "MDS - Esenzione dal ticket"
+Description: "MDS - Codici per l'esezione dal ticket"
+* ^experimental = false
+* ^status = #active
+* ^caseSensitive = true
+
+* #E01 "Cittadini di età inferiore a 6 anni e superiore a 65 anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
+* #E02 "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
+* #E03 "Titolari di pensioni sociali e loro familiari a carico."
+* #E04 "Titolari di pensioni al minimo di età superiore a 60 anni e loro familiari a carico, appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
+* #E52  "Soggetti sottoposti a trapianto (rene, cuore, polmone, fegato, pancreas, midollo, intestino)"
+* #G01 "Invalidi di guerra appartenenti alle categorie dalla 1° alla 5° titolari di pensione diretta vitalizia e deportati in campi di sterminio (ex art.6 DM 1.2.1991)"
+* #L01 "Grandi invalidi del lavoro dall'80% al 100% di invalidità (ex art.6 DM 1.2.1991)"
+* #L02 "Invalidi del lavoro con riduzione della capacità lavorativa > 2/3 dal 67% al 79% di invalidità (ex art.6 DM 1.2.1991)"
+* #S01 "Grandi invalidi per servizio appartenenti alla 1° categoria, titolati di specifica pensione (ex art.6 DM 1.2.1991)"
+* #S02 "Invalidi per servizio appartenenti alle categorie dalla 2° alla 5° (ex art.6 DM 1.2.1991)"
+* #C01 "Invalidi civili al 100% di invalidità senza indennità di accompagnamento (ex art.6 DM 1.2.1991)"
+* #C02 "Invalidi civili al 100% di invalidità con indennità di accompagnamento (ex art.6 DM 1.2.1991)"
+* #C03 "Invalidi civili con riduzione della capacità lavorativa superiore a 2/3 dal 67% al 99% di invalidità (ex art.6 DM 1.2.1991)"
+* #C04 "Invalidi < di 18 anni con indennità di frequenza ex art. 1 L. 289/90 (ex art.5 D.lgs. 124/98)"
+* #C05 "Ciechi assoluti o con residuo visivo non superiore a 1/10 ad entrambi gli occhi riconosciuti dalla Commissione Invalidi Ciechi Civili (art.6 DM 1.2.1991)"
+* #C06 "Sordomuti (chi è colpito da sordità dalla nascita o prima dell'apprendimento della lingua parlata - art.6 DM 1.2.1991, ex art.7 L.482/68 come modificato dalla L.68/99)"
+* #V01 "Vittime atti di terrorismo e stragi e familiari (L. 206/04) /vittime dovere e familiari superstiti (D.P.R. 7 luglio 2006, n. 243)"
+* #G02 "Invalidi di guerra militari appartenenti alle categorie dalla 6° alla 8° (ex art.6 DM 1.2.1991)"
+* #L03 "Invalidi del lavoro con riduzione della capacità lavorativa fino a 2/3 dall'1% a 66% di invalidità (ex art.6 DM 1.2.1991)"
+* #L04 "Infortunati sul lavoro o affetti da malattie professionali (ex art.6 DM 1.2.1991)"
+* #S03 "Invalidi per servizio appartenenti alla categoria dalla 6° all'8° (ex art.6 DM 1.2.1991)"
+//-------------------------------------------------------------------------------------------
+
 
 // TODO CS da reperire
 
@@ -1831,3 +1863,19 @@ INIBITORI DPP4: alogliptin - linagliptin - saxagliptin - sitagliptin - vildaglip
 ASSOCIAZIONI PRECOSTITUITE: canagliflozin/metformina - dapagliflozin/metformina - empagliflozin/metformina - empagliflozin/linagliptin - ertugliflozin/metformina - ertugliflozin/sitagliptin - saxagliptin/dapagliflozin - degludec/liraglutide - glargine/lixisenatide - alogliptin/metformina - alogliptin/pioglitazone - linagliptin/metformina - saxagliptin/metformina - sitagliptin/metformina - vildagliptin/metformina"
 * #101 "Farmaci in Nota: Anticoagulanti orali inibitori della vitamina K (AVK): warfarin - acenocumarolo
 Inibitori diretti della trombina o del fattore Xa (NAO/DOAC): dabigatran - apixaban - edoxaban - rivaroxaban"
+
+CodeSystem: CsIstatStatoCivile
+Id: istat-statoCivile
+Title: "ISTAT - Stato Civile"
+Description: "ISTAT - Stato Civile"
+* ^experimental = false
+* ^caseSensitive = true 
+
+* #1 "Celibe/Nubile"
+* #2 "Coniugato/a"
+* #3 "Vedovo/a"
+* #4 "Divorziato/a"
+* #9 "Non classificabile/ignoto/n.c"
+* #6 "Unito civilmente"
+* #7 "Stato libero a seguito di decesso della parte unita civilmente"
+* #8 "Stato libero a seguito di scioglimento dell'unione"

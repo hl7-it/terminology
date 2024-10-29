@@ -256,14 +256,14 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
         <p>MDS - Tipologia Srutture di ricovero</p>
       </td>
     </tr>
-      <!-- <tr>
+      <tr>
       <td style="column-width:30%">
-        <a href="CodeSystem-minsan-esenzioni.html" title="CodeSystem/minsan-esenzioni">MDS - Esenzioni</a>
+        <a href="CodeSystem-mds-esenzioni.html" title="CodeSystem/mds-esenzioni">MDS - Esenzioni</a>
       </td>
       <td>
         <p>MDS - Esenzioni</p>
       </td>
-    </tr> -->
+    </tr>
   </tbody>
 </table>
 
@@ -545,6 +545,14 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
     </tr>
     <tr>
       <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-esenzioni.html" title="ValeSet/vs-mds-esenzioni">MDS - Esenzioni</a>
+      </td>
+      <td>
+        <p>Valueset contenente i codici esenzione</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
         <a href="ValueSet-risultato-osservazione.html" title="ValueSet/risultato-osservazione">Tipo Osservazione</a>
       </td>
       <td>
@@ -597,6 +605,14 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
       </td>
       <td>
         <p>Tipo di organizzazione socio-sanitaria</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-farmacia.html" title="ValueSet/vs-mds-farmacia">MDS - Elenco Farmacie</a>
+      </td>
+      <td>
+        <p>MDS - Elenco Farmacie</p>
       </td>
     </tr>
     <tr>

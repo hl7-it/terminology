@@ -178,6 +178,14 @@
         <p>MDS - Codici delle Strutture Interne</p>
       </td>
     </tr>    
+         <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-farmacia.html" title="ValueSet/vs-mds-farmacia">MDS - Elenco Farmacie</a>
+      </td>
+      <td>
+        <p>MDS - Elenco Farmacie</p>
+      </td>
+    </tr>
     <tr>
       <td style="column-width:30%">
         <a href="ValueSet-minsan-regione.html" title="ValueSet/minsan-regione">MDS - Codici Regionali</a>
@@ -296,6 +304,14 @@
       </td>
       <td>
         <p>Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG ‘DOCUMENTO DI ESENZIONE’</p>
+      </td>
+    </tr>
+     <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-esenzioni.html" title="ValeSet/vs-mds-esenzioni">MDS - Esenzioni</a>
+      </td>
+      <td>
+        <p>Valueset contenente i codici esenzione</p>
       </td>
     </tr>
     <tr>
