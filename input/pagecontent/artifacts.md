@@ -551,6 +551,22 @@ Questa pagina fornisce un elenco degli artefatti FHIR definiti in questa Impleme
         <p>Valueset contenente i codici esenzione</p>
       </td>
     </tr>
+        <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-aifa-ge.html" title="ValueSet/aifa-ge"> AIFA Gruppo di Equivalenza</a>
+      </td>
+      <td>
+        <p> AIFA - ValueSet gruppo di equivalenza </p>
+      </td>
+    </tr>
+     <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-V3RoleCode.html" title="ValueSet/vs-V3RoleCode"> HL7 Italia - HL7 V3 RoleCode (estensione)</a>
+      </td>
+      <td>
+        <p>ValueSet - estensione del Vocabolario HL7 V3 RoleCode</p>
+      </td>
+    </tr>
     <tr>
       <td style="column-width:30%">
         <a href="ValueSet-risultato-osservazione.html" title="ValueSet/risultato-osservazione">Tipo Osservazione</a>

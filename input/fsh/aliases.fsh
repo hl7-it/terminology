@@ -19,7 +19,7 @@ Alias: $minsan-farmacie = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-
 Alias: $iso3166 = urn:iso:std:iso:3166
 
 Alias: $aic = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-aic
-Alias: $gruppo-equivalenza = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-ge
+Alias: $gruppo-equivalenza = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-gruppo-equivalenza
 Alias: $aifa-nota = https://www.hl7.it/fhir/terminology/CodeSystem/aifa-nota
 
 Alias: $atc = http://www.whocc.no/atc
