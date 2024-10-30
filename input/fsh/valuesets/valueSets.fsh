@@ -35,16 +35,6 @@ Description: "Sistema di classificazione anatomico, terapeutico e chimico per la
 * codes from system $atc
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// ValueSet: VsGruppoEquivalenza
-// Id: aifa-ge
-// Title: "AIFA Gruppo di Equivalenza"
-// Description: "AIFA Gruppo di Equivalenza"
-// -------------------------------------------------------------------------------------------
-// * ^experimental = false
-
-// * codes from system $gruppo-equivalenza
-
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsStrutturePubbliche
 Id: strutturePubbliche
 Title: "Ministero della Salute - Codici strutture di ricovero pubbliche"
@@ -854,3 +844,22 @@ Description: "Indicazioni terapeutiche per un determinato farmaco rimborsabile d
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
 * codes from system $aifa-nota
+
+//======================================================
+ValueSet: VsItRoleCode
+Id: vs-V3RoleCode
+Title: "HL7 Italia - HL7 V3 RoleCode (estensione)"
+Description: "ValueSet - estensione del Vocabolario HL7 V3 RoleCode"
+//-------------------------------------------------------------------------------------------
+* ^experimental = false
+* codes from system CsItRoleCode
+
+//======================================================
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsGruppoEquivalenza
+Id: aifa-ge
+Title: "AIFA Gruppo di Equivalenza"
+Description: "AIFA - ValueSet Gruppo di Equivalenza"
+* ^experimental = false
+* codes from system $gruppo-equivalenza
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
