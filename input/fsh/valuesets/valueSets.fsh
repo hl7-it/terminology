@@ -4,7 +4,10 @@ Id: who-icd9cm
 Title: "WHO ICD-9-CM"
 Description: "WHO ICD-9-CM"
 * ^experimental = false
-//-------------------------------------------------------------------------------------------
+
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.6.103"
+
 * codes from system $icd-9-cm
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -41,7 +44,8 @@ Title: "Ministero della Salute - Codici strutture di ricovero pubbliche"
 Description: "Ministero della Salute - Codici strutture di ricovero pubbliche"
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
-* include codes from system $strutturePub where tipoStruttura = #0
+* include codes from system $strutturePub where naturaGiuridica = #Pubblico
+
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -209,8 +213,9 @@ Title: "ISTAT - Titolo Studio"
 Description: "Classificazione dei titoli di studio italiani"
 * ^experimental = false
 
-//-------------------------------------------------------------------------------------------
+
 * codes from system $CS_TitoloStudioIstat
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsIstatProfessionePaziente
@@ -308,6 +313,7 @@ Id: minsan-idStrutture
 Title: "Ministero della Salute - ID Strutture Ricovero"
 Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11)"
 * ^experimental = false
+
 //----------------------------------------
 * codes from system $UriHsp
 
@@ -318,6 +324,7 @@ Id: minsan-idAziendeOspedaliere
 Title: "Ministero della Salute - ID Aziende Ospedaliere"
 Description: "Ministero della Salute - Aziende Ospedaliere (HSP11)"
 * ^experimental = false
+
 //----------------------------------------
 * $UriHsp#010906 "AZ. OSPEDAL. S. CROCE E CARLE"
 * $UriHsp#010907 "AZ. SS.ANTONIO E BIAGIO E C.ARRIGO"
@@ -362,7 +369,7 @@ Description: "Ministero della Salute - Aziende Ospedaliere (HSP11)"
 * $UriHsp#150907 "A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA"
 * $UriHsp#170901 "AZIENDA OSPEDALIERA REGIONALE 'S. CARLO'"
 * $UriHsp#180912 "AZIENDA OSPEDALIERA DI COSENZA"
-* $UriHsp#180913 "Azienda Ospedaliera Pugliese De Lellis"
+// * $UriHsp#180913 "Azienda Ospedaliera Pugliese De Lellis"
 * $UriHsp#180914 "A.O. MATER DOMINI CATANZARO"
 * $UriHsp#180915 "Azienda Osp.  Bianchi-Melacrino-Morelli"
 * $UriHsp#190921 "A.O. per l'Emergenza Cannizzaro"
@@ -379,24 +386,25 @@ Id: minsan-idAou
 Title: "Ministero della Salute - ID Aziende Ospedaliere Universitarie"
 Description: "Ministero della Salute - Azienda Ospedaliera integrata con l'Università (HSP11)"
 //----------------------------------------
-// * codes from system $UriHsp where type = "2.2"
+* codes from system $UriHsp where tipoStruttura = "2.2"
 * ^experimental = false
-* $UriHsp#010904 "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
-* $UriHsp#010905 "AZIENDA OSPED. NOVARA E GALLIATE"
-* $UriHsp#010909 "AOU CITTA' DELLA SALUTE E DELLA SCIENZA"
-* $UriHsp#050912 "AZ.OSP.UNIVERSITARIA INTEGRATA VERONA"
-* $UriHsp#080902 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR"
-* $UriHsp#080904 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD"
-* $UriHsp#080908 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL"
-* $UriHsp#080909 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER"
-* $UriHsp#090901 "AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA"
-* $UriHsp#090902 "AZIENDA OSPEDALIERA UNIVERSITARIA SENESE"
-* $UriHsp#090903 "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
-* $UriHsp#090904 "AZIENDA OSPEDALIERA MEYER"
-* $UriHsp#120919 "AZIENDA OSPEDALIERA SANT`ANDREA"
-* $UriHsp#120920 "AZ. OSP. UNIV. POLICLINICO TOR VERGATA"
-* $UriHsp#150904 "A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR"
-* $UriHsp#160910 "AO UNIV. 'OO RR FOGGIA'"
+
+// * $UriHsp#010904 "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
+// * $UriHsp#010905 "AZIENDA OSPED. NOVARA E GALLIATE"
+// * $UriHsp#010909 "AOU CITTA' DELLA SALUTE E DELLA SCIENZA"
+// * $UriHsp#050912 "AZ.OSP.UNIVERSITARIA INTEGRATA VERONA"
+// * $UriHsp#080902 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR"
+// * $UriHsp#080904 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD"
+// * $UriHsp#080908 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL"
+// * $UriHsp#080909 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER"
+// * $UriHsp#090901 "AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA"
+// * $UriHsp#090902 "AZIENDA OSPEDALIERA UNIVERSITARIA SENESE"
+// * $UriHsp#090903 "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
+// * $UriHsp#090904 "AZIENDA OSPEDALIERA MEYER"
+// * $UriHsp#120919 "AZIENDA OSPEDALIERA SANT`ANDREA"
+// // * $UriHsp#120920 "AZ. OSP. UNIV. POLICLINICO TOR VERGATA"
+// * $UriHsp#150904 "A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR"
+// * $UriHsp#160910 "AO UNIV. 'OO RR FOGGIA'"
 
 
 ValueSet: VsIstatStatoCivile
@@ -408,16 +416,6 @@ Description: "ISTAT - Stato Civile"
 * ^status = #active
 * include codes from  system $statoCivile
 
-ValueSet: VsAsl
-Id: mds-asl-vs
-Title: "MDS - ASL"
-Description: "MDS - ASL"
-//-------------------------------------------------------------------------------------------
-* ^experimental = false
-* ^status = #active
-* include codes from  system $asl
-
-
 
 //----------------------------------------
 ValueSet: VsMinisteroSaluteIdStruttureInterne
@@ -427,393 +425,16 @@ Description: "Ministero della Salute - Identificativi Strutture Interne di Ricov
 //-------------------------------------------------------------------------------------------
 * ^experimental = false
 * ^status = #active
+* include codes from system $cs_strttureInterne
 
-* $cs_strttureInterne#010030.01 "OSPEDALE CIVILE E.AGNELLI"
-* $cs_strttureInterne#010030.03 "OSPEDALE DI POMARETTO"
-* $cs_strttureInterne#010079.01 "OSPEDALE DEGLI INFERMI"
-* $cs_strttureInterne#010079.02 "OSPEDALE CIVILE DI GIAVENO"
-* $cs_strttureInterne#010079.04 "OSPEDALE CIVILE DI SUSA"
-* $cs_strttureInterne#010079.05 "OSPEDALE DI VENARIA"
-* $cs_strttureInterne#010079.06 "UNITA' AUTONOMA DI DAY SURGERY DI AVIGLI"
-* $cs_strttureInterne#010019.01 "PRESIDIO OSPED. RIUNITO SEDE DI CIRIE'"
-* $cs_strttureInterne#010019.03 "PRESIDIO OSPED. RIUNITO SEDE DI LANZO"
-* $cs_strttureInterne#010023.01 "OSPEDALE CIVILE DI IVREA"
-* $cs_strttureInterne#010023.02 "OSPEDALE CIVILE DI CUORGNE'"
-* $cs_strttureInterne#010023.04 "SAAPA S.P.A."
-* $cs_strttureInterne#010004.01 "OSPEDALE MAGGIORE"
-* $cs_strttureInterne#010004.02 "OSPEDALE SANTA CROCE"
-* $cs_strttureInterne#010004.03 "OSPEDALE SAN LORENZO"
-* $cs_strttureInterne#010004.04 "DAY SURGERY DEL DISTRETTO DI NICHELINO"
-* $cs_strttureInterne#010009.01 "OSPEDALE SANT'ANDREA"
-* $cs_strttureInterne#010009.02 "OSPEDALE SS.PIETRO E PAOLO"
-* $cs_strttureInterne#010005.01 "OSPEDALE SAN BIAGIO"
-* $cs_strttureInterne#010005.02 "STABILIMENTO OSPEDALIERO CASTELLI"
-* $cs_strttureInterne#010005.03 "C.O.Q. OSPEDALE MADONNA DEL POPOLO"
-* $cs_strttureInterne#010124.01 "OSPEDALE DI MONDOVI' CN1"
-* $cs_strttureInterne#010124.02 "NUOVO OSPEDALE DI CEVA CN1"
-* $cs_strttureInterne#010126.01 "OSP. MAGGIORE SS. ANNUNZIATA SAVIGLIANO"
-* $cs_strttureInterne#010126.02 "OSP. CIVILE DI SALUZZO CN1"
-* $cs_strttureInterne#010120.01 "OSPEDALE SAN LAZZARO - ALBA"
-* $cs_strttureInterne#010120.02 "OSPEDALE SANTO SPIRITO BRA"
-* $cs_strttureInterne#010008.01 "PRESIDIO OSP. CARDINAL G. MASSAIA"
-* $cs_strttureInterne#010008.02 "PRESIDIO OSPEDALIERO S. SPIRITO-VALLE BE"
-* $cs_strttureInterne#010026.01 "OSPEDALE SANTO SPIRITO CASALE"
-* $cs_strttureInterne#010026.03 "OSPEDALE SS. ANTONIO E MARGHERITA TORTON"
-* $cs_strttureInterne#010026.04 "OSPEDALE SAN GIACOMO NOVI"
-* $cs_strttureInterne#010026.05 "OSPEDALE CIVILE ACQUI"
-* $cs_strttureInterne#010026.06 "OSPEDALE CIVILE OVADA"
-* $cs_strttureInterne#010905.01 "OSP. MAGGIORE DELLA CARITA'"
-* $cs_strttureInterne#010905.02 "OSPEDALE SAN ROCCO GALLIATE"
-* $cs_strttureInterne#010907.01 "OSP.CIVILE SS.ANTONIO E BIAGIO"
-* $cs_strttureInterne#010907.02 "OSP. INFANTILE C.ARRIGO"
-* $cs_strttureInterne#010907.03 "CENTRO RIABILITATIVO POLIFUNZIONALE T.BO"
-* $cs_strttureInterne#010909.01 "OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE"
-* $cs_strttureInterne#010909.02 "OSPEDALE DERMATOLOGICO SAN LAZZARO"
-* $cs_strttureInterne#010909.04 "OSPEDALE CENTRO TRAUMATOLOGICO ORTOPEDIC"
-* $cs_strttureInterne#010909.05 "ISTITUTO CHIRURGICO ORTOPEDICO REGINA MA"
-* $cs_strttureInterne#010909.06 "OSPEDALE OSTETRICO GINECOLOGICO SANT'ANN"
-* $cs_strttureInterne#010909.07 "OSPEDALE INFANTANTILE REGINA MARGHERITA"
-* $cs_strttureInterne#030281.01 "OSPEDALE DI LEGNANO E CUGGIONO-LEGNANO"
-* $cs_strttureInterne#030281.02 "OSPEDALE DI LEGNANO E CUGGIONO-LEGNANO"
-* $cs_strttureInterne#030071.01 "OSPEDALE S. MARIA DELLE STELLE MELZO"
-* $cs_strttureInterne#030071.02 "OSPEDALE S. MARIA DELLE STELLE MELZO"
-* $cs_strttureInterne#030072.01 "OSPEDALE DI  VIZZOLO PREDABISSI"
-* $cs_strttureInterne#030072.02 "OSPEDALE DI  VIZZOLO PREDABISSI"
-* $cs_strttureInterne#030085.01 "OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO"
-* $cs_strttureInterne#030085.02 "OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO"
-* $cs_strttureInterne#030282.01 "PRESIDIO OSPEDALIERO DEL VERBANO"
-* $cs_strttureInterne#030282.02 "PRESIDIO OSPEDALIERO DEL VERBANO"
-* $cs_strttureInterne#030901.01 "PRESIDIO OSPEDALIERO DI VARESE"
-* $cs_strttureInterne#030901.02 "PRESIDIO OSPEDALIERO DI VARESE"
-* $cs_strttureInterne#030901.03 "PRESIDIO OSPEDALIERO DI VARESE"
-* $cs_strttureInterne#030274.01 "OSPEDALE VALCAMONICA - ESINE"
-* $cs_strttureInterne#030274.02 "OSPEDALE VALCAMONICA - ESINE"
-* $cs_strttureInterne#030154.01 "PRESIDIO OSPEDALIERO DI CHIARI"
-* $cs_strttureInterne#030154.02 "PRESIDIO OSPEDALIERO DI CHIARI"
-* $cs_strttureInterne#030227.01 "PRESIDIO OSPEDALIERO - ASOLA"
-* $cs_strttureInterne#030227.02 "PRESIDIO OSPEDALIERO - ASOLA"
-* $cs_strttureInterne#030936.01 "IST.AUXOLOGICO ITALIANO-I.S. S.LUCA-MILA"
-* $cs_strttureInterne#030936.02 "IST.AUXOLOGICO ITAL.-I.S. S.MICHELE-MILA"
-* $cs_strttureInterne#030936.03 "IRCCS OSPEDALE CAPITANIO"
-* $cs_strttureInterne#042001.01 "PRESIDIO OSPEDALIERO S. CHIARA"
-* $cs_strttureInterne#042001.03 "PRESIDIO OSPEDALIERO VILLA ROSA"
-* $cs_strttureInterne#042001.04 "PRESIDIO OSPEDALIERO VILLA IGEA"
-* $cs_strttureInterne#050201.01 "OSPEDALE S. MARTINO BELLUNO"
-* $cs_strttureInterne#050201.03 "OSPEDALE DI AGORDO"
-* $cs_strttureInterne#050201.04 "OSPEDALE DI PIEVE DI CADORE"
-* $cs_strttureInterne#050202.01 "OSPEDALE DI FELTRE 'S. MARIA DEL PRATO'"
-* $cs_strttureInterne#050202.02 "OSPEDALE DI LAMON 'CASA CHARITAS'"
-* $cs_strttureInterne#050203.01 "OSPEDALE `SAN BASSIANO` DI BASSANO D.G."
-* $cs_strttureInterne#050203.02 "OSPEDALE DI ASIAGO"
-* $cs_strttureInterne#050205.01 "OSPEDALE DI ARZIGNANO"
-* $cs_strttureInterne#050205.02 "OSPEDALE  DI LONIGO"
-* $cs_strttureInterne#050205.03 "OSPEDALE DI MONTECCHIO"
-* $cs_strttureInterne#050205.04 "OSPEDALE DI VALDAGNO"
-* $cs_strttureInterne#050206.01 "PRES. OSPED. VICENZA"
-* $cs_strttureInterne#050206.02 "PRES. OSP.  NOVENTA VICENTINA"
-* $cs_strttureInterne#050140.01 "ASSOCIAZIONE LA NS. FAMIGLIA IRCSS MEDEA"
-* $cs_strttureInterne#050140.02 "ASSOCIAZIONE LA NS.FAMIGLIA IRCSS MEDEA"
-* $cs_strttureInterne#050207.01 "OSPEDALE DI CONEGLIANO"
-* $cs_strttureInterne#050207.02 "OSPEDALE DI VITTORIO VENETO"
-* $cs_strttureInterne#050208.01 "OSPEDALE DI CASTELFRANCO VENETO"
-* $cs_strttureInterne#050208.02 "OSPEDALE DI MONTEBELLUNA"
-* $cs_strttureInterne#050209.01 "OSPEDALE CA' FONCELLO"
-* $cs_strttureInterne#050209.02 "OSPEDALE DI ODERZO"
-* $cs_strttureInterne#050210.01 "PRESIDIO OSPEDALIERO DI PORTOGRUARO"
-* $cs_strttureInterne#050210.02 "PRESIDIO OSPEDALIERO DI SAN DONA` DI P."
-* $cs_strttureInterne#050210.03 "PRESIDIO OSPEDALIERO DI JESOLO"
-* $cs_strttureInterne#050212.01 "OSPEDALE CIVILE VENEZIA"
-* $cs_strttureInterne#050212.02 "PUNTO PRIMO INTERVENTO LIDO"
-* $cs_strttureInterne#050212.04 "OSPEDALE DELL'ANGELO"
-* $cs_strttureInterne#050213.01 "OSPEDALE  DI DOLO"
-* $cs_strttureInterne#050213.02 "OSPEDALE  DI MIRANO"
-* $cs_strttureInterne#050213.03 "OSPEDALE DI NOALE"
-* $cs_strttureInterne#050215.01 "PRESIDIO OSPEDALIERO DI CAMPOSAMPIERO"
-* $cs_strttureInterne#050215.02 "PRESIDIO OSPEDALIERO DI CITTADELLA"
-* $cs_strttureInterne#050216.01 "OSPEDALE SANT`ANTONIO"
-* $cs_strttureInterne#050216.05 "OSP. IMMACOL. CONCEZ. DI PIOVE DI SACCO"
-* $cs_strttureInterne#050217.03 "SEDE MONTAGNANA"
-* $cs_strttureInterne#050217.04 "SEDE CONSELVE"
-* $cs_strttureInterne#050217.05 "OSPEDALI RIUNITI PADOVA SUD"
-* $cs_strttureInterne#050218.01 "P.O. DI ROVIGO"
-* $cs_strttureInterne#050218.02 "P.O. DI TRECENTA"
-* $cs_strttureInterne#050220.04 "PRESIDIO OSP. MARZANA"
-* $cs_strttureInterne#050220.05 "POLO OSP. DELL'EST VERONESE"
-* $cs_strttureInterne#050220.06 "PSICHIATRIA SEZIONE B.GO TRENTO - VERONA"
-* $cs_strttureInterne#050221.01 "OSPEDALE PER ACUTI"
-* $cs_strttureInterne#050221.03 "OSPEDALE S.BIAGIO BOVOLONE"
-* $cs_strttureInterne#050222.01 "OSPEDALE CIVILE ORLANDI BUSSOLENGO"
-* $cs_strttureInterne#050222.02 "OSPEDALE ISOLA DELLA SCALA"
-* $cs_strttureInterne#050222.04 "OSPEDALE DI MALCESINE"
-* $cs_strttureInterne#050222.05 "OSPEDALE MAGALINI - VILLAFRANCA DI VR"
-* $cs_strttureInterne#050912.01 "OSPEDALE CIVILE MAGGIORE"
-* $cs_strttureInterne#050912.02 "OSPEDALE POLICLINICO"
-* $cs_strttureInterne#060043.01 "PO Gorizia e Monfalcone sede Gorizia"
-* $cs_strttureInterne#060043.02 "PO Gorizia e Monfalcone sede Monfalcone"
-* $cs_strttureInterne#060044.01 "PO Latisana e Palmanova sede Latisana"
-* $cs_strttureInterne#060044.02 "PO Latisana e Palmanova sede Palmanova"
-* $cs_strttureInterne#060045.01 "Sede di San Daniele"
-* $cs_strttureInterne#060045.02 "Sede di Tolmezzo"
-* $cs_strttureInterne#060045.03 "Sede di Gemona"
-* $cs_strttureInterne#060047.01 "PRESIDIO OSPEDALIERO SMM - SEDE UDINE"
-* $cs_strttureInterne#060047.02 "PRESIDIO OSPEDAL. SMM - SEDE CIVIDALE"
-* $cs_strttureInterne#060042.01 "P.O. San Vito al T. sede di S. Vito al T"
-* $cs_strttureInterne#060042.02 "P.O. San Vito al T. sede di Spilimbergo"
-* $cs_strttureInterne#070001.01 "STABILIMENTO OSPEDALIERO DI IMPERIA"
-* $cs_strttureInterne#070001.02 "STABILIMENTO OSPEDALIERO DI SANREMO"
-* $cs_strttureInterne#070001.03 "STABILIMENTO OSPEDALIERO DI BORDIGHERA"
-* $cs_strttureInterne#070211.01 "OSPEDALE SANTA MARIA MISERICORDIA"
-* $cs_strttureInterne#070211.02 "OSPEDALE SANTA CORONA"
-* $cs_strttureInterne#070212.03 "OSPEDALE SAN GIUSEPPE"
-* $cs_strttureInterne#070212.04 "OSPEDALE SAN PAOLO"
-* $cs_strttureInterne#070051.01 "EVANGELICO Internazionale CASTELLETTO"
-* $cs_strttureInterne#070051.02 "EVANGELICO-SAN CARLO VOLTRI"
-* $cs_strttureInterne#070301.01 "OSPEDALE LA COLLETTA ARENZANO"
-* $cs_strttureInterne#070301.03 "OSPEDALE PADRE ANTERO MICONE SESTRI P."
-* $cs_strttureInterne#070301.04 "OSPEDALE VILLA SCASSI"
-* $cs_strttureInterne#070301.05 "OSPEDALE GALLINO"
-* $cs_strttureInterne#070039.01 "OSP. RIUNITI LEONARDI E RIBOLI LAVAGNA"
-* $cs_strttureInterne#070039.02 "OSPEDALE CIVILE DI SESTRI LEVANTE"
-* $cs_strttureInterne#070039.05 "OSPEDALE N.S. DI MONTALLEGRO"
-* $cs_strttureInterne#070058.01 "OSPEDALE SANT`ANDREA LA SPEZIA"
-* $cs_strttureInterne#070058.03 "OSPEDALE SAN NICOLO` LEVANTO"
-* $cs_strttureInterne#070058.04 "STABILIMENTO SAN BARTOLOMEO DI SARZANA"
-* $cs_strttureInterne#080004.01 "OSPEDALE GUGLIELMO DA SALICETO PIACENZA"
-* $cs_strttureInterne#080004.02 "OSPEDALE BOBBIO"
-* $cs_strttureInterne#080004.03 "OSPEDALE CASTEL SAN GIOVANNI"
-* $cs_strttureInterne#080004.04 "OSPEDALE BORGONOVO VAL TIDONE"
-* $cs_strttureInterne#080004.05 "OSPEDALE FIORENZUOLA D'ARDA"
-* $cs_strttureInterne#080004.06 "CENTRO DI RECUPERO E RIABILITAZIONE FUNZ"
-* $cs_strttureInterne#080013.01 "OSPEDALE FIDENZA"
-* $cs_strttureInterne#080013.03 "OSPEDALE 'S.MARIA' BORGO VAL DI TARO"
-* $cs_strttureInterne#080021.01 "OSPEDALE CIVILE GUASTALLA"
-* $cs_strttureInterne#080021.02 "OSPEDALE S.SEBASTIANO CORREGGIO"
-* $cs_strttureInterne#080021.03 "OSPEDALE E.FRANCHINI MONTECCHIO"
-* $cs_strttureInterne#080021.04 "OSPEDALE G.MAGATI SCANDIANO"
-* $cs_strttureInterne#080021.05 "OSPEDALE S.ANNA CASTELNOVO NE MONTI"
-* $cs_strttureInterne#080031.04 "OSPEDALE B. RAMAZZINI  CARPI"
-* $cs_strttureInterne#080031.05 "OSPEDALE SANTA MARIA BIANCA  MIRANDOLA"
-* $cs_strttureInterne#080031.08 "OSPEDALE VIGNOLA"
-* $cs_strttureInterne#080031.09 "OSPEDALE PAVULLO NEL FRIGNANO"
-* $cs_strttureInterne#080031.10 "NUOVO OSPEDALE CIVILE  S.AGOSTINO - ESTE"
-* $cs_strttureInterne#080053.01 "OSPEDALE MAGGIORE C.A. PIZZARDI"
-* $cs_strttureInterne#080053.02 "OSPEDALE BELLARIA"
-* $cs_strttureInterne#080053.03 "OSPEDALE DOSSETTI  BAZZANO"
-* $cs_strttureInterne#080053.04 "OSPEDALE A. COSTA PORRETTA TERME (ALTO"
-* $cs_strttureInterne#080053.05 "OSPEDALE VERGATO"
-* $cs_strttureInterne#080053.06 "OSPEDALE SIMIANI LOIANO"
-* $cs_strttureInterne#080053.07 "OSPEDALE BENTIVOGLIO"
-* $cs_strttureInterne#080053.08 "OSPEDALE BUDRIO"
-* $cs_strttureInterne#080053.09 "OSPEDALE S.SALVATORE  S. GIOVANNI IN P"
-* $cs_strttureInterne#080044.01 "OSPEDALE CIVILE NUOVO S.MARIA DELLA SCA"
-* $cs_strttureInterne#080044.02 "OSPEDALE CASTEL SAN PIETRO TERME"
-* $cs_strttureInterne#080068.03 "OSPEDALE DEL DELTA"
-* $cs_strttureInterne#080068.04 "OSPEDALE MAZZOLANI VANDINI ARGENTA"
-* $cs_strttureInterne#080068.06 "STABILIMENTO OSPEDALIERO SS. ANNUNZIATA"
-* $cs_strttureInterne#080085.01 "OSPEDALE MORGAGNI-PIERANTONI FORLI'"
-* $cs_strttureInterne#080085.03 "OSPEDALE NEFETTI SANTA SOFIA"
-* $cs_strttureInterne#080091.01 "OSPEDALE MAURIZIO BUFALINI CESENA"
-* $cs_strttureInterne#080091.02 "OSPEDALE GINESIO MARCONI CESENATICO"
-* $cs_strttureInterne#080091.03 "OSPEDALE PIETRO ANGIOLONI BAGNO DI ROM"
-* $cs_strttureInterne#080095.01 "OSPEDALE INFERMI RIMINI"
-* $cs_strttureInterne#080095.02 "OSPEDALE FRANCHINI SANTARCANGELO DI RO"
-* $cs_strttureInterne#080095.03 "OSPEDALE SACRA FAMIGLIA NOVAFELTRIA"
-* $cs_strttureInterne#080100.01 "OSPEDALE CECCARINI RICCIONE"
-* $cs_strttureInterne#080100.02 "OSPEDALE CERVESI CATTOLICA"
-* $cs_strttureInterne#080903.01 "AZIENDA OSPEDALIERA DI REGGIO EMILIA-S."
-* $cs_strttureInterne#080903.02 "AZIENDA OSPEDALIERA DI REGGIO EMILIA - I"
-* $cs_strttureInterne#090606.01 "OSPEDALE SAN JACOPO"
-* $cs_strttureInterne#090606.02 "OSPEDALE LORENZO PACINI"
-* $cs_strttureInterne#090629.01 "OSPEDALE S.M.ANNUNZIATA"
-* $cs_strttureInterne#090629.02 "OSPEDALE SERRISTORI"
-* $cs_strttureInterne#090632.01 "SANTA MARIA NUOVA"
-* $cs_strttureInterne#090632.02 "ISTITUTO ORTOPEDICO TOSCANO"
-* $cs_strttureInterne#090632.03 "OSP. S. GIOVANNI DI DIO TORREGALLI"
-* $cs_strttureInterne#090632.06 "OBLATE AZIENDA SANITARIA FIRENZE"
-* $cs_strttureInterne#090642.02 "OSPEDALE S. GIUSEPPE"
-* $cs_strttureInterne#090642.03 "OSPEDALE SAN PIETRO IGNEO"
-* $cs_strttureInterne#090642.04 "OSPEDALE DEGLI INFERMI"
-* $cs_strttureInterne#090601.01 "OSP. S. ANTONIO ABATE FIVIZZANO   (MS)"
-* $cs_strttureInterne#090601.02 "OSP. CIV. S.ANTONIO  PONTREMOLI (MS)"
-* $cs_strttureInterne#090602.01 "STABILIMENTO OSPEDALIERO DI CARRARA"
-* $cs_strttureInterne#090602.03 "OSPEDALE  DELLE APUANE"
-* $cs_strttureInterne#090603.01 "OSPEDALE SANTA CROCE"
-* $cs_strttureInterne#090603.02 "OSPEDALE SAN FRANCESCO"
-* $cs_strttureInterne#090610.01 "P.O. F. LOTTI STABILIMENTO DI PONTEDERA"
-* $cs_strttureInterne#090610.02 "SPDC AZIENDALE ASL5"
-* $cs_strttureInterne#090236.01 "CASA DI CURA POGGIO DEL SOLE"
-* $cs_strttureInterne#090236.02 "CENTRO CHIRURGICO TOSCANO SRL"
-* $cs_strttureInterne#090624.02 "OSPEDALE DI ORBETELLO"
-* $cs_strttureInterne#090624.03 "OSPEDALE DI PITIGLIANO"
-* $cs_strttureInterne#090907.01 "FONDAZIONE CNR-RT G. MONASTERIO"
-* $cs_strttureInterne#090907.02 "OSPEDALE DEL CUORE G. PASQUINUCCI"
-* $cs_strttureInterne#100801.01 "OSPEDALE DI CITTA` DI CASTELLO"
-* $cs_strttureInterne#100801.02 "OSPEDALE DI UMBERTIDE"
-* $cs_strttureInterne#100803.01 "STAB.OSPEDALIERO CASTIGLIONE DEL LAGO"
-* $cs_strttureInterne#100803.02 "STAB.OSPEDALIERO CITTA`DELLA PIEVE"
-* $cs_strttureInterne#100803.03 "C.O.R.I. - PASSIGNANO"
-* $cs_strttureInterne#100803.04 "STAB. OSPEDALIERO ASSISI"
-* $cs_strttureInterne#100803.07 "STAB. OSPEDALIERO MEDIA VALLE DEL TEVERE"
-* $cs_strttureInterne#100805.01 "OSPEDALE CIVILE SAN MATTEO DEGLI INFERMI"
-* $cs_strttureInterne#100805.02 "OSPEDALE CIVILE DI NORCIA"
-* $cs_strttureInterne#100805.03 "OSPEDALE S.RITA CASCIA"
-* $cs_strttureInterne#100807.01 "STABILIMENTO OSPEDALIERO DI NARNI"
-* $cs_strttureInterne#100807.02 "STABILIMENTO OSPEDALIERO DI AMELIA"
-* $cs_strttureInterne#100807.03 "DOMUS GRATIAE"
-* $cs_strttureInterne#100809.01 "OSPEDALE SAN GIOVANNI BATTISTA FOLIGNO"
-* $cs_strttureInterne#100809.02 "STABILIMENTO DI TREVI"
-* $cs_strttureInterne#110001.01 "OSP S. MARIA DELLA MISERICORDIA - URBINO"
-* $cs_strttureInterne#110001.02 "OSPEDALE SS DONNINO E CARLO - PERGOLA"
-* $cs_strttureInterne#110001.03 "OSPEDALE CELLI - CAGLI"
-* $cs_strttureInterne#110001.04 "OSPEDALE LANCIARINI - SASSOCORVARO"
-* $cs_strttureInterne#110001.05 "OSPEDALE CIVILE - FOSSOMBRONE"
-* $cs_strttureInterne#110002.01 "PRESIDIO OSPEDALIERO ZT 4 - SENIGALLIA"
-* $cs_strttureInterne#110002.02 "OSPEDALE CARLO URBANI DI JESI"
-* $cs_strttureInterne#110002.03 "OSP. SS. BENVENUTO E ROCCO - OSIMO"
-* $cs_strttureInterne#110002.04 "OSPEDALE CIVILE 'E.PROFILI' - FABRIANO"
-* $cs_strttureInterne#110002.05 "OSPEDALE SANTA CASA - LORETO"
-* $cs_strttureInterne#110002.06 "OSPEDALE GENERALE DI ZONA - CINGOLI"
-* $cs_strttureInterne#110003.01 "OSPEDALE GENERALE DI ZONA - CIVITANOVA"
-* $cs_strttureInterne#110003.02 "OSPEDALE GENERALE PROVINCIALE - MACERATA"
-* $cs_strttureInterne#110003.03 "OSPEDALE S.MARIA DELLA PIETA` - CAMERINO"
-* $cs_strttureInterne#110003.04 "OSPEDALE B.EUSTACCHIO - S. SEVERINO M."
-* $cs_strttureInterne#110003.05 "OSPEDALE DI TREIA"
-* $cs_strttureInterne#110003.06 "OSPEDALE DI TOLENTINO"
-* $cs_strttureInterne#110003.07 "OSPEDALE CIVILE SANTA LUCIA - RECANATI"
-* $cs_strttureInterne#110003.08 "OSPEDALE S.SOLLECITO - MATELICA"
-* $cs_strttureInterne#110004.01 "OSPEDALE DI FERMO"
-* $cs_strttureInterne#110004.02 "OSPEDALE VITTORIO EMANUELE II - AMANDOLA"
-* $cs_strttureInterne#110005.01 "MADONNA DEL SOCCORSO - S.BENEDETTO"
-* $cs_strttureInterne#110005.02 "OSP. GEN."
-* $cs_strttureInterne#110901.01 "OSPEDALE SAN SALVATORE - PESARO"
-* $cs_strttureInterne#110901.02 "OSPEDALE SANTA CROCE - FANO"
-* $cs_strttureInterne#110905.01 "PRESIDIO OSPEDALIERO UMBERTO I°"
-* $cs_strttureInterne#110905.02 "PRESIDIO OSPEDALIERO G.M.LANCISI"
-* $cs_strttureInterne#110905.03 "PRESIDIO OSPEDALIERO G.SALESI"
-* $cs_strttureInterne#110921.01 "OSPEDALE INRCA - ANCONA"
-* $cs_strttureInterne#110921.02 "OSPEDALE INRCA - FERMO"
-* $cs_strttureInterne#120204.01 "ALFREDO FIORINI TERRACINA"
-* $cs_strttureInterne#120204.02 "SAN GIOVANNI DI DIO FONDI"
-* $cs_strttureInterne#120204.03 "REGINA ELENA PRIVERNO"
-* $cs_strttureInterne#120026.01 "OSPEDALE SANTO SPIRITO"
-* $cs_strttureInterne#120026.02 "VILLA BETANIA"
-* $cs_strttureInterne#120285.01 "PRESIDIO SAN FILIPPO NERI"
-* $cs_strttureInterne#120285.03 "PRESIDIO CASSIA SANT'ANDREA"
-* $cs_strttureInterne#120285.05 "SALUS INFIRMORUM"
-* $cs_strttureInterne#120066.01 "OSPEDALE S.EUGENIO"
-* $cs_strttureInterne#120066.02 "OSPEDALE CTO.A.ALESINI"
-* $cs_strttureInterne#120044.01 "OSPEDALE SAN GIUSEPPE ALBANO L."
-* $cs_strttureInterne#120044.02 "OSPEDALE E. DE SANTIS GENZANO"
-* $cs_strttureInterne#120904.01 "OSPEDALE PEDIATRICO BAMBINO GESU`"
-* $cs_strttureInterne#120904.02 "OSPEDALE PEDIATRICO BAMBINO GESU`"
-* $cs_strttureInterne#120904.03 "OSPEDALE PEDIATRICO BAMBINO GESU`"
-* $cs_strttureInterne#120905.01 "POLICLINICO UNIVERSITARIO A. GEMELLI"
-* $cs_strttureInterne#120905.02 "COMPLESSO INTEGRATO COLUMBUS (C.I.C.)"
-* $cs_strttureInterne#120908.01 "IFO - ISTITUTO REGINA ELENA"
-* $cs_strttureInterne#120908.02 "IFO - ISTITUTO SAN GALLICANO"
-* $cs_strttureInterne#140002.01 "OSPEDALE S. TIMOTEO- TERMOLI"
-* $cs_strttureInterne#140002.02 "OSPEDALE G. VIETRI- LARINO"
-* $cs_strttureInterne#140003.01 "OSPEDALE VENEZIALE- ISERNIA"
-* $cs_strttureInterne#140003.02 "OSPEDALE CARACCIOLO AGNONE"
-* $cs_strttureInterne#140003.03 "OSPEDALE SS. ROSARIO - VENAFRO"
-* $cs_strttureInterne#150150.01 "OSPEDALE S.ANGELO DEI LOMBARDI"
-* $cs_strttureInterne#150150.02 "P.SP.RIABILITATIVO DON GNOCCHI"
-* $cs_strttureInterne#150418.01 "PO SAN GIOVANNI BOSCO"
-* $cs_strttureInterne#150418.02 "PO LORETO MARE"
-* $cs_strttureInterne#150418.05 "PO ASCALESI"
-* $cs_strttureInterne#150418.06 "PRESDIO SANITARIO INTERMEDIO NAPOLI EST"
-* $cs_strttureInterne#150419.01 "PO SAN PAOLO"
-* $cs_strttureInterne#150419.02 "PO DEI PELLEGRINI"
-* $cs_strttureInterne#150419.03 "PO SAN GENNARO"
-* $cs_strttureInterne#150419.04 "PO SMDP INCURABILI"
-* $cs_strttureInterne#150419.06 "PO  Capilupi CAPRI"
-* $cs_strttureInterne#150415.01 "P.O. MARESCA"
-* $cs_strttureInterne#150415.02 "P.O.  BOSCOTRECASE"
-* $cs_strttureInterne#150416.01 "S.  LEONARDO"
-* $cs_strttureInterne#150416.02 "NUOVO GRAGNANO"
-* $cs_strttureInterne#150417.01 "P.O. S. MARIA DELLA MISERICORDIA"
-* $cs_strttureInterne#150417.02 "P.O. DE LUCA E ROSSANO"
-* $cs_strttureInterne#150436.01 "OSPEDALI RIUNITI AREA NOLANA PLESSO NOLA"
-* $cs_strttureInterne#150436.02 "OSPED RIUNITI AREA NOLANA PLESSO POLLENA"
-* $cs_strttureInterne#150154.01 "P.O. UMBERTO I NOCERA INFERIORE"
-* $cs_strttureInterne#150154.02 "P.O. TORTORA PAGANI"
-* $cs_strttureInterne#150902.01 "OSPEDALE SANTOBONO"
-* $cs_strttureInterne#150902.02 "Ospedale Pausilipon"
-* $cs_strttureInterne#150902.03 "P.O. S.S. Annunziata"
-* $cs_strttureInterne#150903.01 "Azienda Ospedaliera dei Colli -P Monaldi"
-* $cs_strttureInterne#150903.02 "Azienda Ospedaliera dei Colli -P Cotugno"
-* $cs_strttureInterne#150903.03 "Azienda Ospedaliera dei Colli -P  CTO"
-* $cs_strttureInterne#150904.01 "A.O. OO.RR. SANGIOVANNI DI DIO E RUGGI"
-* $cs_strttureInterne#150904.02 "OSPEDALE AMICO G. FUCITO"
-* $cs_strttureInterne#150904.03 "P.O. G. DA PROCIDA"
-* $cs_strttureInterne#150904.04 "P.O. S. M. DELL'OLMO"
-* $cs_strttureInterne#160161.01 "OSPEDALE OSTUNI"
-* $cs_strttureInterne#160161.02 "PLESSO DI FASANO - OSPEDALE OSTUNI"
-* $cs_strttureInterne#160170.01 "OSPEDALE PERRINO BRINDISI"
-* $cs_strttureInterne#160170.02 "OSPEDALE BRINDISI (PLESSO MESAGNE)"
-* $cs_strttureInterne#160170.03 "OSP.BRINDISI(PLESSO S.PIETRO VERNOTICO)"
-* $cs_strttureInterne#160170.04 "OSP.BRINDISI (PLESSO CEGLIE MESSAPICA)"
-* $cs_strttureInterne#160172.01 "OSPEDALE SS ANNUNZIATA - TARANTO"
-* $cs_strttureInterne#160172.03 "OSPEDALE MOSCATI - TARANTO/STATTE"
-* $cs_strttureInterne#160174.01 "OSPEDALE ANDRIA"
-* $cs_strttureInterne#160174.02 "OSPEDALE ANDRIA (PLESSO CANOSA)"
-* $cs_strttureInterne#160178.01 "OSPEDALE BISCEGLIE"
-* $cs_strttureInterne#160178.02 "OSPEDALE BISCEGLIE (PLESSO TRANI)"
-* $cs_strttureInterne#160158.01 "OSPEDALE SAN PAOLO-BARI"
-* $cs_strttureInterne#160158.03 "OSPEDALE SAN PAOLO (PLESSO MOLFETTA)"
-* $cs_strttureInterne#160158.04 "OSPEDALE SAN PAOLO (PLESSO CORATO)"
-* $cs_strttureInterne#160158.05 "OSPEDALE SAN PAOLO (PLESSO TERLIZZI)"
-* $cs_strttureInterne#160169.01 "OSPEDALE DI VENERE - BARI"
-* $cs_strttureInterne#160169.03 "PLESSO TRIGGIANO-OSPEDALE DI VENERE"
-* $cs_strttureInterne#160163.01 "OSPEDALE SAN SEVERO"
-* $cs_strttureInterne#160163.07 "OSPEDALE SAN SEVERO (PLESSO LUCERA)"
-* $cs_strttureInterne#160171.01 "OSPEDALE LECCE 'V FAZZI'"
-* $cs_strttureInterne#160171.02 "PLESSO DI SAN CESARIO - OSPEDALE LECCE"
-* $cs_strttureInterne#160907.01 "CONSORZIALE POLICLINICO BARI"
-* $cs_strttureInterne#160907.02 "OSPEDALE GIOVANNI XXIII"
-* $cs_strttureInterne#170901.01 "Ospedale San Carlo di Potenza"
-* $cs_strttureInterne#170901.02 "Osp S.Francesco di Paola di Pescopagano"
-* $cs_strttureInterne#180010.01 "Ospedale Corigliano"
-* $cs_strttureInterne#180010.02 "Ospedale  Rossano"
-* $cs_strttureInterne#180012.01 "Ospedale  Cetraro"
-* $cs_strttureInterne#180012.02 "Ospedale Paola"
-* $cs_strttureInterne#180912.01 "P.O. ANNUNZIATA"
-* $cs_strttureInterne#180912.02 "MARIANO SANTO"
-* $cs_strttureInterne#180912.03 "SANTA BARBARA"
-* $cs_strttureInterne#180913.01 "Ospedale Pugliese"
-* $cs_strttureInterne#180913.02 "Ospedale De Lellis"
-* $cs_strttureInterne#180915.01 "Presidio Ospedaliero Riuniti"
-* $cs_strttureInterne#180915.02 "Presidio Ospedaliero E. Morelli"
-* $cs_strttureInterne#190922.01 "OSPEDALE GARIBALDI - CENTRO"
-* $cs_strttureInterne#190922.04 "NUOVO OSPEDALE GARIBALDI - NESIMA"
-* $cs_strttureInterne#190923.01 "PRESIDIO OSPEDALIERO GASPARE RODOLICO"
-* $cs_strttureInterne#190923.02 "PRESIDIO OSPEDALIERO VITTORIO EMANUELE"
-* $cs_strttureInterne#190923.03 "PRESIDIO OSPEDALIERO S. BAMBINO"
-* $cs_strttureInterne#190926.01 "P.O. Villa Sofia"
-* $cs_strttureInterne#190926.02 "C.T.O. Centro Traumatologico Ortopedico"
-* $cs_strttureInterne#190926.03 "P.O. V. Cervello"
-* $cs_strttureInterne#190927.01 "Ospedale Civico"
-* $cs_strttureInterne#190927.02 "Ospedale dei Bambini G. Di Cristina"
-* $cs_strttureInterne#190960.01 "IRCCS Centro Neurolesi"
-* $cs_strttureInterne#190960.02 "PRESIDIO OSPEDALIERO PIEMONTE"
-* $cs_strttureInterne#200056.01 "KINETIKA SARDEGNA s.r.l."
-* $cs_strttureInterne#200056.02 "KINETIKA SARDEGNA s.r.l."
-* $cs_strttureInterne#200056.03 "KINETIKA SARDEGNA s.r.l."
-* $cs_strttureInterne#200904.01 "P. O. SAN MICHELE"
-* $cs_strttureInterne#200904.02 "P.O. A. BUSINCO"
-* $cs_strttureInterne#200904.03 "P.O. MICROCITEMICO"
-* $cs_strttureInterne#200905.01 "Stabilimento Cliniche di San Pietro"
-* $cs_strttureInterne#200905.02 "Stabilimento SS. Annunziata"
-* $cs_strttureInterne#200906.01 "San Giovanni di Dio"
-* $cs_strttureInterne#200906.02 "Policlinico Monserrato"
-
+//---------------------------------------------
 // ValueSet: VsMinisteroSaluteEsenzioni
 // Id: minsan-esenzioni
 // Title: "Ministero della Salute - Esenzioni"
 // Description: "Codici Esenzioni Ministero della Salute"
 // * ^experimental = false
 // * ^status = #active
-// * include codes from  system $minsan-esenzioni
+// * include codes from  system $mds-esenzioni
 
 //-------------------------------------------------------------------------------------------
 
@@ -824,7 +445,7 @@ Title: "Ministero della Salute - Esenzioni"
 Description: "Codici Esenzioni Ministero della Salute"
 * ^experimental = false
 * ^status = #active
-* include codes from  system mds-esenzioni
+* include codes from  system $mds-esenzioni
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -833,6 +454,7 @@ Id: vs-mds-farmacia
 Title: "MDS - Farmacia"
 Description: "Ministero della Salute - Elenco Farmacie"
 * ^experimental = false
+* ^language = #it-IT
 * include codes from system $minsan-farmacie
 
 
@@ -863,3 +485,157 @@ Description: "AIFA - ValueSet Gruppo di Equivalenza"
 * ^experimental = false
 * codes from system $gruppo-equivalenza
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ValueSet: VsLoincParametriVitali
+Id: vs-loinc-parametri-vitali
+Title: "Codici LOINC - Parametri vitali"
+Description: "Codici LOINC dei parametri vitali in italiano"
+* ^experimental = false
+
+* $cs-loinc#9279-1 "Respiri"
+* $cs-loinc#40443-4 "Frequenza cardiaca^riposo"
+* $cs-loinc#2708-6 "Saturazione dell'ossigeno"
+* $cs-loinc#8310-5 "Temperatura corporea"
+* $cs-loinc#8302-2 "Altezza corporea"
+* $cs-loinc#29463-7 "Peso corporeo"
+* $cs-loinc#2093-3 "Colesterolo"
+* $cs-loinc#56115-9 "Circonferenza"
+* $cs-loinc#14646-4 "Colesterolo.in HDL"
+* $cs-loinc#2089-1 "Colesterolo.in LDL"
+* $cs-loinc#4548-4 "Emoglobina A1c/Emoglobina.totale"
+* $cs-loinc#88365-2 "Glucosio^pre-pasto"
+* $cs-loinc#3043-7 "Trigliceridi"
+* $cs-loinc#59261-8  "Hemoglobin A1c/Hemoglobin.total standardized per IFCC-RMP for CDT in Blood"
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ValueSet: VsLoincScalaDolore
+Id: vs-loinc-scala-dolore
+Title: "Codici LOINC - Scala del Dolore"
+Description: "Codici LOINC per la Scala del Dolore (0-10)"
+* ^experimental = false
+
+* $cs-loinc#LA6111-4 "0"
+* $cs-loinc#LA6112-2 "1"
+* $cs-loinc#LA6113-0 "2"
+* $cs-loinc#LA6114-8 "3"
+* $cs-loinc#LA6115-5 "4"
+* $cs-loinc#LA10137-0 "5"
+* $cs-loinc#LA10138-8 "6"
+* $cs-loinc#LA10139-6 "7"
+* $cs-loinc#LA10140-4 "8"
+* $cs-loinc#LA10141-2 "9"
+* $cs-loinc#LA13942-0 "10"
+
+//--------------------------------------------------------------------------------
+
+ValueSet: VsLoincTipoDocumento
+Id: vs-loinc-tipo-doc
+Title: "Codici LOINC - Tipologia Documento"
+Description: "Codici LOINC per la tipologia di documento"
+* ^experimental = false
+
+* $cs-loinc#57833-6	"Prescrizione farmacologica:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#60591-5	"Profilo sanitario sintetico:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#11502-2	"Referto di laboratorio.totale:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#57829-4	"Prescrizione per prodotto o apparecchiature mediche:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#34105-7	"Lettera di dimissione ospedaliera:Osservazione:Pt:Ospedale:Doc:{Role}"
+* $cs-loinc#18842-5	"Lettera di dimissione ospedaliera:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#59258-4	"Lettera di dimissione ospedaliera:Osservazione:Pt:Pronto Soccorso:Doc:{Role"
+* $cs-loinc#68604-8	"Referto diagnostico:Osservazione:Pt:{Setting}:Doc:Radiologia"
+* $cs-loinc#11526-1	"Studio di patologia:Osservazione:Pt:^Paziente:Doc:Patologia"
+* $cs-loinc#59284-0	"Consenso:Osservazione:Pt:{Setting}:Doc:Paziente"
+* $cs-loinc#28653-4	"Nota:Osservazione:Pt:{Setting}:Doc:Assistente sociale"
+* $cs-loinc#57832-8	"Prescrizione per trattamento diagnostico o specialistico:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#29304-3	"Farmaco dispensato:Tipo:Pt:^Paziente:Nom:"
+* $cs-loinc#11488-4	"Nota di consulto:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#57827-8	"Motivo di esenzione dal co-pagamento:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#81223-0	"Referto nota- sezioni C-CDA R2.0 & R2.1 raccomandate:-:Pt:{Setting}:-:"
+* $cs-loinc#18776-5	"Piano di cura, nota:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#97500-3	"Certificato comprovante stato negativo o immunizzazione da COVID-19:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#87273-9	"Immunizzazione, nota:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#82593-5	"Immunizzazione, report riassuntivo:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#97499-8	"Certificato comprovante guarigione da COVID-19:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#55750-4	"Paziente, referto relativo alla sicurezza:Osservazione:Pt:^Evento:Doc:"
+* $cs-loinc#68814-3	"Valutazione, nota:Osservazione:Pt:{Setting}:Doc:Pediatria"
+* $cs-loinc#103140-0 "Salute personale, allegato:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#102033-8 "Reti di patologia:Osservazione:Pt:Personale:Nom:"
+* $cs-loinc#103144-2 "Attrezzature mediche dispensate.breve:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#103145-9 "Attrezzature mediche dispensate.estese:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#103146-7 "Cure specialistiche dispensate.breve:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#103147-5 "Cure specialistiche dispensate.estese:Osservazione:Pt:^Paziente:Doc:"
+* $cs-loinc#101136-0 "Lettera di fine trattamento:Osservazione:Pt:{Setting}:Doc:Radioterapia oncologica"
+* $cs-loinc#101134-5 "Promemoria di appuntamento:Osservazione:Pt:{Setting}:Doc:{Role}"
+* $cs-loinc#101133-7 "Consenso alla donazione di organo &o tessuto:Osservazione:Pt:{Setting}:Doc:Paziente"
+* $cs-loinc#100971-1 "Cartella clinica:-:Pt:^Paziente:-:"
+* $cs-loinc#57080-4 "Dispositivo medico impiantato:Osservazione:Pt:^Paziente:Nar:"
+* $cs-loinc#101881-1 "Tessera per il portatore di impianto:Osservazione:Pt:{Setting}:Doc:"
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ValueSet: VsNoAllergies
+Id: vs-no-allergies
+Title: "No Allergies"
+Description: "Nessuna allergia oppure agente non noto"
+* ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+//* ^identifier.value = "urn:oid:2.16.840.1.113883.5.1150.1"
+* codes from system CsNoAllergiesInfo
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsTipoRicetta
+Id: vs-tipo-ricetta
+Title: "ValueSet per Codici Assistenza Stranieri"
+Description: "Contiene tutti i codici dal sistema di classificazione per l’assistenza a stranieri in temporaneo soggiorno."
+* ^experimental = false
+* codes from system CsTipoRicetta
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: ValueSetCatalogoNazionalePrestazioni
+Id: ValueSetCatalogoNazionalePrestazioni
+Title: "ValueSet per Catalogo Nazionale Prestazioni"
+Description: "Contiene la lista di codici da utilizzare per le prestazioni secondo il catalogo nazionale"
+* ^name = "ValueSet_CatalogoNazionalePrestazioni"
+* ^version = "1.0.0"
+* ^status = #draft
+* ^experimental = true
+* ^publisher = "pnt.gov.it"
+* include codes from system CodesystemCatalogoNazionalePrestazioni
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: SpecialitaMedicheVS
+Id: vs-specialita-mediche
+Title: "ValueSet Specialità Mediche"
+Description: "Insieme di valori che include tutte le specialità mediche definite nel CodeSystem."
+* ^status = #active
+* ^experimental = false
+* include codes from system BrancaPrestazione
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: TipologiaAttivitaPianoDiTelemonitoraggio
+Id: TipologiaAttivitaPianoDiTelemonitoraggio
+Title: "Tipologia di attività nel Piano di Telemonitoraggio"
+Description: "ValueSet contenente la tipologia di attività inserite nel piano di Telemonitoraggio."
+* ^status = #active
+* ^version = "1.0.0"
+* ^experimental = false
+* $sct#715191006 "Telehealth asthma monitoring (regime/therapy)"
+* $sct#715280009 "Telehealth hypertension monitoring (regime/therapy)"
+* $sct#473199000 "Telehealth monitoring for chronic disease (regime/therapy)"
+* $sct#879780004 "Telehealth monitoring for chronic heart failure (regime/therapy)"
+* $sct#879782007 "Telehealth monitoring for diabetes mellitus (regime/therapy)"
+* $sct#879781000 "Telehealth monitoring for ischemic heart disease (regime/therapy)"
+* $sct#879783002 "Telehealth monitoring for psychological stress (regime/therapy)"
+* $sct#715279006 "Telehealth obesity monitoring (regime/therapy)"
+* $sct#879784008 "Telehealth rehabilitation monitoring (regime/therapy)"
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsTipologiaDocumentale
+Id: vsTipologiaDocumentale
+Title: "VS - Tipologia documentale"
+Description: "Codici LOINC dei documenti"
+* ^experimental = false
+* $LOINC#53576-5 "Personal Health Monitoring Report"
+* $LOINC#75496-0 "Telehealth Note"
+* $LOINC#85208-7 "Telehealth Consult note"
+* $LOINC#91531-4 "Social worker Telehealth Note"
+* $LOINC#64296-7 "Personal health monitoring report Automated"

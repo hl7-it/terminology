@@ -6,40 +6,226 @@
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
-        "code" : "http://hl7.it/sid/codiceFiscale",
-        "display" : "Italian Fiscal Code"
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.1",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1.1",
+        "display" : "Codici STP - Valle d`aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1.1",
+        "display" : "Codici STP - Lombardia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1.1",
+        "display" : "Codici STP - prov. auton. bolzan"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1.1",
+        "display" : "Codici STP - prov. auton. trento"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+        "display" : "Codici STP - Veneto"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1.1",
+        "display" : "Codici STP - Friuli venezia giulia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1.1",
+        "display" : "Codici STP - Liguria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1.1",
+        "display" : "Codici STP - Emilia romagna"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1.1",
+        "display" : "Codici STP - Toscana"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1.1",
+        "display" : "Codici STP - Umbria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1.1",
+        "display" : "Codici STP - Marche"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1.1",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1.1",
+        "display" : "Codici STP - Abruzzo"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1.1",
+        "display" : "Codici STP - Molise"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1.1",
+        "display" : "Codici STP - Campania"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1.1",
+        "display" : "Codici STP - Puglia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1.1",
+        "display" : "Codici STP - Basilicata"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1.1",
+        "display" : "Codici STP - Calabria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1.1",
+        "display" : "Codici STP - Sicilia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1.1",
+        "display" : "Codici STP - Sardegna"
       }]
     }]
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1cc0bf18-b753-45ed-a8d8-feb993f831b5",
-    "timestamp" : "2023-12-19T08:51:14.889Z",
-    "total" : 1,
+    "identifier" : "urn:uuid:54ac3eb0-7ba0-4373-b262-566819ec3446",
+    "timestamp" : "2026-11-02T14:09:03.020Z",
+    "total" : 21,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/codiceFiscale",
-      "display" : "Italian Fiscal Code"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.1",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1.1",
+      "display" : "Codici STP - Valle d`aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1.1",
+      "display" : "Codici STP - Lombardia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1.1",
+      "display" : "Codici STP - prov. auton. bolzan"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1.1",
+      "display" : "Codici STP - prov. auton. trento"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+      "display" : "Codici STP - Veneto"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1.1",
+      "display" : "Codici STP - Friuli venezia giulia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1.1",
+      "display" : "Codici STP - Liguria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1.1",
+      "display" : "Codici STP - Emilia romagna"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1.1",
+      "display" : "Codici STP - Toscana"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1.1",
+      "display" : "Codici STP - Umbria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1.1",
+      "display" : "Codici STP - Marche"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1.1",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1.1",
+      "display" : "Codici STP - Abruzzo"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1.1",
+      "display" : "Codici STP - Molise"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1.1",
+      "display" : "Codici STP - Campania"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1.1",
+      "display" : "Codici STP - Puglia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1.1",
+      "display" : "Codici STP - Basilicata"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1.1",
+      "display" : "Codici STP - Calabria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1.1",
+      "display" : "Codici STP - Sicilia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1.1",
+      "display" : "Codici STP - Sardegna"
     }]
   }
 },
@@ -122,28 +308,34 @@ e: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e6b4aeeb-7641-4581-a0ff-5d2d393e34ca",
-    "timestamp" : "2023-12-19T08:51:15.030Z",
+    "identifier" : "urn:uuid:1312ad43-95c0-44a1-bddf-bc77290eca14",
+    "timestamp" : "2026-11-02T14:09:10.325Z",
     "total" : 22,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
@@ -245,251 +437,226 @@ e: {
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
-        "code" : "http://hl7.it/sid/eni",
-        "display" : "Codici ENI"
-      },
-      {
-        "code" : "http://hl7.it/sid/lazio/eni",
-        "display" : "Codici ENI - Lazio"
-      },
-      {
-        "code" : "http://hl7.it/sid/piemonte/eni",
-        "display" : "Codici ENI - Piemonte"
-      },
-      {
-        "code" : "http://hl7.it/sid/vallee/eni",
-        "display" : "Codici ENI - Valle d'Aosta"
-      },
-      {
-        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
-        "display" : "Codici ENI - Veneto"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:93ff82c0-ffea-4e7c-93ad-5ca681e30190",
-    "timestamp" : "2023-12-19T08:51:15.202Z",
-    "total" : 5,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    }],
-    "contains" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/eni",
-      "display" : "Codici ENI"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/lazio/eni",
-      "display" : "Codici ENI - Lazio"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/piemonte/eni",
-      "display" : "Codici ENI - Piemonte"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/vallee/eni",
-      "display" : "Codici ENI - Valle d'Aosta"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
-      "display" : "Codici ENI - Veneto"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : false,
-    "include" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "concept" : [{
-        "code" : "http://hl7.it/sid/lazio/asur",
-        "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
-      },
-      {
-        "code" : "http://hl7.it/sid/piemonte/aura",
-        "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.",
+        "display" : "Anagrafi Regionali - Piemonte"
       },
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
-        "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+        "display" : "Anagrafi Regionali - Valle d`aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1",
+        "display" : "Anagrafi Regionali - Lombardia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1",
+        "display" : "Anagrafi Regionali - prov. auton. bolzano"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1",
+        "display" : "Anagrafi Regionali - prov. auton. trento"
       },
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
-        "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+        "display" : "Anagrafi Regionali - Veneto"
       },
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
-        "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+        "display" : "Anagrafi Regionali - Friuli venezia giulia"
       },
       {
-        "code" : "http://www.regione.toscana.it/sanita/cur",
-        "display" : "Centrale Unica Regionale - Toscana"
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1",
+        "display" : "Anagrafi Regionali - Liguria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1",
+        "display" : "Anagrafi Regionali - Emilia romagna"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1",
+        "display" : "Anagrafi Regionali - Toscana"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1",
+        "display" : "Anagrafi Regionali - Umbria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1",
+        "display" : "Anagrafi Regionali - Marche"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1",
+        "display" : "Anagrafi Regionali - Lazio"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1",
+        "display" : "Anagrafi Regionali - Abruzzo"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1",
+        "display" : "Anagrafi Regionali - Molise"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1",
+        "display" : "Anagrafi Regionali - Campania"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1",
+        "display" : "Anagrafi Regionali - Puglia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1",
+        "display" : "Anagrafi Regionali - Basilicata"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1",
+        "display" : "Anagrafi Regionali - Calabria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1",
+        "display" : "Anagrafi Regionali - Sicilia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1",
+        "display" : "Anagrafi Regionali - Sardegna"
       }]
     }]
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:5da89afb-cc7e-4607-9440-b0185415ffb5",
-    "timestamp" : "2023-12-19T08:51:15.358Z",
-    "total" : 6,
+    "identifier" : "urn:uuid:9a72567d-4d88-475b-9786-91e43abb1928",
+    "timestamp" : "2026-11-02T14:09:13.120Z",
+    "total" : 21,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/lazio/asur",
-      "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/piemonte/aura",
-      "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.",
+      "display" : "Anagrafi Regionali - Piemonte"
     },
     {
       "system" : "urn:ietf:rfc:3986",
       "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
-      "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+      "display" : "Anagrafi Regionali - Valle d`aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1",
+      "display" : "Anagrafi Regionali - Lombardia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1",
+      "display" : "Anagrafi Regionali - prov. auton. bolzano"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1",
+      "display" : "Anagrafi Regionali - prov. auton. trento"
     },
     {
       "system" : "urn:ietf:rfc:3986",
       "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
-      "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+      "display" : "Anagrafi Regionali - Veneto"
     },
     {
       "system" : "urn:ietf:rfc:3986",
       "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
-      "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+      "display" : "Anagrafi Regionali - Friuli venezia giulia"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://www.regione.toscana.it/sanita/cur",
-      "display" : "Centrale Unica Regionale - Toscana"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : false,
-    "include" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "concept" : [{
-        "code" : "http://hl7.it/sid/stp",
-        "display" : "Codici STP"
-      },
-      {
-        "code" : "http://hl7.it/sid/lazio/stp",
-        "display" : "Codici STP - Lazio"
-      },
-      {
-        "code" : "http://hl7.it/sid/piemonte/stp",
-        "display" : "Codici STP - Piemonte"
-      },
-      {
-        "code" : "http://hl7.it/sid/vallee/stp",
-        "display" : "Codici STP - Valle d'Aosta"
-      },
-      {
-        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
-        "display" : "Codici STP - Veneto"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:6d400f18-854f-416d-ab56-974f1fcb4a6a",
-    "timestamp" : "2023-12-19T08:51:15.545Z",
-    "total" : 5,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    }],
-    "contains" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/stp",
-      "display" : "Codici STP"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1",
+      "display" : "Anagrafi Regionali - Liguria"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/lazio/stp",
-      "display" : "Codici STP - Lazio"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1",
+      "display" : "Anagrafi Regionali - Emilia romagna"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/piemonte/stp",
-      "display" : "Codici STP - Piemonte"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1",
+      "display" : "Anagrafi Regionali - Toscana"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/vallee/stp",
-      "display" : "Codici STP - Valle d'Aosta"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1",
+      "display" : "Anagrafi Regionali - Umbria"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
-      "display" : "Codici STP - Veneto"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1",
+      "display" : "Anagrafi Regionali - Marche"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1",
+      "display" : "Anagrafi Regionali - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1",
+      "display" : "Anagrafi Regionali - Abruzzo"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1",
+      "display" : "Anagrafi Regionali - Molise"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1",
+      "display" : "Anagrafi Regionali - Campania"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1",
+      "display" : "Anagrafi Regionali - Puglia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1",
+      "display" : "Anagrafi Regionali - Basilicata"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1",
+      "display" : "Anagrafi Regionali - Calabria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1",
+      "display" : "Anagrafi Regionali - Sicilia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1",
+      "display" : "Anagrafi Regionali - Sardegna"
     }]
   }
 },
@@ -503,40 +670,226 @@ e: {
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
-        "code" : "http://hl7.it/sid/codiceFiscale",
-        "display" : "Italian Fiscal Code"
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.1",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1.1",
+        "display" : "Codici STP - Valle d`aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1.1",
+        "display" : "Codici STP - Lombardia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1.1",
+        "display" : "Codici STP - prov. auton. bolzan"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1.1",
+        "display" : "Codici STP - prov. auton. trento"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+        "display" : "Codici STP - Veneto"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1.1",
+        "display" : "Codici STP - Friuli venezia giulia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1.1",
+        "display" : "Codici STP - Liguria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1.1",
+        "display" : "Codici STP - Emilia romagna"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1.1",
+        "display" : "Codici STP - Toscana"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1.1",
+        "display" : "Codici STP - Umbria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1.1",
+        "display" : "Codici STP - Marche"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1.1",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1.1",
+        "display" : "Codici STP - Abruzzo"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1.1",
+        "display" : "Codici STP - Molise"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1.1",
+        "display" : "Codici STP - Campania"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1.1",
+        "display" : "Codici STP - Puglia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1.1",
+        "display" : "Codici STP - Basilicata"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1.1",
+        "display" : "Codici STP - Calabria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1.1",
+        "display" : "Codici STP - Sicilia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1.1",
+        "display" : "Codici STP - Sardegna"
       }]
     }]
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:91961939-d589-44c5-bf72-b7c4e7604339",
-    "timestamp" : "2023-12-19T09:22:21.778Z",
-    "total" : 1,
+    "identifier" : "urn:uuid:3e6b2ed6-b4de-48f8-979e-9754d73461a2",
+    "timestamp" : "2026-11-02T14:14:12.096Z",
+    "total" : 21,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/codiceFiscale",
-      "display" : "Italian Fiscal Code"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.1",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1.1",
+      "display" : "Codici STP - Valle d`aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1.1",
+      "display" : "Codici STP - Lombardia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1.1",
+      "display" : "Codici STP - prov. auton. bolzan"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1.1",
+      "display" : "Codici STP - prov. auton. trento"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
+      "display" : "Codici STP - Veneto"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1.1",
+      "display" : "Codici STP - Friuli venezia giulia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1.1",
+      "display" : "Codici STP - Liguria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1.1",
+      "display" : "Codici STP - Emilia romagna"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1.1",
+      "display" : "Codici STP - Toscana"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1.1",
+      "display" : "Codici STP - Umbria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1.1",
+      "display" : "Codici STP - Marche"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1.1",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1.1",
+      "display" : "Codici STP - Abruzzo"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1.1",
+      "display" : "Codici STP - Molise"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1.1",
+      "display" : "Codici STP - Campania"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1.1",
+      "display" : "Codici STP - Puglia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1.1",
+      "display" : "Codici STP - Basilicata"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1.1",
+      "display" : "Codici STP - Calabria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1.1",
+      "display" : "Codici STP - Sicilia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1.1",
+      "display" : "Codici STP - Sardegna"
     }]
   }
 },
@@ -619,28 +972,34 @@ e: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8f3e872c-0a90-4f3c-9d14-b2d5c56fbc69",
-    "timestamp" : "2023-12-19T09:22:22.060Z",
+    "identifier" : "urn:uuid:93360f3b-bed1-45bf-b2ed-3548e61205a8",
+    "timestamp" : "2026-11-02T14:14:27.865Z",
     "total" : 22,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
@@ -742,251 +1101,226 @@ e: {
     "include" : [{
       "system" : "urn:ietf:rfc:3986",
       "concept" : [{
-        "code" : "http://hl7.it/sid/eni",
-        "display" : "Codici ENI"
-      },
-      {
-        "code" : "http://hl7.it/sid/lazio/eni",
-        "display" : "Codici ENI - Lazio"
-      },
-      {
-        "code" : "http://hl7.it/sid/piemonte/eni",
-        "display" : "Codici ENI - Piemonte"
-      },
-      {
-        "code" : "http://hl7.it/sid/vallee/eni",
-        "display" : "Codici ENI - Valle d'Aosta"
-      },
-      {
-        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
-        "display" : "Codici ENI - Veneto"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:23aa4a0a-ce22-4509-9275-df55e6649577",
-    "timestamp" : "2023-12-19T09:22:22.622Z",
-    "total" : 5,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : false
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    }],
-    "contains" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/eni",
-      "display" : "Codici ENI"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/lazio/eni",
-      "display" : "Codici ENI - Lazio"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/piemonte/eni",
-      "display" : "Codici ENI - Piemonte"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/vallee/eni",
-      "display" : "Codici ENI - Valle d'Aosta"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
-      "display" : "Codici ENI - Veneto"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "concept" : [{
-        "code" : "http://hl7.it/sid/lazio/asur",
-        "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
-      },
-      {
-        "code" : "http://hl7.it/sid/piemonte/aura",
-        "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.",
+        "display" : "Anagrafi Regionali - Piemonte"
       },
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
-        "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+        "display" : "Anagrafi Regionali - Valle d`aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1",
+        "display" : "Anagrafi Regionali - Lombardia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1",
+        "display" : "Anagrafi Regionali - prov. auton. bolzano"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1",
+        "display" : "Anagrafi Regionali - prov. auton. trento"
       },
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
-        "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+        "display" : "Anagrafi Regionali - Veneto"
       },
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
-        "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+        "display" : "Anagrafi Regionali - Friuli venezia giulia"
       },
       {
-        "code" : "http://www.regione.toscana.it/sanita/cur",
-        "display" : "Centrale Unica Regionale - Toscana"
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1",
+        "display" : "Anagrafi Regionali - Liguria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1",
+        "display" : "Anagrafi Regionali - Emilia romagna"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1",
+        "display" : "Anagrafi Regionali - Toscana"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1",
+        "display" : "Anagrafi Regionali - Umbria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1",
+        "display" : "Anagrafi Regionali - Marche"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1",
+        "display" : "Anagrafi Regionali - Lazio"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1",
+        "display" : "Anagrafi Regionali - Abruzzo"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1",
+        "display" : "Anagrafi Regionali - Molise"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1",
+        "display" : "Anagrafi Regionali - Campania"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1",
+        "display" : "Anagrafi Regionali - Puglia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1",
+        "display" : "Anagrafi Regionali - Basilicata"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1",
+        "display" : "Anagrafi Regionali - Calabria"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1",
+        "display" : "Anagrafi Regionali - Sicilia"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1",
+        "display" : "Anagrafi Regionali - Sardegna"
       }]
     }]
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a4711837-cfdb-4bae-b51e-2bbc57e82527",
-    "timestamp" : "2023-12-19T09:22:22.919Z",
-    "total" : 6,
+    "identifier" : "urn:uuid:6d138e5b-9eec-4e44-a20a-aff949b02753",
+    "timestamp" : "2026-11-02T14:14:33.019Z",
+    "total" : 21,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "urn:ietf:rfc:3986"
     }],
     "contains" : [{
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/lazio/asur",
-      "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
-    },
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/piemonte/aura",
-      "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.10.4.1.",
+      "display" : "Anagrafi Regionali - Piemonte"
     },
     {
       "system" : "urn:ietf:rfc:3986",
       "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
-      "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+      "display" : "Anagrafi Regionali - Valle d`aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.30.4.1",
+      "display" : "Anagrafi Regionali - Lombardia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.41.4.1",
+      "display" : "Anagrafi Regionali - prov. auton. bolzano"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.42.4.1",
+      "display" : "Anagrafi Regionali - prov. auton. trento"
     },
     {
       "system" : "urn:ietf:rfc:3986",
       "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
-      "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+      "display" : "Anagrafi Regionali - Veneto"
     },
     {
       "system" : "urn:ietf:rfc:3986",
       "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
-      "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+      "display" : "Anagrafi Regionali - Friuli venezia giulia"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://www.regione.toscana.it/sanita/cur",
-      "display" : "Centrale Unica Regionale - Toscana"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "concept" : [{
-        "code" : "http://hl7.it/sid/stp",
-        "display" : "Codici STP"
-      },
-      {
-        "code" : "http://hl7.it/sid/lazio/stp",
-        "display" : "Codici STP - Lazio"
-      },
-      {
-        "code" : "http://hl7.it/sid/piemonte/stp",
-        "display" : "Codici STP - Piemonte"
-      },
-      {
-        "code" : "http://hl7.it/sid/vallee/stp",
-        "display" : "Codici STP - Valle d'Aosta"
-      },
-      {
-        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
-        "display" : "Codici STP - Veneto"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:cdd9ca49-81f0-4adc-897c-3e608bfd9b71",
-    "timestamp" : "2023-12-19T09:22:23.200Z",
-    "total" : 5,
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : false
-    },
-    {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "urn:ietf:rfc:3986|n/a"
-    }],
-    "contains" : [{
-      "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/stp",
-      "display" : "Codici STP"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.70.4.1",
+      "display" : "Anagrafi Regionali - Liguria"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/lazio/stp",
-      "display" : "Codici STP - Lazio"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.80.4.1",
+      "display" : "Anagrafi Regionali - Emilia romagna"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/piemonte/stp",
-      "display" : "Codici STP - Piemonte"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.90.4.1",
+      "display" : "Anagrafi Regionali - Toscana"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "http://hl7.it/sid/vallee/stp",
-      "display" : "Codici STP - Valle d'Aosta"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.100.4.1",
+      "display" : "Anagrafi Regionali - Umbria"
     },
     {
       "system" : "urn:ietf:rfc:3986",
-      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1",
-      "display" : "Codici STP - Veneto"
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.110.4.1",
+      "display" : "Anagrafi Regionali - Marche"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.120.4.1",
+      "display" : "Anagrafi Regionali - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.130.4.1",
+      "display" : "Anagrafi Regionali - Abruzzo"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.140.4.1",
+      "display" : "Anagrafi Regionali - Molise"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.150.4.1",
+      "display" : "Anagrafi Regionali - Campania"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.160.4.1",
+      "display" : "Anagrafi Regionali - Puglia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.170.4.1",
+      "display" : "Anagrafi Regionali - Basilicata"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.180.4.1",
+      "display" : "Anagrafi Regionali - Calabria"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.190.4.1",
+      "display" : "Anagrafi Regionali - Sicilia"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.200.4.1",
+      "display" : "Anagrafi Regionali - Sardegna"
     }]
   }
 },

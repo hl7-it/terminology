@@ -7,14 +7,35 @@
       "system" : "urn:ietf:rfc:1155",
       "concept" : [{
         "code" : "2.16.840.1.113883.2.9.4.3.2",
-        "display" : "Italian Fiscal Code"
+        "display" : "Codice Fiscale Italiano"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.7",
+        "display" : "Numero di Tessera TEAM estera"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.3",
+        "display" : "Numero di identificazione personale TEAM"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.18",
+        "display" : "Europei Non Iscritti al SSN"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.17",
+        "display" : "Stranieri Temporaneamente Presenti"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.15",
+        "display" : "Codice Anagrafica Nazionale degli Assisti"
       }]
     }]
   }
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155"
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'urn:ietf:rfc:1155' could not be found, so the value set cannot be expanded"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -25,19 +46,34 @@ e: {
       "system" : "urn:ietf:rfc:1155",
       "concept" : [{
         "code" : "2.16.840.1.113883.2.9.4.3.2",
-        "display" : "Italian Fiscal Code"
+        "display" : "Codice Fiscale Italiano"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.7",
+        "display" : "Numero di Tessera TEAM estera"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.3",
+        "display" : "Numero di identificazione personale TEAM"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.18",
+        "display" : "Europei Non Iscritti al SSN"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.17",
+        "display" : "Stranieri Temporaneamente Presenti"
+      },
+      {
+        "code" : "2.16.840.1.113883.2.9.4.3.15",
+        "display" : "Codice Anagrafica Nazionale degli Assisti"
       }]
     }]
   }
 }}####
 e: {
   "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://terminology.hl7.it/ValueSet/oid-ehicPersonalId", "version": "0.0.1"}####
-e: {
-  "from-server" : true,
-  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:ietf:rfc:1155"
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'urn:ietf:rfc:1155' could not be found, so the value set cannot be expanded"
 }
 -------------------------------------------------------------------------------------

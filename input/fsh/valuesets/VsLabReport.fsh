@@ -6,7 +6,7 @@ Description: "Questo valueset include i codici per i microrganismi dal sottoinsi
 
 * ^status = #active
 * insert SNOMEDCopyrightForVS
-
+* ^language = #en
 * $sct#646165971000087107 "Shigella flexneri 5a (organism)"
 * $sct#840533007 "Severe acute respiratory syndrome coronavirus 2 (organism)"
 * $sct#767451000 "Trichinella nelsoni (organism)"
@@ -1424,6 +1424,7 @@ Title:	       "Tipo campione"
 Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - Lab Report per la descrizione del tipo di campione di laboratorio."
 * ^status = #active
 * insert SNOMEDCopyrightForVS
+* ^language = #it
 * $sct#119376003	"Tissue specimen"
 * $sct#119359002	"Bone marrow specimen"
 * $sct#122571007	"Pericardial fluid"
@@ -1459,7 +1460,7 @@ Description:   "Valueset contenente i codici SNOMED per la risorsa Specimen - La
 * $sct#440500007	"Dried blood spot specimen"
 * $sct#258574006	"Mid-stream urine specimen"
 * $sct#119340004	"Meconium specimen"
-* $sct#119360007	"Dialysis fluid"
+//* $sct#119360007	"Dialysis fluid"
 * $sct#119332005	"Synovial fluid"
 * $sct#258455001	"Drainage fluid"
 * $sct#119371008	"Specimen from abscess"
@@ -1714,3 +1715,71 @@ Description: "Questo valueset include i codici per i risultati di presenza o ass
 /* 
 * include codes from system http://snomed.info/sct|http://snomed.info/sct/900000000000207008
     where constraint = "(< 260411009 |Presence findings (qualifier value)| OR < 272519000 |Absence findings (qualifier value)|) AND ^ 816080008 |International Patient Summary (foundation metadata concept)|" */
+
+//--------------------------------------------------------------------------------
+
+// ValueSet: LabOrderCodes
+// Id: lab-orderCodes-it-lab
+// Title: "Codice Richiesta esame di Laboratorio [LOINC]"
+// Description: "Codice della richiesta per un esame di Laboratorio."
+
+// * insert LOINCCopyrightForVS
+// * insert SetFmmandStatusRule (1, trial-use)
+// * include codes from system $LOINC and valueset $results-laboratory-observations-uv-ips where ORDER_OBS = "Order"
+// * include codes from system $LOINC and valueset $results-laboratory-observations-uv-ips where ORDER_OBS = "Both"
+
+//--------------------------------------------------------------------------------
+
+ValueSet: VsMinisteroSaluteAsl
+Id: minsan-asl
+Title: "MDS - ASL"
+Description: "MDS - ASL"
+
+* ^experimental = false
+* ^status = #active
+* include codes from system $asl
+
+//------------------------------------------------------------------------------------
+
+ValueSet:      ObservationStatusCodeLabReport
+Id:	       valueset-status-obs-it
+Title:	       "Observation status code"
+Description:   "Valueset contenente i codici di di stato per la risorsa Observation Document - Lab Report."
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* include codes from system $cs-observation-code 
+* exclude $cs-observation-code#registered
+* exclude $cs-observation-code#cancelled
+* exclude $cs-observation-code#unknown
+* exclude $cs-observation-code#entered-in-error
+
+//--------------------------------------------------------------------------------
+ValueSet: VsAddressUseIt
+Id: vs-add-use-it
+Title: "Address use"
+Description: "Insieme dei valori ammessi per qualificare **address.use**, ossia il tipo di utilizzo di un indirizzo."
+* ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.4.642.4.68"
+
+* $cs-addruse-org#home "Residenza"
+* $cs-addruse-org#work "Lavoro"
+* $cs-addruse-org#temp "Domicilio temporaneo"
+* $cs-addruse-org#old "old"
+* $cs-addruse-org#billing "Indirizzo di Fatturazione"
+
+//--------------------------------------------------------------------------------
+ValueSet: VsClassCode
+Id: vs-classcode
+Title: "Classe documento"
+Description: "Classe a cui il documento appartiene"
+* ^experimental = false
+* include codes from system $cs-classcode
+
+//------------------------------------------------------------------------
+ValueSet: VsRegoleAccesso
+Id: vs-access-rules
+Title: "Atti clinici e regole di accesso"
+Description: "Atti clinici e regole di accesso"
+* ^experimental = false
+* include codes from system $cs-access-rules

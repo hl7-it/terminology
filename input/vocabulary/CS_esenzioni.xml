@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="mds-esenzioni"/>
+     <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:2.16.840.1.113883.2.9.6.1.22"/>
+    </identifier>
+    <name value="CsEsenzioni"/>
+    <title value="MDS - Esenzioni dal ticket"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <caseSensitive value="false"/>
+    <description value="Ministero della Salute - Elenco Esenzioni. Il CodeSystem raccoglie i codici di esenzione definiti dalla normativa nazionale vigente e dalle relative fonti istituzionali del Ministero della Salute, inclusi i codici relativi a malattie rare, malattie croniche e invalidanti, invalidità, gravidanza, reddito, diagnosi precoce e altre condizioni di esenzione. **Source: https://www.dati.salute.gov.it/it/dataset/esenzioni/**"/>
+    <content value="fragment"/>
+    <language value="it-IT"/>
+    <concept>
+        <code value="001"/>
+        <display value="ACROMEGALIA E GIGANTISMO"/>
+    </concept>
+    <concept>
+        <code value="0A02/0B02/0C02"/>
+        <display value="AFFEZIONI DEL SISTEMA CIRCOLATORIO"/>
+    </concept>
+    <concept>
+        <code value="003"/>
+        <display value="ANEMIA EMOLITICA ACQUISITA DA AUTOIMMUNIZZAZIONE"/>
+    </concept>
+    <concept>
+        <code value="005"/>
+        <display value="ANORESSIA NERVOSA, BULIMIA"/>
+    </concept>
+    <concept>
+        <code value="006"/>
+        <display value="ARTRITE REUMATOIDE"/>
+    </concept>
+    <concept>
+        <code value="007"/>
+        <display value="ASMA"/>
+    </concept>
+    <concept>
+        <code value="008"/>
+        <display value="CIRROSI EPATICA, CIRROSI BILIARE"/>
+    </concept>
+    <concept>
+        <code value="009"/>
+        <display value="COLITE ULCEROSA E MALATTIA DI CROHN"/>
+    </concept>
+    <concept>
+        <code value="011"/>
+        <display value="DEMENZE"/>
+    </concept>
+    <concept>
+        <code value="012"/>
+        <display value="DIABETE INSIPIDO"/>
+    </concept>
+    <concept>
+        <code value="013"/>
+        <display value="DIABETE MELLITO"/>
+    </concept>
+    <concept>
+        <code value="014"/>
+        <display value="DIPENDENZA DA SOSTANZE STUPEFACENTI, PSICOTROPE E DA ALCOOL"/>
+    </concept>
+    <concept>
+        <code value="016"/>
+        <display value="EPATITE CRONICA (ATTIVA)"/>
+    </concept>
+    <concept>
+        <code value="017"/>
+        <display value="EPILESSIA"/>
+    </concept>
+    <concept>
+        <code value="018"/>
+        <display value="FIBROSI CISTICA"/>
+    </concept>
+    <concept>
+        <code value="019"/>
+        <display value="GLAUCOMA"/>
+    </concept>
+    <concept>
+        <code value="020"/>
+        <display value="INFEZIONE DA HIV"/>
+    </concept>
+    <concept>
+        <code value="021"/>
+        <display value="INSUFFICIENZA CARDIACA (N.Y.H.A. CLASSE III E IV)"/>
+    </concept>
+    <concept>
+        <code value="022"/>
+        <display value="INSUFFICIENZA CORTICOSURRENALE CRONICA (MORBO DI ADDISON)"/>
+    </concept>
+    <concept>
+        <code value="023"/>
+        <display value="INSUFFICIENZA RENALE CRONICA"/>
+    </concept>
+    <concept>
+        <code value="024"/>
+        <display value="INSUFFICIENZA RESPIRATORIA CRONICA"/>
+    </concept>
+    <concept>
+        <code value="025"/>
+        <display value="IPERCOLESTEROLEMIE E IPERLIPOPROTEINEMIA DI TIPO III"/>
+    </concept>
+    <concept>
+        <code value="026"/>
+        <display value="IPERPARATIROIDISMO, IPOPARATIROIDISMO"/>
+    </concept>
+    <concept>
+        <code value="027"/>
+        <display value="IPOTIROIDISMO CONGENITO, IPOTIROIDISMO ACQUISITO GRAVE"/>
+    </concept>
+    <concept>
+        <code value="028"/>
+        <display value="LUPUS ERITEMATOSO SISTEMICO"/>
+    </concept>
+    <concept>
+        <code value="029"/>
+        <display value="MALATTIA DI ALZHEIMER"/>
+    </concept>
+    <concept>
+        <code value="030"/>
+        <display value="MALATTIA DI SJOGREN"/>
+    </concept>
+    <concept>
+        <code value="0A31"/>
+        <display value="IPERTENSIONE ARTERIOSA SENZA DANNO D’ORGANO"/>
+    </concept>
+    <concept>
+        <code value="0031"/>
+        <display value="IPERTENSIONE ARTERIOSA CON DANNO D’ORGANO"/>
+    </concept>
+    <concept>
+        <code value="032"/>
+        <display value="MALATTIA O SINDROME DI CUSHING"/>
+    </concept>
+    <concept>
+        <code value="035"/>
+        <display value="MORBO DI BASEDOW, ALTRE FORME DI IPERTIROIDISMO"/>
+    </concept>
+    <concept>
+        <code value="036"/>
+        <display value="MORBO DI BUERGER"/>
+    </concept>
+    <concept>
+        <code value="037"/>
+        <display value="MORBO DI PAGET"/>
+    </concept>
+    <concept>
+        <code value="038"/>
+        <display value="MORBO DI PARKINSON E ALTRE MALATTIE EXTRAPIRAMIDALI"/>
+    </concept>
+    <concept>
+        <code value="039"/>
+        <display value="DEFICIT DI ORMONE DELLA CRESCITA [GH]"/>
+    </concept>
+    <concept>
+        <code value="040"/>
+        <display value="NEONATI PREMATURI E IMMATURI; NEONATI A TERMINE CON RICOVERO IN TERAPIA INTENSIVA NEONATALE"/>
+    </concept>
+    <concept>
+        <code value="041"/>
+        <display value="NEUROMIELITE OTTICA"/>
+    </concept>
+    <concept>
+        <code value="042"/>
+        <display value="PANCREATITE CRONICA"/>
+    </concept>
+    <concept>
+        <code value="044"/>
+        <display value="PSICOSI"/>
+    </concept>
+    <concept>
+        <code value="045"/>
+        <display value="PSORIASI GRAVE"/>
+    </concept>
+    <concept>
+        <code value="046"/>
+        <display value="SCLEROSI MULTIPLA"/>
+    </concept>
+    <concept>
+        <code value="048"/>
+        <display value="PATOLOGIE NEOPLASTICHE MALIGNE E TUMORI DI COMPORTAMENTO INCERTO"/>
+    </concept>
+    <concept>
+        <code value="049"/>
+        <display value="PLURIPATOLOGIE CON GRAVE E IRREVERSIBILE COMPROMISSIONE DI PIÙ ORGANI O APPARATI"/>
+    </concept>
+    <concept>
+        <code value="050"/>
+        <display value="SOGGETTI IN ATTESA DI TRAPIANTO"/>
+    </concept>
+    <concept>
+        <code value="051"/>
+        <display value="SOGGETTI NATI CON GRAVI DEFICIT FISICI, SENSORIALI, NEUROPSICHICI E DEL NEUROSVILUPPO"/>
+    </concept>
+    <concept>
+        <code value="052"/>
+        <display value="SOGGETTI SOTTOPOSTI A TRAPIANTO"/>
+    </concept>
+    <concept>
+        <code value="053"/>
+        <display value="SOGGETTI SOTTOPOSTI A TRAPIANTO DI CORNEA"/>
+    </concept>
+    <concept>
+        <code value="054"/>
+        <display value="SPONDILITE ANCHILOSANTE"/>
+    </concept>
+    <concept>
+        <code value="055"/>
+        <display value="TUBERCOLOSI ATTIVA BACILLIFERA"/>
+    </concept>
+    <concept>
+        <code value="056"/>
+        <display value="TIROIDITE DI HASHIMOTO"/>
+    </concept>
+    <concept>
+        <code value="057"/>
+        <display value="BRONCOPNEUMOPATIA CRONICA OSTRUTTIVA (BPCO)"/>
+    </concept>
+    <concept>
+        <code value="058"/>
+        <display value="DONATORI D’ORGANO"/>
+    </concept>
+    <concept>
+        <code value="059"/>
+        <display value="MALATTIA CELIACA"/>
+    </concept>
+    <concept>
+        <code value="060"/>
+        <display value="OSTEOMIELITE CRONICA"/>
+    </concept>
+    <concept>
+        <code value="061"/>
+        <display value="PATOLOGIE RENALI CRONICHE (con valori di creatinina clearance stabilmente inferiori a 85 ml/min)"/>
+    </concept>
+    <concept>
+        <code value="062"/>
+        <display value="RENE POLICISTICO AUTOSOMICO DOMINANTE"/>
+    </concept>
+    <concept>
+        <code value="063"/>
+        <display value="ENDOMETRIOSI MODERATA E GRAVE (III E IV STADIO ASRM)"/>
+    </concept>
+    <concept>
+        <code value="064"/>
+        <display value="SINDROME DA TALIDOMIDE (nelle forme: amelia, emimelia, focomelia, micromelia)"/>
+    </concept>
+    <concept>
+        <code value="065"/>
+        <display value="SINDROME DI DOWN"/>
+    </concept>
+    <concept>
+        <code value="066"/>
+        <display value="SINDROME DI KLINEFELTER"/>
+    </concept>
+    <concept>
+        <code value="067"/>
+        <display value="CONNETTIVITI INDIFFERENZIATE"/>
+    </concept>
+    <concept>
+        <code value="068"/>
+        <display value="SINDROME FIBROMIALGICA limitatamente alle forme molto severe (FIQR&gt;82)"/>
+    </concept>
+    <concept>
+        <code value="069"/>
+        <display value="IDROSADENITE CRONICA SUPPURATIVA (limitatamente allo stadio III di Hurley)"/>
+    </concept>
+    <concept>
+        <code value="070"/>
+        <display value="MALATTIA POLMONARE DA MICOBATTERI NON TUBERCOLARI"/>
+    </concept>
+    <concept>
+        <code value="RA0010"/>
+        <display value="HANSEN, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RA0020"/>
+        <display value="WHIPPLE, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RA0030"/>
+        <display value="LYME, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RB0010"/>
+        <display value="WILMS, TUMORE DI"/>
+    </concept>
+    <concept>
+        <code value="RB0020"/>
+        <display value="RETINOBLASTOMA"/>
+    </concept>
+    <concept>
+        <code value="RB0030"/>
+        <display value="CRONKHITE-CANADA, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RB0040"/>
+        <display value="GARDNER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RB0050"/>
+        <display value="POLIPOSI FAMILIARE"/>
+    </concept>
+    <concept>
+        <code value="RB0060"/>
+        <display value="LINFOANGIOLEIOMIOMATOSI"/>
+    </concept>
+    <concept>
+        <code value="RB0070"/>
+        <display value="SINDROME DEL NEVO BASOCELLULARE"/>
+    </concept>
+    <concept>
+        <code value="RB0071"/>
+        <display value="MELANOMA CUTANEO FAMILIARE E/O MULTIPLO"/>
+    </concept>
+    <concept>
+        <code value="RBG010"/>
+        <display value="NEUROFIBROMATOSI"/>
+    </concept>
+    <concept>
+        <code value="RBG020"/>
+        <display value="COMPLESSO CARNEY"/>
+    </concept>
+    <concept>
+        <code value="RBG021"/>
+        <display value="CANCRO NON POLIPOSICO EREDITARIO DEL COLON"/>
+    </concept>
+    <concept>
+        <code value="RC0010"/>
+        <display value="DEFICIENZA DI ACTH"/>
+    </concept>
+    <concept>
+        <code value="RC0020"/>
+        <display value="KALLMANN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0021"/>
+        <display value="DEFICIT CONGENITO ISOLATO DI GH"/>
+    </concept>
+    <concept>
+        <code value="RC0022"/>
+        <display value="IPOGONADISMO IPOGONADOTROPO CONGENITO"/>
+    </concept>
+    <concept>
+        <code value="RC0040"/>
+        <display value="PUBERTA' PRECOCE IDIOPATICA"/>
+    </concept>
+    <concept>
+        <code value="RC0050"/>
+        <display value="LEPRECAUNISMO"/>
+    </concept>
+    <concept>
+        <code value="RC0060"/>
+        <display value="WERNER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0070"/>
+        <display value="DEFICIENZA CONGENITA DI ZINCO"/>
+    </concept>
+    <concept>
+        <code value="RC0080"/>
+        <display value="SINDROMI LIPODISTROFICHE"/>
+    </concept>
+    <concept>
+        <code value="RC0090"/>
+        <display value="DERCUM, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RC0100"/>
+        <display value="FARBER, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RC0110"/>
+        <display value="CRIOGLOBULINEMIA MISTA"/>
+    </concept>
+    <concept>
+        <code value="RC0120"/>
+        <display value="ACERULOPLASMINEMIA CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RC0130"/>
+        <display value="ATRANSFERRINEMIA CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RC0140"/>
+        <display value="WALDMANN, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RC0150"/>
+        <display value="WILSON, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RC0160"/>
+        <display value="IPOFOSFATASIA"/>
+    </concept>
+    <concept>
+        <code value="RC0170"/>
+        <display value="RACHITISMO IPOFOSFATEMICO VITAMINA D RESISTENTE"/>
+    </concept>
+    <concept>
+        <code value="RC0180"/>
+        <display value="CRIGLER-NAJJAR, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0190"/>
+        <display value="ANGIOEDEMA EREDITARIO"/>
+    </concept>
+    <concept>
+        <code value="RC0191"/>
+        <display value="ANGIOEDEMA ACQUISITO DA DEFICIT DI C1 INIBITORE"/>
+    </concept>
+    <concept>
+        <code value="RC0200"/>
+        <display value="CARENZA CONGENITA DI ALFA-1-ANTITRIPSINA"/>
+    </concept>
+    <concept>
+        <code value="RC0210"/>
+        <display value="BEHCET, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RC0220"/>
+        <display value="SINDROME DA ANTICORPI ANTIFOSFOLIPIDI, FORMA PRIMITIVA"/>
+    </concept>
+    <concept>
+        <code value="RC0230"/>
+        <display value="CALCINOSI TUMORALE"/>
+    </concept>
+    <concept>
+        <code value="RC0241"/>
+        <display value="FEBBRE MEDITERRANEA FAMILIARE"/>
+    </concept>
+    <concept>
+        <code value="RC0243"/>
+        <display value="SINDROME TRAPS"/>
+    </concept>
+    <concept>
+        <code value="RC0250"/>
+        <display value="COSTELLO, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0270"/>
+        <display value="LOWE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0280"/>
+        <display value="REFETOFF, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0290"/>
+        <display value="SCHNITZLER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0300"/>
+        <display value="KENNY-CAFFEY, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RC0310"/>
+        <display value="SOTOS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RCG010"/>
+        <display value="IPERALDOSTERONISMI PRIMITIVI"/>
+    </concept>
+    <concept>
+        <code value="RCG020"/>
+        <display value="SINDROMI ADRENOGENITALI CONGENITE"/>
+    </concept>
+    <concept>
+        <code value="RCG030"/>
+        <display value="POLIENDOCRINOPATIE AUTOIMMUNI"/>
+    </concept>
+    <concept>
+        <code value="RCG031"/>
+        <display value="SINDROMI DA RESISTENZA ALL'ORMONE DELLA CRESCITA"/>
+    </concept>
+    <concept>
+        <code value="RCG040"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DEGLI AMINOACIDI"/>
+    </concept>
+    <concept>
+        <code value="RCG050"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DEL CICLO DELL'UREA E IPERAMMONIEMIE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RCG060"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DEI CARBOIDRATI"/>
+    </concept>
+    <concept>
+        <code value="RCG061"/>
+        <display value="IPERINSULINISMI CONGENITI"/>
+    </concept>
+    <concept>
+        <code value="RCG070"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DELLE LIPOPROTEINE"/>
+    </concept>
+    <concept>
+        <code value="RCG071"/>
+        <display value="DIFETTI CONGENITI DELLA SINTESI DEL COLESTEROLO"/>
+    </concept>
+    <concept>
+        <code value="RCG072"/>
+        <display value="DIFETTI CONGENITI DELLA SINTESI DEGLI ACIDI BILIARI"/>
+    </concept>
+    <concept>
+        <code value="RCG073"/>
+        <display value="DIFETTI CONGENITI DELLA SINTESI DEI FOSFOLIPIDI E DEI GLICOSFINGOLIPIDI"/>
+    </concept>
+    <concept>
+        <code value="RCG074"/>
+        <display value="DIFETTI CONGENITI DELLA OSSIDAZIONE MITOCONDRIALE DEGLI ACIDI GRASSI"/>
+    </concept>
+    <concept>
+        <code value="RCG075"/>
+        <display value="DIFETTI CONGENITI DELLA CHETOGENESI E DELLA CHETOLISI"/>
+    </concept>
+    <concept>
+        <code value="RCG076"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DEL PIRUVATO E DEL CICLO DEGLI ACIDI TRICARBOSSILICI"/>
+    </concept>
+    <concept>
+        <code value="RCG077"/>
+        <display value="DIFETTI CONGENITI ISOLATI DI UN COMPLESSO DELLA FOSFORILAZIONE OSSIDATIVA MITOCONDRIALE"/>
+    </concept>
+    <concept>
+        <code value="RCG078"/>
+        <display value="DIFETTI CONGENITI DELLA FOSFORILAZIONE OSSIDATIVA MITOCONDRIALE DA ALTERAZIONI DEL DNA MITOCONDRIALE"/>
+    </concept>
+    <concept>
+        <code value="RCG080"/>
+        <display value="DIFETTI DA ACCUMULO DI LIPIDI"/>
+    </concept>
+    <concept>
+        <code value="RCG081"/>
+        <display value="DIFETTI DELLA FOSFORILAZIONE OSSIDATIVA MITOCONDRIALE DA ALTERAZIONI DEL DNA NUCLEARE"/>
+    </concept>
+    <concept>
+        <code value="RCG082"/>
+        <display value="SINDROMI DA DEFICIT CONGENITO DI CREATINA"/>
+    </concept>
+    <concept>
+        <code value="RCG083"/>
+        <display value="ALTRI DIFETTI CONGENITI DEL METABOLISMO ENERGETICO MITOCONDRIALE"/>
+    </concept>
+    <concept>
+        <code value="RCG084"/>
+        <display value="MALATTIE PEROSSISOMIALI"/>
+    </concept>
+    <concept>
+        <code value="RCG085"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DEI NEUROTRASMETTITORI E DEI PICCOLI PEPTIDI"/>
+    </concept>
+    <concept>
+        <code value="RCG090"/>
+        <display value="MUCOLIPIDOSI"/>
+    </concept>
+    <concept>
+        <code value="RCG091"/>
+        <display value="OLIGOSACCARIDOSI"/>
+    </concept>
+    <concept>
+        <code value="RCG092"/>
+        <display value="DIFETTI CONGENITI RESPONSIVI ALLA BIOTINA"/>
+    </concept>
+    <concept>
+        <code value="RCG093"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DELLA COBALAMINA E DEL FOLATO"/>
+    </concept>
+    <concept>
+        <code value="RCG094"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DELLA VITAMINA D"/>
+    </concept>
+    <concept>
+        <code value="RCG095"/>
+        <display value="ALTRI DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DI VITAMINE E COFATTORI NON PROTEICI"/>
+    </concept>
+    <concept>
+        <code value="RCG100"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DEL FERRO"/>
+    </concept>
+    <concept>
+        <code value="RCG101"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DELLO ZINCO"/>
+    </concept>
+    <concept>
+        <code value="RCG102"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DEL RAME"/>
+    </concept>
+    <concept>
+        <code value="RCG103"/>
+        <display value="ALTRI DIFETTI CONGENITI DEL METABOLISMO E DEL TRASPORTO DI METALLI"/>
+    </concept>
+    <concept>
+        <code value="RCG110"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DELLE PORFIRINE E DELL'EME"/>
+    </concept>
+    <concept>
+        <code value="RCG120"/>
+        <display value="DIFETTI CONGENITI DEL METABOLISMO DELLE PURINE E DELLE PIRIMIDINE"/>
+    </concept>
+    <concept>
+        <code value="RCG130"/>
+        <display value="AMILOIDOSI SISTEMICHE"/>
+    </concept>
+    <concept>
+        <code value="RCG140"/>
+        <display value="MUCOPOLISACCARIDOSI"/>
+    </concept>
+    <concept>
+        <code value="RCG150"/>
+        <display value="ISTIOCITOSI CRONICHE"/>
+    </concept>
+    <concept>
+        <code value="RCG160"/>
+        <display value="IMMUNODEFICIENZE PRIMARIE"/>
+    </concept>
+    <concept>
+        <code value="RCG161"/>
+        <display value="SINDROMI AUTOINFIAMMATORIE EREDITARIE/FAMILIARI"/>
+    </concept>
+    <concept>
+        <code value="RCG162"/>
+        <display value="SINDROMI DA NEOPLASIE ENDOCRINE MULTIPLE"/>
+    </concept>
+    <concept>
+        <code value="RCG180"/>
+        <display value="ALTRE MALATTIE DA ACCUMULO LISOSOMIALE"/>
+    </concept>
+    <concept>
+        <code value="RCG190"/>
+        <display value="DIFETTI CONGENITI DELLA GLICOSILAZIONE PROTEICA (CDGS)"/>
+    </concept>
+    <concept>
+        <code value="RD0010"/>
+        <display value="SINDROME EMOLITICO UREMICA"/>
+    </concept>
+    <concept>
+        <code value="RD0020"/>
+        <display value="EMOGLOBINURIA PAROSSISTICA NOTTURNA"/>
+    </concept>
+    <concept>
+        <code value="RD0030"/>
+        <display value="PORPORA DI HENOCH-SCHONLEIN RICORRENTE"/>
+    </concept>
+    <concept>
+        <code value="RD0040"/>
+        <display value="NEUTROPENIA CICLICA"/>
+    </concept>
+    <concept>
+        <code value="RD0050"/>
+        <display value="MALATTIA GRANULOMATOSA CRONICA"/>
+    </concept>
+    <concept>
+        <code value="RD0060"/>
+        <display value="CHEDIAK-HIGASHI, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RD0070"/>
+        <display value="ANEMIE APLASTICHE ACQUISITE"/>
+    </concept>
+    <concept>
+        <code value="RD0080"/>
+        <display value="SHWACHMAN-DIAMOND, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RD0081"/>
+        <display value="MASTOCITOSI SISTEMICA"/>
+    </concept>
+    <concept>
+        <code value="RDG010"/>
+        <display value="ANEMIE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RDG020"/>
+        <display value="DIFETTI EREDITARI DELLA COAGULAZIONE"/>
+    </concept>
+    <concept>
+        <code value="RDG030"/>
+        <display value="PIASTRINOPATIE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RDG031"/>
+        <display value="PIASTRINOPATIE AUTOIMMUNI PRIMARIE CRONICHE"/>
+    </concept>
+    <concept>
+        <code value="RDG040"/>
+        <display value="TROMBOCITOPENIE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RDG050"/>
+        <display value="SINDROMI MIELODISPLASTICHE"/>
+    </concept>
+    <concept>
+        <code value="RDG051"/>
+        <display value="NEUTROPENIE CONGENITE"/>
+    </concept>
+    <concept>
+        <code value="RF0010"/>
+        <display value="ALPERS, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RF0020"/>
+        <display value="KEARNS-SAYRE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0030"/>
+        <display value="LEIGH, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RF0040"/>
+        <display value="RETT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0050"/>
+        <display value="ATROFIA DENTATORUBRO-PALLIDOLUYSIANA"/>
+    </concept>
+    <concept>
+        <code value="RF0060"/>
+        <display value="EPILESSIA MIOCLONICA PROGRESSIVA"/>
+    </concept>
+    <concept>
+        <code value="RF0061"/>
+        <display value="DRAVET, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0070"/>
+        <display value="MIOCLONO ESSENZIALE EREDITARIO"/>
+    </concept>
+    <concept>
+        <code value="RF0080"/>
+        <display value="COREA DI HUNTINGTON"/>
+    </concept>
+    <concept>
+        <code value="RF0081"/>
+        <display value="ATROFIA MULTISISTEMICA"/>
+    </concept>
+    <concept>
+        <code value="RF0090"/>
+        <display value="DISTONIA DI TORSIONE IDIOPATICA"/>
+    </concept>
+    <concept>
+        <code value="RF0100"/>
+        <display value="SCLEROSI LATERALE AMIOTROFICA"/>
+    </concept>
+    <concept>
+        <code value="RF0110"/>
+        <display value="SCLEROSI LATERALE PRIMARIA"/>
+    </concept>
+    <concept>
+        <code value="RF0111"/>
+        <display value="SCHILDER, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RF0120"/>
+        <display value="ADRENOLEUCODISTROFIA"/>
+    </concept>
+    <concept>
+        <code value="RF0130"/>
+        <display value="LENNOX-GASTAULT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0140"/>
+        <display value="WEST, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0150"/>
+        <display value="NARCOLESSIA"/>
+    </concept>
+    <concept>
+        <code value="RF0160"/>
+        <display value="MELKERSSON-ROSENTHAL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0170"/>
+        <display value="PARALISI SOPRANUCLEARE PROGRESSIVA"/>
+    </concept>
+    <concept>
+        <code value="RF0180"/>
+        <display value="POLINEUROPATIA CRONICA INFIAMMATORIA DEMIELINIZZANTE"/>
+    </concept>
+    <concept>
+        <code value="RF0181"/>
+        <display value="NEUROPATIA MOTORIA MULTIFOCALE"/>
+    </concept>
+    <concept>
+        <code value="RF0182"/>
+        <display value="LEWIS-SUMNER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0183"/>
+        <display value="GUILLAIN-BARRE, SINDROME DI - FORME CRONICHE GRAVI E INVALIDANTI"/>
+    </concept>
+    <concept>
+        <code value="RF0190"/>
+        <display value="EATON-LAMBERT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0200"/>
+        <display value="VITREORETINOPATIA ESSUDATIVA FAMILIARE"/>
+    </concept>
+    <concept>
+        <code value="RF0201"/>
+        <display value="COATS, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RF0210"/>
+        <display value="EALES, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RF0220"/>
+        <display value="BEHR, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0230"/>
+        <display value="IRIDOCICLITE ETEROCROMICA DI FUCHS"/>
+    </concept>
+    <concept>
+        <code value="RF0240"/>
+        <display value="ATROFIA ESSENZIALE DELL'IRIDE"/>
+    </concept>
+    <concept>
+        <code value="RF0250"/>
+        <display value="EMERALOPIA CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RF0260"/>
+        <display value="OGUCHI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0270"/>
+        <display value="COGAN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0280"/>
+        <display value="CHERATOCONO"/>
+    </concept>
+    <concept>
+        <code value="RF0290"/>
+        <display value="CONGIUNTIVITE LIGNEA"/>
+    </concept>
+    <concept>
+        <code value="RF0300"/>
+        <display value="ATROFIA OTTICA DI LEBER"/>
+    </concept>
+    <concept>
+        <code value="RF0310"/>
+        <display value="CADASIL"/>
+    </concept>
+    <concept>
+        <code value="RF0320"/>
+        <display value="COROIDITE MULTIFOCALE"/>
+    </concept>
+    <concept>
+        <code value="RF0330"/>
+        <display value="COROIDITE SERPIGINOSA"/>
+    </concept>
+    <concept>
+        <code value="RF0350"/>
+        <display value="EMICRANIA EMIPLEGICA FAMILIARE"/>
+    </concept>
+    <concept>
+        <code value="RF0360"/>
+        <display value="EMIPLEGIA ALTERNANTE"/>
+    </concept>
+    <concept>
+        <code value="RF0370"/>
+        <display value="FAHR, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RF0380"/>
+        <display value="MALATTIA DA INCLUSIONI INTRANUCLEARI NEURONALI"/>
+    </concept>
+    <concept>
+        <code value="RF0390"/>
+        <display value="PARALISI BULBARE PROGRESSIVA CON SORDITA' NEUROSENSORIALE"/>
+    </concept>
+    <concept>
+        <code value="RF0400"/>
+        <display value="PENDRED, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RF0410"/>
+        <display value="SIRINGOMIELIA-SIRINGOBULBIA"/>
+    </concept>
+    <concept>
+        <code value="RF0411"/>
+        <display value="SINDROME DELLA PERSONA RIGIDA"/>
+    </concept>
+    <concept>
+        <code value="RFG010"/>
+        <display value="LEUCODISTROFIE"/>
+    </concept>
+    <concept>
+        <code value="RFG020"/>
+        <display value="CEROIDOLIPOFUSCINOSI"/>
+    </concept>
+    <concept>
+        <code value="RFG030"/>
+        <display value="GANGLIOSIDOSI"/>
+    </concept>
+    <concept>
+        <code value="RFG040"/>
+        <display value="MALATTIE SPINOCEREBELLARI"/>
+    </concept>
+    <concept>
+        <code value="RFG041"/>
+        <display value="NEURODEGENERAZIONE CON ACCUMULO CEREBRALE DI FERRO"/>
+    </concept>
+    <concept>
+        <code value="RFG050"/>
+        <display value="ATROFIE MUSCOLARI SPINALI"/>
+    </concept>
+    <concept>
+        <code value="RFG060"/>
+        <display value="NEUROPATIE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RFG070"/>
+        <display value="MIOPATIE CONGENITE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RFG080"/>
+        <display value="DISTROFIE MUSCOLARI"/>
+    </concept>
+    <concept>
+        <code value="RFG090"/>
+        <display value="DISTROFIE MIOTONICHE"/>
+    </concept>
+    <concept>
+        <code value="RFG100"/>
+        <display value="PARALISI NORMOKALIEMICHE, IPO E IPERKALIEMICHE"/>
+    </concept>
+    <concept>
+        <code value="RFG101"/>
+        <display value="SINDROMI MIASTENICHE CONGENITE E DISIMMUNI"/>
+    </concept>
+    <concept>
+        <code value="RFG102"/>
+        <display value="ENCEFALOPATIE DI SVILUPPO ED EPILETTICHE"/>
+    </concept>
+    <concept>
+        <code value="RFG110"/>
+        <display value="DISTROFIE RETINICHE EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RFG120"/>
+        <display value="DISTROFIE EREDITARIE DELLA COROIDE"/>
+    </concept>
+    <concept>
+        <code value="RFG130"/>
+        <display value="DEGENERAZIONI DELLA CORNEA"/>
+    </concept>
+    <concept>
+        <code value="RFG140"/>
+        <display value="DISTROFIE EREDITARIE DELLA CORNEA"/>
+    </concept>
+    <concept>
+        <code value="RFG150"/>
+        <display value="ANOFTALMIA/MICROFTALMIA ISOLATE O SINDROMICHE"/>
+    </concept>
+    <concept>
+        <code value="RFG160"/>
+        <display value="DISTONIE PRIMARIE"/>
+    </concept>
+    <concept>
+        <code value="RG0010"/>
+        <display value="ENDOCARDITE REUMATICA"/>
+    </concept>
+    <concept>
+        <code value="RG0020"/>
+        <display value="POLIANGIOITE MICROSCOPICA"/>
+    </concept>
+    <concept>
+        <code value="RG0030"/>
+        <display value="POLIARTERITE NODOSA"/>
+    </concept>
+    <concept>
+        <code value="RG0041"/>
+        <display value="KAWASAKI, MALATTIA DI - CLASSI DI RISCHIO AHA III-IV-V"/>
+    </concept>
+    <concept>
+        <code value="RG0050"/>
+        <display value="GRANULOMATOSI EOSINOFILICA CON POLIANGITE"/>
+    </concept>
+    <concept>
+        <code value="RG0060"/>
+        <display value="GOODPASTURE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RG0070"/>
+        <display value="GRANULOMATOSI CON POLIANGITE"/>
+    </concept>
+    <concept>
+        <code value="RG0080"/>
+        <display value="ARTERITE A CELLULE GIGANTI"/>
+    </concept>
+    <concept>
+        <code value="RG0090"/>
+        <display value="TAKAYASU, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RG0100"/>
+        <display value="TELEANGECTASIA EMORRAGICA EREDITARIA"/>
+    </concept>
+    <concept>
+        <code value="RG0110"/>
+        <display value="BUDD-CHIARI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RG0120"/>
+        <display value="IPERTENSIONE POLMONARE ARTERIOSA IDIOPATICA"/>
+    </concept>
+    <concept>
+        <code value="RG0130"/>
+        <display value="SINDROME SISTEMICA DA AUMENTATA PERMEABILITA' CAPILLARE"/>
+    </concept>
+    <concept>
+        <code value="RGG010"/>
+        <display value="MICROANGIOPATIE TROMBOTICHE"/>
+    </concept>
+    <concept>
+        <code value="RGG020"/>
+        <display value="LINFEDEMI PRIMARI CRONICI"/>
+    </concept>
+    <concept>
+        <code value="RH0011"/>
+        <display value="SARCOIDOSI - FORME PERSISTENTI"/>
+    </concept>
+    <concept>
+        <code value="RH0020"/>
+        <display value="EMOSIDEROSI POLMONARE IDIOPATICA"/>
+    </concept>
+    <concept>
+        <code value="RH0021"/>
+        <display value="PROTEINOSI ALVEOLARE POLMONARE IDIOPATICA"/>
+    </concept>
+    <concept>
+        <code value="RH0022"/>
+        <display value="PROTEINOSI ALVEOLARE POLMONARE CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RHG010"/>
+        <display value="MALATTIE INTERSTIZIALI POLMONARI PRIMITIVE"/>
+    </concept>
+    <concept>
+        <code value="RHG011"/>
+        <display value="SINDROMI GRAVI E INVALIDANTI CON IPOVENTILAZIONE CENTRALE CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RI0010"/>
+        <display value="ACALASIA ISOLATA E ACALASIA ASSOCIATA A SINDROMI"/>
+    </concept>
+    <concept>
+        <code value="RI0020"/>
+        <display value="GASTRITE IPERTROFICA GIGANTE"/>
+    </concept>
+    <concept>
+        <code value="RI0030"/>
+        <display value="GASTROENTERITE EOSINOFILA"/>
+    </concept>
+    <concept>
+        <code value="RI0040"/>
+        <display value="SINDROME DA PSEUDO-OSTRUZIONE INTESTINALE"/>
+    </concept>
+    <concept>
+        <code value="RI0050"/>
+        <display value="COLANGITE PRIMITIVA SCLEROSANTE"/>
+    </concept>
+    <concept>
+        <code value="RI0070"/>
+        <display value="MALATTIA DA INCLUSIONE DEI MICROVILLI"/>
+    </concept>
+    <concept>
+        <code value="RI0080"/>
+        <display value="LINFANGECTASIA INTESTINALE PRIMITIVA"/>
+    </concept>
+    <concept>
+        <code value="RI0090"/>
+        <display value="INSUFFICIENZA INTESTINALE CRONICA BENIGNA - FORME TIPO II E III"/>
+    </concept>
+    <concept>
+        <code value="RIG010"/>
+        <display value="COLESTASI INTRAEPATICHE PROGRESSIVE FAMILIARI"/>
+    </concept>
+    <concept>
+        <code value="RIG020"/>
+        <display value="DIFETTI CONGENITI GRAVI E INVALIDANTI DEL TRASPORTO INTESTINALE"/>
+    </concept>
+    <concept>
+        <code value="RIG030"/>
+        <display value="MALATTIE AUTOIMMUNI DEL FEGATO"/>
+    </concept>
+    <concept>
+        <code value="RJ0010"/>
+        <display value="DIABETE INSIPIDO NEFROGENICO"/>
+    </concept>
+    <concept>
+        <code value="RJ0020"/>
+        <display value="FIBROSI RETROPERITONEALE"/>
+    </concept>
+    <concept>
+        <code value="RJ0030"/>
+        <display value="CISTITE INTERSTIZIALE"/>
+    </concept>
+    <concept>
+        <code value="RJ0040"/>
+        <display value="RENE POLICISTICO AUTOSOMICO RECESSIVO"/>
+    </concept>
+    <concept>
+        <code value="RJG010"/>
+        <display value="TUBULOPATIE PRIMITIVE"/>
+    </concept>
+    <concept>
+        <code value="RJG020"/>
+        <display value="GLOMERULOPATIE PRIMITIVE"/>
+    </concept>
+    <concept>
+        <code value="RL0010"/>
+        <display value="ERITROCHERATOLISI HIEMALIS"/>
+    </concept>
+    <concept>
+        <code value="RL0030"/>
+        <display value="PEMFIGO"/>
+    </concept>
+    <concept>
+        <code value="RL0040"/>
+        <display value="PEMFIGOIDE BOLLOSO"/>
+    </concept>
+    <concept>
+        <code value="RL0050"/>
+        <display value="PEMFIGOIDE BENIGNO DELLE MUCOSE"/>
+    </concept>
+    <concept>
+        <code value="RL0060"/>
+        <display value="LICHEN SCLEROSUS ET ATROPHICUS"/>
+    </concept>
+    <concept>
+        <code value="RL0070"/>
+        <display value="SINDROME MICHELIN TIRE BABY"/>
+    </concept>
+    <concept>
+        <code value="RL0080"/>
+        <display value="SCLEROSI CUTANEA DIFFUSA AD ALTA GRAVITA' CLINICA"/>
+    </concept>
+    <concept>
+        <code value="RL0090"/>
+        <display value="PIODERMA GANGRENOSO CRONICO"/>
+    </concept>
+    <concept>
+        <code value="RM0010"/>
+        <display value="DERMATOMIOSITE"/>
+    </concept>
+    <concept>
+        <code value="RM0020"/>
+        <display value="POLIMIOSITE"/>
+    </concept>
+    <concept>
+        <code value="RM0021"/>
+        <display value="SINDROME DA ANTICORPI ANTISINTETASI"/>
+    </concept>
+    <concept>
+        <code value="RM0030"/>
+        <display value="CONNETTIVITE MISTA"/>
+    </concept>
+    <concept>
+        <code value="RM0040"/>
+        <display value="FASCITE EOSINOFILA"/>
+    </concept>
+    <concept>
+        <code value="RM0050"/>
+        <display value="FASCITE DIFFUSA"/>
+    </concept>
+    <concept>
+        <code value="RM0060"/>
+        <display value="POLICONDRITE RICORRENTE"/>
+    </concept>
+    <concept>
+        <code value="RM0070"/>
+        <display value="ANGIOMATOSI CISTICA DIFFUSA DELL'OSSO"/>
+    </concept>
+    <concept>
+        <code value="RM0080"/>
+        <display value="ETEROPLASIA OSSEA PROGRESSIVA"/>
+    </concept>
+    <concept>
+        <code value="RM0090"/>
+        <display value="FIBRODISPLASIA OSSIFICANTE PROGRESSIVA"/>
+    </concept>
+    <concept>
+        <code value="RM0100"/>
+        <display value="MELOREOSTOSI"/>
+    </concept>
+    <concept>
+        <code value="RM0110"/>
+        <display value="MIOSITE A CORPI INCLUSI"/>
+    </concept>
+    <concept>
+        <code value="RM0111"/>
+        <display value="MIOSITE EOSINOFILA IDIOPATICA"/>
+    </concept>
+    <concept>
+        <code value="RM0120"/>
+        <display value="SCLEROSI SISTEMICA PROGRESSIVA"/>
+    </concept>
+    <concept>
+        <code value="RM0121"/>
+        <display value="SINDROME SAPHO"/>
+    </concept>
+    <concept>
+        <code value="RN0010"/>
+        <display value="ARNOLD-CHIARI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0020"/>
+        <display value="MICROCEFALIA ISOLATA O SINDROMICA"/>
+    </concept>
+    <concept>
+        <code value="RN0030"/>
+        <display value="AGENESIA CEREBELLARE"/>
+    </concept>
+    <concept>
+        <code value="RN0040"/>
+        <display value="JOUBERT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0050"/>
+        <display value="LISSENCEFALIA ISOLATA O SINDROMICA"/>
+    </concept>
+    <concept>
+        <code value="RN0060"/>
+        <display value="OLOPROSENCEFALIA ISOLATA O SINDROMICA"/>
+    </concept>
+    <concept>
+        <code value="RN0070"/>
+        <display value="FOIX-CHAVANY-MARIE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0071"/>
+        <display value="SPINA BIFIDA - MENINGOCELE E MIELOMENINGOCELE"/>
+    </concept>
+    <concept>
+        <code value="RN0090"/>
+        <display value="AXENFELD-RIEGER, ANOMALIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN0100"/>
+        <display value="PETERS, ANOMALIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN0110"/>
+        <display value="ANIRIDIA"/>
+    </concept>
+    <concept>
+        <code value="RN0120"/>
+        <display value="COLOBOMA CONGENITO DEL DISCO OTTICO"/>
+    </concept>
+    <concept>
+        <code value="RN0130"/>
+        <display value="ANOMALIA MORNING-GLORY"/>
+    </concept>
+    <concept>
+        <code value="RN0140"/>
+        <display value="PERSISTENZA DELLA MEMBRANA PUPILLARE"/>
+    </concept>
+    <concept>
+        <code value="RN0150"/>
+        <display value="BLUE RUBBER BLEB NEVUS"/>
+    </concept>
+    <concept>
+        <code value="RN0160"/>
+        <display value="ATRESIA ESOFAGEA E/O FISTOLA TRACHEOESOFAGEA"/>
+    </concept>
+    <concept>
+        <code value="RN0170"/>
+        <display value="ATRESIA DEL DIGIUNO"/>
+    </concept>
+    <concept>
+        <code value="RN0180"/>
+        <display value="ATRESIA O STENOSI DUODENALE"/>
+    </concept>
+    <concept>
+        <code value="RN0190"/>
+        <display value="MALFORMAZIONE ANO-RETTALE ISOLATA O SINDROMICA"/>
+    </concept>
+    <concept>
+        <code value="RN0200"/>
+        <display value="HIRSCHSPRUNG, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN0201"/>
+        <display value="GOLDBERG-SHPRINTZEN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0210"/>
+        <display value="ATRESIA BILIARE"/>
+    </concept>
+    <concept>
+        <code value="RN0220"/>
+        <display value="CAROLI, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN0230"/>
+        <display value="MALATTIA DEL FEGATO POLICISTICO"/>
+    </concept>
+    <concept>
+        <code value="RN0240"/>
+        <display value="ERMAFRODITISMO VERO"/>
+    </concept>
+    <concept>
+        <code value="RN0250"/>
+        <display value="RENE CON MIDOLLARE A SPUGNA"/>
+    </concept>
+    <concept>
+        <code value="RN0260"/>
+        <display value="FOCOMELIA"/>
+    </concept>
+    <concept>
+        <code value="RN0270"/>
+        <display value="DEFORMITA' DI SPRENGEL"/>
+    </concept>
+    <concept>
+        <code value="RN0280"/>
+        <display value="ACRODISOSTOSI"/>
+    </concept>
+    <concept>
+        <code value="RN0290"/>
+        <display value="CAMPTODATTILIA FAMILIARE"/>
+    </concept>
+    <concept>
+        <code value="RN0300"/>
+        <display value="SINDROME DA REGRESSIONE CAUDALE"/>
+    </concept>
+    <concept>
+        <code value="RN0310"/>
+        <display value="KLIPPEL-FEIL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0320"/>
+        <display value="GASTROSCHISI"/>
+    </concept>
+    <concept>
+        <code value="RN0321"/>
+        <display value="SINDROME PRUNE BELLY"/>
+    </concept>
+    <concept>
+        <code value="RN0322"/>
+        <display value="ONFALOCELE"/>
+    </concept>
+    <concept>
+        <code value="RN0330"/>
+        <display value="EHLERS-DANLOS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0340"/>
+        <display value="ADAMS-OLIVER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0350"/>
+        <display value="COFFIN-LOWRY, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0360"/>
+        <display value="COFFIN-SIRIS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0370"/>
+        <display value="DYGGVE-MELCHIOR-CLAUSEN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0380"/>
+        <display value="FILIPPI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0390"/>
+        <display value="SINDROME CEFALOPOLISINDATTILIA DI GREIG"/>
+    </concept>
+    <concept>
+        <code value="RN0400"/>
+        <display value="JACKSON-WEISS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0401"/>
+        <display value="COHEN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0410"/>
+        <display value="JARCHO-LEVIN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0420"/>
+        <display value="PALLISTER W, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0430"/>
+        <display value="POLAND, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0440"/>
+        <display value="SEQUENZA SIRENOMELICA"/>
+    </concept>
+    <concept>
+        <code value="RN0450"/>
+        <display value="SINDROME CEREBRO-COSTO-MANDIBOLARE"/>
+    </concept>
+    <concept>
+        <code value="RN0460"/>
+        <display value="SINDROME FEMORO-FACCIALE"/>
+    </concept>
+    <concept>
+        <code value="RN0470"/>
+        <display value="SINDROME OTO-PALATO-DIGITALE"/>
+    </concept>
+    <concept>
+        <code value="RN0480"/>
+        <display value="SINDROME TRISMA-PSEUDOCAMPTODATTILIA"/>
+    </concept>
+    <concept>
+        <code value="RN0490"/>
+        <display value="WEAVER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0500"/>
+        <display value="CUTIS LAXA"/>
+    </concept>
+    <concept>
+        <code value="RN0510"/>
+        <display value="INCONTINENTIA PIGMENTI"/>
+    </concept>
+    <concept>
+        <code value="RN0520"/>
+        <display value="XERODERMA PIGMENTOSO"/>
+    </concept>
+    <concept>
+        <code value="RN0530"/>
+        <display value="CHERATOSI FOLLICOLARE ACUMINATA"/>
+    </concept>
+    <concept>
+        <code value="RN0540"/>
+        <display value="CUTE MARMORATA TELEANGECTASICA CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RN0550"/>
+        <display value="DARIER, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN0560"/>
+        <display value="DISCHERATOSI CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RN0570"/>
+        <display value="EPIDERMOLISI BOLLOSA EREDITARIA"/>
+    </concept>
+    <concept>
+        <code value="RN0580"/>
+        <display value="ERITROCHERATODERMIA SIMMETRICA PROGRESSIVA"/>
+    </concept>
+    <concept>
+        <code value="RN0590"/>
+        <display value="ERITROCHERATODERMIA VARIABILE"/>
+    </concept>
+    <concept>
+        <code value="RN0600"/>
+        <display value="IPERCHERATOSI EPIDERMOLITICA"/>
+    </concept>
+    <concept>
+        <code value="RN0610"/>
+        <display value="IPOPLASIA FOCALE DERMICA"/>
+    </concept>
+    <concept>
+        <code value="RN0620"/>
+        <display value="PACHIDERMOPERIOSTOSI"/>
+    </concept>
+    <concept>
+        <code value="RN0630"/>
+        <display value="PSEUDOXANTOMA ELASTICO"/>
+    </concept>
+    <concept>
+        <code value="RN0640"/>
+        <display value="APLASIA CONGENITA DELLA CUTE"/>
+    </concept>
+    <concept>
+        <code value="RN0650"/>
+        <display value="PARRY-ROMBERG, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0670"/>
+        <display value="SINDROME DEL CRI DU CHAT"/>
+    </concept>
+    <concept>
+        <code value="RN0680"/>
+        <display value="TURNER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0700"/>
+        <display value="WOLF-HIRSCHHORN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0710"/>
+        <display value="SINDROME MELAS"/>
+    </concept>
+    <concept>
+        <code value="RN0720"/>
+        <display value="SINDROME MERRF"/>
+    </concept>
+    <concept>
+        <code value="RN0730"/>
+        <display value="SHORT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0740"/>
+        <display value="IVEMARK, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0750"/>
+        <display value="SCLEROSI TUBEROSA"/>
+    </concept>
+    <concept>
+        <code value="RN0760"/>
+        <display value="PEUTZ-JEGHERS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0770"/>
+        <display value="STURGE-WEBER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0780"/>
+        <display value="VON HIPPEL-LINDAU, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0790"/>
+        <display value="AARSKOG, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0800"/>
+        <display value="ANTLEY-BIXLER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0810"/>
+        <display value="BALLER-GEROLD, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0820"/>
+        <display value="BECKWITH-WIEDEMANN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0830"/>
+        <display value="BLOOM, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0840"/>
+        <display value="BORJESON-FORSSMAN-LEHMANN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0850"/>
+        <display value="SINDROME CHARGE"/>
+    </concept>
+    <concept>
+        <code value="RN0860"/>
+        <display value="DISPLASIA SETTO-OTTICA"/>
+    </concept>
+    <concept>
+        <code value="RN0870"/>
+        <display value="DUBOWITZ, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0880"/>
+        <display value="ECTRODATTILIA-DISPLASIA ECTODERMICA-PALATOSCHISI"/>
+    </concept>
+    <concept>
+        <code value="RN0890"/>
+        <display value="FREEMAN-SHELDON, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0900"/>
+        <display value="FRYNS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0910"/>
+        <display value="GOLDENHAR, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0920"/>
+        <display value="HERMANSKY-PUDLAK, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0930"/>
+        <display value="HOLT-ORAM, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0940"/>
+        <display value="SINDROME KABUKI"/>
+    </concept>
+    <concept>
+        <code value="RN0950"/>
+        <display value="KARTAGENER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0960"/>
+        <display value="MAFFUCCI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0970"/>
+        <display value="MARSHALL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN0980"/>
+        <display value="MECKEL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1000"/>
+        <display value="NAGER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1010"/>
+        <display value="NOONAN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1020"/>
+        <display value="OPITZ, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1021"/>
+        <display value="SINDROME FG"/>
+    </concept>
+    <concept>
+        <code value="RN1030"/>
+        <display value="PALLISTER-HALL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1040"/>
+        <display value="PFEIFFER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1050"/>
+        <display value="AXENFELD-RIEGER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1060"/>
+        <display value="ROBERTS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1070"/>
+        <display value="ROBINOW, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1080"/>
+        <display value="RUSSELL-SILVER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1100"/>
+        <display value="SECKEL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1110"/>
+        <display value="SEQUENZA DA IPOCINESIA FETALE"/>
+    </concept>
+    <concept>
+        <code value="RN1120"/>
+        <display value="SIMPSON-GOLABI-BEHMEL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1130"/>
+        <display value="SINDROME BRANCHIO-OCULO-FACCIALE"/>
+    </concept>
+    <concept>
+        <code value="RN1140"/>
+        <display value="SINDROME BRANCHIO-OTO-RENALE"/>
+    </concept>
+    <concept>
+        <code value="RN1150"/>
+        <display value="SINDROME CARDIO-FACIO-CUTANEA"/>
+    </concept>
+    <concept>
+        <code value="RN1160"/>
+        <display value="SINDROME OCULO-CEREBRO-CUTANEA"/>
+    </concept>
+    <concept>
+        <code value="RN1170"/>
+        <display value="SINDROME PROTEUS"/>
+    </concept>
+    <concept>
+        <code value="RN1180"/>
+        <display value="SINDROME TRICO-RINO-FALANGEA"/>
+    </concept>
+    <concept>
+        <code value="RN1190"/>
+        <display value="SINDROME NAIL-PATELLA"/>
+    </concept>
+    <concept>
+        <code value="RN1200"/>
+        <display value="SMITH-LEMLI-OPITZ, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1210"/>
+        <display value="SMITH-MAGENIS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1220"/>
+        <display value="STICKLER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1230"/>
+        <display value="SUMMITT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1240"/>
+        <display value="TOWNES-BROCKS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1250"/>
+        <display value="ASSOCIAZIONE VACTERL/VATER"/>
+    </concept>
+    <concept>
+        <code value="RN1260"/>
+        <display value="WILDERVANCK, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1270"/>
+        <display value="WILLIAMS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1280"/>
+        <display value="WINCHESTER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1290"/>
+        <display value="WOLFRAM, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1300"/>
+        <display value="ANGELMAN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1310"/>
+        <display value="PRADER-WILLI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1320"/>
+        <display value="MARFAN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1330"/>
+        <display value="SINDROME DEL CROMOSOMA X FRAGILE"/>
+    </concept>
+    <concept>
+        <code value="RN1340"/>
+        <display value="AASE-SMITH, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1350"/>
+        <display value="ALAGILLE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1360"/>
+        <display value="ALPORT, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1370"/>
+        <display value="ALSTROM, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1380"/>
+        <display value="BARDET-BIEDL, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1390"/>
+        <display value="CARPENTER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1400"/>
+        <display value="COCKAYNE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1410"/>
+        <display value="CORNELIA DE LANGE, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1420"/>
+        <display value="DE SANCTIS-CACCHIONE, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN1430"/>
+        <display value="DENIS-DRASH, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1440"/>
+        <display value="DISPLASIA OCULO-DENTO-DIGITALE"/>
+    </concept>
+    <concept>
+        <code value="RN1450"/>
+        <display value="DISPLASIA SPONDILOEPIFISARIA CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RN1460"/>
+        <display value="FRASER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1470"/>
+        <display value="HAY-WELLS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1480"/>
+        <display value="IPOMELANOSI DI ITO"/>
+    </concept>
+    <concept>
+        <code value="RN1490"/>
+        <display value="ISAACS, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1500"/>
+        <display value="SINDROME KID"/>
+    </concept>
+    <concept>
+        <code value="RN1510"/>
+        <display value="KLIPPEL-TRENAUNAY, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1520"/>
+        <display value="LANDAU-KLEFFNER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1530"/>
+        <display value="SINDROME LEOPARD"/>
+    </concept>
+    <concept>
+        <code value="RN1540"/>
+        <display value="LEVY-HOLLISTER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1550"/>
+        <display value="MARSHALL-SMITH, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1560"/>
+        <display value="NEU-LAXOVA, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1570"/>
+        <display value="NEUROACANTOCITOSI"/>
+    </concept>
+    <concept>
+        <code value="RN1580"/>
+        <display value="NORRIE, MALATTIA DI"/>
+    </concept>
+    <concept>
+        <code value="RN1590"/>
+        <display value="PALLISTER-KILLIAN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1600"/>
+        <display value="PEARSON, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1610"/>
+        <display value="SINDROME POEMS"/>
+    </concept>
+    <concept>
+        <code value="RN1620"/>
+        <display value="RUBINSTEIN-TAYBI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1630"/>
+        <display value="SINDROME ACROCALLOSA"/>
+    </concept>
+    <concept>
+        <code value="RN1640"/>
+        <display value="SINDROME CEREBRO-OCULO-FACIO-SCHELETRICA"/>
+    </concept>
+    <concept>
+        <code value="RN1650"/>
+        <display value="SINDROME DEL NEVO DISPLASTICO"/>
+    </concept>
+    <concept>
+        <code value="RN1660"/>
+        <display value="SINDROME DEL NEVO EPIDERMICO"/>
+    </concept>
+    <concept>
+        <code value="RN1670"/>
+        <display value="SINDROME DA PTERIGI MULTIPLI"/>
+    </concept>
+    <concept>
+        <code value="RN1680"/>
+        <display value="SINDROME TRICO-DENTO-OSSEA"/>
+    </concept>
+    <concept>
+        <code value="RN1690"/>
+        <display value="SINDROME TROMBOCITOPENICA CON APLASIA DEL RADIO"/>
+    </concept>
+    <concept>
+        <code value="RN1700"/>
+        <display value="SJOGREN-LARSSON, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1710"/>
+        <display value="TAY, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1720"/>
+        <display value="VOGT-KOYANAGI-HARADA, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1730"/>
+        <display value="SINDROME WAGR"/>
+    </concept>
+    <concept>
+        <code value="RN1740"/>
+        <display value="WALKER-WARBURG, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1750"/>
+        <display value="WEILL-MARCHESANI, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1760"/>
+        <display value="ZELLWEGER, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1770"/>
+        <display value="SINDROME CARDIOFACCIALE DI CAYLER"/>
+    </concept>
+    <concept>
+        <code value="RN1780"/>
+        <display value="CHAR, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1810"/>
+        <display value="ESTROFIA VESCICALE"/>
+    </concept>
+    <concept>
+        <code value="RN1820"/>
+        <display value="FINE-LUBINSKY, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RN1830"/>
+        <display value="SINDROME MEGALOCORNEA-RITARDO MENTALE"/>
+    </concept>
+    <concept>
+        <code value="RN1850"/>
+        <display value="MAINZER-SALDINO, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="RNG010"/>
+        <display value="PSEUDOERMAFRODITISMI"/>
+    </concept>
+    <concept>
+        <code value="RNG011"/>
+        <display value="ALTRE SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CON PREVALENTE ALTERAZIONE DEL SISTEMA NERVOSO"/>
+    </concept>
+    <concept>
+        <code value="RNG020"/>
+        <display value="SINDROMI CON ARTROGRIPOSI MULTIPLE CONGENITE"/>
+    </concept>
+    <concept>
+        <code value="RNG030"/>
+        <display value="SINDROMI CON CRANIOSINOSTOSI"/>
+    </concept>
+    <concept>
+        <code value="RNG040"/>
+        <display value="ALTRE ANOMALIE CONGENITE GRAVI E INVALIDANTI DEL CRANIO E/O DELLE OSSA DELLA FACCIA, DEI TEGUMENTI E DELLE MUCOSE"/>
+    </concept>
+    <concept>
+        <code value="RNG050"/>
+        <display value="CONDRODISTROFIE CONGENITE"/>
+    </concept>
+    <concept>
+        <code value="RNG060"/>
+        <display value="OSTEODISTROFIE CONGENITE ISOLATE O SINDROMICHE"/>
+    </concept>
+    <concept>
+        <code value="RNG070"/>
+        <display value="ITTIOSI CONGENITE"/>
+    </concept>
+    <concept>
+        <code value="RNG080"/>
+        <display value="SINDROMI DA ANEUPLOIDIA CROMOSOMICA"/>
+    </concept>
+    <concept>
+        <code value="RNG090"/>
+        <display value="SINDROMI DA RIARRANGIAMENTI STRUTTURALI SBILANCIATI CROMOSOMICI E GENOMICI"/>
+    </concept>
+    <concept>
+        <code value="RNG091"/>
+        <display value="SINDROMI MALFORMATIVE CONGENITE CON ALTERAZIONE DEL TESSUTO CONNETTIVO COME SEGNO PRINCIPALE"/>
+    </concept>
+    <concept>
+        <code value="RNG092"/>
+        <display value="SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CON BASSA STATURA COME SEGNO PRINCIPALE"/>
+    </concept>
+    <concept>
+        <code value="RNG093"/>
+        <display value="SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CARATTERIZZATE DA ACCRESCIMENTO PRECOCE ECCESSIVO"/>
+    </concept>
+    <concept>
+        <code value="RNG094"/>
+        <display value="SINDROMI PROGEROIDI"/>
+    </concept>
+    <concept>
+        <code value="RNG095"/>
+        <display value="SINDROMI DI WAARDENBURG"/>
+    </concept>
+    <concept>
+        <code value="RNG100"/>
+        <display value="ALTRE ANOMALIE CONGENITE MULTIPLE GRAVI E INVALIDANTI CON RITARDO MENTALE"/>
+    </concept>
+    <concept>
+        <code value="RNG101"/>
+        <display value="COLOBOMA CONGENITO OCULARE ISOLATO O SINDROMICO"/>
+    </concept>
+    <concept>
+        <code value="RNG110"/>
+        <display value="DISCINESIE CILIARI PRIMARIE"/>
+    </concept>
+    <concept>
+        <code value="RNG111"/>
+        <display value="ALTRE SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CON PREVALENTE INTERESSAMENTO DELL'APPARATO VISIVO"/>
+    </concept>
+    <concept>
+        <code value="RNG121"/>
+        <display value="SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CON ALTERAZIONE DELLA FACCIA COME SEGNO PRINCIPALE"/>
+    </concept>
+    <concept>
+        <code value="RNG130"/>
+        <display value="CHERATODERMIE PALMOPLANTARI EREDITARIE"/>
+    </concept>
+    <concept>
+        <code value="RNG131"/>
+        <display value="ALTRE SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CON ALTERAZIONE DEGLI ARTI COME SEGNO PRINCIPALE"/>
+    </concept>
+    <concept>
+        <code value="RNG132"/>
+        <display value="ALTRE MALFORMAZIONI CONGENITE GRAVI E INVALIDANTI DELLA PARETE ADDOMINALE"/>
+    </concept>
+    <concept>
+        <code value="RNG140"/>
+        <display value="DERMATOSI ACANTOLITICHE AUTOSOMICHE DOMINANTI DEL CALCIO-ATPASI"/>
+    </concept>
+    <concept>
+        <code value="RNG141"/>
+        <display value="SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI DEL CUORE E DEI GRANDI VASI"/>
+    </concept>
+    <concept>
+        <code value="RNG142"/>
+        <display value="ALTRE SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI DEI VASI PERIFERICI"/>
+    </concept>
+    <concept>
+        <code value="RNG150"/>
+        <display value="AGENESIA/DISGENESIA DEL CORPO CALLOSO IN FORMA ISOLATA O SINDROMICA"/>
+    </concept>
+    <concept>
+        <code value="RNG151"/>
+        <display value="SINDROMI CON DISPLASIA ECTODERMICA"/>
+    </concept>
+    <concept>
+        <code value="RNG200"/>
+        <display value="AMARTOMATOSI MULTIPLE"/>
+    </concept>
+    <concept>
+        <code value="RNG251"/>
+        <display value="DIFETTI CONGENITI DEL TUBO DIGERENTE: AGENESIA, ATRESIE, FISTOLE E DUPLICAZIONI"/>
+    </concept>
+    <concept>
+        <code value="RNG252"/>
+        <display value="ALTRE MALFORMAZIONI CONGENITE GRAVI E INVALIDANTI DELL'APPARATO DIGERENTE"/>
+    </concept>
+    <concept>
+        <code value="RNG261"/>
+        <display value="MALATTIA RENALE CISTICA GENETICA"/>
+    </concept>
+    <concept>
+        <code value="RNG262"/>
+        <display value="DIFETTI DELLO SVILUPPO SESSUALE CON AMBIGUITA' DEI GENITALI E/O DISCORDANZA CARIOTIPO/SVILUPPO GONADICO E/O FENOTIPO"/>
+    </concept>
+    <concept>
+        <code value="RNG263"/>
+        <display value="ALTRI DIFETTI GRAVI E INVALIDANTI DELLO SVILUPPO SESSUALE"/>
+    </concept>
+    <concept>
+        <code value="RNG264"/>
+        <display value="ALTRE MALFORMAZIONI CONGENITE GRAVI E INVALIDANTI DELL'APPARATO GENITO-URINARIO"/>
+    </concept>
+    <concept>
+        <code value="RNG271"/>
+        <display value="SINDROMI MALFORMATIVE CONGENITE GRAVI E INVALIDANTI CON DISOSTOSI COME SEGNO PREVALENTE"/>
+    </concept>
+    <concept>
+        <code value="RP0010"/>
+        <display value="EMBRIOFETOPATIA RUBEOLICA"/>
+    </concept>
+    <concept>
+        <code value="RP0020"/>
+        <display value="SINDROME FETALE DA ACIDO VALPROICO"/>
+    </concept>
+    <concept>
+        <code value="RP0030"/>
+        <display value="SINDROME FETALE DA IDANTOINA"/>
+    </concept>
+    <concept>
+        <code value="RP0040"/>
+        <display value="SINDROME ALCOLICA FETALE"/>
+    </concept>
+    <concept>
+        <code value="RP0060"/>
+        <display value="KERNITTERO"/>
+    </concept>
+    <concept>
+        <code value="RP0070"/>
+        <display value="FIBROSI EPATICA CONGENITA"/>
+    </concept>
+    <concept>
+        <code value="RQ0010"/>
+        <display value="GERSTMANN, SINDROME DI"/>
+    </concept>
+    <concept>
+        <code value="G01"/>
+        <display value="Invalidi di guerra appartenenti alle categorie dalla 1ª alla 5ª, titolari di pensione diretta vitalizia, e deportati in campi di sterminio"/>
+    </concept>
+    <concept>
+        <code value="L01"/>
+        <display value="Grandi invalidi del lavoro dall’80% al 100% di invalidità"/>
+    </concept>
+    <concept>
+        <code value="L02"/>
+        <display value="Invalidi del lavoro con riduzione della capacità lavorativa dal 67% al 79%"/>
+    </concept>
+    <concept>
+        <code value="S01"/>
+        <display value="Grandi invalidi per servizio appartenenti alla 1ª categoria"/>
+    </concept>
+    <concept>
+        <code value="S02"/>
+        <display value="Invalidi per servizio appartenenti alle categorie dalla 2ª alla 5ª"/>
+    </concept>
+    <concept>
+        <code value="C01"/>
+        <display value="Invalidi civili al 100% senza indennità di accompagnamento"/>
+    </concept>
+    <concept>
+        <code value="C02"/>
+        <display value="Invalidi civili al 100% con indennità di accompagnamento"/>
+    </concept>
+    <concept>
+        <code value="C03"/>
+        <display value="Invalidi civili con riduzione della capacità lavorativa dal 67% al 99%"/>
+    </concept>
+    <concept>
+        <code value="C04"/>
+        <display value="Invalidi minori di 18 anni con indennità di frequenza"/>
+    </concept>
+    <concept>
+        <code value="C05"/>
+        <display value="Ciechi assoluti o con residuo visivo non superiore a 1/10 in entrambi gli occhi"/>
+    </concept>
+    <concept>
+        <code value="C06"/>
+        <display value="Sordi dalla nascita o prima dell’apprendimento della lingua parlata"/>
+    </concept>
+    <concept>
+        <code value="G02"/>
+        <display value="Invalidi di guerra appartenenti alle categorie dalla 6ª alla 8ª"/>
+    </concept>
+    <concept>
+        <code value="L03"/>
+        <display value="Invalidi del lavoro con riduzione della capacità lavorativa dall’1% al 66%"/>
+    </concept>
+    <concept>
+        <code value="L04"/>
+        <display value="Infortunati sul lavoro o affetti da malattie professionali"/>
+    </concept>
+    <concept>
+        <code value="S03"/>
+        <display value="Invalidi per servizio appartenenti alle categorie dalla 6ª alla 8ª"/>
+    </concept>
+    <concept>
+        <code value="S04"/>
+        <display value="Servizio civile reso in sostituzione della leva obbligatoria eventualmente riattivata"/>
+    </concept>
+    <concept>
+        <code value="C07"/>
+        <display value="Prestazioni richieste in sede di verifica dell’invalidità civile"/>
+    </concept>
+    <concept>
+        <code value="N01"/>
+        <display value="Danneggiati da complicanze irreversibili causate da vaccinazioni obbligatorie, trasfusioni o emoderivati"/>
+    </concept>
+    <concept>
+        <code value="V01"/>
+        <display value="Vittime di atti di terrorismo e stragi, vittime del dovere e familiari superstiti"/>
+    </concept>
+    <concept>
+        <code value="V02"/>
+        <display value="Vittime del terrorismo e delle stragi con invalidità superiore all’80%"/>
+    </concept>
+    <concept>
+        <code value="M00"/>
+        <display value="Prestazioni in funzione preconcezionale e condizioni previste dalla normativa"/>
+    </concept>
+    <concept>
+        <code value="M01"/>
+        <display value="Prestazioni in esenzione alla 1ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M02"/>
+        <display value="Prestazioni in esenzione alla 2ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M03"/>
+        <display value="Prestazioni in esenzione alla 3ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M04"/>
+        <display value="Prestazioni in esenzione alla 4ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M05"/>
+        <display value="Prestazioni in esenzione alla 5ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M06"/>
+        <display value="Prestazioni in esenzione alla 6ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M07"/>
+        <display value="Prestazioni in esenzione alla 7ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M08"/>
+        <display value="Prestazioni in esenzione alla 8ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M09"/>
+        <display value="Prestazioni in esenzione alla 9ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M10"/>
+        <display value="Prestazioni in esenzione alla 10ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M11"/>
+        <display value="Prestazioni in esenzione alla 11ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M12"/>
+        <display value="Prestazioni in esenzione alla 12ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M13"/>
+        <display value="Prestazioni in esenzione alla 13ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M14"/>
+        <display value="Prestazioni in esenzione alla 14ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M15"/>
+        <display value="Prestazioni in esenzione alla 15ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M16"/>
+        <display value="Prestazioni in esenzione alla 16ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M17"/>
+        <display value="Prestazioni in esenzione alla 17ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M18"/>
+        <display value="Prestazioni in esenzione alla 18ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M19"/>
+        <display value="Prestazioni in esenzione alla 19ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M20"/>
+        <display value="Prestazioni in esenzione alla 20ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M21"/>
+        <display value="Prestazioni in esenzione alla 21ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M22"/>
+        <display value="Prestazioni in esenzione alla 22ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M23"/>
+        <display value="Prestazioni in esenzione alla 23ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M24"/>
+        <display value="Prestazioni in esenzione alla 24ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M25"/>
+        <display value="Prestazioni in esenzione alla 25ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M26"/>
+        <display value="Prestazioni in esenzione alla 26ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M27"/>
+        <display value="Prestazioni in esenzione alla 27ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M28"/>
+        <display value="Prestazioni in esenzione alla 28ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M29"/>
+        <display value="Prestazioni in esenzione alla 29ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M30"/>
+        <display value="Prestazioni in esenzione alla 30ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M31"/>
+        <display value="Prestazioni in esenzione alla 31ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M32"/>
+        <display value="Prestazioni in esenzione alla 32ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M33"/>
+        <display value="Prestazioni in esenzione alla 33ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M34"/>
+        <display value="Prestazioni in esenzione alla 34ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M35"/>
+        <display value="Prestazioni in esenzione alla 35ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M36"/>
+        <display value="Prestazioni in esenzione alla 36ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M37"/>
+        <display value="Prestazioni in esenzione alla 37ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M38"/>
+        <display value="Prestazioni in esenzione alla 38ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M39"/>
+        <display value="Prestazioni in esenzione alla 39ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M40"/>
+        <display value="Prestazioni in esenzione alla 40ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M41"/>
+        <display value="Prestazioni in esenzione alla 41ª settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="M50"/>
+        <display value="Gravidanza a rischio"/>
+    </concept>
+    <concept>
+        <code value="M52"/>
+        <display value="Ulteriori prestazioni in gravidanza erogate al personale navigante"/>
+    </concept>
+    <concept>
+        <code value="M99"/>
+        <display value="Gravidanza ordinaria quando non è nota la settimana di gravidanza"/>
+    </concept>
+    <concept>
+        <code value="E01"/>
+        <display value="Cittadini di età inferiore a 6 anni o superiore a 65 anni appartenenti a nucleo familiare con reddito complessivo entro la soglia prevista"/>
+    </concept>
+    <concept>
+        <code value="E02"/>
+        <display value="Disoccupati e familiari a carico appartenenti a nucleo familiare con reddito complessivo entro le soglie previste"/>
+    </concept>
+    <concept>
+        <code value="E03"/>
+        <display value="Titolari di pensione sociale e familiari a carico"/>
+    </concept>
+    <concept>
+        <code value="E04"/>
+        <display value="Titolari di pensione al minimo con più di 60 anni e familiari a carico, entro le soglie previste"/>
+    </concept>
+    <concept>
+        <code value="D01"/>
+        <display value="Prestazioni diagnostiche nell’ambito di campagne di screening autorizzate dalla Regione"/>
+    </concept>
+    <concept>
+        <code value="D02"/>
+        <display value="Esame citologico cervico-vaginale (PAP test)"/>
+    </concept>
+    <concept>
+        <code value="D03"/>
+        <display value="Esame mammografico"/>
+    </concept>
+    <concept>
+        <code value="D04"/>
+        <display value="Colonscopia per diagnosi precoce dei tumori del colon-retto"/>
+    </concept>
+    <concept>
+        <code value="D05"/>
+        <display value="Approfondimenti diagnostici correlati alla diagnosi precoce del tumore della mammella"/>
+    </concept>
+    <concept>
+        <code value="D06"/>
+        <display value="Prestazioni del protocollo di monitoraggio sanitario per soggetti operanti in Bosnia-Erzegovina e Kosovo"/>
+    </concept>
+    
+</CodeSystem>

@@ -26,7 +26,7 @@ Alias: $atc = http://www.whocc.no/atc
 Alias: $icd-9-cm = http://hl7.org/fhir/sid/icd-9-cm
 
 
-//Alias: $minsan-esenzioni = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-esenzioni
+Alias: $mds-esenzioni = https://www.hl7.it/fhir/terminology/CodeSystem/mds-esenzioni
 Alias: $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
@@ -41,6 +41,8 @@ Alias: $strutturePub = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-hsp
 
 Alias: $istatUnitaAmministrativeTerritoriali = https://www.hl7.it/fhir/terminology/CodeSystem/istat-unitaAmministrativeTerritoriali
 //Alias: $CsMinSanRegioni = https://www.hl7.it/fhir/terminology/CodeSystem/minsan-regione
+Alias: $results-laboratory-observations-uv-ips = http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips
+Alias: $cs-observation-code = http://hl7.org/fhir/observation-status
 
 //MDS
 Alias: $asl = https://www.hl7.it/fhir/terminology/CodeSystem/cs-asl
@@ -53,3 +55,12 @@ Alias: $cs-statoEsenzione = https://www.hl7.it/fhir/terminology/CodeSystem/stato
 Alias: $V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $mds-esenzione = http://hl7.it/fhir/dossier-pharma/CodeSystem/mds-esenzioni
+
+//Core
+Alias: $cs-addruse-org = http://hl7.org/fhir/address-use
+Alias: $cs-classcode = https://www.hl7.it/fhir/terminology/CodeSystem/cs-classcode
+Alias: $cs-access-rules = https://www.hl7.it/fhir/terminology/CodeSystem/cs-access-rules
+
+//taccuino
+Alias: $cs-loinc = https://www.hl7.it/fhir/terminology/CodeSystem/cs-loinc-it
+//Telemonitoraggio

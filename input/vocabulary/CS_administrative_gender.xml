@@ -13,6 +13,7 @@
     <date value="2019-11-01T09:29:23+11:00"/>
     <description value="Il genere di una persona, utilizzato per fini amministrativi."/>
     <content value="supplement"/>
+    <language value="it-IT"/>
     <supplements value="http://hl7.org/fhir/administrative-gender"/>
     <concept>
         <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments">

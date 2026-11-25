@@ -181,7 +181,7 @@
         <p>MDS - Strutture di Ricovero</p>
       </td>
     </tr>
-      <tr>
+    <tr>
       <td style="column-width:30%">
         <a href="CodeSystem-mds-esenzioni.html" title="CodeSystem/mds-esenzioni">MDS - Esenzioni</a>
       </td>
@@ -189,5 +189,125 @@
         <p>MDS - Esenzioni</p>
       </td>
     </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codicefiscale.html" title="CodeSystem/cs-codicefiscale">CF - Codice Fiscale</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio dei Codici Fiscali italiani.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codice-team.html" title="CodeSystem/cs-codice-team">TEAM - Tessera Europea di Assicurazione Malattia</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio dei codici TEAM (Tessera Europea di Assicurazione Malattia).</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-nessuna-esenzione.html" title="CodeSystem/cs-nessuna-esenzione">MDS - Nessuna Esenzione</a>
+      </td>
+      <td>
+        <p>Nessuna Esenzione</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-cnd.html" title="CodeSystem/cs-cnd">CND - Classificazione Nazionale dei Dispositivi medici</a>
+      </td>
+      <td>
+        <p>Sistema di codifica CND (Classificazione Nazionale dei Dispositivi Medici).</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codice-ana.html" title="CodeSystem/cs-codice-ana">ANA - Anagrafica Nazionale Assistiti</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica gli assistiti registrati nell'Anagrafe Nazionale Assistiti (ANA).</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-anpr.html" title="CodeSystem/cs-anpr">ANPR - Anagrafe Nazionale della Popolazione Residente</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio degli identificativi dell'Anagrafe Nazionale della Popolazione Residente (ANPR).</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codice-eni.html" title="CodeSystem/cs-codice-eni">ENI - Europeo Non Iscritto</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio degli identificativi ENI attribuiti ai cittadini dell'Unione Europea temporaneamente presenti sul territorio nazionale e non iscritti al Servizio Sanitario Nazionale.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-codice-stp.html" title="CodeSystem/cs-codice-stp">STP - Straniero Temporaneamente Presente</a>
+      </td>
+      <td>
+        <p>CodeSystem che identifica il dominio dei codici STP attribuiti ai cittadini stranieri non appartenenti all'Unione Europea temporaneamente presenti sul territorio nazionale e non iscritti al Servizio Sanitario Nazionale.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-access-rules.html" title="CodeSystem/cs-access-rules">Atti clinici e regole di accesso</a>
+      </td>
+      <td>
+        <p>Atti clinici e regole di accesso</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-classcode.html" title="CodeSystem/cs-classcode">Classe documento</a>
+      </td>
+      <td>
+        <p>Classe documento a cui appartiene il documento.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-branca-prestazione.html" title="CodeSystem/cs-branca-prestazione">Branca Prestazione</a>
+      </td>
+      <td>
+        <p>CodeSystem che raccoglie le branche specialistiche associate alle prestazioni sanitarie</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="CodeSystem-cs-CatalogoNazionalePrestazioni.html" title="CodeSystem/cs-CatalogoNazionalePrestazioni">Codesystem catalogo nazionale prestazioni</a>
+      </td>
+      <td>
+        <p>Definisce il sistema di terminologie da usare per i codici prestazione definiti dal catalogo nazionale</p>
+      </td>
+    </tr>
+    <tr>
+        <td style="column-width:30%">
+          <a href="CodeSystem-cs-tipo-ricetta.html" title="CodeSystem/cs-tipo-ricetta">Codici Assistenza per Stranieri</a>
+        </td>
+        <td>
+          <p>Codici identificativi per tipologie di assistenza a stranieri in temporaneo soggiorno, secondo classificazioni italiane ed europee.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="column-width:30%">
+          <a href="CodeSystem-cs-loinc-it.html" title="CodeSystem/cs-loinc-it">CsLoincIT</a>
+        </td>
+        <td>
+          <p>Codici del LOINC italiano.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="column-width:30%">
+          <a href="CodeSystem-mds-esenzioni.html" title="CodeSystem/mds-esenzioni">CsEsenzioni</a>
+        </td>
+        <td>
+          <p>Codici di esenzione dal ticket</p>
+        </td>
+      </tr>
   </tbody>
 </table>

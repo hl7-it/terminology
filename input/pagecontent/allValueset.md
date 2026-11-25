@@ -314,15 +314,7 @@
         <p>Valueset contenente i codici esenzione</p>
       </td>
     </tr>
-    <tr>
-      <td style="column-width:30%">
-        <a href="ValueSet-aifa-ge.html" title="ValueSet/aifa-ge"> AIFA Gruppo di Equivalenza</a>
-      </td>
-      <td>
-        <p> AIFA - ValueSet gruppo di equivalenza </p>
-      </td>
-    </tr>
-         <tr>
+      <tr>
       <td style="column-width:30%">
         <a href="ValueSet-vs-V3RoleCode.html" title="ValueSet/vs-V3RoleCode"> HL7 Italia - HL7 V3 RoleCode (estensione)</a>
       </td>
@@ -400,6 +392,134 @@
       </td>
       <td>
         <p>WHO ICD-9-CM</p>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-lab-orderCodes-it-lab.html" title="ValueSet/lab-orderCodes-it-lab">LabOrderCodes</a>
+      </td>
+      <td>
+        <p>Codice della richiesta per un esame di Laboratorio.</p>
+      </td>
+    </tr> -->
+      <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-minsan-asl.html" title="ValueSet/minsan-asl">VsMinisteroSaluteAsl</a>
+      </td>
+      <td>
+        <p>MDS - ASL</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-valueset-status-obs-it.html" title="ValueSet/valueset-status-obs-it">ObservationStatusCodeLabReport</a>
+      </td>
+      <td>
+        <p>Valueset contenente i codici di di stato per la risorsa Observation Document - Lab Report.</p>
+      </td>
+    </tr>
+     <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-add-use-it.html" title="ValueSet/vs-add-use-it">VsAddressUseIt</a>
+      </td>
+      <td>
+        <p>Insieme dei valori ammessi per qualificare **address.use**, ossia il tipo di utilizzo di un indirizzo.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-classcode.html" title="ValueSet/vs-classcode">VsClassCode</a>
+      </td>
+      <td>
+        <p>Classe a cui il documento appartiene</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-mds-esenzioni.html" title="ValueSet/vs-mds-esenzioni">VsMinisteroSaluteEsenzioni</a>
+      </td>
+      <td>
+        <p>Codici Esenzioni Ministero della Salute</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-loinc-parametri-vitali.html" title="ValueSet/vs-loinc-parametri-vitali">VsLoincParametriVitali</a>
+      </td>
+      <td>
+        <p>Codici LOINC dei parametri vitali in italiano</p>
+      </td>
+    </tr>
+     <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-loinc-scala-dolore.html" title="ValueSet/vs-loinc-scala-dolore">VsLoincScalaDolore</a>
+      </td>
+      <td>
+        <p>Codici LOINC per la Scala del Dolore (0-10)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-loinc-tipo-doc.html" title="ValueSet/vs-loinc-tipo-doc">VsLoincTipoDocumento</a>
+      </td>
+      <td>
+        <p>Codici LOINC per la tipologia di documento</p>
+      </td>
+    </tr>
+      <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-no-allergies.html" title="ValueSet/vs-no-allergies">VsNoAllergies</a>
+      </td>
+      <td>
+        <p>Nessuna allergia oppure agente non noto</p>
+      </td>
+    </tr>
+       <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-VstipoIdentificatore.html" title="ValueSet/VstipoIdentificatore">VstipoIdentificatore</a>
+      </td>
+      <td>
+        <p>Value set che descrivie i diversi tipi di identificatori. Include i codici della tabella http://terminology.hl7.org/CodeSystem/v2-0203 piu' 'STP' ed 'ENI' </p>
+      </td>
+    </tr>
+      <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-tipo-ricetta.html" title="ValueSet/vs-tipo-ricetta">VsTipoRicetta</a>
+      </td>
+      <td>
+        <p>Contiene tutti i codici dal sistema di classificazione per l’assistenza a stranieri in temporaneo soggiorno.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-ValueSetCatalogoNazionalePrestazioni.html" title="ValueSet/ValueSetCatalogoNazionalePrestazioni">ValueSetCatalogoNazionalePrestazioni</a>
+      </td>
+      <td>
+        <p>Contiene la lista di codici da utilizzare per le prestazioni secondo il catalogo nazionale</p>
+      </td>
+    </tr>
+     <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vs-specialita-mediche.html" title="ValueSet/vs-specialita-mediche">SpecialitaMedicheVS</a>
+      </td>
+      <td>
+        <p>Insieme di valori che include tutte le specialità mediche definite nel CodeSystem.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-TipologiaAttivitaPianoDiTelemonitoraggio.html" title="ValueSet/TipologiaAttivitaPianoDiTelemonitoraggio">TipologiaAttivitaPianoDiTelemonitoraggio</a>
+      </td>
+      <td>
+        <p>ValueSet contenente la tipologia di attività inserite nel piano di Telemonitoraggio.</p>
+      </td>
+    </tr>
+           <tr>
+      <td style="column-width:30%">
+        <a href="ValueSet-vsTipologiaDocumentale.html" title="ValueSet/vsTipologiaDocumentale">VsTipologiaDocumentale</a>
+      </td>
+      <td>
+        <p>Codici LOINC dei documenti</p>
       </td>
     </tr>
   </tbody>

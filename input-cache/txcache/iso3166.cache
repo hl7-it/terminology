@@ -133,27 +133,33 @@
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:e82992db-131e-4b8c-85fa-1b63fcc880cc",
-    "timestamp" : "2023-12-19T08:50:12.999Z",
+    "identifier" : "urn:uuid:afa9b2c5-2f50-41d4-81f6-75cbf137ea87",
+    "timestamp" : "2026-11-02T14:09:04.670Z",
     "total" : 31,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -184,7 +190,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CZ",
-      "display" : "Czech Republic"
+      "display" : "Czechia"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -318,56 +324,17 @@ e: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "IT"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "AT",
+  "display" : "Austria"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Italy",
-  "code" : "IT",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "IT"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Italy",
-  "code" : "IT",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "AT"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -375,21 +342,49 @@ v: {
   "code" : "AT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#AT for language(s) 'it-IT'. The display is 'Austria' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n1ms urn:iso:std:iso:3166/vs|2018: Validate \"[urn:iso:std:iso:3166#AT (\"Austria\")]\"\n1ms urn:iso:std:iso:3166/vs|2018: Check \"urn:iso:std:iso:3166#AT\"\n1ms urn:iso:std:iso:3166/vs|2018: CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166|2018\n1ms urn:iso:std:iso:3166/vs|2018: check code in (urn:iso:std:iso:3166) at Coding\n1ms urn:iso:std:iso:3166/vs|2018: Code \"AT\" found in urn:iso:std:iso:3166|2018",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#AT for language(s) 'it-IT'. The display is 'Austria' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "BE"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "BE",
+  "display" : "Belgium"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -397,21 +392,48 @@ v: {
   "code" : "BE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#BE for language(s) 'it-IT'. The display is 'Belgium' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#BE for language(s) 'it-IT'. The display is 'Belgium' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "BG"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "BG",
+  "display" : "Bulgaria"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -419,21 +441,48 @@ v: {
   "code" : "BG",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#BG for language(s) 'it-IT'. The display is 'Bulgaria' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#BG for language(s) 'it-IT'. The display is 'Bulgaria' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "HR"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "HR",
+  "display" : "Croatia"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -441,21 +490,48 @@ v: {
   "code" : "HR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#HR for language(s) 'it-IT'. The display is 'Croatia' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#HR for language(s) 'it-IT'. The display is 'Croatia' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "CY"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "CY",
+  "display" : "Cyprus"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -463,21 +539,48 @@ v: {
   "code" : "CY",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#CY for language(s) 'it-IT'. The display is 'Cyprus' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#CY for language(s) 'it-IT'. The display is 'Cyprus' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "CZ"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "CZ",
+  "display" : "Czech Republic"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -485,21 +588,48 @@ v: {
   "code" : "CZ",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Czech Republic' for urn:iso:std:iso:3166#CZ. There are no valid display names found for language(s) 'it-IT'. Default display is 'Czechia'",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_ERR"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Czech Republic' for urn:iso:std:iso:3166#CZ. There are no valid display names found for language(s) 'it-IT'. Default display is 'Czechia'"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "DK"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "DK",
+  "display" : "Denmark"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -507,21 +637,48 @@ v: {
   "code" : "DK",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#DK for language(s) 'it-IT'. The display is 'Denmark' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#DK for language(s) 'it-IT'. The display is 'Denmark' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "EE"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "EE",
+  "display" : "Estonia"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -529,21 +686,48 @@ v: {
   "code" : "EE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#EE for language(s) 'it-IT'. The display is 'Estonia' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#EE for language(s) 'it-IT'. The display is 'Estonia' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "FI"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "FI",
+  "display" : "Finland"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -551,21 +735,48 @@ v: {
   "code" : "FI",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#FI for language(s) 'it-IT'. The display is 'Finland' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#FI for language(s) 'it-IT'. The display is 'Finland' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "FR"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "FR",
+  "display" : "France"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -573,21 +784,48 @@ v: {
   "code" : "FR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#FR for language(s) 'it-IT'. The display is 'France' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#FR for language(s) 'it-IT'. The display is 'France' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "GR"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "GR",
+  "display" : "Greece"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -595,21 +833,48 @@ v: {
   "code" : "GR",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#GR for language(s) 'it-IT'. The display is 'Greece' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#GR for language(s) 'it-IT'. The display is 'Greece' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "DE"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "DE",
+  "display" : "Germany"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -617,21 +882,48 @@ v: {
   "code" : "DE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#DE for language(s) 'it-IT'. The display is 'Germany' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#DE for language(s) 'it-IT'. The display is 'Germany' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "HU"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "HU",
+  "display" : "Hungary"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -639,21 +931,48 @@ v: {
   "code" : "HU",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#HU for language(s) 'it-IT'. The display is 'Hungary' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#HU for language(s) 'it-IT'. The display is 'Hungary' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "IE"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "IE",
+  "display" : "Ireland"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -661,21 +980,48 @@ v: {
   "code" : "IE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#IE for language(s) 'it-IT'. The display is 'Ireland' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#IE for language(s) 'it-IT'. The display is 'Ireland' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "IT"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "IT",
+  "display" : "Italy"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -683,21 +1029,48 @@ v: {
   "code" : "IT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#IT for language(s) 'it-IT'. The display is 'Italy' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#IT for language(s) 'it-IT'. The display is 'Italy' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "LV"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "LV",
+  "display" : "Latvia"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -705,21 +1078,48 @@ v: {
   "code" : "LV",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#LV for language(s) 'it-IT'. The display is 'Latvia' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#LV for language(s) 'it-IT'. The display is 'Latvia' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "LT"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "LT",
+  "display" : "Lithuania"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -727,21 +1127,48 @@ v: {
   "code" : "LT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#LT for language(s) 'it-IT'. The display is 'Lithuania' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#LT for language(s) 'it-IT'. The display is 'Lithuania' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "LU"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "LU",
+  "display" : "Luxembourg"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -749,21 +1176,48 @@ v: {
   "code" : "LU",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#LU for language(s) 'it-IT'. The display is 'Luxembourg' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#LU for language(s) 'it-IT'. The display is 'Luxembourg' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "MT"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "MT",
+  "display" : "Malta"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -771,21 +1225,48 @@ v: {
   "code" : "MT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#MT for language(s) 'it-IT'. The display is 'Malta' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#MT for language(s) 'it-IT'. The display is 'Malta' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "NL"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "NL",
+  "display" : "Netherlands"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -793,21 +1274,48 @@ v: {
   "code" : "NL",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#NL for language(s) 'it-IT'. The display is 'Netherlands' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#NL for language(s) 'it-IT'. The display is 'Netherlands' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "PL"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "PL",
+  "display" : "Poland"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -815,21 +1323,48 @@ v: {
   "code" : "PL",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#PL for language(s) 'it-IT'. The display is 'Poland' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#PL for language(s) 'it-IT'. The display is 'Poland' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "PT"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "PT",
+  "display" : "Portugal"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -837,21 +1372,48 @@ v: {
   "code" : "PT",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#PT for language(s) 'it-IT'. The display is 'Portugal' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#PT for language(s) 'it-IT'. The display is 'Portugal' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "RO"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "RO",
+  "display" : "Romania"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -859,21 +1421,48 @@ v: {
   "code" : "RO",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#RO for language(s) 'it-IT'. The display is 'Romania' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#RO for language(s) 'it-IT'. The display is 'Romania' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "SK"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "SK",
+  "display" : "Slovakia"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -881,21 +1470,48 @@ v: {
   "code" : "SK",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#SK for language(s) 'it-IT'. The display is 'Slovakia' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#SK for language(s) 'it-IT'. The display is 'Slovakia' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "SI"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "SI",
+  "display" : "Slovenia"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -903,21 +1519,48 @@ v: {
   "code" : "SI",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#SI for language(s) 'it-IT'. The display is 'Slovenia' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#SI for language(s) 'it-IT'. The display is 'Slovenia' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "ES"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "ES",
+  "display" : "Spain"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -925,21 +1568,48 @@ v: {
   "code" : "ES",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'it-IT'. The display is 'Spain' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#ES for language(s) 'it-IT'. The display is 'Spain' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "SE"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "SE",
+  "display" : "Sweden"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -947,21 +1617,48 @@ v: {
   "code" : "SE",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'it-IT'. The display is 'Sweden' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'it-IT'. The display is 'Sweden' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "IS"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "IS",
+  "display" : "Iceland"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -969,21 +1666,48 @@ v: {
   "code" : "IS",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#IS for language(s) 'it-IT'. The display is 'Iceland' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#IS for language(s) 'it-IT'. The display is 'Iceland' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "LI"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "LI",
+  "display" : "Liechtenstein"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -991,21 +1715,48 @@ v: {
   "code" : "LI",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#LI for language(s) 'it-IT'. The display is 'Liechtenstein' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#LI for language(s) 'it-IT'. The display is 'Liechtenstein' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "NO"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "NO",
+  "display" : "Norway"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -1013,21 +1764,48 @@ v: {
   "code" : "NO",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'it-IT'. The display is 'Norway' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'it-IT'. The display is 'Norway' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
-  "code" : "CH"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "code" : "CH",
+  "display" : "Switzerland"
+}, "valueSet" :null, "langs":"it-IT", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[https://www.hl7.it/fhir/terminology/ValueSet/iso-ehicCountryCode|0.1.2]", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "x-system-cache-id",
     "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "it-IT"
   }]
 }}####
 v: {
@@ -1035,9 +1813,31 @@ v: {
   "code" : "CH",
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
-  "unknown-systems" : "",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code urn:iso:std:iso:3166#CH for language(s) 'it-IT'. The display is 'Switzerland' which is a valid display for the default language",
+  "server" : "https://tx.fhir.org/r4",
   "issues" : {
-  "resourceType" : "OperationOutcome"
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code urn:iso:std:iso:3166#CH for language(s) 'it-IT'. The display is 'Switzerland' which is a valid display for the default language"
+    },
+    "expression" : ["Coding.display"]
+  }]
 }
 
 }
@@ -1176,27 +1976,33 @@ v: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1a05f143-ce4c-4ddc-bae2-7b0fd75dfe02",
-    "timestamp" : "2023-12-19T09:18:59.544Z",
+    "identifier" : "urn:uuid:0c912e1e-230d-4362-b442-5bea7111ec53",
+    "timestamp" : "2026-11-02T14:14:13.771Z",
     "total" : 31,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : false
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -1227,7 +2033,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CZ",
-      "display" : "Czech Republic"
+      "display" : "Czechia"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1359,51 +2165,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "IT",
-  "display" : "Italy"
-}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Italy",
-  "code" : "IT",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "IT"
-}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction--0", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
-  }]
-}}####
-v: {
-  "display" : "Italy",
-  "code" : "IT",
-  "system" : "urn:iso:std:iso:3166",
-  "version" : "2018",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -1419,27 +2180,33 @@ v: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:8fbf4ea7-5f5c-47e2-b7d5-d79f6a27be2c",
-    "timestamp" : "2023-12-19T09:24:35.778Z",
+    "identifier" : "urn:uuid:de295292-1220-478c-972a-659562e161b5",
+    "timestamp" : "2026-11-02T14:15:21.668Z",
     "total" : 249,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -1465,7 +2232,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "ALA",
-      "display" : "Eland Islands"
+      "display" : "Åland Islands"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1580,7 +2347,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "BLM",
-      "display" : "Saint Barthilemy"
+      "display" : "Saint Barthélemy"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1665,7 +2432,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CIV",
-      "display" : "Ctte d'Ivoire"
+      "display" : "Côte d'Ivoire"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -1715,7 +2482,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CUW",
-      "display" : "Curagao"
+      "display" : "Curaçao"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2380,7 +3147,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "REU",
-      "display" : "Riunion"
+      "display" : "Réunion"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2707,27 +3474,33 @@ e: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a2f2055e-ed5a-4cde-865a-358b251234ef",
-    "timestamp" : "2023-12-19T09:24:36.169Z",
-    "total" : 249,
+    "identifier" : "urn:uuid:78d9898a-1d69-49d5-b801-046ea660937c",
+    "timestamp" : "2026-11-02T14:15:21.933Z",
+    "total" : 291,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -2803,7 +3576,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "AX",
-      "display" : "Eland Islands"
+      "display" : "Åland Islands"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2858,7 +3631,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "BL",
-      "display" : "Saint Barthilemy"
+      "display" : "Saint Barthélemy"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2948,7 +3721,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CI",
-      "display" : "Ctte d'Ivoire"
+      "display" : "Côte d'Ivoire"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -2993,7 +3766,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "CW",
-      "display" : "Curagao"
+      "display" : "Curaçao"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3668,7 +4441,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "RE",
-      "display" : "Riunion"
+      "display" : "Réunion"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3928,7 +4701,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "VI",
-      "display" : "Virgin Islands,"
+      "display" : "Virgin Islands, U.S."
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -3974,6 +4747,216 @@ e: {
       "system" : "urn:iso:std:iso:3166",
       "code" : "ZW",
       "display" : "Zimbabwe"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "AA",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QM",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QN",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QO",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QP",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QQ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QR",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QS",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QT",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QU",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QV",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QW",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QX",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QY",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "QZ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XA",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XB",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XC",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XD",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XE",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XF",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XG",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XH",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XI",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XJ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XK",
+      "display" : "Kosovo"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XL",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XM",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XN",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XO",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XP",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XQ",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XR",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XS",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XT",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XU",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XV",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XW",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XX",
+      "display" : "Unknown"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XY",
+      "display" : "User-assigned"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "XZ",
+      "display" : "International Waters"
+    },
+    {
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ZZ",
+      "display" : "Unknown or Invalid Territory"
     }]
   }
 },
@@ -3995,27 +4978,33 @@ e: {
   }
 }}####
 e: {
+  "source" : tx.fhir.org,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:dbb4291d-ea9d-4752-bdbd-7d5cdc32bbba",
-    "timestamp" : "2023-12-19T09:24:36.325Z",
+    "identifier" : "urn:uuid:a4f42d99-de0b-40de-91a2-1dd2a25cd2a0",
+    "timestamp" : "2026-11-02T14:15:22.183Z",
     "total" : 249,
+    "offset" : 0,
     "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
       "name" : "excludeNested",
       "valueBoolean" : true
     },
     {
-      "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166|2018"
+      "name" : "includeDefinition",
+      "valueBoolean" : false
     },
     {
-      "name" : "version",
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
       "valueUri" : "urn:iso:std:iso:3166|2018"
     }],
     "contains" : [{
@@ -4386,7 +5375,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "248",
-      "display" : "Eland Islands"
+      "display" : "Åland Islands"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -4566,7 +5555,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "384",
-      "display" : "Ctte d'Ivoire"
+      "display" : "Côte d'Ivoire"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -4776,7 +5765,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "531",
-      "display" : "Curagao"
+      "display" : "Curaçao"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -4931,7 +5920,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "638",
-      "display" : "Riunion"
+      "display" : "Réunion"
     },
     {
       "system" : "urn:iso:std:iso:3166",
@@ -4951,7 +5940,7 @@ e: {
     {
       "system" : "urn:iso:std:iso:3166",
       "code" : "652",
-      "display" : "Saint Barthilemy"
+      "display" : "Saint Barthélemy"
     },
     {
       "system" : "urn:iso:std:iso:3166",

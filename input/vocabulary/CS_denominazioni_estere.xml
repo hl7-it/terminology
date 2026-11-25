@@ -8,23 +8,24 @@
     <caseSensitive value="false"/>
     <description value="ISTAT - Unita Amministrative Territoriali Estere"/>
     <content value="complete"/>
+    <language value="it-IT"/>
     <filter>
         <code value="continente"/>
         <description value="Permette di ricercare i codici secondo il continente di appartenenza"/>
         <operator value="="/>
-        <value value="code"/>
+        <value value="string"/>
     </filter>
     <property>
         <code value="continente"/>
         <description value="Proprietà che identifica il continente di appartenenza dell'unità amministrativa estera"/>
-        <type value="code"/>
+        <type value="string"/>
     </property>
     <concept>
         <code value="100"/>
         <display value="Italia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -32,7 +33,7 @@
         <display value="Albania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -40,7 +41,7 @@
         <display value="Andorra"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -48,7 +49,7 @@
         <display value="Austria"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -56,7 +57,7 @@
         <display value="Belgio"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -64,7 +65,7 @@
         <display value="Bulgaria"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -72,7 +73,7 @@
         <display value="Danimarca"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -80,7 +81,7 @@
         <display value="Finlandia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -88,7 +89,7 @@
         <display value="Francia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -96,7 +97,7 @@
         <display value="Germania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -104,7 +105,7 @@
         <display value="Regno Unito"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -112,7 +113,7 @@
         <display value="Grecia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -120,7 +121,7 @@
         <display value="Irlanda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -128,7 +129,7 @@
         <display value="Islanda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -136,7 +137,7 @@
         <display value="Liechtenstein"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -144,7 +145,7 @@
         <display value="Lussemburgo"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -152,7 +153,7 @@
         <display value="Malta"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -160,7 +161,7 @@
         <display value="Monaco"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -168,7 +169,7 @@
         <display value="Norvegia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -176,7 +177,7 @@
         <display value="Paesi Bassi"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -184,7 +185,7 @@
         <display value="Polonia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -192,7 +193,7 @@
         <display value="Portogallo"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -200,7 +201,7 @@
         <display value="Romania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -208,7 +209,7 @@
         <display value="San Marino"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -216,7 +217,7 @@
         <display value="Spagna"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -224,7 +225,7 @@
         <display value="Svezia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -232,7 +233,7 @@
         <display value="Svizzera"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -240,7 +241,7 @@
         <display value="Ucraina"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -248,7 +249,7 @@
         <display value="Ungheria"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -256,7 +257,7 @@
         <display value="Federazione russa"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -264,7 +265,7 @@
         <display value="Stato della Città del Vaticano"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -272,7 +273,7 @@
         <display value="Estonia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -280,7 +281,7 @@
         <display value="Lettonia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -288,7 +289,7 @@
         <display value="Lituania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -296,7 +297,7 @@
         <display value="Croazia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -304,7 +305,7 @@
         <display value="Slovenia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -312,7 +313,7 @@
         <display value="Bosnia-Erzegovina"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -320,7 +321,7 @@
         <display value="Macedonia del Nord"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -328,7 +329,7 @@
         <display value="Moldova"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -336,7 +337,7 @@
         <display value="Slovacchia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -344,7 +345,7 @@
         <display value="Bielorussia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -352,7 +353,7 @@
         <display value="Repubblica ceca"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -360,7 +361,7 @@
         <display value="Montenegro"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -368,7 +369,7 @@
         <display value="Serbia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -376,7 +377,7 @@
         <display value="Kosovo"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -384,7 +385,7 @@
         <display value="Afghanistan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -392,7 +393,7 @@
         <display value="Arabia Saudita"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -400,7 +401,7 @@
         <display value="Bahrein"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -408,7 +409,7 @@
         <display value="Bangladesh"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -416,7 +417,7 @@
         <display value="Bhutan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -424,7 +425,7 @@
         <display value="Myanmar/Birmania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -432,7 +433,7 @@
         <display value="Brunei Darussalam"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -440,7 +441,7 @@
         <display value="Cambogia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -448,7 +449,7 @@
         <display value="Sri Lanka"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -456,7 +457,7 @@
         <display value="Cina"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -464,7 +465,7 @@
         <display value="Cipro"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -472,7 +473,7 @@
         <display value="Corea del Nord"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -480,7 +481,7 @@
         <display value="Corea del Sud"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -488,7 +489,7 @@
         <display value="Emirati Arabi Uniti"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -496,7 +497,7 @@
         <display value="Filippine"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -504,7 +505,7 @@
         <display value="Palestina"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -512,7 +513,7 @@
         <display value="Giappone"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -520,7 +521,7 @@
         <display value="Giordania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -528,7 +529,7 @@
         <display value="India"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -536,7 +537,7 @@
         <display value="Indonesia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -544,7 +545,7 @@
         <display value="Iran"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -552,7 +553,7 @@
         <display value="Iraq"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -560,7 +561,7 @@
         <display value="Israele"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -568,7 +569,7 @@
         <display value="Kuwait"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -576,7 +577,7 @@
         <display value="Laos"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -584,7 +585,7 @@
         <display value="Libano"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -592,7 +593,7 @@
         <display value="Timor Leste"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -600,7 +601,7 @@
         <display value="Maldive"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -608,7 +609,7 @@
         <display value="Malaysia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -616,7 +617,7 @@
         <display value="Mongolia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -624,7 +625,7 @@
         <display value="Nepal"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -632,7 +633,7 @@
         <display value="Oman"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -640,7 +641,7 @@
         <display value="Pakistan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -648,7 +649,7 @@
         <display value="Qatar"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -656,7 +657,7 @@
         <display value="Singapore"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -664,7 +665,7 @@
         <display value="Siria"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -672,7 +673,7 @@
         <display value="Thailandia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -680,7 +681,7 @@
         <display value="Turchia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -688,7 +689,7 @@
         <display value="Vietnam"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -696,7 +697,7 @@
         <display value="Yemen"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -704,7 +705,7 @@
         <display value="Kazakhstan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -712,7 +713,7 @@
         <display value="Uzbekistan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -720,7 +721,7 @@
         <display value="Armenia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -728,7 +729,7 @@
         <display value="Azerbaigian"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -736,7 +737,7 @@
         <display value="Georgia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -744,7 +745,7 @@
         <display value="Kirghizistan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -752,7 +753,7 @@
         <display value="Tagikistan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -760,7 +761,7 @@
         <display value="Taiwan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -768,7 +769,7 @@
         <display value="Turkmenistan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="3"/>
+            <valueString value="3"/>
         </property>
     </concept>
     <concept>
@@ -776,7 +777,7 @@
         <display value="Algeria"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -784,7 +785,7 @@
         <display value="Angola"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -792,7 +793,7 @@
         <display value="Costa d'Avorio"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -800,7 +801,7 @@
         <display value="Benin"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -808,7 +809,7 @@
         <display value="Botswana"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -816,7 +817,7 @@
         <display value="Burkina Faso"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -824,7 +825,7 @@
         <display value="Burundi"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -832,7 +833,7 @@
         <display value="Camerun"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -840,7 +841,7 @@
         <display value="Capo Verde"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -848,7 +849,7 @@
         <display value="Repubblica Centrafricana"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -856,7 +857,7 @@
         <display value="Ciad"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -864,7 +865,7 @@
         <display value="Comore"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -872,7 +873,7 @@
         <display value="Congo"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -880,7 +881,7 @@
         <display value="Egitto"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -888,7 +889,7 @@
         <display value="Etiopia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -896,7 +897,7 @@
         <display value="Gabon"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -904,7 +905,7 @@
         <display value="Gambia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -912,7 +913,7 @@
         <display value="Ghana"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -920,7 +921,7 @@
         <display value="Gibuti"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -928,7 +929,7 @@
         <display value="Guinea"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -936,7 +937,7 @@
         <display value="Guinea-Bissau"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -944,7 +945,7 @@
         <display value="Guinea equatoriale"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -952,7 +953,7 @@
         <display value="Kenya"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -960,7 +961,7 @@
         <display value="Lesotho"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -968,7 +969,7 @@
         <display value="Liberia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -976,7 +977,7 @@
         <display value="Libia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -984,7 +985,7 @@
         <display value="Madagascar"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -992,7 +993,7 @@
         <display value="Malawi"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1000,7 +1001,7 @@
         <display value="Mali"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1008,7 +1009,7 @@
         <display value="Marocco"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1016,7 +1017,7 @@
         <display value="Mauritania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1024,7 +1025,7 @@
         <display value="Maurizio"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1032,7 +1033,7 @@
         <display value="Mozambico"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1040,7 +1041,7 @@
         <display value="Namibia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1048,7 +1049,7 @@
         <display value="Niger"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1056,7 +1057,7 @@
         <display value="Nigeria"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1064,7 +1065,7 @@
         <display value="Ruanda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1072,7 +1073,7 @@
         <display value="Sao Tomé e Principe"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1080,7 +1081,7 @@
         <display value="Seychelles"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1088,7 +1089,7 @@
         <display value="Senegal"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1096,7 +1097,7 @@
         <display value="Sierra Leone"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1104,7 +1105,7 @@
         <display value="Somalia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1112,7 +1113,7 @@
         <display value="Sudafrica"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1120,7 +1121,7 @@
         <display value="Sudan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1128,7 +1129,7 @@
         <display value="Eswatini"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1136,7 +1137,7 @@
         <display value="Tanzania"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1144,7 +1145,7 @@
         <display value="Togo"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1152,7 +1153,7 @@
         <display value="Tunisia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1160,7 +1161,7 @@
         <display value="Uganda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1168,7 +1169,7 @@
         <display value="Repubblica Democratica del Congo"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1176,7 +1177,7 @@
         <display value="Zambia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1184,7 +1185,7 @@
         <display value="Zimbabwe"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1192,7 +1193,7 @@
         <display value="Eritrea"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1200,7 +1201,7 @@
         <display value="Sud Sudan"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1208,7 +1209,7 @@
         <display value="Antigua e Barbuda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1216,7 +1217,7 @@
         <display value="Bahamas"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1224,7 +1225,7 @@
         <display value="Barbados"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1232,7 +1233,7 @@
         <display value="Belize"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1240,7 +1241,7 @@
         <display value="Canada"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1248,7 +1249,7 @@
         <display value="Costa Rica"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1256,7 +1257,7 @@
         <display value="Cuba"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1264,7 +1265,7 @@
         <display value="Dominica"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1272,7 +1273,7 @@
         <display value="Repubblica Dominicana"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1280,7 +1281,7 @@
         <display value="El Salvador"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1288,7 +1289,7 @@
         <display value="Giamaica"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1296,7 +1297,7 @@
         <display value="Grenada"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1304,7 +1305,7 @@
         <display value="Guatemala"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1312,7 +1313,7 @@
         <display value="Haiti"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1320,7 +1321,7 @@
         <display value="Honduras"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1328,7 +1329,7 @@
         <display value="Messico"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1336,7 +1337,7 @@
         <display value="Nicaragua"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1344,7 +1345,7 @@
         <display value="Panama"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1352,7 +1353,7 @@
         <display value="Santa Lucia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1360,7 +1361,7 @@
         <display value="Saint Vincent e Grenadine"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1368,7 +1369,7 @@
         <display value="Saint Kitts e Nevis"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1376,7 +1377,7 @@
         <display value="Stati Uniti d'America"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1384,7 +1385,7 @@
         <display value="Argentina"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1392,7 +1393,7 @@
         <display value="Bolivia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1400,7 +1401,7 @@
         <display value="Brasile"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1408,7 +1409,7 @@
         <display value="Cile"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1416,7 +1417,7 @@
         <display value="Colombia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1424,7 +1425,7 @@
         <display value="Ecuador"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1432,7 +1433,7 @@
         <display value="Guyana"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1440,7 +1441,7 @@
         <display value="Paraguay"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1448,7 +1449,7 @@
         <display value="Perù"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1456,7 +1457,7 @@
         <display value="Suriname"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1464,7 +1465,7 @@
         <display value="Trinidad e Tobago"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1472,7 +1473,7 @@
         <display value="Uruguay"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1480,7 +1481,7 @@
         <display value="Venezuela"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1488,7 +1489,7 @@
         <display value="Australia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1496,7 +1497,7 @@
         <display value="Figi"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1504,7 +1505,7 @@
         <display value="Kiribati"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1512,7 +1513,7 @@
         <display value="Isole Marshall"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1520,7 +1521,7 @@
         <display value="Stati Federati di Micronesia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1528,7 +1529,7 @@
         <display value="Nauru"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1536,7 +1537,7 @@
         <display value="Nuova Zelanda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1544,7 +1545,7 @@
         <display value="Palau"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1552,7 +1553,7 @@
         <display value="Papua Nuova Guinea"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1560,7 +1561,7 @@
         <display value="Isole Salomone"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1568,7 +1569,7 @@
         <display value="Samoa"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1576,7 +1577,7 @@
         <display value="Tonga"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1584,7 +1585,7 @@
         <display value="Tuvalu"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1592,7 +1593,7 @@
         <display value="Vanuatu"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1600,7 +1601,7 @@
         <display value="Nuova Caledonia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1608,7 +1609,7 @@
         <display value="Saint-Martin (FR)"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1616,7 +1617,7 @@
         <display value="Sahara occidentale"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1624,7 +1625,7 @@
         <display value="Saint-Barthélemy"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1632,7 +1633,7 @@
         <display value="Bermuda"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1640,7 +1641,7 @@
         <display value="Isole Cook (NZ)"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1648,7 +1649,7 @@
         <display value="Gibilterra"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -1656,7 +1657,7 @@
         <display value="Isole Cayman"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1664,7 +1665,7 @@
         <display value="Anguilla"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1672,7 +1673,7 @@
         <display value="Polinesia francese"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1680,7 +1681,7 @@
         <display value="Isole Fær Øer"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -1688,7 +1689,7 @@
         <display value="Jersey"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -1696,7 +1697,7 @@
         <display value="Aruba"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1704,7 +1705,7 @@
         <display value="Sint Maarten (NL)"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1712,7 +1713,7 @@
         <display value="Groenlandia"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1720,7 +1721,7 @@
         <display value="Sark"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -1728,7 +1729,7 @@
         <display value="Guernsey"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -1736,7 +1737,7 @@
         <display value="Isole Falkland (Malvine)"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1744,7 +1745,7 @@
         <display value="Isola di Man"/>
         <property>
             <code value="continente"/>
-            <valueCode value="1"/>
+            <valueString value="1"/>
         </property>
     </concept>
     <concept>
@@ -1752,7 +1753,7 @@
         <display value="Montserrat"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1760,7 +1761,7 @@
         <display value="Curaçao"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1768,7 +1769,7 @@
         <display value="Isole Pitcairn"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1776,7 +1777,7 @@
         <display value="Saint Pierre e Miquelon"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1784,7 +1785,7 @@
         <display value="Sant'Elena"/>
         <property>
             <code value="continente"/>
-            <valueCode value="2"/>
+            <valueString value="2"/>
         </property>
     </concept>
     <concept>
@@ -1792,7 +1793,7 @@
         <display value="Terre australi e antartiche francesi"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>
     <concept>
@@ -1800,7 +1801,7 @@
         <display value="Isole Turks e Caicos"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1808,7 +1809,7 @@
         <display value="Isole Vergini britanniche"/>
         <property>
             <code value="continente"/>
-            <valueCode value="4"/>
+            <valueString value="4"/>
         </property>
     </concept>
     <concept>
@@ -1816,7 +1817,7 @@
         <display value="Wallis e Futuna"/>
         <property>
             <code value="continente"/>
-            <valueCode value="5"/>
+            <valueString value="5"/>
         </property>
     </concept>    
     <concept>

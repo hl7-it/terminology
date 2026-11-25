@@ -3,6 +3,7 @@ Id: istat-stato
 Title: "ISTAT - Stati"
 Description: "Codici ISTAT Stato"
 * ^experimental = false
+* ^language = #en
 //----------------------------------------
 * $CS_Estero#100 "Italia"
 * $CS_Estero#201 "Albania"

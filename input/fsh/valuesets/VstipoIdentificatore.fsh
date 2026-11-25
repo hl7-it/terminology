@@ -26,4 +26,4 @@ Description: "Value set che descrivie i diversi tipi di identificatori. Include 
 * $v2-0203#SB "Social Beneficiary Identifier"
 * $v2-0203#PLAC "Placer Identifier"
 * $v2-0203#FILL "Filler Identifier"
-* include codes from system CsItIdentifierType
+//* include codes from system CsItIdentifierType

@@ -9,6 +9,7 @@
 	<description value="Estensione (codici addizionali) alla tabella http://terminology.hl7.org/CodeSystem/v2-0203 per i tipi di identificatore"/>
 	<caseSensitive value="true"/>
 	<content value="complete"/>
+	<language value="it-IT"/>
 	<concept>
 		<code value="ENI"/>
 		<display value="Europeo Non Iscritto"/>		
